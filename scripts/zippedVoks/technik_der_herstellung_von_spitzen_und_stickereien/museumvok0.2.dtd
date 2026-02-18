@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   museumvok.dtd
+   Initiative museumsvokabular.de, 23.5.2006
+   
+   Diese DTD beschreibt den Formatvorschlag fuer die Bereitstellung von in der Museumsdokumentation verwendeten Vokabularen.
+   Das Format ist dokumentiert in http://museum.zib.de/museumsvokabular/documents/museumvok0.2.pdf
+   
+   Version 0.2 - 11.01.2007
+    Last update: 2007-01-11 (Regine Stein)
+      Elemente use und useFor ergaenzt
+   
+  Last update: 2006-10-13 (Regine Stein)
+      Element typeOfLabel zu altTerm ergaenzt
+   
+   Autorin: Regine Stein, 
+            Zuse-Institut Berlin 
+            http://www.zib.de
+-->
+<!ELEMENT Concept (about, prefTerm+, altTerm*, hiddenLabel*, notation?, inScheme, memberOfCollection*, broader*, narrower*, use?, useFor*, relationship*, equivRelationship*, definition*, depiction*, subjectIndicator*, note*, creation?, status?, modified*)>
+<!ELEMENT about (#PCDATA)>
+<!ELEMENT altLabel (#PCDATA)>
+<!ATTLIST altLabel
+	lang CDATA #REQUIRED
+>
+<!ELEMENT altTerm (altLabel, typeOfLabel?, source?)>
+<!ELEMENT broader (#PCDATA)>
+<!ELEMENT created (#PCDATA)>
+<!ELEMENT creation (source, identifier, creator*, created?)>
+<!ELEMENT creator (#PCDATA)>
+<!ELEMENT definition (#PCDATA)>
+<!ELEMENT depiction (#PCDATA)>
+<!ELEMENT edited (#PCDATA)>
+<!ELEMENT editor (#PCDATA)>
+<!ELEMENT equivConcept (equivID, equivLabel, source)>
+<!ELEMENT equivID (#PCDATA)>
+<!ELEMENT equivLabel (#PCDATA)>
+<!ELEMENT equivRelationship (equivConcept, mappingRelation)>
+<!ELEMENT hiddenLabel (#PCDATA)>
+<!ELEMENT identifier (#PCDATA)>
+<!ELEMENT inScheme (#PCDATA)>
+<!ELEMENT mappingRelation (#PCDATA)>
+<!ELEMENT memberOfCollection (#PCDATA)>
+<!ELEMENT modified (#PCDATA)>
+<!ELEMENT museumvok (Concept+)>
+<!ELEMENT narrower (#PCDATA)>
+<!ELEMENT notation (#PCDATA)>
+<!ELEMENT note (text, editor?, edited?)>
+<!ATTLIST note
+	type (changeNote | editorialNote | example | historyNote | scopeNote) #REQUIRED
+>
+<!ELEMENT prefLabel (#PCDATA)>
+<!ATTLIST prefLabel
+	lang CDATA #REQUIRED
+>
+<!ELEMENT prefTerm (prefLabel, source?)>
+<!ELEMENT related (#PCDATA)>
+<!ELEMENT relationship (related, typeOfRelationship?)>
+<!ELEMENT source (#PCDATA)>
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT subjectIndicator (#PCDATA)>
+<!ELEMENT text (#PCDATA)>
+<!ATTLIST text
+	type (Literal | Resource | DocumentReference) #REQUIRED
+>
+<!ELEMENT typeOfLabel (#PCDATA)>
+<!ELEMENT typeOfRelationship (#PCDATA)>
+<!ELEMENT use (#PCDATA)>
+<!ELEMENT useFor (#PCDATA)>

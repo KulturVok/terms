@@ -4,7 +4,7 @@ from rdflib import Graph, URIRef, BNode, Literal, Namespace
 from rdflib.namespace import SKOS, RDF, DC, DCTERMS, RDFS
 from Levenshtein import distance
 
-allRdfFiles = [x for x in glob.glob("*.rdf") if not "modified" in x]
+allRdfFiles = [x for x in glob.glob("rdf-xml/*.rdf") if not "modified" in x]
 languageLabel = "@de"
 descriptionDict = {
     "gefaess": {"description": "Gefäße und Formen. Eine Typologie für Museen und Sammlungen", "title":"Gefäßtypologie", "author":"Landesstelle für die nichtstaatlichen Museen in Bayern"}, 
@@ -15,7 +15,7 @@ descriptionDict = {
     "technik_spitzen":{"description":"Systematik für die Technik zur Herstellung von Spitzen und Stickereien", "title":"Spitzentechnik-Systematik", "author":"Sächsische Landesstelle für Museumswesen"},
     }
 
-generalURI = "https://KulturVok.github.io/terms/"
+generalURI = "https://www.w3id.org/KulturVok/terms/"
 
 for rdfFile in allRdfFiles:
     with open(rdfFile, 'r', encoding="utf-8") as f:
@@ -124,10 +124,10 @@ for rdfFile in allRdfFiles:
     # add top concepts to the scheme
     for topConcept in topConcepts:
         g.add((schemeURI, SKOS.hasTopConcept, topConcept))
-    g.serialize(scheme+"_modified.ttl", format="turtle", encoding="utf-8")
-    with open(scheme+"_modified.ttl", 'r', encoding="utf-8") as f:
+    g.serialize("ttl/"+scheme+"_modified.ttl", format="turtle", encoding="utf-8")
+    with open("ttl/"+scheme+"_modified.ttl", 'r', encoding="utf-8") as f:
         text = f.read()
         text = text.replace('@de"', '"@de')
         text = text.replace('^^rdf:XMLLiteral', '')
-    with open(scheme+"_modified.ttl", 'w', encoding="utf-8") as f:
+    with open("ttl/"+scheme+"_modified.ttl", 'w', encoding="utf-8") as f:
         f.write(text)
