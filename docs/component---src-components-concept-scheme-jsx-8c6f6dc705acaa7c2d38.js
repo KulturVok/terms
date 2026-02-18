@@ -1,2 +1,133 @@
-"use strict";(self.webpackChunkskohub_vocabs=self.webpackChunkskohub_vocabs||[]).push([[349],{2178:function(l,e,i){i.r(e);var n=i(6841),u=i(2579),t=i(3071),s=i(4641),d=i(2814),o=i(5409),a=i(6540),c=i(8025),r=i(8852);e.default=l=>{let{pageContext:{node:e,embed:i,customDomain:Y}}=l;const{data:h}=(0,o.t)(),{0:b,1:v}=(0,a.useState)("");(0,a.useEffect)(()=>{v(h.selectedLanguage)},[null==h?void 0:h.selectedLanguage]);const g=(0,c.useLocation)(),p=(null==e?void 0:e.description)||(null==e?void 0:e.dc_description),f=(null==e?void 0:e.title)||(null==e?void 0:e.dc_title)||(null==e?void 0:e.prefLabel);if(g.hash){const l=i.find(l=>l.json.id.endsWith(g.hash));return(0,r.Y)("div",{id:(0,t.getDomId)(e.id)},(0,r.Y)(u.default,{pageContext:{node:l.json,language:b}}))}return(0,r.Y)("div",{id:(0,t.getDomId)(e.id)},(0,r.Y)("div",null,(0,r.Y)("h1",null,f&&(0,t.i18n)(b)(f)),(0,r.Y)(d.A,{id:e.id}),(0,r.Y)(s.A,{to:(0,t.getFilePath)(e.id,"json",Y)}),p&&(0,r.Y)("div",{className:"markdown"},(0,r.Y)(n.Ay,null,(0,t.i18n)(b)(p))),e.publisher&&(0,r.Y)("div",null,(0,r.Y)("h3",null,"Publisher"),(0,r.Y)("p",null,e.publisher)),e.creator&&e.creator.length>0&&(0,r.Y)("div",null,(0,r.Y)("h3",null,"Creator"),(0,r.Y)("ul",null,e.creator.map((l,e)=>(0,r.Y)("li",{key:e},l)))),e.contributor&&e.contributor.length>0&&(0,r.Y)("div",null,(0,r.Y)("h3",null,"Contributor"),(0,r.Y)("ul",null,e.contributor.map((l,e)=>(0,r.Y)("li",{key:e},l)))),e.issued&&(0,r.Y)("div",null,(0,r.Y)("h3",null,"Issued"),(0,r.Y)("p",null,e.issued)),e.license&&(0,r.Y)("div",null,(0,r.Y)("h3",null,"License"),(0,r.Y)("a",{href:e.license.id},e.license.id)),e.rights&&e.rights.length>0&&(0,r.Y)("div",null,(0,r.Y)("h3",null,"Rights"),(0,r.Y)("ul",null,e.rights.map((l,e)=>(0,r.Y)("li",{key:e},l)))),e.subject&&""!==(0,t.i18n)(b)(e.subject)&&(0,r.Y)("div",null,(0,r.Y)("h3",{id:"subject"},"Subject"),(0,r.Y)("ul",{"aria-labelledby":"subject"},(0,t.i18n)(b)(e.subject).map((l,e)=>(0,r.Y)("li",{key:e},l))))))}}}]);
+"use strict"
+;(self.webpackChunkskohub_vocabs = self.webpackChunkskohub_vocabs || []).push([
+  [349],
+  {
+    2178: function (l, e, i) {
+      i.r(e)
+      var n = i(6841),
+        u = i(2579),
+        t = i(3071),
+        s = i(4641),
+        d = i(2814),
+        o = i(5409),
+        a = i(6540),
+        c = i(8025),
+        r = i(8852)
+      e.default = (l) => {
+        let {
+          pageContext: { node: e, embed: i, customDomain: Y },
+        } = l
+        const { data: h } = (0, o.t)(),
+          { 0: b, 1: v } = (0, a.useState)("")
+        ;(0, a.useEffect)(() => {
+          v(h.selectedLanguage)
+        }, [null == h ? void 0 : h.selectedLanguage])
+        const g = (0, c.useLocation)(),
+          p =
+            (null == e ? void 0 : e.description) ||
+            (null == e ? void 0 : e.dc_description),
+          f =
+            (null == e ? void 0 : e.title) ||
+            (null == e ? void 0 : e.dc_title) ||
+            (null == e ? void 0 : e.prefLabel)
+        if (g.hash) {
+          const l = i.find((l) => l.json.id.endsWith(g.hash))
+          return (0, r.Y)(
+            "div",
+            { id: (0, t.getDomId)(e.id) },
+            (0, r.Y)(u.default, { pageContext: { node: l.json, language: b } })
+          )
+        }
+        return (0, r.Y)(
+          "div",
+          { id: (0, t.getDomId)(e.id) },
+          (0, r.Y)(
+            "div",
+            null,
+            (0, r.Y)("h1", null, f && (0, t.i18n)(b)(f)),
+            (0, r.Y)(d.A, { id: e.id }),
+            (0, r.Y)(s.A, { to: (0, t.getFilePath)(e.id, "json", Y) }),
+            p &&
+              (0, r.Y)(
+                "div",
+                { className: "markdown" },
+                (0, r.Y)(n.Ay, null, (0, t.i18n)(b)(p))
+              ),
+            e.publisher &&
+              (0, r.Y)(
+                "div",
+                null,
+                (0, r.Y)("h3", null, "Publisher"),
+                (0, r.Y)("p", null, e.publisher)
+              ),
+            e.creator &&
+              e.creator.length > 0 &&
+              (0, r.Y)(
+                "div",
+                null,
+                (0, r.Y)("h3", null, "Creator"),
+                (0, r.Y)(
+                  "ul",
+                  null,
+                  e.creator.map((l, e) => (0, r.Y)("li", { key: e }, l))
+                )
+              ),
+            e.contributor &&
+              e.contributor.length > 0 &&
+              (0, r.Y)(
+                "div",
+                null,
+                (0, r.Y)("h3", null, "Contributor"),
+                (0, r.Y)(
+                  "ul",
+                  null,
+                  e.contributor.map((l, e) => (0, r.Y)("li", { key: e }, l))
+                )
+              ),
+            e.issued &&
+              (0, r.Y)(
+                "div",
+                null,
+                (0, r.Y)("h3", null, "Issued"),
+                (0, r.Y)("p", null, e.issued)
+              ),
+            e.license &&
+              (0, r.Y)(
+                "div",
+                null,
+                (0, r.Y)("h3", null, "License"),
+                (0, r.Y)("a", { href: e.license.id }, e.license.id)
+              ),
+            e.rights &&
+              e.rights.length > 0 &&
+              (0, r.Y)(
+                "div",
+                null,
+                (0, r.Y)("h3", null, "Rights"),
+                (0, r.Y)(
+                  "ul",
+                  null,
+                  e.rights.map((l, e) => (0, r.Y)("li", { key: e }, l))
+                )
+              ),
+            e.subject &&
+              "" !== (0, t.i18n)(b)(e.subject) &&
+              (0, r.Y)(
+                "div",
+                null,
+                (0, r.Y)("h3", { id: "subject" }, "Subject"),
+                (0, r.Y)(
+                  "ul",
+                  { "aria-labelledby": "subject" },
+                  (0, t.i18n)(b)(e.subject).map((l, e) =>
+                    (0, r.Y)("li", { key: e }, l)
+                  )
+                )
+              )
+          )
+        )
+      }
+    },
+  },
+])
 //# sourceMappingURL=component---src-components-concept-scheme-jsx-8c6f6dc705acaa7c2d38.js.map
