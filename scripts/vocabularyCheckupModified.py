@@ -256,9 +256,9 @@ for rdfFile in allRdfFiles:
     author = descriptionDict[scheme]["author"]
     if isinstance(author, list):
         for a in author:
-            g.add((schemeURI, DCTERMS.creator, Literal(a, lang=LANG)))
+            g.add((schemeURI, DCTERMS.creator, Literal(a)))
     else:
-        g.add((schemeURI, DCTERMS.creator, Literal(author, lang=LANG)))
+        g.add((schemeURI, DCTERMS.creator, Literal(author)))
 
     # ---- inScheme, topConcepts, license per concept ------------------
     topConcepts = []

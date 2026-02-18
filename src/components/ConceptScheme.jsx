@@ -101,6 +101,12 @@ const ConceptScheme = ({
                 </ul>
               </div>
             )}
+          {conceptScheme.conceptCount && (
+            <div>
+              <h3>Concept Count</h3>
+              <p>{conceptScheme.conceptCount}</p>
+            </div>
+          )}
           {/*
           {conceptScheme.preferredNamespaceUri && (
             <div>

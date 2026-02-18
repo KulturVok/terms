@@ -5222,7 +5222,7 @@
     skos:prefLabel "Sonderformen"@de .
 
 <https://www.w3id.org/KulturVok/terms/gefaess> a skos:ConceptScheme ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern"@de ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:description "Gefäße und Formen. Eine Typologie für Museen und Sammlungen"@de ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
     dct:title "Gefäßtypologie"@de ;

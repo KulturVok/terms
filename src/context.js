@@ -12,6 +12,7 @@ const jsonld = {
     ldp: "http://www.w3.org/ns/ldp#",
     owl: "http://www.w3.org/2002/07/owl#",
     rdfs: "http://www.w3.org/2000/01/rdf-schema#",
+    ex: "http://www.example.com/",
     title: {
       "@id": "dct:title",
       "@container": "@language",
@@ -64,6 +65,7 @@ const jsonld = {
     preferredNamespacePrefix: "vann:preferredNamespacePrefix",
     preferredNamespaceUri: "vann:preferredNamespaceUri",
     isBasedOn: "schema:isBasedOn",
+    conceptCount: "ex:conceptCount",
     source: {
       "@id": "dct:source",
       "@container": "@set",

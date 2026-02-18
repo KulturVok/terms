@@ -375,7 +375,7 @@
     skos:prefLabel "Technik der Herstellung von Spitzen und Stickereien"@de .
 
 <https://www.w3id.org/KulturVok/terms/technik_spitzen> a skos:ConceptScheme ;
-    dct:creator "Sächsische Landesstelle für Museumswesen"@de ;
+    dct:creator "Sächsische Landesstelle für Museumswesen" ;
     dct:description "Systematik für die Technik zur Herstellung von Spitzen und Stickereien"@de ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
     dct:title "Spitzentechnik-Systematik"@de ;

@@ -176,6 +176,7 @@ module.exports.allConceptScheme = (languages) => `
           }
           preferredNamespaceUri
           preferredNamespacePrefix
+          conceptCount
           hasTopConcept {
             ...ConceptFields
             narrower {

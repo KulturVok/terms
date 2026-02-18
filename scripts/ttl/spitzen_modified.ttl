@@ -1607,7 +1607,7 @@
     skos:prefLabel "Klöppelspitze"@de .
 
 <https://www.w3id.org/KulturVok/terms/spitzen> a skos:ConceptScheme ;
-    dct:creator "Sächsische Landesstelle für Museumswesen"@de ;
+    dct:creator "Sächsische Landesstelle für Museumswesen" ;
     dct:description "Systematik für Spitzen und Stickereien"@de ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
     dct:title "Spitzensystematik"@de ;

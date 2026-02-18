@@ -12667,7 +12667,7 @@
     skos:prefLabel "Schnitzbank und Hobel (Faßbinderwerkzeug)"@de .
 
 <https://www.w3id.org/KulturVok/terms/ackerbau> a skos:ConceptScheme ;
-    dct:creator "Spengler, W. Eckehart"@de ;
+    dct:creator "Spengler, W. Eckehart" ;
     dct:description "Thesaurus zu Ackerbaugerät, Feldbestellung - Landwirtschaftliche Transport- und Nutzfahrzeuge - Werkzeuge (Holzbearbeitung)"@de ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
     dct:title "Ackerbaugeräte-Systematik"@de ;

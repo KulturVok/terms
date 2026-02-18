@@ -6742,8 +6742,8 @@
     skos:prefLabel "Schrank"@de .
 
 <https://www.w3id.org/KulturVok/terms/moebel> a skos:ConceptScheme ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern"@de,
-        "Westfälisches Museumsamt"@de ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern",
+        "Westfälisches Museumsamt" ;
     dct:description "Möbel. Eine Typologie für Museen und Sammlungen"@de ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
     dct:title "Möbeltypologie"@de ;
