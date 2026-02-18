@@ -1,0 +1,343 @@
+{
+  "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/F964CG",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Schadenssursache",
+    "en": "Cause of damage"
+  },
+  "altLabel": {
+    "de": [
+      "Abbaufaktor",
+      "schädlicher Einfluss"
+    ]
+  },
+  "definition": {
+    "de": "Für die Beschädigung/den Abbau als ursächlich angesehene negative Beeinträchtigung eines Objektes"
+  },
+  "notation": [
+    "F964CG"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/A889A3",
+      "prefLabel": {
+        "de": "Verschmutzung"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/A379F4",
+      "prefLabel": {
+        "de": "materialbedingter Schaden"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/AA819F",
+      "prefLabel": {
+        "de": "lichtinduzierter Schaden"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/AD3A34",
+      "prefLabel": {
+        "de": "Verwitterung"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/B2ADB6",
+      "prefLabel": {
+        "de": "Vandalismus"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/C64BC8",
+      "prefLabel": {
+        "de": "Klimaschaden"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/D16G86",
+      "prefLabel": {
+        "de": "Korrosionsinduzierter Schaden"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/D171FF",
+      "prefLabel": {
+        "de": "Feuerschaden"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/DD3A3D",
+      "prefLabel": {
+        "de": "Transportschaden"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/F968G3",
+      "prefLabel": {
+        "de": "Bodenlagerungsschaden"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/FAFCF5",
+      "prefLabel": {
+        "de": "Schaden durch mechanische Beanspruchung"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/FB7C46",
+      "prefLabel": {
+        "de": "Lagerungsschaden"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/FDD71B",
+      "prefLabel": {
+        "de": "Salzbelastung"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/G1GA5F",
+      "prefLabel": {
+        "de": "Biologischer Befall"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/GBDG4D",
+      "prefLabel": {
+        "de": "Bergungsschaden"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/GCCD95",
+      "prefLabel": {
+        "de": "Schadstoffe"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/GGD66G",
+      "prefLabel": {
+        "de": "Wasserschaden"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/BC5B57",
+    "prefLabel": {
+      "de": "[Untersuchungsergebnisse]",
+      "en": "examination results"
+    }
+  },
+  "related": [
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/G43DBC",
+      "prefLabel": {
+        "de": "beschädigt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/DAC996",
+      "prefLabel": {
+        "de": "Schadensphänomen",
+        "en": "Damage type"
+      }
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus",
+      "title": {
+        "de": "Konservierungs- und Restaurierungsfachthesaurus für archäologische Kulturgüter"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus"
+    }
+  ],
+  "source": [
+    "DIN EN 15898:2020-02, Erhaltung des kulturellen Erbes - Allgemeine Begriffe; Dreisprachige Fassung EN 15898:2019, Deutsches Institut für Normung."
+  ],
+  "creator": [
+    "Kristina Fischer/ LEIZA"
+  ],
+  "seeAlso": [
+    "DIN EN 15898:2020-02, Erhaltung des kulturellen Erbes - Allgemeine Begriffe; Dreisprachige Fassung EN 15898:2019, Deutsches Institut für Normung.:2020-02"
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

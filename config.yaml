@@ -1,0 +1,53 @@
+---
+# see https://github.com/nextapps-de/flexsearch#tokenizer-prefix-search for options
+tokenizer: "full" # strict, forward, reverse, full
+custom_domain: "https://www.w3id.org/KulturVok/terms/"
+fail_on_validation: true
+searchableAttributes:
+  - "prefLabel" # you should not delete this one
+  - "notation"
+  - "altLabel"
+  - "hiddenLabel"
+  - "example"
+  - "definition"
+  - "scopeNote"
+ui:
+  title: "Museumsvokabulare" # Title is mandatory
+  logo: "Thesaurus_Logo.png" # Path
+  colors:
+    skoHubWhite: "rgb(255, 255, 255)"
+    skoHubDarkColor:  rgb(23, 35, 59) # rgb(34, 52, 102) # "rgb(15, 85, 75)" 
+    skoHubMiddleColor: rgb(34, 52, 102) # "rgb(79, 98, 139)" # "rgb(20, 150, 140)" 
+    skoHubLightColor: rgb(79, 98, 139) # "rgb(40, 200, 175)"
+    skoHubThinColor: "rgb(55, 250, 210)"
+    skoHubBlackColor: "rgb(5, 30, 30)"
+    skoHubAction: rgb(232, 66, 72) #"rgb(230, 0, 125)"
+    skoHubNotice:  rgb(250, 182, 0) # "rgb(250, 180, 50)"
+    skoHubDarkGrey: "rgb(155, 155, 155)"
+    skoHubMiddleGrey: "rgb(200, 200, 200)"
+    skoHubLightGrey: "rgb(235, 235, 235)"
+  fonts:
+    regular:
+      font_family: "Ubuntu"
+      font_style: "normal"
+      font_weight: 400
+      name: "ubuntu-v20-latin-regular"
+    bold:
+      font_family: "Ubuntu"
+      font_style: "normal"
+      font_weight: 700
+      name: "ubuntu-v20-latin-700"
+  footer:
+    links:
+      - title: "Impressum"
+        url: "https://www.hbz-nrw.de/impressum"
+        target: "_blank"
+        rel: "noopener noreferrer"
+      - title: "Datenschutz"
+        url: "https://www.hbz-nrw.de/datenschutz"
+        target: "_blank"
+        rel: "noopener noreferrer"
+      - title: "© SkoHub"
+        url: "https://skohub.io"
+        target: "_blank"
+        rel: "noopener noreferrer"

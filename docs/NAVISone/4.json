@@ -1,0 +1,528 @@
+{
+  "id": "https://www.w3id.org/archlink/terms/NAVISone/4",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "[Schiffstyp]",
+    "en": "[ship type]"
+  },
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/0234D3",
+      "prefLabel": {
+        "de": "Utrecht 3",
+        "en": "Utrecht 3"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/239F9C",
+      "prefLabel": {
+        "de": "Brigg",
+        "en": "Brigg"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/26941E",
+      "prefLabel": {
+        "de": "Dover",
+        "en": "Dover"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/3323FF",
+      "prefLabel": {
+        "de": "Navis caudicaria",
+        "dk": "Navis caudicaria",
+        "en": "Navis caudicaria",
+        "es": "navis caudicaria",
+        "fr": "Navis caudicaria",
+        "gr": "Tύπος Caudicaria",
+        "it": "Navis caudicaria",
+        "nl": "Navis caudicaria",
+        "pl": "Navis caudicaria"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/40D1A3",
+      "prefLabel": {
+        "de": "Mainz A",
+        "en": "Mainz A"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/4EC602",
+      "prefLabel": {
+        "de": "North Ferriby",
+        "en": "North Ferriby"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/51C929",
+      "prefLabel": {
+        "de": "Zwammerdam 5",
+        "en": "Zwammerdam 5"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/5472B2",
+      "prefLabel": {
+        "de": "hulkähnlich",
+        "dk": "Holktype",
+        "en": "Hulklike",
+        "es": "pontón",
+        "fr": "Bateau rond",
+        "gr": "Τύπος “Hulklike”",
+        "it": "Hulk",
+        "nl": "Hulkachtig",
+        "pl": "Stary kadłub"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/54E32C",
+      "prefLabel": {
+        "de": "wikingerschiffähnlich",
+        "dk": "Vikingeskibslignende",
+        "en": "Viking ship like",
+        "es": "nave vicinga",
+        "fr": "Bateau viking",
+        "gr": "Τύπος Βίκινγκς",
+        "it": "Vichingo",
+        "nl": "Vikingschip-achtig",
+        "pl": "Statek wikingów"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/63A6E4",
+      "prefLabel": {
+        "de": "koggenähnlich",
+        "dk": "Koggetype",
+        "en": "Coglike",
+        "es": "coca",
+        "fr": "Cogue",
+        "gr": "Τύπος “Cog”",
+        "it": "Cog",
+        "nl": "Koggeachtig",
+        "pl": "Koga typ"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/679A09",
+      "prefLabel": {
+        "de": "Woerden 1",
+        "en": "Woerden 1"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/67C5EA",
+      "prefLabel": {
+        "de": "Typ Igel",
+        "dk": "Igel",
+        "en": "Igel",
+        "es": "tipo Igel",
+        "fr": "Igel",
+        "gr": "Τύπος “Ιgel”",
+        "it": "Igel",
+        "nl": "Igel",
+        "pl": "Igel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/6A2A87",
+      "prefLabel": {
+        "de": "Utrecht 1",
+        "en": "Utrecht 1"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/883E8D",
+      "prefLabel": {
+        "de": "Unbekannter Schiffstyp",
+        "dk": "Udefineret skibstype",
+        "en": "Undefined ship type",
+        "es": "tipo desconocido",
+        "fr": "Type du bateau inconnu",
+        "gr": "Ακαθόριστος Τύπος",
+        "it": "Tipo navale indefinito",
+        "nl": "Onbekend scheepstype",
+        "pl": "Nieznany typ"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/8E26B8",
+      "prefLabel": {
+        "de": "prahmähnlich",
+        "dk": "Pramtype",
+        "en": "Pramlike",
+        "es": "barca a fondo de batea",
+        "fr": "Barque",
+        "gr": "Μαούνα",
+        "it": "Pram",
+        "nl": "Praamachtig",
+        "pl": "Barka"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/96911B",
+      "prefLabel": {
+        "de": "Zwammerdam 3",
+        "en": "Zwammerdam 3"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/A21BCC",
+      "prefLabel": {
+        "de": "Blackfriars",
+        "en": "Blackfriars"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/AB5CBB",
+      "prefLabel": {
+        "de": "galeerenähnlich",
+        "dk": "Galej",
+        "en": "Galley",
+        "es": "galera",
+        "fr": "Galère",
+        "gr": "Κέλης",
+        "it": "Galera",
+        "nl": "Galei",
+        "pl": "Galera"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/ABFB76",
+      "prefLabel": {
+        "de": "Mainz B",
+        "en": "Mainz B"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/AC906A",
+      "prefLabel": {
+        "de": "Typ Neumagen",
+        "dk": "Neumagen",
+        "en": "Neumagen",
+        "es": "tipo Neumagen",
+        "fr": "Neumagen",
+        "gr": "Tύπος “Neumagen”",
+        "it": "Neumagen",
+        "nl": "Neumagen",
+        "pl": "Neumagen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/B02E91",
+      "prefLabel": {
+        "de": "Woerden 2",
+        "en": "Woerden 2"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/B0F013",
+      "prefLabel": {
+        "de": "Typ Portus",
+        "dk": "Portus",
+        "en": "Portus",
+        "es": "tipo portus",
+        "fr": "Portus",
+        "gr": "Τύπος “Portus”",
+        "it": "Portus",
+        "nl": "Portus",
+        "pl": "Portus"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/B2CF95",
+      "prefLabel": {
+        "de": "Papyrusboot",
+        "dk": "Papyrus boot",
+        "en": "Papyrus boat",
+        "es": "nave de papiro",
+        "fr": "Bateau en papyrus",
+        "gr": "Παπυρένιο Σκάφος",
+        "it": "Papiro",
+        "nl": "Papyrus boot",
+        "pl": "Statki z papirusu"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/C42DC4",
+      "prefLabel": {
+        "de": "Navis oneraria",
+        "dk": "Navis oneraria",
+        "en": "Navis oneraria",
+        "es": "navis oneraria",
+        "fr": "Navis oneraria",
+        "gr": "Tύπος Oneraria",
+        "it": "Navis oneraria",
+        "nl": "Navis oneraria",
+        "pl": "Navis oneraria"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/C8BE01",
+      "prefLabel": {
+        "de": "Pommeroeul 1",
+        "en": "Pommeroeul 1"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/D6F501",
+      "prefLabel": {
+        "de": "Zwammerdam",
+        "en": "Zwammerdam"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/DC89EB",
+      "prefLabel": {
+        "de": "Langschiff",
+        "dk": "Langskib",
+        "en": "Longship",
+        "es": "navis lunga",
+        "fr": "Bateau long",
+        "gr": "Μακρό Πλοίο",
+        "it": "Nave lunga",
+        "nl": "Longship",
+        "pl": "Łódź wikingów"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/EAD7A9",
+      "prefLabel": {
+        "de": "Erweiterter Einbaum",
+        "dk": "Udspændt stammebåd",
+        "en": "Extended Dugout",
+        "es": "piragua ampliada",
+        "fr": "Canoé rehaussée",
+        "gr": "Σκαφτό με Προεκτάσεις",
+        "it": "Piroga espansa",
+        "nl": "Opgeboeide kano",
+        "pl": "Dłubanka z nadburciem"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/ED5180",
+      "prefLabel": {
+        "de": "Oberstimm",
+        "en": "Oberstimm"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/F48592",
+      "prefLabel": {
+        "de": "Typ Blussus",
+        "dk": "Blussus",
+        "en": "Blussus",
+        "es": "tipo Blussus",
+        "fr": "Blussus",
+        "gr": "Τύπος “Blussus”",
+        "it": "Blussus",
+        "nl": "Blussus",
+        "pl": "Blussus"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/FD7D75",
+      "prefLabel": {
+        "de": "Nordic",
+        "en": "Nordic"
+      }
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone",
+      "title": {
+        "de": "NAVISone"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone",
+      "title": {
+        "de": "NAVISone"
+      }
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

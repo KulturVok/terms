@@ -1,0 +1,470 @@
+{
+  "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/F2244D",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Verzierungstechnik"
+  },
+  "altLabel": {
+    "de": [
+      "Dekor",
+      "Veredelungstechnik"
+    ]
+  },
+  "definition": {
+    "de": "Methode(n), die zur Ausarbeitung der an dem Objekt festgestellten Verzierungselemente verwendet wurden"
+  },
+  "notation": [
+    "F2244D"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/F396G6",
+      "prefLabel": {
+        "de": "bemalt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/A2FA1B",
+      "prefLabel": {
+        "de": "nielliert"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/A5C668",
+      "prefLabel": {
+        "de": "ziseliert"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/A6FA7G",
+      "prefLabel": {
+        "de": "inkrustiert"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/A7D71D",
+      "prefLabel": {
+        "de": "aufgeraut"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/D248A4",
+      "prefLabel": {
+        "de": "versilbert"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/AF49C1",
+      "prefLabel": {
+        "de": "patiniert"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/B2B9C8",
+      "prefLabel": {
+        "de": "brüniert"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/B5A14G",
+      "prefLabel": {
+        "de": "eingeritzt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/B9835A",
+      "prefLabel": {
+        "de": "geätzt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/BF3639",
+      "prefLabel": {
+        "de": "filigranverziert"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/BF6D19",
+      "prefLabel": {
+        "de": "gestempelt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/BA8198",
+      "prefLabel": {
+        "de": "Intarsieneinlage"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/A41BGB",
+      "prefLabel": {
+        "de": "eingedrückt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/C61955",
+      "prefLabel": {
+        "de": "Kerbschnittdekor"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/C8G54A",
+      "prefLabel": {
+        "de": "verzinnt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/C9C527",
+      "prefLabel": {
+        "de": "granuliert"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/CB58C2",
+      "prefLabel": {
+        "de": "damasziert"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/CC63FA",
+      "prefLabel": {
+        "de": "plattiert"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/F2AG55",
+      "prefLabel": {
+        "de": "glasiert"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/B14C4A",
+      "prefLabel": {
+        "de": "emailliert"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/D1636C",
+      "prefLabel": {
+        "de": "tordiert"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/D1F5D3",
+      "prefLabel": {
+        "de": "gefasst"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/D4B599",
+      "prefLabel": {
+        "de": "gebläut"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/DA2GD2",
+      "prefLabel": {
+        "de": "aufgefädelt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/DCF2A5",
+      "prefLabel": {
+        "de": "gepicht"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/DF7759",
+      "prefLabel": {
+        "de": "graviert"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/GC2F6A",
+      "prefLabel": {
+        "de": "vergoldet"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/F4BD7F",
+      "prefLabel": {
+        "de": "graphiert"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/F7F934",
+      "prefLabel": {
+        "de": "profiliert"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/FBF2A3",
+      "prefLabel": {
+        "de": "poliert"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/FC926G",
+      "prefLabel": {
+        "de": "gesandet"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/FD6617",
+      "prefLabel": {
+        "de": "punziert"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/FFFCB7",
+      "prefLabel": {
+        "de": "durchbrochen (Verzierungstechnik)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/G2FA26",
+      "prefLabel": {
+        "de": "überzogen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/G2FC47",
+      "prefLabel": {
+        "de": "appliziert"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/G5D8C5",
+      "prefLabel": {
+        "de": "broschiert"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/G6841G",
+      "prefLabel": {
+        "de": "geschliffen (Verzierungstechnik)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/G73958",
+      "prefLabel": {
+        "de": "gefärbt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/G7F25F",
+      "prefLabel": {
+        "de": "bestickt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/GD11CD",
+      "prefLabel": {
+        "de": "geschnitzt (Verzierungstechnik)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/G56866",
+      "prefLabel": {
+        "de": "engobiert"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/D6BCC2",
+    "prefLabel": {
+      "de": "Technologische Auswertung"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus",
+      "title": {
+        "de": "Konservierungs- und Restaurierungsfachthesaurus für archäologische Kulturgüter"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus"
+    }
+  ],
+  "creator": [
+    "Kristina Fischer/ LEIZA"
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

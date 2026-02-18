@@ -1,0 +1,93 @@
+{
+  "name": "skohub-vocabs",
+  "private": true,
+  "description": "A simple tool for publishing SKOS vocabularies. See https://www.skohub.io for further information.",
+  "version": "0.1.0",
+  "author": "Hochschulbibliothekszentrum NRW <https://www.hbz-nrw.de/>, graphthinking GmbH <https://graphthinking.com/>",
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@gatsbyjs/reach-router": "^2.0.0",
+    "@rdfjs/dataset": "^2.0.1",
+    "@rdfjs/parser-n3": "^2.0.1",
+    "crypto-browserify": "^3.12.0",
+    "dotenv": "^16.0.3",
+    "flexsearch": "^0.7.31",
+    "fs-extra": "^11.0.0",
+    "gatsby": "^5.0.0",
+    "gatsby-plugin-emotion": "^8.0.0",
+    "gatsby-plugin-image": "^3.0.0",
+    "gatsby-plugin-manifest": "^5.0.0",
+    "gatsby-plugin-sharp": "^5.0.0",
+    "gatsby-source-filesystem": "^5.0.0",
+    "gatsby-transformer-sharp": "^5.0.0",
+    "graceful-fs": "^4.2.8",
+    "js-yaml": "^4.1.0",
+    "jsonld": "^8.3.2",
+    "lodash.escaperegexp": "^4.1.2",
+    "markdown-to-jsx": "^7.1.8",
+    "n3": "^1.16.3",
+    "omit-empty": "^1.0.0",
+    "prop-types": "^15.7.2",
+    "rdf-ext": "^2.3.0",
+    "rdf-validate-shacl": "^0.5.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-helmet": "^6.1.0",
+    "stream-browserify": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@testing-library/cypress": "^10.0.1",
+    "@testing-library/jest-dom": "^6.0.0",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@vitejs/plugin-react": "^4.0.4",
+    "@vitest/coverage-v8": "^0.34.2",
+    "cypress": "^13.4.0",
+    "eslint": "^8.29.0",
+    "eslint-config-react-app": "^7.0.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-testing-library": "^6.0.0",
+    "husky": "^8.0.2",
+    "identity-obj-proxy": "^3.0.0",
+    "jsdom": "^22.1.0",
+    "lint-staged": "^15.0.2",
+    "prettier": "^3.0.2",
+    "start-server-and-test": "^2.0.0",
+    "vitest": "^0.34.1"
+  },
+  "keywords": [
+    "SKOS",
+    "SkoHub"
+  ],
+  "license": "Apache License 2.0",
+  "scripts": {
+    "build": "gatsby clean && gatsby build --prefix-paths",
+    "container-build": "gatsby build --prefix-paths",
+    "develop": "gatsby develop -H 0.0.0.0",
+    "format": "prettier --write '**/*.{js,jsx}'",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "lint:js": "eslint src --ext .jsx,.js --quiet",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage",
+    "prepare": "husky install",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test:e2e": "cypress/prepare-cypress-test.sh && start-server-and-test develop http://0.0.0.0:8000 cy:open",
+    "test:e2e:ci": "cypress/prepare-cypress-test.sh && start-server-and-test develop http://0.0.0.0:8000 cy:run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skohub-io/skohub-vocabs"
+  },
+  "bugs": {
+    "url": "https://github.com/skohub-io/skohub-vocabs/issues"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx}": [
+      "npm run format",
+      "npm run lint:js"
+    ]
+  }
+}

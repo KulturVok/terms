@@ -1,0 +1,524 @@
+{
+  "id": "https://www.w3id.org/archlink/terms/NAVISone/10",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "[Besegelung]",
+    "en": "[sailing gear]"
+  },
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/074F8A",
+      "prefLabel": {
+        "de": "Gut (Stehend)",
+        "dk": "Rig (Stående)",
+        "en": "Rigging (Standing)",
+        "es": "jarcías vivas o de labor",
+        "fr": "Greement (Dormant)",
+        "gr": "Μη σταθερός Εξαρτισμός",
+        "it": "Manovre dormienti",
+        "nl": "Want (Staand)",
+        "pl": "Olinowanie stałe"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/0E4547",
+      "prefLabel": {
+        "de": "Segel (Sprit)",
+        "dk": "Sejl",
+        "en": "Sail (Sprit)",
+        "es": "vela",
+        "fr": "Voile",
+        "gr": "Πανί, Ιστίο",
+        "it": "Vela (A tarchia)",
+        "nl": "Zeil",
+        "pl": "Żagiel rozprzowy"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/1149D5",
+      "prefLabel": {
+        "de": "Rah",
+        "dk": "Rå",
+        "en": "Yard",
+        "es": "verga",
+        "fr": "Vergue",
+        "gr": "Κεραία, Αντένα",
+        "it": "Pennone",
+        "nl": "Ra",
+        "pl": "Reja"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/178A10",
+      "prefLabel": {
+        "de": "Jungfer-Block",
+        "dk": "Jomfru",
+        "en": "Deadeye",
+        "es": "vigota ordinaria",
+        "fr": "Cap De Mouton",
+        "gr": "Τριόπις, Καρπουζάκι",
+        "it": "Bigotta",
+        "nl": "Jufferblok",
+        "pl": "Jufers"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/1C43CA",
+      "prefLabel": {
+        "de": "Mastfisch",
+        "dk": "Mastfisk",
+        "en": "Mast Fish",
+        "es": "fogonadura del palo",
+        "fr": "Fixation du mât",
+        "gr": "Ιστοπέδη",
+        "it": "Albero (Pesce)",
+        "nl": "Mastvis",
+        "pl": "Masztowy wspornik"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/1C9D25",
+      "prefLabel": {
+        "de": "Mastspant",
+        "dk": "Mastespant",
+        "en": "Mast Frame",
+        "es": "cuaderna del palo",
+        "fr": "Couple De Mât",
+        "gr": "Πλαίσιο του Ιστού",
+        "it": "Ordinata della albero",
+        "nl": "Mastspant",
+        "pl": "Rama masztowa"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/1F4820",
+      "prefLabel": {
+        "de": "Masttopp",
+        "dk": "Mastetop",
+        "en": "Masthead",
+        "es": "tope del palo",
+        "gr": "Λαιμός Στήλης ή Επιστηλίου, Κολομπίρι",
+        "it": "Calcese",
+        "nl": "Masttop",
+        "pl": "Jabłko masztu"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/2143CF",
+      "prefLabel": {
+        "de": "Mastbalken",
+        "dk": "Mastebjælke",
+        "en": "Mast Beam",
+        "es": "bao del palo",
+        "fr": "Barrot de Mât",
+        "gr": "Ζυγό του Ιστού",
+        "it": "Baglio della albero",
+        "nl": "Zeilbalk",
+        "pl": "Belka masztowa"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/2AC165",
+      "prefLabel": {
+        "de": "Treidelpfosten",
+        "dk": "Mast (Slæbe)",
+        "en": "Mast (Towing)",
+        "es": "pequeño palo",
+        "fr": "Mat De Halage",
+        "gr": "Mast (Towing)",
+        "it": "Albero (Alaggio)",
+        "nl": "Mast (Jaag)",
+        "pl": "Maszt holowniczy"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/2B8C74",
+      "prefLabel": {
+        "de": "Mastspur",
+        "dk": "Mastespor",
+        "en": "Mast Step",
+        "es": "carlinga del palo",
+        "fr": "Emplanture De Mât",
+        "gr": "Υποπτερνίς, Σκάτσα",
+        "it": "Scassa dellalbero",
+        "nl": "Mastspoor",
+        "pl": "Gniazdo masztu"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/411EC9",
+      "prefLabel": {
+        "de": "Bug Sprit",
+        "dk": "Bovspryd",
+        "en": "Bowsprit",
+        "es": "bauprés",
+        "fr": "Mat De Beaupre",
+        "gr": "Πρόβολος, Μπαστούνι",
+        "it": "Bompresso",
+        "nl": "Boegspriet",
+        "pl": "Bukszpryt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/441BAE",
+      "prefLabel": {
+        "de": "Segel (Lateiner)",
+        "dk": "Sejl (Latiner)",
+        "en": "Sail (Lateen)",
+        "es": "vela latina",
+        "fr": "Voile Latine",
+        "gr": "Πανί (λατίνι)",
+        "it": "Vela (Latina)",
+        "nl": "Zeil (Latijn)",
+        "pl": "Żagiel łaciński"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/648E0B",
+      "prefLabel": {
+        "de": "Toppsegel",
+        "dk": "Sejl (Top)",
+        "en": "Sail (Top)",
+        "es": "escandalosa",
+        "gr": "Δόλων, Γάμπια",
+        "it": "Vela (Superiore)",
+        "nl": "Zeil (Top)",
+        "pl": "Topsel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/655F73",
+      "prefLabel": {
+        "de": "Mast (Besanmast)",
+        "dk": "Mast (Mesan)",
+        "en": "Mast (Mizzen)",
+        "es": "palo de mesana",
+        "fr": "Mat D´artimon",
+        "gr": "Ιστός του Επιδρόμου, Πρυμναίος Ιστός",
+        "it": "Albero (Poppa)",
+        "nl": "Mast (Bezaan)",
+        "pl": "Bezan maszt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/69600C",
+      "prefLabel": {
+        "de": "Mast (Vormast)",
+        "dk": "Mast (Fokke)",
+        "en": "Mast (Fore)",
+        "es": "artimón",
+        "fr": "Mat De Misaine",
+        "gr": "Ακάτιος, Πρωραίος Ιστός, Τουρκέτο",
+        "it": "Albero (Prua)",
+        "nl": "Mast (Voor)",
+        "pl": "Maszt przedni"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/71CB9C",
+      "prefLabel": {
+        "de": "Vorsegel",
+        "dk": "Sejl (For)",
+        "en": "Sail (Fore)",
+        "es": "vela de proa",
+        "gr": "Τρίγκος, Ακάτιον",
+        "it": "Vela (Di prua)",
+        "nl": "Zeil (Voor)",
+        "pl": "Żagiel dziobowy"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/8C0C1B",
+      "prefLabel": {
+        "de": "Gut (Laufend)",
+        "dk": "Rig (Løbende)",
+        "en": "Rigging (Running)",
+        "es": "jarcías muertas o arboladura",
+        "fr": "Greement (Courant)",
+        "gr": "Εξαρτία, Αρματωσιά",
+        "it": "Manovre correnti",
+        "nl": "Want (Lopend)",
+        "pl": "Olinowanie ruchome"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/AF5C8D",
+      "prefLabel": {
+        "de": "Mastbereich",
+        "dk": "Masteområdet",
+        "en": "Mast Area",
+        "es": "area del palo",
+        "fr": "Aire Du Mât",
+        "gr": "Περιοχή του Ιστού",
+        "it": "Area della albero",
+        "nl": "Mastgebied",
+        "pl": "Strefa przymasztowa"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/B0D70E",
+      "prefLabel": {
+        "de": "Maststütze",
+        "dk": "Mastestøtte",
+        "en": "Mast Support",
+        "es": "puntal para el  palo",
+        "gr": "Διαδοκίς, Πικεριά",
+        "it": "Supporto della albero",
+        "nl": "Maststeun",
+        "pl": "Podpora masztu"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/D12C93",
+      "prefLabel": {
+        "de": "Mastducht",
+        "dk": "Mastetofte",
+        "en": "Mast Thwart",
+        "es": "bancada del palo",
+        "fr": "Banc De Mât",
+        "gr": "Πάγκος του Άλμπουρου",
+        "it": "Banco della albero",
+        "nl": "Mastbank",
+        "pl": "Ława masztowa"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/EDB704",
+      "prefLabel": {
+        "de": "Rack",
+        "dk": "Rakke",
+        "en": "Parrel",
+        "es": "racamento de verga",
+        "fr": "Racage",
+        "gr": "Αγκοίνη, Τρότσα",
+        "it": "Galloccia",
+        "nl": "Rak",
+        "pl": "Rak"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/F4405C",
+      "prefLabel": {
+        "de": "Segel (Rah)",
+        "dk": "Sejl (Råsejl)",
+        "en": "Sail (Square)",
+        "es": "vela cuadra",
+        "fr": "Voile Carree",
+        "gr": "Πανί (τετράγωνο)",
+        "it": "Vela (Quadra)",
+        "nl": "Zeil (Vierkant)",
+        "pl": "Żagiel czworokątny"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone/FE0706",
+      "prefLabel": {
+        "de": "Mast (Hauptmast)",
+        "dk": "Mast",
+        "en": "Mast (Main)",
+        "es": "palo (mayor)",
+        "fr": "Mât",
+        "gr": "Ιστός, Κατάρτι",
+        "it": "Albero (Maestro)",
+        "nl": "Mast",
+        "pl": "Maszt główny"
+      }
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone",
+      "title": {
+        "de": "NAVISone"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://www.w3id.org/archlink/terms/NAVISone",
+      "title": {
+        "de": "NAVISone"
+      }
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

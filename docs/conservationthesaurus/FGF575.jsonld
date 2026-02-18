@@ -1,0 +1,300 @@
+{
+  "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/FGF575",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Säure",
+    "en": "acidic detergent"
+  },
+  "altLabel": {
+    "en": [
+      "acid"
+    ]
+  },
+  "definition": {
+    "de": "chemische Substanz, die in wässriger Lösung Protonen aus ihrer Wasserstoffverbindung abspalten oder ein freies Elektronenpaar aufnehmen kann. In der Restaurierung werden Säuren zur Reinigung, Entfernung von Korrosionsprodukten und Verkrustungen, sowie zur Stabilisierung und Konservierung verwendet."
+  },
+  "notation": [
+    "FGF575"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/AA69FB",
+      "prefLabel": {
+        "de": "Ameisensäure",
+        "en": "formic acid"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/B7395G",
+      "prefLabel": {
+        "de": "Schwefelsäure",
+        "en": "sulphuric acid"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/D3A484",
+      "prefLabel": {
+        "de": "Oxalsäure",
+        "en": "oxalic acid"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/F54686",
+      "prefLabel": {
+        "de": "Ascorbinsäure"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/G7BADF",
+      "prefLabel": {
+        "de": "Thioglykolsäure"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/GA33BC",
+      "prefLabel": {
+        "de": "Salzsäure",
+        "en": "hydrochlorid acid"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/GBC8AC",
+      "prefLabel": {
+        "de": "Zitronensäure",
+        "en": "citric acid"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/C364G1",
+    "prefLabel": {
+      "de": "Konservierungs- und Restaurierungsmaterialien",
+      "en": "restoration material"
+    }
+  },
+  "related": [
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/A194CF",
+      "prefLabel": {
+        "de": "Nassreinigung",
+        "en": "washing"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/G8A626",
+      "prefLabel": {
+        "de": "nasschemische Freilegung"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/C3733A",
+      "prefLabel": {
+        "de": "Feuchtreinigung",
+        "en": "wet cleaning"
+      }
+    }
+  ],
+  "closeMatch": [
+    {
+      "id": "https://cameo.mfa.org/wiki/Acid"
+    },
+    {
+      "id": "https://vocab.getty.edu/aat/300011752"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus",
+      "title": {
+        "de": "Konservierungs- und Restaurierungsfachthesaurus für archäologische Kulturgüter"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus"
+    }
+  ],
+  "source": [
+    "Charles E. Mortimer, Ulrich Müller, Chemie. Das Basiswissen der Chemie (Stuttgart 2007)9.",
+    "Susan Buys, Victoria Oakley, The conservation and restoration of ceramics (Great Britain 1998), S. 89, 95., 182."
+  ],
+  "creator": [
+    "Kristina Fischer/ LEIZA"
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

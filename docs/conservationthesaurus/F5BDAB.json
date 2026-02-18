@@ -1,0 +1,227 @@
+{
+  "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/F5BDAB",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Kaseinleim",
+    "en": "casein"
+  },
+  "altLabel": {
+    "de": [
+      "Casein"
+    ]
+  },
+  "definition": {
+    "de": "proteinhaltiger Klebstoff, der aus dem natürlichen Milcheiweiß (Kasein) in Verbindung mit einer alkalischen Substanz wie Kalk, Ammoniak oder Borax hergestellt wird. Durch die Modifizierung entsteht ein wasserlöslicher Leim mit guter Klebekraft, der nach dem Aushärten einen wasserbeständigen Film bildet. Wie andere Proteinleime neigt auch Kaseinleim während der Aushärtung zur Schrumpfung. In der modernen Restaurierung wurde Kaseinleim größtenteils durch synthetische Polymere abgelöst."
+  },
+  "notation": [
+    "F5BDAB"
+  ],
+  "broader": {
+    "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/GD86C1",
+    "prefLabel": {
+      "de": "Proteinleim"
+    }
+  },
+  "closeMatch": [
+    {
+      "id": "https://cameo.mfa.org/wiki/Casein"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus",
+      "title": {
+        "de": "Konservierungs- und Restaurierungsfachthesaurus für archäologische Kulturgüter"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus"
+    }
+  ],
+  "source": [
+    "DIN EN ISO 472/A1:2019-03, Kunststoffe - Fachwörterverzeichnis - Änderung 1: Weitere Einträge (ISO 472:2013/Amd.1:2018); Dreisprachige Fassung EN ISO 472:2013/A1:2018, Deutsches Institut für Normung.",
+    "Reiner Geschke, Keramikrestaurierung (Berlin 2019), S. 89.",
+    "Sandra Davison, Conservation and Restoration of Glass (Oxford 2003), S. 205.",
+    "Stefano Centenaro, et all, Consolidation and coating treatments for glass in the cultural heritage field: A review. Journal of Cultural Heritage 64, 2023, S. 132 - 143."
+  ],
+  "creator": [
+    "Kristina Fischer/ LEIZA"
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

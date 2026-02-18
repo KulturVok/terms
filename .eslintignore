@@ -1,0 +1,7 @@
+node_modules
+public
+static
+.cache
+.build
+content
+gatsby-config.js

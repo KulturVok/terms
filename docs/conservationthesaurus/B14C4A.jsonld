@@ -1,0 +1,258 @@
+{
+  "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/B14C4A",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "emailliert"
+  },
+  "altLabel": {
+    "de": [
+      "Email",
+      "Emaillierung"
+    ]
+  },
+  "definition": {
+    "de": "Verzierungsmethode, bei der Glas bzw. eine glasartige Matrix auf eine Metalloberfläche oder in vorbereitete Zellen auf- bzw. eingeschmolzen wird."
+  },
+  "notation": [
+    "B14C4A"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/CG8188",
+      "prefLabel": {
+        "de": "Zellenemail"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/D27B9A",
+      "prefLabel": {
+        "de": "Emailmalerei"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/DA226G",
+      "prefLabel": {
+        "de": "Grubenemail"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/FB5C1F",
+      "prefLabel": {
+        "de": "Fensteremail"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/G1A3FB",
+      "prefLabel": {
+        "de": "Stegemail"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/G53328",
+      "prefLabel": {
+        "de": "Körperemail"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://www.w3id.org/archlink/terms/conservationthesaurus/F2244D",
+    "prefLabel": {
+      "de": "Verzierungstechnik"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus",
+      "title": {
+        "de": "Konservierungs- und Restaurierungsfachthesaurus für archäologische Kulturgüter"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/archlink/terms/conservationthesaurus"
+    }
+  ],
+  "source": [
+    "DIN EN ISO 2080:2022-06, Metallische und andere anorganische Überzüge - Oberflächenbehandlung, metallische und andere anorganische Überzüge - Wörterbuch (ISO 2080:2022); Deutsche und Englische Fassung EN ISO 2080:2022, Deutsches Institut für Normung.",
+    "Erhard Brepohl, Theorie und Praxis des Goldschmieds (München 2000), S. 407 - 413."
+  ],
+  "creator": [
+    "Kristina Fischer/ LEIZA"
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}
