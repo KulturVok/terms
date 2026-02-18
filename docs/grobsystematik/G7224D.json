@@ -1,0 +1,361 @@
+{
+  "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G7224D",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Umschlagetücher"
+  },
+  "altLabel": {
+    "de": [
+      "Tücher (Umschlage-)"
+    ]
+  },
+  "notation": [
+    "G7224D"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A66365",
+      "prefLabel": {
+        "de": "Schal"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AB84CF",
+      "prefLabel": {
+        "de": "Halsbinde"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BD9F3F",
+      "prefLabel": {
+        "de": "Haike"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C55FBB",
+      "prefLabel": {
+        "de": "Frauen-Einschlagtuch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C77BC4",
+      "prefLabel": {
+        "de": "Kopftuch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C7A5G5",
+      "prefLabel": {
+        "de": "Dreiecktuch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C921BB",
+      "prefLabel": {
+        "de": "Mädchen-Einschlagtuch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CAG558",
+      "prefLabel": {
+        "de": "Fichü"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CB4B25",
+      "prefLabel": {
+        "de": "Cape"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D36D3B",
+      "prefLabel": {
+        "de": "Damen-Seidenschal"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D39434",
+      "prefLabel": {
+        "de": "Halstuch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D7574G",
+      "prefLabel": {
+        "de": "Kopftuch für Sommer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D7G4A3",
+      "prefLabel": {
+        "de": "Trauerstola"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DF1AG7",
+      "prefLabel": {
+        "de": "Wiener Tuch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F2DD6F",
+      "prefLabel": {
+        "de": "Frauen-Schultertuch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F2G5C7",
+      "prefLabel": {
+        "de": "Umhang"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F36DDB",
+      "prefLabel": {
+        "de": "Regentuch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F377D5",
+      "prefLabel": {
+        "de": "Paradetuch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F4D3GD",
+      "prefLabel": {
+        "de": "Dreieckstuch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FB789G",
+      "prefLabel": {
+        "de": "Kaschmir-Tuch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G22F73",
+      "prefLabel": {
+        "de": "Umschlagtuch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G677C9",
+      "prefLabel": {
+        "de": "Schultertuch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G99B74",
+      "prefLabel": {
+        "de": "Stola"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GBGC3G",
+      "prefLabel": {
+        "de": "Frauen-Seidenstola"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C3DBBA",
+      "prefLabel": {
+        "de": "Schmucktuch"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GCG11G",
+    "prefLabel": {
+      "de": "Accessoires"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik",
+      "title": {
+        "de": "Grobsystematik"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

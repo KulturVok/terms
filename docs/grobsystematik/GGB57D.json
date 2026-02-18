@@ -1,0 +1,1562 @@
+{
+  "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GGB57D",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Werkzeug"
+  },
+  "notation": [
+    "GGB57D"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C8DDF6",
+      "prefLabel": {
+        "de": "Axt - Beil"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F2DFD1",
+      "prefLabel": {
+        "de": "Hobel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B1D9A9",
+      "prefLabel": {
+        "de": "Zange"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F4G524",
+      "prefLabel": {
+        "de": "Messer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A1AG4C",
+      "prefLabel": {
+        "de": "Treibfäustel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B9FB13",
+      "prefLabel": {
+        "de": "Bohrer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A23B27",
+      "prefLabel": {
+        "de": "Schneiderschere"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A25DGG",
+      "prefLabel": {
+        "de": "Maulschlüssel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F35D95",
+      "prefLabel": {
+        "de": "Hammer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A32B2G",
+      "prefLabel": {
+        "de": "Fugeisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A37476",
+      "prefLabel": {
+        "de": "Lochschneider"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A3F951",
+      "prefLabel": {
+        "de": "Hülsenstopfer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A46B43",
+      "prefLabel": {
+        "de": "Lochstanze"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A484A5",
+      "prefLabel": {
+        "de": "Reibgerät"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A55364",
+      "prefLabel": {
+        "de": "Klemmschere"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A576C9",
+      "prefLabel": {
+        "de": "Ton-Model"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A5BCD3",
+      "prefLabel": {
+        "de": "Steinzeug-Patrize"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A68GG8",
+      "prefLabel": {
+        "de": "Kantenschneider"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A69F84",
+      "prefLabel": {
+        "de": "Weidenschäler"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A6A61A",
+      "prefLabel": {
+        "de": "Bohrspannbock"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A79F7A",
+      "prefLabel": {
+        "de": "Zierrädchen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A7AC91",
+      "prefLabel": {
+        "de": "Seitenschneider"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A7B2G7",
+      "prefLabel": {
+        "de": "Steinstössel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A7G8BF",
+      "prefLabel": {
+        "de": "Schraubklemme"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CC2F53",
+      "prefLabel": {
+        "de": "Säge"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A84225",
+      "prefLabel": {
+        "de": "Bello"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A8927D",
+      "prefLabel": {
+        "de": "Schlüsselform"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A93F8A",
+      "prefLabel": {
+        "de": "Schälspan"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A973BC",
+      "prefLabel": {
+        "de": "Wachsholz"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A9CF8F",
+      "prefLabel": {
+        "de": "Hebezeug"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/ABCFC9",
+      "prefLabel": {
+        "de": "Leimzwinge"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AC5DG4",
+      "prefLabel": {
+        "de": "Klemmblock"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AC81CA",
+      "prefLabel": {
+        "de": "Pfahlsetzer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/ACA4F3",
+      "prefLabel": {
+        "de": "Magnet"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/ACC7B1",
+      "prefLabel": {
+        "de": "Putzschröpper"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/ACG222",
+      "prefLabel": {
+        "de": "Streicheisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AD1B42",
+      "prefLabel": {
+        "de": "Strohdachdeckgerät"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AD7214",
+      "prefLabel": {
+        "de": "Deuer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B23CCB",
+      "prefLabel": {
+        "de": "Schaber"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AD8F87",
+      "prefLabel": {
+        "de": "Sperrhorn"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/ADA9CB",
+      "prefLabel": {
+        "de": "Haubengabel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C2DG6D",
+      "prefLabel": {
+        "de": "Feile"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AC8CF2",
+      "prefLabel": {
+        "de": "Meißel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AF3A6F",
+      "prefLabel": {
+        "de": "Haubrücke"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AF51F8",
+      "prefLabel": {
+        "de": "Reepdrehe"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AG7D35",
+      "prefLabel": {
+        "de": "Handfäustel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AG9C5A",
+      "prefLabel": {
+        "de": "Gewindekluppe"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AGA6C2",
+      "prefLabel": {
+        "de": "Spatel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AGCC4A",
+      "prefLabel": {
+        "de": "Körner"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B129A4",
+      "prefLabel": {
+        "de": "Aufrauheisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B142A4",
+      "prefLabel": {
+        "de": "Gradeisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B17179",
+      "prefLabel": {
+        "de": "Rollstock"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B181DA",
+      "prefLabel": {
+        "de": "Gußform für Zinnlöffel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B1B83B",
+      "prefLabel": {
+        "de": "Dächsel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B1B8G4",
+      "prefLabel": {
+        "de": "Ringschlüssel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B22B2B",
+      "prefLabel": {
+        "de": "Quast"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B2CDDA",
+      "prefLabel": {
+        "de": "Tapetenroller"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B34F71",
+      "prefLabel": {
+        "de": "Handeisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B35B2B",
+      "prefLabel": {
+        "de": "Durchschläger"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B42469",
+      "prefLabel": {
+        "de": "Brandeisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B45BFB",
+      "prefLabel": {
+        "de": "Schlagstein"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B46FF8",
+      "prefLabel": {
+        "de": "Stecheisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B4A7A7",
+      "prefLabel": {
+        "de": "Kluppe"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B4AC87",
+      "prefLabel": {
+        "de": "Gerät, metallen, zum Ösen und Haken einsetzen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B538D8",
+      "prefLabel": {
+        "de": "Prägestock"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B57CB2",
+      "prefLabel": {
+        "de": "Klinge"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B5B51B",
+      "prefLabel": {
+        "de": "Seilerkluppe"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B6A532",
+      "prefLabel": {
+        "de": "Löffelform"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B6F542",
+      "prefLabel": {
+        "de": "Zieheisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B79373",
+      "prefLabel": {
+        "de": "Mutternschlüssel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B7G687",
+      "prefLabel": {
+        "de": "Stampfkern"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B85258",
+      "prefLabel": {
+        "de": "Schafschere"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B8CA54",
+      "prefLabel": {
+        "de": "Lederrädchen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BA3GCG",
+      "prefLabel": {
+        "de": "Lederschere"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F5BB5C",
+      "prefLabel": {
+        "de": "Hebegerät"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BBA316",
+      "prefLabel": {
+        "de": "Ziegelform"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BBCD92",
+      "prefLabel": {
+        "de": "Haarschere"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BBCG59",
+      "prefLabel": {
+        "de": "Schäleisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BC5889",
+      "prefLabel": {
+        "de": "Felgenschablone"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BC637B",
+      "prefLabel": {
+        "de": "Schneidebacke (Gewindebacke)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BCD5D5",
+      "prefLabel": {
+        "de": "Pflanzhäcksel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BCGD38",
+      "prefLabel": {
+        "de": "Rindenschäler"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BD6BFC",
+      "prefLabel": {
+        "de": "Holzgriff für Werkzeugstiel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BD7C2F",
+      "prefLabel": {
+        "de": "Schmiedeeinsatz (Führung)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BF41D9",
+      "prefLabel": {
+        "de": "Pickel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BF5F32",
+      "prefLabel": {
+        "de": "Buchbindegerät"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BG93B8",
+      "prefLabel": {
+        "de": "Spiralschaft"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BGFDA9",
+      "prefLabel": {
+        "de": "Gewindeschneider"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BGG3F7",
+      "prefLabel": {
+        "de": "Bohreisen, gekrümmt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C125BD",
+      "prefLabel": {
+        "de": "Ziehklinge"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C1685D",
+      "prefLabel": {
+        "de": "Nutenschneider"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C179F4",
+      "prefLabel": {
+        "de": "Pinzette"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C1898B",
+      "prefLabel": {
+        "de": "Bohrfutter"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C251GG",
+      "prefLabel": {
+        "de": "Furniersäge"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C2C3A8",
+      "prefLabel": {
+        "de": "Vierkantschlüssel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C2FCBD",
+      "prefLabel": {
+        "de": "Drucksäule"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C31F64",
+      "prefLabel": {
+        "de": "Reißzeug"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B3F57B",
+      "prefLabel": {
+        "de": "Amboß"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C41DD2",
+      "prefLabel": {
+        "de": "Gießlöffel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C462D4",
+      "prefLabel": {
+        "de": "Putzknüppel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C4FB9B",
+      "prefLabel": {
+        "de": "Brennschere"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C52A4A",
+      "prefLabel": {
+        "de": "Keil"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C5A276",
+      "prefLabel": {
+        "de": "Schabeisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C5BA7F",
+      "prefLabel": {
+        "de": "Spitzeisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C5C7GB",
+      "prefLabel": {
+        "de": "Schraubstock"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C67BCA",
+      "prefLabel": {
+        "de": "Säckeklopfer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C697C7",
+      "prefLabel": {
+        "de": "Biegegerät"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C7262A",
+      "prefLabel": {
+        "de": "Stechnadel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C73579",
+      "prefLabel": {
+        "de": "Nietwerkzeug"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C7F8AA",
+      "prefLabel": {
+        "de": "Papierhefter"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C8165G",
+      "prefLabel": {
+        "de": "Naaliesen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C82664",
+      "prefLabel": {
+        "de": "Lötkolben"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C84DC9",
+      "prefLabel": {
+        "de": "Krummstahl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C86C67",
+      "prefLabel": {
+        "de": "Raspel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C8716A",
+      "prefLabel": {
+        "de": "Bohrmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C8F6DB",
+      "prefLabel": {
+        "de": "Lochtreiber"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C947GA",
+      "prefLabel": {
+        "de": "Absatzausputzeisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C997FB",
+      "prefLabel": {
+        "de": "Schnitteisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CA4GF4",
+      "prefLabel": {
+        "de": "Scherdegen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CA5513",
+      "prefLabel": {
+        "de": "Fräser"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CB1B7G",
+      "prefLabel": {
+        "de": "Klemme"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CC5236",
+      "prefLabel": {
+        "de": "Glasmacherpfeife"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CF4AB8",
+      "prefLabel": {
+        "de": "Schraubenschlüssel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CF5113",
+      "prefLabel": {
+        "de": "Klemmschraube"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CF7G8B",
+      "prefLabel": {
+        "de": "Schmiedewerkzeug"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CG9615",
+      "prefLabel": {
+        "de": "Töpferscheibe"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CGBBC6",
+      "prefLabel": {
+        "de": "Rammeisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CGF766",
+      "prefLabel": {
+        "de": "Plattierstein"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D1482F",
+      "prefLabel": {
+        "de": "Sandlöffel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D1C1B4",
+      "prefLabel": {
+        "de": "Schraubenzieher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D1G5F8",
+      "prefLabel": {
+        "de": "Holzschlegel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D3983B",
+      "prefLabel": {
+        "de": "Pflanzenhäcksel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D3F67G",
+      "prefLabel": {
+        "de": "Beitel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D4DA31",
+      "prefLabel": {
+        "de": "Einschieber"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D571D5",
+      "prefLabel": {
+        "de": "Buchpresse"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D58D42",
+      "prefLabel": {
+        "de": "Schlaghohleisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D5A743",
+      "prefLabel": {
+        "de": "Zuschneideschere"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D6B131",
+      "prefLabel": {
+        "de": "Holzschlägel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D6F554",
+      "prefLabel": {
+        "de": "Hörnchen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D6GDBA",
+      "prefLabel": {
+        "de": "Ausschlageisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D723B2",
+      "prefLabel": {
+        "de": "Eisenklinge"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D797B2",
+      "prefLabel": {
+        "de": "Dechsel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D82177",
+      "prefLabel": {
+        "de": "Doppelbrennschere"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D85CBF",
+      "prefLabel": {
+        "de": "Fäustel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D86FB2",
+      "prefLabel": {
+        "de": "Borkenschäler"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D89BA6",
+      "prefLabel": {
+        "de": "Riemahle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D93896",
+      "prefLabel": {
+        "de": "Drucksäulen-Verlängerungsstück"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DA166A",
+      "prefLabel": {
+        "de": "Pinsel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DA79C4",
+      "prefLabel": {
+        "de": "Dollen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DA8FCD",
+      "prefLabel": {
+        "de": "Reifhaken"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DAGDA9",
+      "prefLabel": {
+        "de": "Rührspatel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DB2374",
+      "prefLabel": {
+        "de": "Hohlkratzer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DC2GF1",
+      "prefLabel": {
+        "de": "Handziehklinge"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DC42G6",
+      "prefLabel": {
+        "de": "Spaltkeil"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DC51GD",
+      "prefLabel": {
+        "de": "Sackspanner"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DC7965",
+      "prefLabel": {
+        "de": "Schienenanzieher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DCC6G3",
+      "prefLabel": {
+        "de": "Maurer-Ziegelbrett"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DCF166",
+      "prefLabel": {
+        "de": "Hieb"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DD7F13",
+      "prefLabel": {
+        "de": "Schränkeisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DD92B4",
+      "prefLabel": {
+        "de": "Eisenbolzen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DDC473",
+      "prefLabel": {
+        "de": "Holzschlage"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DF4B76",
+      "prefLabel": {
+        "de": "Flacheisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DFFA4F",
+      "prefLabel": {
+        "de": "Brandhaken"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F13D99",
+      "prefLabel": {
+        "de": "Schmiedestock"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F18G33",
+      "prefLabel": {
+        "de": "Nagelzieheisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F2D41G",
+      "prefLabel": {
+        "de": "Balkenstecher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F3A6A4",
+      "prefLabel": {
+        "de": "Werkzeug (dreiteilig)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F43921",
+      "prefLabel": {
+        "de": "Abschröter"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F55792",
+      "prefLabel": {
+        "de": "Rollklotz"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F56BA2",
+      "prefLabel": {
+        "de": "Grundholz"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F6A3B8",
+      "prefLabel": {
+        "de": "Stechbeitel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F6A942",
+      "prefLabel": {
+        "de": "Blechschneider"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F6B4C1",
+      "prefLabel": {
+        "de": "Zwinge"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F6BGF3",
+      "prefLabel": {
+        "de": "Wannenmachereisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F7CAD7",
+      "prefLabel": {
+        "de": "Spannholz"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F81F63",
+      "prefLabel": {
+        "de": "Lederpoliereisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F8F167",
+      "prefLabel": {
+        "de": "Drechslereisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F9FA52",
+      "prefLabel": {
+        "de": "Lederahle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FA656G",
+      "prefLabel": {
+        "de": "Ladehaken"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FAFBG3",
+      "prefLabel": {
+        "de": "Senkeisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FB1489",
+      "prefLabel": {
+        "de": "Gehrungslade"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FBAC5C",
+      "prefLabel": {
+        "de": "Schmiedeschraubstock"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FC7574",
+      "prefLabel": {
+        "de": "Löffeleisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FCA91B",
+      "prefLabel": {
+        "de": "Lederglätteisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FCBAG9",
+      "prefLabel": {
+        "de": "Töpfer-Gipsmodel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FCG9A7",
+      "prefLabel": {
+        "de": "Eisenbügel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FCGC8B",
+      "prefLabel": {
+        "de": "Klöpfel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FD8486",
+      "prefLabel": {
+        "de": "Teiken"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FDA22A",
+      "prefLabel": {
+        "de": "Werkzeug beim Hämmern gegenzuhalten"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FDG14A",
+      "prefLabel": {
+        "de": "Anreißer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FF7236",
+      "prefLabel": {
+        "de": "Pfahlmesser für die Spaltbank"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FG2G3G",
+      "prefLabel": {
+        "de": "Lochbeitel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FGB61B",
+      "prefLabel": {
+        "de": "Backenhalter (Gewindekluppe)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FGCB58",
+      "prefLabel": {
+        "de": "Schlichtmond"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G1D723",
+      "prefLabel": {
+        "de": "Zahnschlüssel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G2BG54",
+      "prefLabel": {
+        "de": "Fuhrenammelt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G34CGF",
+      "prefLabel": {
+        "de": "Schneidelade"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G392BF",
+      "prefLabel": {
+        "de": "Holzgewindeschneider"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G5696C",
+      "prefLabel": {
+        "de": "Reibkeule"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G63D74",
+      "prefLabel": {
+        "de": "Falzeisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G665A5",
+      "prefLabel": {
+        "de": "Messing-Lötlampe"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G75AF4",
+      "prefLabel": {
+        "de": "Iishaken"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G7791D",
+      "prefLabel": {
+        "de": "Dorn"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G7A8D8",
+      "prefLabel": {
+        "de": "Nagelzieher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G991GA",
+      "prefLabel": {
+        "de": "Arbeitsbrett"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GB1G9F",
+      "prefLabel": {
+        "de": "Krake"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GBFG7A",
+      "prefLabel": {
+        "de": "Stichel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GC3B24",
+      "prefLabel": {
+        "de": "Meischerührlöffel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GC4777",
+      "prefLabel": {
+        "de": "Rundeisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GC791A",
+      "prefLabel": {
+        "de": "Töpfermodel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GCC662",
+      "prefLabel": {
+        "de": "Wachseisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GD16B3",
+      "prefLabel": {
+        "de": "Lohschäler"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GD172D",
+      "prefLabel": {
+        "de": "Patteisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GDA6B7",
+      "prefLabel": {
+        "de": "Schabklinge"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GF7D9F",
+      "prefLabel": {
+        "de": "Füllrohr mit Ladestock für Sprengungen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GG4A14",
+      "prefLabel": {
+        "de": "Steinzeug-Matrize"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GG9A59",
+      "prefLabel": {
+        "de": "Setzeisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GGA229",
+      "prefLabel": {
+        "de": "Strohdach-Haken"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GGC8F3",
+      "prefLabel": {
+        "de": "Zugeisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B463BC",
+      "prefLabel": {
+        "de": "Geisfuß"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BBG21D",
+      "prefLabel": {
+        "de": "Hohleisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DDC1DD",
+      "prefLabel": {
+        "de": "Kupferstecherwerkzeug"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/ADG3A6",
+      "prefLabel": {
+        "de": "Holzbearbeitungsgerät"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F8AC69",
+      "prefLabel": {
+        "de": "Locheisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FD2858",
+      "prefLabel": {
+        "de": "Bohrwinde"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GD38F7",
+      "prefLabel": {
+        "de": "Honigpresse"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C88A11",
+    "prefLabel": {
+      "de": "Werkzeug: Wortfeld"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik",
+      "title": {
+        "de": "Grobsystematik"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

@@ -1,0 +1,535 @@
+{
+  "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AA4GFD",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Statue - Figur"
+  },
+  "altLabel": {
+    "de": [
+      "Figur - Statue"
+    ]
+  },
+  "notation": [
+    "AA4GFD"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A29C73",
+      "prefLabel": {
+        "de": "Bronzestatuette"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A4F78A",
+      "prefLabel": {
+        "de": "Tonfigürchen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A544B7",
+      "prefLabel": {
+        "de": "Sandsteinfigur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A66B79",
+      "prefLabel": {
+        "de": "Alabasterfigur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A7885D",
+      "prefLabel": {
+        "de": "Kleinfigur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AF9489",
+      "prefLabel": {
+        "de": "Marienfigur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B34B59",
+      "prefLabel": {
+        "de": "Knaben-Tonfigürchen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B3C9GC",
+      "prefLabel": {
+        "de": "Gipsstatue"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B7A547",
+      "prefLabel": {
+        "de": "Stuckfigur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B85877",
+      "prefLabel": {
+        "de": "Predellafigur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B8B2GG",
+      "prefLabel": {
+        "de": "Zinnfigur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B8G193",
+      "prefLabel": {
+        "de": "Messingstatuette"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B8GB8A",
+      "prefLabel": {
+        "de": "Treppenfigur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B95FC1",
+      "prefLabel": {
+        "de": "Marmorfigur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BBD595",
+      "prefLabel": {
+        "de": "Porzellan-Gottheit"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BCDB41",
+      "prefLabel": {
+        "de": "Eichen-Statuette"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C136CD",
+      "prefLabel": {
+        "de": "Wurzel-Groteskfigur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C1G835",
+      "prefLabel": {
+        "de": "Gips-Figur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C2B941",
+      "prefLabel": {
+        "de": "Bronze-Figur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C2D673",
+      "prefLabel": {
+        "de": "Steinfigur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C498A7",
+      "prefLabel": {
+        "de": "Holzstatuette"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C4G963",
+      "prefLabel": {
+        "de": "Figurensockel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C51FDG",
+      "prefLabel": {
+        "de": "Elfenbein-Straßenhändler"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C749D3",
+      "prefLabel": {
+        "de": "Engelputto"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CA954B",
+      "prefLabel": {
+        "de": "Blechstatuette"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CGB1AB",
+      "prefLabel": {
+        "de": "Gewandfigur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D1371C",
+      "prefLabel": {
+        "de": "Holzfigur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D271A3",
+      "prefLabel": {
+        "de": "Bischofsstatuette"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D2F7AA",
+      "prefLabel": {
+        "de": "Madonnenfigur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D33793",
+      "prefLabel": {
+        "de": "Statuette"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D44A64",
+      "prefLabel": {
+        "de": "Steingußfigur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D64DAD",
+      "prefLabel": {
+        "de": "Soldatenfigur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D6C4GF",
+      "prefLabel": {
+        "de": "Gips-Maria-Kevelaer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D887G1",
+      "prefLabel": {
+        "de": "Porzellanfigur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D9A8D6",
+      "prefLabel": {
+        "de": "Gipsstatuette"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DB2432",
+      "prefLabel": {
+        "de": "Terrakotta-Venusstatuette"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DDC6GF",
+      "prefLabel": {
+        "de": "Stuckstatuette"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DG3842",
+      "prefLabel": {
+        "de": "Eisenfigur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F16138",
+      "prefLabel": {
+        "de": "Madonnenstatuette"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F422A3",
+      "prefLabel": {
+        "de": "Wachsfigur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F5G9F6",
+      "prefLabel": {
+        "de": "Heiligenfigürchen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F6D212",
+      "prefLabel": {
+        "de": "Prophetenfigur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F725DC",
+      "prefLabel": {
+        "de": "Mondsichelmadonna-Statuette"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F8ADB2",
+      "prefLabel": {
+        "de": "Engelfigur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FAC42F",
+      "prefLabel": {
+        "de": "Eisengußstatuette"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FDAB8D",
+      "prefLabel": {
+        "de": "Tonstatuette"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FF25D3",
+      "prefLabel": {
+        "de": "Holzstatue"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FG6BDA",
+      "prefLabel": {
+        "de": "Ton-Figur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G28FAD",
+      "prefLabel": {
+        "de": "Christusfigur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G4AF4A",
+      "prefLabel": {
+        "de": "Krippenfigur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G4F444",
+      "prefLabel": {
+        "de": "Keramikfigur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G7135C",
+      "prefLabel": {
+        "de": "Porzellanstatuette"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G967B8",
+      "prefLabel": {
+        "de": "Porzellanmadonna"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C4F4B6",
+      "prefLabel": {
+        "de": "Relieffigur"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GBDD3D",
+    "prefLabel": {
+      "de": "Plastik - Skulptur"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik",
+      "title": {
+        "de": "Grobsystematik"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

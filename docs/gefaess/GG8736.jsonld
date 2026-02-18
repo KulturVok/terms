@@ -1,0 +1,491 @@
+{
+  "id": "https://www.w3id.org/KulturVok/terms/gefaess/GG8736",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Becher"
+  },
+  "notation": [
+    "GG8736"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/A57723",
+      "prefLabel": {
+        "de": "Akeleipokal"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/AD8C9F",
+      "prefLabel": {
+        "de": "Stangenglas"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/ADA137",
+      "prefLabel": {
+        "de": "Nautiluspokal"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/ADFC1F",
+      "prefLabel": {
+        "de": "Bock(bier)glas"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/AFB412",
+      "prefLabel": {
+        "de": "Kelch-Pokal"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/B3BC3B",
+      "prefLabel": {
+        "de": "Eisenbahnerglas"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/B415F9",
+      "prefLabel": {
+        "de": "Schlangenhautbecher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/BA16D9",
+      "prefLabel": {
+        "de": "Rockenbecher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/BBD182",
+      "prefLabel": {
+        "de": "Humpen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/BGBG8F",
+      "prefLabel": {
+        "de": "Warzenbecher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/C271G6",
+      "prefLabel": {
+        "de": "Ranftbecher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/C9618G",
+      "prefLabel": {
+        "de": "Schnapsglas"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/CA788A",
+      "prefLabel": {
+        "de": "Krautstrunk"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/CG92F4",
+      "prefLabel": {
+        "de": "Spechter"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/D32687",
+      "prefLabel": {
+        "de": "Ringelbecher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/D484GA",
+      "prefLabel": {
+        "de": "Probierglas"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/D4DD53",
+      "prefLabel": {
+        "de": "Pokal-Römer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/D68D83",
+      "prefLabel": {
+        "de": "Häufebecher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/D7381A",
+      "prefLabel": {
+        "de": "Scheuer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/D7F515",
+      "prefLabel": {
+        "de": "Kumme"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/DDGBB8",
+      "prefLabel": {
+        "de": "Ölglas"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/F1119F",
+      "prefLabel": {
+        "de": "Schalenbecher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/F1895G",
+      "prefLabel": {
+        "de": "Eisbecher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/F39B1B",
+      "prefLabel": {
+        "de": "Andenkenbecher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/F4589F",
+      "prefLabel": {
+        "de": "Nuppenbecher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/F67A42",
+      "prefLabel": {
+        "de": "Flügelglas"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/F694C2",
+      "prefLabel": {
+        "de": "Eierbecher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/BG72A4",
+      "prefLabel": {
+        "de": "Rippenbecher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/F7D14D",
+      "prefLabel": {
+        "de": "Badebecher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/F7G18G",
+      "prefLabel": {
+        "de": "Krause"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/F858FC",
+      "prefLabel": {
+        "de": "Berkemeyer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/G22G3F",
+      "prefLabel": {
+        "de": "Fadenbecher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/G565FF",
+      "prefLabel": {
+        "de": "Daumenbecher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/G577D6",
+      "prefLabel": {
+        "de": "Paßglas"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/G5F9D8",
+      "prefLabel": {
+        "de": "Kopf"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/G62D52",
+      "prefLabel": {
+        "de": "Vierpaßbecher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/G8F8G4",
+      "prefLabel": {
+        "de": "Trichter(hals)becher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/B91GDB",
+      "prefLabel": {
+        "de": "Taumler"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/DF2BC1",
+      "prefLabel": {
+        "de": "Sturzbecher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/C46C3A",
+      "prefLabel": {
+        "de": "Koppchen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/D87G33",
+      "prefLabel": {
+        "de": "Daubenbecher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/DA5BGB",
+      "prefLabel": {
+        "de": "Rüsselbecher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/F28BB7",
+      "prefLabel": {
+        "de": "Sektflöte"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/DAD2D7",
+      "prefLabel": {
+        "de": "Stielbecher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/F67BG2",
+      "prefLabel": {
+        "de": "Sektkelch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/F8FG2F",
+      "prefLabel": {
+        "de": "Fußbecher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/GB874A",
+      "prefLabel": {
+        "de": "Kakaobecher"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://www.w3id.org/KulturVok/terms/gefaess/F764BC",
+    "prefLabel": {
+      "de": "Gefäß"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess",
+      "title": {
+        "de": "Gefäßtypologie"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess"
+    }
+  ],
+  "creator": [
+    "Landesstelle für die nichtstaatlichen Museen in Bayern"
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

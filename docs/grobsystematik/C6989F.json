@@ -1,0 +1,481 @@
+{
+  "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C6989F",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Körperpflege und Hygiene"
+  },
+  "altLabel": {
+    "de": [
+      "Pflege und Hygiene (Körper-), Hygiene (Körperpflege und)"
+    ]
+  },
+  "notation": [
+    "C6989F"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A4C726",
+      "prefLabel": {
+        "de": "Ondulierscherenöfchen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A5D2B5",
+      "prefLabel": {
+        "de": "Rasierpinsel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A7487A",
+      "prefLabel": {
+        "de": "Salbentöpfchen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A77C17",
+      "prefLabel": {
+        "de": "Waschgeschirr"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B37427",
+      "prefLabel": {
+        "de": "Rasierspiegel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B71FFB",
+      "prefLabel": {
+        "de": "Steingut-Seifenschale"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B92A36",
+      "prefLabel": {
+        "de": "Rasiermesser"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B97BG6",
+      "prefLabel": {
+        "de": "Steingut-Waschgarnitur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BA3F28",
+      "prefLabel": {
+        "de": "Nagelreiniger-Set"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BC6D5C",
+      "prefLabel": {
+        "de": "Rasiermesser-Abziehriemen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BD9587",
+      "prefLabel": {
+        "de": "Rasierschale"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BG38G8",
+      "prefLabel": {
+        "de": "Rasierschaumdose"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BG6D4D",
+      "prefLabel": {
+        "de": "Lockenschere"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C2B54C",
+      "prefLabel": {
+        "de": "Salbentopf"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C2DABG",
+      "prefLabel": {
+        "de": "Salbflasche"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C3727G",
+      "prefLabel": {
+        "de": "Lavabo"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C38A25",
+      "prefLabel": {
+        "de": "Rasiermesseretui"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C599G7",
+      "prefLabel": {
+        "de": "Säuglings-Leibwickel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C8GDAB",
+      "prefLabel": {
+        "de": "Handwaschgerät"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CA81B5",
+      "prefLabel": {
+        "de": "Onduliereisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CFF5BC",
+      "prefLabel": {
+        "de": "Reiseparfumerie"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D4G952",
+      "prefLabel": {
+        "de": "Ton-Salbentöpfchen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D6812F",
+      "prefLabel": {
+        "de": "Steingut-Waschschüssel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D6AB8C",
+      "prefLabel": {
+        "de": "Reisenecessaire"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DA471B",
+      "prefLabel": {
+        "de": "Rasiernapf"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DC1131",
+      "prefLabel": {
+        "de": "Steingut-Wasserkanne"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DCC9G3",
+      "prefLabel": {
+        "de": "Waschgarniturteil"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F22ABG",
+      "prefLabel": {
+        "de": "Riechfläschchen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F3DDCG",
+      "prefLabel": {
+        "de": "Salbfläschchen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F7CC34",
+      "prefLabel": {
+        "de": "Windel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FD98F8",
+      "prefLabel": {
+        "de": "Säuglings-Nabelbinde"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FDD1D3",
+      "prefLabel": {
+        "de": "Steingut-Kammschale"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FF7536",
+      "prefLabel": {
+        "de": "Waschkanne"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G1558B",
+      "prefLabel": {
+        "de": "Salbgefäß"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G327FB",
+      "prefLabel": {
+        "de": "Waschschüssel (Gerichtsgefängnis)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G3B47C",
+      "prefLabel": {
+        "de": "Konsole mit Einsätzen für Soda, Sand, Seife"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G3F576",
+      "prefLabel": {
+        "de": "Waschgarnitur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G4FADF",
+      "prefLabel": {
+        "de": "Biberstoff-Nabelwickel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G4GD2F",
+      "prefLabel": {
+        "de": "Fayence-Spucknapf"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G632D6",
+      "prefLabel": {
+        "de": "Rasierpinselschale"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G8A6DG",
+      "prefLabel": {
+        "de": "Ondulierschere"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GC3F4D",
+      "prefLabel": {
+        "de": "Waschschüssel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GD983G",
+      "prefLabel": {
+        "de": "Porzellan-Waschtischgarnitur"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GF4686",
+      "prefLabel": {
+        "de": "Fayence-Lavoir"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G34GD6",
+      "prefLabel": {
+        "de": "Haarschneidegerät"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G34972",
+    "prefLabel": {
+      "de": "Sachgüter des täglichen Bedarfs"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik",
+      "title": {
+        "de": "Grobsystematik"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

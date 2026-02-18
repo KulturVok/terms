@@ -1,0 +1,331 @@
+{
+  "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GC9413",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Gewebe - Stoffe - Tücher"
+  },
+  "altLabel": {
+    "de": [
+      "Stoffe - Tücher - Gewebe, Tücher - Gewebe - Stoffe"
+    ]
+  },
+  "notation": [
+    "GC9413"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A43CDF",
+      "prefLabel": {
+        "de": "Gobelin"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A5A325",
+      "prefLabel": {
+        "de": "Stoffstück"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A88331",
+      "prefLabel": {
+        "de": "Stoffrest"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/ADGC64",
+      "prefLabel": {
+        "de": "Leinenrolle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B5292F",
+      "prefLabel": {
+        "de": "Tuch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B63F71",
+      "prefLabel": {
+        "de": "Einschlagtuch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B78A45",
+      "prefLabel": {
+        "de": "Ziertuch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B81B71",
+      "prefLabel": {
+        "de": "Stoffbahn"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B9D3GB",
+      "prefLabel": {
+        "de": "Leinentuch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BA1811",
+      "prefLabel": {
+        "de": "Batisttuch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BA9BF8",
+      "prefLabel": {
+        "de": "Filzlappen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D18122",
+      "prefLabel": {
+        "de": "Leinenstoff"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D46391",
+      "prefLabel": {
+        "de": "Baumwollstoff"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D5GB16",
+      "prefLabel": {
+        "de": "Stoffstreifen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D89FB2",
+      "prefLabel": {
+        "de": "Vorhangstoff"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F7BCB7",
+      "prefLabel": {
+        "de": "Stoff, bestickt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F8376D",
+      "prefLabel": {
+        "de": "Baumwolltuch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F93F1F",
+      "prefLabel": {
+        "de": "Leinen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F9B6G3",
+      "prefLabel": {
+        "de": "Brokatstoffstück"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DD318F",
+      "prefLabel": {
+        "de": "Gardinenbahn"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G6DGG1",
+    "prefLabel": {
+      "de": "Textilien"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik",
+      "title": {
+        "de": "Grobsystematik"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

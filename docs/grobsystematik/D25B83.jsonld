@@ -1,0 +1,740 @@
+{
+  "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D25B83",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Graphik: Techniken"
+  },
+  "notation": [
+    "D25B83"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C5GA89",
+      "prefLabel": {
+        "de": "Zeichnung"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A2984C",
+      "prefLabel": {
+        "de": "Andruck"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A39F6A",
+      "prefLabel": {
+        "de": "Farbdruck"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A3FDC5",
+      "prefLabel": {
+        "de": "Chromolithographie"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A6C2DB",
+      "prefLabel": {
+        "de": "Linoldruck"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A7B4B2",
+      "prefLabel": {
+        "de": "Holzschnitt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A7DAF8",
+      "prefLabel": {
+        "de": "Skizzenbuch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A7GGD1",
+      "prefLabel": {
+        "de": "Bleistiftskizze"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A934C4",
+      "prefLabel": {
+        "de": "Radierung"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AA4ABB",
+      "prefLabel": {
+        "de": "Druckstock"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AAB7G6",
+      "prefLabel": {
+        "de": "Kunstdruck"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AC1628",
+      "prefLabel": {
+        "de": "Kaltnadelradierung"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/ACA5B4",
+      "prefLabel": {
+        "de": "Druckplatte"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AD737A",
+      "prefLabel": {
+        "de": "Tiefdruckpresse"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AF8784",
+      "prefLabel": {
+        "de": "Federskizze"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AFG4B3",
+      "prefLabel": {
+        "de": "Farb-Druckblatt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B19AD1",
+      "prefLabel": {
+        "de": "Ölskizze"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B2B67A",
+      "prefLabel": {
+        "de": "Abdruck"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B3G1BD",
+      "prefLabel": {
+        "de": "Holzschnitt-Druckstock"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B4BD24",
+      "prefLabel": {
+        "de": "Aqua Tinta"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B5B26B",
+      "prefLabel": {
+        "de": "Abzug"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B5DBG1",
+      "prefLabel": {
+        "de": "Lithografie"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B69239",
+      "prefLabel": {
+        "de": "Linoldruckstock"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B6A59D",
+      "prefLabel": {
+        "de": "Punktierkupferstich"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B77174",
+      "prefLabel": {
+        "de": "Messing-Druckstock"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B9D65A",
+      "prefLabel": {
+        "de": "Skizzenblock"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BA87A4",
+      "prefLabel": {
+        "de": "Gouache"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BAG2BG",
+      "prefLabel": {
+        "de": "Farbholzschnitt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BBD552",
+      "prefLabel": {
+        "de": "Farbkupferstich"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BFFC47",
+      "prefLabel": {
+        "de": "Holzschnitt-Druckblatt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C177DA",
+      "prefLabel": {
+        "de": "Schabkunst"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C1AAGF",
+      "prefLabel": {
+        "de": "Lithographie"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C288G1",
+      "prefLabel": {
+        "de": "Aquatinta"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C5G237",
+      "prefLabel": {
+        "de": "Farblithographie"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C6AFC1",
+      "prefLabel": {
+        "de": "Holzstich"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C81286",
+      "prefLabel": {
+        "de": "Druck"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C87226",
+      "prefLabel": {
+        "de": "Pinselskizze mit Farbstift"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C99CA3",
+      "prefLabel": {
+        "de": "Kupferstichblatt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C9A157",
+      "prefLabel": {
+        "de": "Heliogravure"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CA6D69",
+      "prefLabel": {
+        "de": "Lichtdruck"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CAF56D",
+      "prefLabel": {
+        "de": "Kupferdruckplatte"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CD77AB",
+      "prefLabel": {
+        "de": "Öldruck"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D246B5",
+      "prefLabel": {
+        "de": "Gummidruck"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D2G7B3",
+      "prefLabel": {
+        "de": "Studienskizze"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D4A1DC",
+      "prefLabel": {
+        "de": "Mezzotintoblatt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D7FBG9",
+      "prefLabel": {
+        "de": "Holzschnitt-Bild"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D936CC",
+      "prefLabel": {
+        "de": "Holzschnittblatt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D93A41",
+      "prefLabel": {
+        "de": "Bleistift-Kohle-Studienblatt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D948AD",
+      "prefLabel": {
+        "de": "Scherenschnitt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D96C63",
+      "prefLabel": {
+        "de": "Holz-Druckstock"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D9GC3G",
+      "prefLabel": {
+        "de": "Siebdruck"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DAAC12",
+      "prefLabel": {
+        "de": "Kugelschreiberzeichnung"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DB42D1",
+      "prefLabel": {
+        "de": "Kupferstich-Druckstock"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DC14G2",
+      "prefLabel": {
+        "de": "Fotografik"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F253AF",
+      "prefLabel": {
+        "de": "Textildruck"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F2CA83",
+      "prefLabel": {
+        "de": "Kreidelithographie"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F33556",
+      "prefLabel": {
+        "de": "Kupferdruck"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F5GD17",
+      "prefLabel": {
+        "de": "Galvanographie"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F7BDGF",
+      "prefLabel": {
+        "de": "Federlithographie"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F93AG9",
+      "prefLabel": {
+        "de": "Lacksiebdruck"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F94269",
+      "prefLabel": {
+        "de": "Fotodruck"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FA1AAB",
+      "prefLabel": {
+        "de": "Pastell"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FB2G45",
+      "prefLabel": {
+        "de": "Offsetdruck"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FBC8FC",
+      "prefLabel": {
+        "de": "Klischee"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FC38A9",
+      "prefLabel": {
+        "de": "Lithoblatt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FC4827",
+      "prefLabel": {
+        "de": "Kupferstich-Druckblatt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FD51DB",
+      "prefLabel": {
+        "de": "Naturskizze"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FFC629",
+      "prefLabel": {
+        "de": "Stich"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G3D185",
+      "prefLabel": {
+        "de": "Linolschnitt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G5FB8B",
+      "prefLabel": {
+        "de": "Holzdruck"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G6AG97",
+      "prefLabel": {
+        "de": "Steindruck"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G71535",
+      "prefLabel": {
+        "de": "Kupferstich"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G99442",
+      "prefLabel": {
+        "de": "Kreidestudie"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G99GB4",
+      "prefLabel": {
+        "de": "Pinselskizze"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GA1DC4",
+      "prefLabel": {
+        "de": "Ölpastell"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GA4D81",
+      "prefLabel": {
+        "de": "Fotomontage"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GB5431",
+      "prefLabel": {
+        "de": "Ornamentstich"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GC3961",
+      "prefLabel": {
+        "de": "Serigraphie"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GC89BC",
+      "prefLabel": {
+        "de": "Prägedruck"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GDCCG3",
+      "prefLabel": {
+        "de": "Druckgraphik"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GG96C4",
+      "prefLabel": {
+        "de": "Stahlstich"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A663G8",
+      "prefLabel": {
+        "de": "Aquarell"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B65F36",
+      "prefLabel": {
+        "de": "Skizzenheft"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C58BA9",
+      "prefLabel": {
+        "de": "Graphisches Blatt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D5B85D",
+      "prefLabel": {
+        "de": "Kunstdruckmappe"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D8GC58",
+      "prefLabel": {
+        "de": "Grafikreproduktion"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DDC1DD",
+      "prefLabel": {
+        "de": "Kupferstecherwerkzeug"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F93333",
+      "prefLabel": {
+        "de": "Druck auf Glas"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FA6AG9",
+      "prefLabel": {
+        "de": "Wachsflechte"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G6247G",
+    "prefLabel": {
+      "de": "Graphik - Malerei"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik",
+      "title": {
+        "de": "Grobsystematik"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

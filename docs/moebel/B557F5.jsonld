@@ -1,0 +1,426 @@
+{
+  "id": "https://www.w3id.org/KulturVok/terms/moebel/B557F5",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Tisch"
+  },
+  "definition": {
+    "de": "Der Tisch besteht aus einer horizontalen Platte, dem sogenannten Blatt, das von einem oder mehreren Tragelementen gehalten wird. Die Höhe variiert stil- und gebrauchsabhängig. Die Konstruktion von Tischen aus Kunststoffen, Keramik, Glas, Geflecht, Metallen, papier/Pappe und/oder Textil differiert zuweilen; diese Tische orientieren sich jedoch in der Regel an der tradierten Tisch-Form., Geschichte:, Schon seit der Antike ist der Tisch entweder als luxuriöser Repräsentationsgegenstand oder als schlichtes Gebrauchsobjekt bekannt., Die im Frühmittelalter und bis in die Renaissance hinein am häufigsten verbreitete Tischform war der Tafeltisch. Er wurde bei Bedarf auf- und abgebaut und bestand aus zwei Böcken, über die lose Bohlen oder Bretter gelegt wurden. Er war, wie man auf zeitgenössischen Bildern sehen kann, mit einem großen Tischtuch bedeckt, das gleichzeitig als Serviette diente., Der markante Kastentisch entwickelte sich in der Spätgotik; die italienische Renaissance brachte den auf einer meist säulenartigen Mittelstütze ruhenden Rundtisch hervor., Im 15. Jahrhundert entwickelte sich der Wangentisch. Im 16. Jahrhundert kamen verstärkt Zargentische in Gebrauch, deren Beine im süddeutschen Raum ein aus Italien übernommenes kantiges Profil weiweisen, in Norddeutschland hingegen die aus England stammende, aus Holland eingeführte Balusterform., Im 17. und 18. Jahrhundert waren neben dem schweren ausziehbaren Esstisch viele weitere, oftmals sehr zierliche Tischformen verbreitet. Neue Grundformen wurden nicht mehr entwickelt, sondern bestehende dem jeweils herrschenden Geschmack angepasst."
+  },
+  "notation": [
+    "B557F5"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/A12FF7",
+      "prefLabel": {
+        "de": "Teetisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/A14585",
+      "prefLabel": {
+        "de": "Salontisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/A276G1",
+      "prefLabel": {
+        "de": "Telefontisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/A3A1BA",
+      "prefLabel": {
+        "de": "Küchentisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/AACC81",
+      "prefLabel": {
+        "de": "Nähtisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/D92A9B",
+      "prefLabel": {
+        "de": "Kastentisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/C88C8C",
+      "prefLabel": {
+        "de": "Wandtisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/AF2G8D",
+      "prefLabel": {
+        "de": "Spieltisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/DBDA1B",
+      "prefLabel": {
+        "de": "Säulentisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/B3C9AB",
+      "prefLabel": {
+        "de": "Treppentisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/B58484",
+      "prefLabel": {
+        "de": "Bocktisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/BB6BA5",
+      "prefLabel": {
+        "de": "Putztisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/BG2D88",
+      "prefLabel": {
+        "de": "Wangentisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/C2653G",
+      "prefLabel": {
+        "de": "Taschenleerer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/C47578",
+      "prefLabel": {
+        "de": "Schranktisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/CB2G8G",
+      "prefLabel": {
+        "de": "Etagerentisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/CGF644",
+      "prefLabel": {
+        "de": "Wohnzimmertisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/D22634",
+      "prefLabel": {
+        "de": "Ziertisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/D5B4G1",
+      "prefLabel": {
+        "de": "Stubentisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/D6356B",
+      "prefLabel": {
+        "de": "Verwandlungstisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/D9D8F6",
+      "prefLabel": {
+        "de": "Speisetisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/DF612B",
+      "prefLabel": {
+        "de": "Halbtisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/F74D2F",
+      "prefLabel": {
+        "de": "Couchtisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/F8C6A8",
+      "prefLabel": {
+        "de": "Esstisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/FD9FFA",
+      "prefLabel": {
+        "de": "Beistelltisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/FG233D",
+      "prefLabel": {
+        "de": "Visitenkartentisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/G385D6",
+      "prefLabel": {
+        "de": "Ablagetisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/G513G2",
+      "prefLabel": {
+        "de": "Rundtisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/G86B1A",
+      "prefLabel": {
+        "de": "Nierentisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/G88DG8",
+      "prefLabel": {
+        "de": "Toilettentisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/C1AG1A",
+      "prefLabel": {
+        "de": "Klapptisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/GC8625",
+      "prefLabel": {
+        "de": "Pfostentisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/GD57CD",
+      "prefLabel": {
+        "de": "Satztisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/GD59F3",
+      "prefLabel": {
+        "de": "Prunktisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/F2BA2B",
+      "prefLabel": {
+        "de": "Zargentisch"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://www.w3id.org/KulturVok/terms/moebel/F5A2F4",
+    "prefLabel": {
+      "de": "Ablage"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel",
+      "title": {
+        "de": "Möbeltypologie"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel"
+    }
+  ],
+  "creator": [
+    "Böth, Gitta",
+    "Hartmann, Manfred",
+    "Kleebaum, Bernd",
+    "Nickel, Susanne",
+    "Pröstler, Viktor"
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

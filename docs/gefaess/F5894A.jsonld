@@ -1,0 +1,362 @@
+{
+  "id": "https://www.w3id.org/KulturVok/terms/gefaess/F5894A",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Schale"
+  },
+  "definition": {
+    "de": "Die Schale ist im Gegensatz zur (->) Schüssel häufig ohne abgesetzten Rand bzw. Fahne und zeigt meist wenig differenzierte Übergänge der einzelnen Gefäßzonen (Randzone, Wandung, Mulde). Im Vergleich zur Schüssel häufig geringere Höhenmaße. Gleitende Übergänge zu Teller- und Schüsselformen erschweren eine exakte Gruppierung. Große regionale Unterschiede finden sich bei der mundartlichen Benennung ., Regional und in vielen Firmenkatalogen/-preislisten werden viele flache (->) Teller und (->) Schüsselformen auch als Schalen bezeichnet., Eine Unterteilung nach bauchiger, konischer, flacher und tiefer Schale erscheint wegen der gleitenden Übergänge bei der Inventarisation ohne die bisher fehlende Normvorgabe nicht zur Differenzierung geeignet., Proportionen: Die Gefäßhöhe H ist durchweg deutlich kleiner als der Mündungsdurchmesser D: H µ D, Hauptfunktion: Nahrungszubereitung, Speisen, Präsentieren"
+  },
+  "notation": [
+    "F5894A"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/A246BC",
+      "prefLabel": {
+        "de": "Öllampe"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/A3DD32",
+      "prefLabel": {
+        "de": "Rasierschale"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/A913D2",
+      "prefLabel": {
+        "de": "Ohrenschale"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/AB8733",
+      "prefLabel": {
+        "de": "Blumenschale"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/B2A6G5",
+      "prefLabel": {
+        "de": "Barbierbecken"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/B6FA2G",
+      "prefLabel": {
+        "de": "Tropfschale"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/B88B8C",
+      "prefLabel": {
+        "de": "Saladier"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/G79237",
+      "prefLabel": {
+        "de": "Scheuer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/C233F7",
+      "prefLabel": {
+        "de": "Augenbadewanne"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/C328C1",
+      "prefLabel": {
+        "de": "Gitterschale"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/C34G4F",
+      "prefLabel": {
+        "de": "Jardiniere"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/CFDF4B",
+      "prefLabel": {
+        "de": "Schöpfkelle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/D35C67",
+      "prefLabel": {
+        "de": "Blumenampel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/D5D486",
+      "prefLabel": {
+        "de": "Käseglocke"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/DC8413",
+      "prefLabel": {
+        "de": "Fruchtschale"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/D5938B",
+      "prefLabel": {
+        "de": "Fußschale"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/F47497",
+      "prefLabel": {
+        "de": "Futternapf"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/F83F6D",
+      "prefLabel": {
+        "de": "Aschenbecher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/CFDAC6",
+      "prefLabel": {
+        "de": "Seifenschale"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/A42G65",
+      "prefLabel": {
+        "de": "Buckelschale"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/B7DCA7",
+      "prefLabel": {
+        "de": "Napf"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/C593B8",
+      "prefLabel": {
+        "de": "Kumme"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/C2C7DD",
+      "prefLabel": {
+        "de": "Maigelein"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/CF5FA9",
+      "prefLabel": {
+        "de": "Koppchen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/F41A88",
+      "prefLabel": {
+        "de": "Fächerschale"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://www.w3id.org/KulturVok/terms/gefaess/F764BC",
+    "prefLabel": {
+      "de": "Gefäß"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess",
+      "title": {
+        "de": "Gefäßtypologie"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess"
+    }
+  ],
+  "creator": [
+    "Landesstelle für die nichtstaatlichen Museen in Bayern"
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

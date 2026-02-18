@@ -1,0 +1,604 @@
+{
+  "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GCA87G",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Mangel-, Bügel-, Waschgerät"
+  },
+  "notation": [
+    "GCA87G"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D95D79",
+      "prefLabel": {
+        "de": "Mangel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A15C44",
+      "prefLabel": {
+        "de": "Wäscheschleuder"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A334B8",
+      "prefLabel": {
+        "de": "Manschettenbügeleisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A38C2B",
+      "prefLabel": {
+        "de": "Waschkübel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A4FG2C",
+      "prefLabel": {
+        "de": "Wäscheklöppel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A693CG",
+      "prefLabel": {
+        "de": "Wäschehalter"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A73616",
+      "prefLabel": {
+        "de": "Holzkohlebügeleisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AA5GD1",
+      "prefLabel": {
+        "de": "Bügeleisenuntersatz"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AA89C6",
+      "prefLabel": {
+        "de": "Wäscheschaukel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/ABD2G2",
+      "prefLabel": {
+        "de": "Mangelrolle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AFB641",
+      "prefLabel": {
+        "de": "Bügeleisenofen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AFCA99",
+      "prefLabel": {
+        "de": "Bügeleisen (Bolzeneisen)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AG2ADG",
+      "prefLabel": {
+        "de": "Reisebügeleisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AGA7FB",
+      "prefLabel": {
+        "de": "Kleinbügeleisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B173DB",
+      "prefLabel": {
+        "de": "Plätter"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B692G1",
+      "prefLabel": {
+        "de": "Waschtrog"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B7687A",
+      "prefLabel": {
+        "de": "Rolltuch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B7FAFD",
+      "prefLabel": {
+        "de": "Wäschepresse"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BD222C",
+      "prefLabel": {
+        "de": "Bügeleisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BG5965",
+      "prefLabel": {
+        "de": "Plättbrett"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C2C558",
+      "prefLabel": {
+        "de": "Wäscheknüppel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C3332B",
+      "prefLabel": {
+        "de": "Bügeleisen (mit Feuerbolzen)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C46FBG",
+      "prefLabel": {
+        "de": "Bügeleisen (Setzeisen)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C863AC",
+      "prefLabel": {
+        "de": "Bügeleisen, elektrisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CA4CA6",
+      "prefLabel": {
+        "de": "Wäschestampfer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CC4DA4",
+      "prefLabel": {
+        "de": "Messing-Bügeleisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CC59BF",
+      "prefLabel": {
+        "de": "Wäschekorb"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CD31CC",
+      "prefLabel": {
+        "de": "Bügeleisenbolzen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CD5CBB",
+      "prefLabel": {
+        "de": "Brett mit Handgriff"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D4D5AF",
+      "prefLabel": {
+        "de": "Bolzenbügeleisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D76485",
+      "prefLabel": {
+        "de": "Wäschebrett"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D7A745",
+      "prefLabel": {
+        "de": "Setzbügeleisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D8CF5F",
+      "prefLabel": {
+        "de": "Dampfbügeleisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DA68FC",
+      "prefLabel": {
+        "de": "Elektrobügeleisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DA9355",
+      "prefLabel": {
+        "de": "Tischmangel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DC29D7",
+      "prefLabel": {
+        "de": "Waschholz"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DCCC69",
+      "prefLabel": {
+        "de": "Kaltmangel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DF6F4C",
+      "prefLabel": {
+        "de": "Bügeleisen mit Feuerbolzen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DF839B",
+      "prefLabel": {
+        "de": "Wäschemangel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F1DD7A",
+      "prefLabel": {
+        "de": "Kohlebügeleisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F2B525",
+      "prefLabel": {
+        "de": "Mangelbrett"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F65FB7",
+      "prefLabel": {
+        "de": "Wäscheholz"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F812FF",
+      "prefLabel": {
+        "de": "Rolltuch (Wäsche mangeln)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FD35BA",
+      "prefLabel": {
+        "de": "Bleichlöffel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FD53C5",
+      "prefLabel": {
+        "de": "Schneidereisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FD913G",
+      "prefLabel": {
+        "de": "Schneiderbügeleisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G11A8A",
+      "prefLabel": {
+        "de": "Wäscheklopfer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G174DD",
+      "prefLabel": {
+        "de": "Waschzuber"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G44A65",
+      "prefLabel": {
+        "de": "Plätteisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G47122",
+      "prefLabel": {
+        "de": "Ärmelbügelbrett"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G4GBFG",
+      "prefLabel": {
+        "de": "Bügeleisen für Holzkohle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G76BC7",
+      "prefLabel": {
+        "de": "Ochsenzunge (Bolzenbügeleisen)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G82DCA",
+      "prefLabel": {
+        "de": "Glättholz"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G9B28A",
+      "prefLabel": {
+        "de": "Wäschestock"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GA6G58",
+      "prefLabel": {
+        "de": "Waschbottich"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GAC272",
+      "prefLabel": {
+        "de": "Holzkohlen-Bügeleisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GBC266",
+      "prefLabel": {
+        "de": "Tischwäschemangel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GDF38F",
+      "prefLabel": {
+        "de": "Herdbügeleisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GF9F67",
+      "prefLabel": {
+        "de": "Bolzenbügelgerät"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GG96C1",
+      "prefLabel": {
+        "de": "Bügeleiseneinsatz"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GGF456",
+      "prefLabel": {
+        "de": "Waschbrett"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CD6C39",
+      "prefLabel": {
+        "de": "Kinderbügeleisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D997B5",
+      "prefLabel": {
+        "de": "Bügeleisen (Puppenhaus)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DFF43C",
+      "prefLabel": {
+        "de": "Wäschewringermaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F493D6",
+      "prefLabel": {
+        "de": "Waschmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FGBG23",
+      "prefLabel": {
+        "de": "Wäschespülmaschine"
+      }
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik",
+      "title": {
+        "de": "Grobsystematik"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik",
+      "title": {
+        "de": "Grobsystematik"
+      }
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

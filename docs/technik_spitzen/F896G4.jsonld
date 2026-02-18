@@ -1,0 +1,334 @@
+{
+  "id": "https://www.w3id.org/KulturVok/terms/technik_spitzen/F896G4",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Technik der Herstellung von Spitzen und Stickereien"
+  },
+  "definition": {
+    "de": "Der Thesaurus für die Techniken zur Herstellung von Spitzen und Stickereien zeigt manuelle und maschinelle Techniken auf, die einzeln oder in verschiedenen Kombinationen letztendlich zu einer Spitze oder Stickerei führen, wie sie im Thesaurus für Spitzen und Stickereien aufgeführt sind., ---\"Spitze ist ein flächiger textiler Gegenstand in Form eines Ornaments, dessen Wirkung auf dem Durchscheinen des Hintergrundes durch die sich zwischen den Musterformen befindenden Öffnungen beruht.\" Sie kann auf vielerlei Weise hergestellt werden (geklöppelt, gehäkelt, genäht, ...), zum Teil benötigt sie Zusatztechniken, um dem Charakter der Spitze gerecht zu werden (ausgeschnitten, ausgezogen, ...). Maschinelle Herstellung ist möglich auf Wirkmaschine, Klöppelmaschine, Webmaschine und Stickmaschine, bei der letzteren mit den Zusatztechniken geätzt und gebohrt als Beispiel., ---Eine Stickerei hat geschlossenen Stoff als Voraussetzung, der mit Nadel und Faden verziert wird, wobei die Effekte einzeln oder in Zusammenwirkung von Sticharten, Fadenmaterial, Zusatzmaterialien und Durchbrüchen im Stoff erzielt werden. Handgearbeitete Stickerei entsteht durch Nachsticken mittels Nadel und Faden (Einfadensystem) eines vorher aufgebrachten Musters. Auch bei ihr können Zusatztechniken Verwendung finden, wie z.Bsp. ausgezogen, angezogen. Die Herstellung der Maschinenstickerei dagegen erfolgt im Einfadensystem auf Handstickmaschine und Kurbelstickmaschine oder im Zweifadensystem. auf Adlerstickmaschine, Mehrkopfautomat und Schiffchenstickmaschine. Dabei bilden ein Vorderfaden und ein Hinterfaden die Verbindung mit dem Stickboden. Beispiele für Zusatztechniken sind: ausgeschnitten und gebohrt., Darüber hinausführende Techniken der Ausrüstung und Nachbearbeitung, die nicht zur unmittelbar notwendigen Technik der Herstellung von Spitzen und Stickereien gehören, sind hier nicht aufgeführt. Diese Techniken beziehen sich auf Fehlerbehandlung, haben technologische Gründe oder versetzen das Produkt in einen optisch aufgewerteten Zustand. Beispiele hierfür sind: kontrolliert und ausgebessert, gewickelt und gezäckelt, gebleicht und gefärbt., Autorin dieser vorliegenden Erarbeitung ist Frau Helga Hartenstein, zu erreichen über das Vogtlandmuseum Plauen, Nobelstr. 9-13, 08529 Plauen."
+  },
+  "notation": [
+    "F896G4"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/technik_spitzen/A5D361",
+      "prefLabel": {
+        "de": "geklopft"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/technik_spitzen/A6C78D",
+      "prefLabel": {
+        "de": "gewirkt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/technik_spitzen/B51A84",
+      "prefLabel": {
+        "de": "geklöppelt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/technik_spitzen/AG5FB9",
+      "prefLabel": {
+        "de": "geätzt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/technik_spitzen/AGA7G6",
+      "prefLabel": {
+        "de": "genäht"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/technik_spitzen/GG7851",
+      "prefLabel": {
+        "de": "gestickt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/technik_spitzen/BB453D",
+      "prefLabel": {
+        "de": "genäht (Spitze)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/technik_spitzen/CFB1G9",
+      "prefLabel": {
+        "de": "tambouriert"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/technik_spitzen/CC115B",
+      "prefLabel": {
+        "de": "angezogen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/technik_spitzen/BG4BC7",
+      "prefLabel": {
+        "de": "aufgeschnitten"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/technik_spitzen/CGDCC8",
+      "prefLabel": {
+        "de": "durchgezogen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/technik_spitzen/D25A11",
+      "prefLabel": {
+        "de": "gebohrt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/technik_spitzen/D2C15G",
+      "prefLabel": {
+        "de": "gestopft"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/technik_spitzen/D5FA32",
+      "prefLabel": {
+        "de": "gestrickt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/technik_spitzen/DBGG6C",
+      "prefLabel": {
+        "de": "gehäkelt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/technik_spitzen/DCB8G5",
+      "prefLabel": {
+        "de": "ausgeschnitten"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/technik_spitzen/A968A3",
+      "prefLabel": {
+        "de": "geknüpft"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/technik_spitzen/FA57D9",
+      "prefLabel": {
+        "de": "gewebt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/technik_spitzen/G91C8C",
+      "prefLabel": {
+        "de": "gefüllt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/technik_spitzen/GB585A",
+      "prefLabel": {
+        "de": "ausgezogen"
+      }
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/technik_spitzen",
+      "title": {
+        "de": "Spitzentechnik-Systematik"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/technik_spitzen"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/technik_spitzen",
+      "title": {
+        "de": "Spitzentechnik-Systematik"
+      }
+    }
+  ],
+  "creator": [
+    "Sächsische Landesstelle für Museumswesen"
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

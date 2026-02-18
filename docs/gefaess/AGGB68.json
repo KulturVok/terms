@@ -1,0 +1,272 @@
+{
+  "id": "https://www.w3id.org/KulturVok/terms/gefaess/AGGB68",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Schüssel"
+  },
+  "definition": {
+    "de": "Die Schüssel hat meist gut unterscheidbare Gefäßzonen: Rand, Fahne, Wandung, Mulde/Spiegel, gegebenenfalls einen abgesetzten Fuß oder eine Fußzone. Zahlreiche gleitende Übergänge zu Schalen- und Tellerformen erschweren eine exakte Gruppierung. Große regionale Unterschiede liegen bei der mundartlichen Benennung vor ., Regional und in vielen Firmenkatalogen/-preislisten werden tiefe (->) Tellerformen und (->) Schalenformen auch als Schüssel bezeichnet., Eine Unterteilung nach bauchiger, konischer, flacher und tiefer Schüssel erscheint wegen der gleitenden Übergänge bei der Inventarisation ohne die bisher fehlende Normvorgabe nicht zur Differenzierung geeignet., Proportionen: Gefäßhöhe H zu Mündungsdurchmesser D: H µ D; vergleichbar (->) Schale., Hauptfunktion: Nahrungszubereitung (Lagern), Speisen, Präsentieren"
+  },
+  "notation": [
+    "AGGB68"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/ADD8GC",
+      "prefLabel": {
+        "de": "Doppelschüssel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/AD2F5F",
+      "prefLabel": {
+        "de": "Waschschüssel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/B4872A",
+      "prefLabel": {
+        "de": "Terrine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/CDD33A",
+      "prefLabel": {
+        "de": "Mohnreibschüssel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/D3627C",
+      "prefLabel": {
+        "de": "Beckenschlägerschüssel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/F6B73C",
+      "prefLabel": {
+        "de": "Weitling"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/G6GD72",
+      "prefLabel": {
+        "de": "Abrahmschüssel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/G764FF",
+      "prefLabel": {
+        "de": "Essenträger"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/G7658F",
+      "prefLabel": {
+        "de": "Siebschüssel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/C66FA8",
+      "prefLabel": {
+        "de": "Fächerschüssel"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://www.w3id.org/KulturVok/terms/gefaess/F764BC",
+    "prefLabel": {
+      "de": "Gefäß"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess",
+      "title": {
+        "de": "Gefäßtypologie"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess"
+    }
+  ],
+  "creator": [
+    "Landesstelle für die nichtstaatlichen Museen in Bayern"
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

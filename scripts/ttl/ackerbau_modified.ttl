@@ -2,17 +2,8 @@
 @prefix ex: <http://www.example.com/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
-<https://www.w3id.org/KulturVok/terms/ackerbau/F85D89> a skos:Concept ;
-    dct:created "1987-06-04" ;
-    dct:creator "Spengler, W. Eckehart" ;
-    dct:identifier "Geißfuß" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FAC125> ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
-    skos:notation "F85D89" ;
-    skos:prefLabel "Geißfuß"@de .
 
 <https://www.w3id.org/KulturVok/terms/ackerbau/A1176F> a skos:Concept ;
     dct:created "1987-06-04" ;
@@ -30,8 +21,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Eisenpflug mit Grubber" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Grubber (Eisenpflug mit)"@de,
-        "Pflug mit Grubber (Eisen-)"@de ;
+    skos:altLabel "Pflug mit Grubber (Eisen-), Grubber (Eisenpflug mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/B8B9F7> ;
     skos:editorialNote "S 38/39, T 15a"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -54,8 +44,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Plaggengaffel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Gaffel (Plaggen-)"@de,
-        "Heidekrautgabel"@de ;
+    skos:altLabel "Heidekrautgabel, Gaffel (Plaggen-)"@de ;
     skos:editorialNote "H 192, T 81/5"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "A16787" ;
@@ -66,8 +55,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Gänsefittich (Getreidereinigung)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Fittich (Getreidereinigung)"@de,
-        "Fittich (Gänse-, Getreidereinigung)"@de ;
+    skos:altLabel "Fittich (Getreidereinigung), Fittich (Gänse-, Getreidereinigung)"@de ;
     skos:editorialNote "H 194/2"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "A17156" ;
@@ -136,8 +124,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Bullenführungsstab" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Führungsstab (Bullen-)"@de,
-        "Stab (Bullenführungs-)"@de ;
+    skos:altLabel "Führungsstab (Bullen-), Stab (Bullenführungs-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A6263F> ;
     skos:editorialNote "S 127, T 68"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -149,8 +136,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Getreidepackmühle" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Mühle (Getreidepack-)"@de,
-        "Packmühle (Getreide-)"@de ;
+    skos:altLabel "Packmühle (Getreide-), Mühle (Getreidepack-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FC7716> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "A1FDFD" ;
@@ -195,9 +181,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Zahnrundstahlhobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Zahnrundstahl-)"@de,
-        "Rundstahlhobel (Zahn-)"@de,
-        "Stahlhobel (Zahnrund-)"@de ;
+    skos:altLabel "Rundstahlhobel (Zahn-), Stahlhobel (Zahnrund-), Hobel (Zahnrundstahl-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FCGA82> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "A2817C" ;
@@ -229,8 +213,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kurzsense als Einzelgerät" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Einzelgerät (Kurzsense als)"@de,
-        "Sense als Einzelgerät (Kurz-)"@de ;
+    skos:altLabel "Sense als Einzelgerät (Kurz-), Einzelgerät (Kurzsense als)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C5AA6G> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "A291F6" ;
@@ -298,10 +281,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Vorschneidemesser (Karrenpflug)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Lenguisen (Karrenpflug)"@de,
-        "Messer (Vorschneide-, Karrenpflug)"@de,
-        "Schneidemesser (Vor-, Karrenpflug)"@de,
-        "Vorschnier (Karrenpflug)"@de ;
+    skos:altLabel "Lenguisen (Karrenpflug), Vorschnier (Karrenpflug), Schneidemesser (Vor-, Karrenpflug), Messer (Vorschneide-, Karrenpflug)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A398AF> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "A35FC6" ;
@@ -368,9 +348,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schüllegaffel aus einer Astgabel (Dresch-Zusatzgerät)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Astgabel (Schüllegaffel aus einer, Dresch-Zusatzgerät)"@de,
-        "Gaffel aus einer Astgabel (Schülle-, Dresch-Zusatzgerät)"@de,
-        "Schollengabel (Dresch-Zusatzgerät)"@de ;
+    skos:altLabel "Schollengabel (Dresch-Zusatzgerät), Gaffel aus einer Astgabel (Schülle-, Dresch-Zusatzgerät), Astgabel (Schüllegaffel aus einer, Dresch-Zusatzgerät)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "A3D85D" ;
     skos:prefLabel "Schüllegaffel aus einer Astgabel (Dresch-Zusatzgerät)"@de .
@@ -380,9 +358,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Gesimshohlkehlhobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Gesimshohlkehl-)"@de,
-        "Hohlkehlhobel (Gesims-)"@de,
-        "Kehlhobel (Gesimshohl-)"@de ;
+    skos:altLabel "Hohlkehlhobel (Gesims-), Kehlhobel (Gesimshohl-), Hobel (Gesimshohlkehl-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FCGA82> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "A3DDC2" ;
@@ -404,8 +380,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Dreiecksägefeile" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Feile (Dreiecksäge-)"@de,
-        "Sägefeile (Dreieck-)"@de ;
+    skos:altLabel "Sägefeile (Dreieck-), Feile (Dreiecksäge-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C15733> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "A3FGC2" ;
@@ -461,8 +436,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kehlhobel mit Messingsohlen" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel mit Messingsohlen (Kehl-)"@de,
-        "Messingsohlen (Kehlhobel mit)"@de ;
+    skos:altLabel "Hobel mit Messingsohlen (Kehl-), Messingsohlen (Kehlhobel mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A4CG3F> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "A4F5DC" ;
@@ -496,8 +470,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Dreschlaternen (Dresch-Zusatzgerät)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Deskellüchten (Dresch-Zusatzgerät)"@de,
-        "Laternen (Dresch-, Dresch-Zusatzgerät)"@de ;
+    skos:altLabel "Deskellüchten (Dresch-Zusatzgerät), Laternen (Dresch-, Dresch-Zusatzgerät)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/F3FGA1> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "A4GF57" ;
@@ -565,8 +538,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Moorschuhe für Pferde" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Pferde (Moorschuhe für)"@de,
-        "Schuhe für Pferde (Moor-)"@de ;
+    skos:altLabel "Schuhe für Pferde (Moor-), Pferde (Moorschuhe für)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A6263F> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "A56AG3" ;
@@ -588,8 +560,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kartoffelpflug mit Pflugkarren" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Pflug mit Pflugkarren (Kartoffel-)"@de,
-        "Pflugkarren (Kartoffelpflug mit)"@de ;
+    skos:altLabel "Pflug mit Pflugkarren (Kartoffel-), Pflugkarren (Kartoffelpflug mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C1B27B> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "A586GG" ;
@@ -772,9 +743,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kornwanne (Getreidereinigung)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kawwernwann"@de,
-        "Wann"@de,
-        "Wanne (Korn-, Getreidereinigung)"@de ;
+    skos:altLabel "Kawwernwann, Wann, Wanne (Korn-, Getreidereinigung)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FG79F7> ;
     skos:editorialNote "H 194, T 82 &amp; S 83/84, T 41/1"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -786,8 +755,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Hanfgurtzuggeschirr" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Geschirr (Hanfgurtzug-)"@de,
-        "Zuggeschirr (Hanfgurt-)"@de ;
+    skos:altLabel "Zuggeschirr (Hanfgurt-), Geschirr (Hanfgurtzug-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A6G4BA> ;
     skos:editorialNote "S 120/121, T 62"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -835,8 +803,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Mathaken" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Haken (Mat-)"@de,
-        "Mahdhaken"@de ;
+    skos:altLabel "Mahdhaken, Haken (Mat-)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "A762AC" ;
     skos:prefLabel "Mathaken"@de .
@@ -857,8 +824,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Heckelbaum" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Baum (Heckel-)"@de,
-        "Sensenbaum"@de ;
+    skos:altLabel "Sensenbaum, Baum (Heckel-)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "A7A188" ;
     skos:prefLabel "Heckelbaum"@de .
@@ -901,15 +867,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Wetzsteinbehälter" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Behälter (Wetzstein-)"@de,
-        "Köcher (Wetzgerät)"@de,
-        "Schlockpott (Wetzgerät)"@de,
-        "Schlockpott, Holzgebinde mit Weidenreifen (Wetzgerät)"@de,
-        "Schlucker (Wetzgerät)"@de,
-        "Schluckpott (Wetzgerät)"@de,
-        "Schluderpott (Wetzgerät)"@de,
-        "Sluderfaß (Wetzgerät)"@de,
-        "Wetzsteingefäß"@de ;
+    skos:altLabel "Köcher (Wetzgerät), Schlockpott (Wetzgerät), Schlockpott, Holzgebinde mit Weidenreifen (Wetzgerät), Schlucker (Wetzgerät), Schluckpott (Wetzgerät), Schluderpott (Wetzgerät), Sluderfaß (Wetzgerät), Wetzsteingefäß, Behälter (Wetzstein-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/BCGAA5> ;
     skos:editorialNote "S 56/57, T 25"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -921,11 +879,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Dreschbock" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bock (Dresch-)"@de,
-        "Dreschklotz"@de,
-        "Raffel (Dreschgerät)"@de,
-        "Riepe (Dreschgerät)"@de,
-        "Riffel (Dreschgerät)"@de ;
+    skos:altLabel "Dreschklotz, Raffel (Dreschgerät), Riepe (Dreschgerät), Riffel (Dreschgerät), Bock (Dresch-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FD8D73> ;
     skos:editorialNote "S 71 f., T 34/4"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -993,8 +947,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Flechtenwagen" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kastenwagen"@de,
-        "Wagen (Flechten-)"@de ;
+    skos:altLabel "Kastenwagen, Wagen (Flechten-)"@de ;
     skos:editorialNote "H 136, T 53/2"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "A88FD9" ;
@@ -1028,8 +981,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Gänsefuß" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Gausefoot"@de,
-        "Porter"@de ;
+    skos:altLabel "Gausefoot, Porter"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/B8B9F7> ;
     skos:editorialNote "H 166 &amp; S 44/45, T 68/11 &amp; S 38/39/15a"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -1064,8 +1016,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Metallsäge mit Eisenbogen" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Eisenbogen (Metallsäge mit)"@de,
-        "Säge mit Eisenbogen (Metall-)"@de ;
+    skos:altLabel "Säge mit Eisenbogen (Metall-), Eisenbogen (Metallsäge mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C7D468> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "A917GB" ;
@@ -1076,8 +1027,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Leiterwagen" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Ledderwagen"@de,
-        "Wagen (Leiter-)"@de ;
+    skos:altLabel "Ledderwagen, Wagen (Leiter-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/AG9361> ;
     skos:editorialNote "H 136, T 53/1"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -1121,8 +1071,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Ledderwagen" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Leiterwagen"@de,
-        "Wagen (Ledder-)"@de ;
+    skos:altLabel "Leiterwagen, Wagen (Ledder-)"@de ;
     skos:editorialNote "H 136, T 53/1"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "A95D97" ;
@@ -1144,8 +1093,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Flegelknüppel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Knüppel (Flegel-)"@de,
-        "Schlegel (Dreschflegel)"@de ;
+    skos:altLabel "Schlegel (Dreschflegel), Knüppel (Flegel-)"@de ;
     skos:editorialNote "H 182 &amp;$ S 71 f., T 34/35"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "A96ABG" ;
@@ -1156,13 +1104,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Mahdhaken" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bick"@de,
-        "Bickhook"@de,
-        "Haken (Mahd-)"@de,
-        "Mathaken"@de,
-        "Matthaken"@de,
-        "Pick, zweizinkig"@de,
-        "Pickhook, zweizinkig"@de ;
+    skos:altLabel "Bick, Bickhook, Mathaken, Matthaken, Pick, zweizinkig, Pickhook, zweizinkig, Haken (Mahd-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/CC6651> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "A9AC78" ;
@@ -1195,8 +1137,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Häufelpflug mit Pflugkarren" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Pflug mit Pflugkarren (Häufel-)"@de,
-        "Pflugkarren (Häufelpflug mit)"@de ;
+    skos:altLabel "Pflug mit Pflugkarren (Häufel-), Pflugkarren (Häufelpflug mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/B8B9F7> ;
     skos:editorialNote "H 164, T 67/4"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -1231,8 +1172,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Auszugtischhobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Auszugtisch-)"@de,
-        "Tischhobel (Auszug-)"@de ;
+    skos:altLabel "Tischhobel (Auszug-), Hobel (Auszugtisch-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/D362A6> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "AA875F" ;
@@ -1243,9 +1183,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Glasnutstellhobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Glasnutstell-)"@de,
-        "Nutstellhobel (Glas-)"@de,
-        "Stellhobel (Glasnut-)"@de ;
+    skos:altLabel "Nutstellhobel (Glas-), Stellhobel (Glasnut-), Hobel (Glasnutstell-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/D362A6> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "AA8GF4" ;
@@ -1313,8 +1251,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Sichel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Sech (Sichel)"@de,
-        "Seckel"@de ;
+    skos:altLabel "Sech (Sichel), Seckel"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/CC6651> ;
     skos:editorialNote "H 178 T 74/1-5 &amp; S 58, T 26/1"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -1383,9 +1320,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Dengelamboßeisen" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Amboßeisen (Dengel-)"@de,
-        "Eisen (Dengelamboß-)"@de,
-        "Haarspit"@de ;
+    skos:altLabel "Haarspit, Amboßeisen (Dengel-), Eisen (Dengelamboß-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/CG1A28> ;
     skos:editorialNote "S 54/55, T 24"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -1419,8 +1354,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Rundsägefeile" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Feile (Rundsäge-)"@de,
-        "Sägefeile (Rund-)"@de ;
+    skos:altLabel "Sägefeile (Rund-), Feile (Rundsäge-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C15733> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "ABF8F2" ;
@@ -1442,8 +1376,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Doppelschlichthobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Doppelschlicht-)"@de,
-        "Schlichthobel (Doppel-)"@de ;
+    skos:altLabel "Schlichthobel (Doppel-), Hobel (Doppelschlicht-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A4CG3F> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "AC2GGD" ;
@@ -1465,8 +1398,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kartoffelpflug mit Radstelze" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Pflug mit Radstelze (Kartoffel-)"@de,
-        "Radstelze (Kartoffelpflug mit)"@de ;
+    skos:altLabel "Pflug mit Radstelze (Kartoffel-), Radstelze (Kartoffelpflug mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C1B27B> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "AC3D86" ;
@@ -1477,8 +1409,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Handbohrer mit Griff" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bohrer mit Griff (Hand-)"@de,
-        "Griff (Handbohrer mit)"@de ;
+    skos:altLabel "Bohrer mit Griff (Hand-), Griff (Handbohrer mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A3GBA2> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "AC641G" ;
@@ -1591,9 +1522,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Pflugsohle (Karrenpflug)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Grotsohle (Karrenpflug)"@de,
-        "Grotsole (Karrenpflug)"@de,
-        "Sohle (Pflug-, Karrenpflug)"@de ;
+    skos:altLabel "Grotsohle (Karrenpflug), Grotsole (Karrenpflug), Sohle (Pflug-, Karrenpflug)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A398AF> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "ADF3BB" ;
@@ -1604,8 +1533,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Streichmaß mit Eisenschiene" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Eisenschiene (Streichmaß mit)"@de,
-        "Maß mit Eisenschiene (Streich-)"@de ;
+    skos:altLabel "Maß mit Eisenschiene (Streich-), Eisenschiene (Streichmaß mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/GC5B89> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "ADFB84" ;
@@ -1616,8 +1544,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Seussenbaum" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Baum (Seussen-)"@de,
-        "Sensenbaum"@de ;
+    skos:altLabel "Sensenbaum, Baum (Seussen-)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "ADG265" ;
     skos:prefLabel "Seussenbaum"@de .
@@ -1751,8 +1678,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Striekhook" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hook (Striek-)"@de,
-        "Wellerhaken"@de ;
+    skos:altLabel "Wellerhaken, Hook (Striek-)"@de ;
     skos:editorialNote "S 58, T 26/1-5"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "AFF321" ;
@@ -1763,8 +1689,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schmierpot" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Pot (Schmier-)"@de,
-        "Schmiertopf"@de ;
+    skos:altLabel "Schmiertopf, Pot (Schmier-)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "AFG3G6" ;
     skos:prefLabel "Schmierpot"@de .
@@ -1786,8 +1711,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Spundheber mit Stellschraube" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Heber mit Stellschraube (Spund-)"@de,
-        "Stellschraube (Spundheber mit)"@de ;
+    skos:altLabel "Heber mit Stellschraube (Spund-), Stellschraube (Spundheber mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A3GBA2> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "AG6271" ;
@@ -1798,10 +1722,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Bohrwinde mit Feder und Bohrhülse" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bohrhülse (Bohrwinde mit Feder und)"@de,
-        "Feder und Bohrhülse (Bohrwinde mit)"@de,
-        "Hülse (Bohrwinde mit Feder und Bohr-)"@de,
-        "Winde mit Feder und Bohrhülse (Bohr-)"@de ;
+    skos:altLabel "Winde mit Feder und Bohrhülse (Bohr-), Feder und Bohrhülse (Bohrwinde mit), Bohrhülse (Bohrwinde mit Feder und), Hülse (Bohrwinde mit Feder und Bohr-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/F34B82> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "AG72AD" ;
@@ -1812,8 +1733,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schneidmaß mit Eisenschiene" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Eisenschiene (Schneidmaß mit)"@de,
-        "Maß mit Eisenschiene (Schneid-)"@de ;
+    skos:altLabel "Maß mit Eisenschiene (Schneid-), Eisenschiene (Schneidmaß mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/GC5B89> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "AG913A" ;
@@ -1846,8 +1766,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Gebißführungsstange für Zugtiere" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Führungsstange für Zugtiere (Gebiß-)"@de,
-        "Zugtiere (Gebißführungsstange für)"@de ;
+    skos:altLabel "Führungsstange für Zugtiere (Gebiß-), Zugtiere (Gebißführungsstange für)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A8C6F6> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "AGD7B7" ;
@@ -1880,8 +1799,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Bohnensetzholz" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Holz (Bohnensetz-)"@de,
-        "Setzholz (Bohnen-)"@de ;
+    skos:altLabel "Setzholz (Bohnen-), Holz (Bohnensetz-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C3242B> ;
     skos:editorialNote "S 20/21, T 5"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -1916,8 +1834,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Wendegabel (Dresch-Zusatzgerät)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Gabel (Wende-, Dresch-Zusatzgerät)"@de,
-        "Wennegaffel (Dresch-Zusatzgerät)"@de ;
+    skos:altLabel "Wennegaffel (Dresch-Zusatzgerät), Gabel (Wende-, Dresch-Zusatzgerät)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/F3FGA1> ;
     skos:editorialNote "H 188, T 79/3 &amp; H 192, T 81/1-2"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -1929,8 +1846,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schraubenbremse" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bremse (Schrauben-)"@de,
-        "Schriuftuig"@de ;
+    skos:altLabel "Schriuftuig, Bremse (Schrauben-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/G7F17B> ;
     skos:editorialNote "H 144, T 57/7"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -1942,8 +1858,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Saatpflug mit Sterz" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Pflug mit Sterz (Saat-)"@de,
-        "Sterz (Saatpflug mit)"@de ;
+    skos:altLabel "Pflug mit Sterz (Saat-), Sterz (Saatpflug mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/B8B9F7> ;
     skos:editorialNote "S 26, T 15"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -1989,9 +1904,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kammsielengeschirr mit Stirnjoch" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Geschirr mit Stirnjoch (Kammsielen-)"@de,
-        "Sielengeschirr mit Stirnjoch (Kamm-)"@de,
-        "Stirnjoch (Kammsielengeschirr mit)"@de ;
+    skos:altLabel "Sielengeschirr mit Stirnjoch (Kamm-), Geschirr mit Stirnjoch (Kammsielen-), Stirnjoch (Kammsielengeschirr mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A6G4BA> ;
     skos:editorialNote "S 116, T 61"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -2079,8 +1992,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Wetzstein mit Köcher (Wetzgerät)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Köcher (Wetzstein mit, Wetzgerät)"@de,
-        "Stein mit Köcher (Wetz-, Wetzgerät)"@de ;
+    skos:altLabel "Stein mit Köcher (Wetz-, Wetzgerät), Köcher (Wetzstein mit, Wetzgerät)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/BCGAA5> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "B2B489" ;
@@ -2113,8 +2025,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Gehrungsschneidemaschine" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Maschine (Gehrungsschneide-)"@de,
-        "Schneidemaschine (Gehrungs-)"@de ;
+    skos:altLabel "Schneidemaschine (Gehrungs-), Maschine (Gehrungsschneide-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/F62234> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "B2F6BG" ;
@@ -2147,8 +2058,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Falzschiffhobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Falzschiff-)"@de,
-        "Schiffhobel (Falz-)"@de ;
+    skos:altLabel "Schiffhobel (Falz-), Hobel (Falzschiff-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FCGA82> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "B2G713" ;
@@ -2159,8 +2069,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Rundschaber mit Griff" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Griff (Rundschaber mit)"@de,
-        "Schaber mit Griff (Rund-)"@de ;
+    skos:altLabel "Schaber mit Griff (Rund-), Griff (Rundschaber mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C12497> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "B2GD92" ;
@@ -2171,8 +2080,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Doppelgriffhobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Griffhobel (Doppel-)"@de,
-        "Hobel (Doppelgriff-)"@de ;
+    skos:altLabel "Griffhobel (Doppel-), Hobel (Doppelgriff-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A189G9> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "B32C12" ;
@@ -2217,8 +2125,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kniesense" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kurzsense"@de,
-        "Sense (Knie-)"@de ;
+    skos:altLabel "Kurzsense, Sense (Knie-)"@de ;
     skos:editorialNote "H 178, T 74/9 &amp; S 58 f. T 26/8"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "B3B1CC" ;
@@ -2240,9 +2147,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Gestellsense mit Reff" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Reff (Gestellsense mit)"@de,
-        "Schwaen mit Reff"@de,
-        "Sense mit Reff (Gestell-)"@de ;
+    skos:altLabel "Schwaen mit Reff, Sense mit Reff (Gestell-), Reff (Gestellsense mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A8F3G2> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "B3C442" ;
@@ -2253,8 +2158,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schollengabel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Gabel (Schollen-)"@de,
-        "Schüllegaffel"@de ;
+    skos:altLabel "Schüllegaffel, Gabel (Schollen-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/BFBB87> ;
     skos:editorialNote "H 192, T 81/1-2"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -2278,8 +2182,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Plattbankhobel mit Doppeleisen" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Doppeleisen (Plattbankhobel mit)"@de,
-        "Hobel mit Doppeleisen (Plattbank-)"@de ;
+    skos:altLabel "Hobel mit Doppeleisen (Plattbank-), Doppeleisen (Plattbankhobel mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/B31759> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "B42C66" ;
@@ -2347,9 +2250,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schlichtrundstabhobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Schlichtrundstab-)"@de,
-        "Rundstabhobel (Schlicht-)"@de,
-        "Stabhobel (Schlichtrund-)"@de ;
+    skos:altLabel "Rundstabhobel (Schlicht-), Stabhobel (Schlichtrund-), Hobel (Schlichtrundstab-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FCGA82> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "B4D535" ;
@@ -2407,8 +2308,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Urfedersäge" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Federsäge (Ur-)"@de,
-        "Säge (Urfeder-)"@de ;
+    skos:altLabel "Federsäge (Ur-), Säge (Urfeder-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C21CAA> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "B53D37" ;
@@ -2441,8 +2341,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Fuilbank (Wetzgerät)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bank (Fuil-, Wetzgerät)"@de,
-        "Feilbank (Wetzgerät)"@de ;
+    skos:altLabel "Feilbank (Wetzgerät), Bank (Fuil-, Wetzgerät)"@de ;
     skos:editorialNote "H 346, T 158/4"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "B579B5" ;
@@ -2475,8 +2374,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Metallbogensäge" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bogensäge (Metall-)"@de,
-        "Säge (Metallbogen-)"@de ;
+    skos:altLabel "Bogensäge (Metall-), Säge (Metallbogen-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C7D468> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "B5BAB9" ;
@@ -2499,8 +2397,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Feilkloben mit Feder" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Feder (Feilkloben mit)"@de,
-        "Kloben mit Feder (Feil-)"@de ;
+    skos:altLabel "Kloben mit Feder (Feil-), Feder (Feilkloben mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/G6DD93> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "B5CG91" ;
@@ -2533,8 +2430,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Rückwandhobel mit Auflauf" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Auflauf (Rückwandhobel mit)"@de,
-        "Hobel mit Auflauf (Rückwand-)"@de ;
+    skos:altLabel "Hobel mit Auflauf (Rückwand-), Auflauf (Rückwandhobel mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/G789B4> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "B6124C" ;
@@ -2556,8 +2452,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schlagleistenhobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Schlagleisten-)"@de,
-        "Leistenhobel (Schlag-)"@de ;
+    skos:altLabel "Leistenhobel (Schlag-), Hobel (Schlagleisten-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/G789B4> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "B628D2" ;
@@ -2601,8 +2496,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Gestellsense mit Drahtbügel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Drahtbügel (Gestellsense mit)"@de,
-        "Sense mit Drahtbügel (Gestell-)"@de ;
+    skos:altLabel "Sense mit Drahtbügel (Gestell-), Drahtbügel (Gestellsense mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A8F3G2> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "B689B6" ;
@@ -2636,10 +2530,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Bockkarren" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bockkorrn"@de,
-        "Karren (Bock-)"@de,
-        "Lattenkorrn"@de,
-        "Schierkorrn"@de ;
+    skos:altLabel "Bockkorrn, Lattenkorrn, Schierkorrn, Karren (Bock-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C214D7> ;
     skos:editorialNote "H 148, T 59/2"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -2662,8 +2553,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Torfkorrn" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Korrn (Torf-)"@de,
-        "Torfkarren"@de ;
+    skos:altLabel "Torfkarren, Korrn (Torf-)"@de ;
     skos:editorialNote "H 148, T 59/1"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "B756G5" ;
@@ -2687,8 +2577,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kittfalzhobel, verstellbar" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Falzhobel (Kitt-), verstellbar"@de,
-        "Hobel (Kittfalz-), verstellbar"@de ;
+    skos:altLabel "Falzhobel (Kitt-), verstellbar, Hobel (Kittfalz-), verstellbar"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/D362A6> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "B78DD7" ;
@@ -2699,8 +2588,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kumpgeschirr" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Geschirr (Kump-)"@de,
-        "Kummetgeschirr"@de ;
+    skos:altLabel "Kummetgeschirr, Geschirr (Kump-)"@de ;
     skos:editorialNote "H 134, T 52/5-6"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "B79597" ;
@@ -2711,8 +2599,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Zahnleistenhobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Zahnleisten-)"@de,
-        "Leistenhobel (Zahn-)"@de ;
+    skos:altLabel "Leistenhobel (Zahn-), Hobel (Zahnleisten-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/D362A6> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "B7C1B6" ;
@@ -2746,8 +2633,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Grathobel mit Vorscheider und zwei Wänden" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel mit Vorscheider und zwei Wänden (Grat-)"@de,
-        "Vorscheider und zwei Wänden (Grathobel mit)"@de ;
+    skos:altLabel "Hobel mit Vorscheider und zwei Wänden (Grat-), Vorscheider und zwei Wänden (Grathobel mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/B31759> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "B818BD" ;
@@ -2800,8 +2686,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kittfalzhobel mit einem Eisen" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Falzhobel mit einem Eisen (Kitt-)"@de,
-        "Hobel mit einem Eisen (Kittfalz-)"@de ;
+    skos:altLabel "Falzhobel mit einem Eisen (Kitt-), Hobel mit einem Eisen (Kittfalz-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/D362A6> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "B878GG" ;
@@ -2834,9 +2719,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Gabel (Erntegerät)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Gaffel"@de,
-        "Gaffel, breit"@de,
-        "Gaffel, schmal"@de ;
+    skos:altLabel "Gaffel, Gaffel, breit, Gaffel, schmal"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/BFBB87> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "B8G4A6" ;
@@ -2847,9 +2730,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Eisenhaken mit zwei Zinken (Ernteaufzug)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Haken mit zwei Zinken (Eisen-, Ernteaufzug)"@de,
-        "Plöggenhaken (Ernteaufzug)"@de,
-        "Zinken (Eisenhaken mit zwei, Ernteaufzug)"@de ;
+    skos:altLabel "Plöggenhaken (Ernteaufzug), Haken mit zwei Zinken (Eisen-, Ernteaufzug), Zinken (Eisenhaken mit zwei, Ernteaufzug)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A13384> ;
     skos:editorialNote "HT 78/6-7"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -2903,8 +2784,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Holzrad mit Eisenabdeckung (Ernteaufzug)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Eisenabdeckung (Holzrad mit, Ernteaufzug)"@de,
-        "Rad mit Eisenabdeckung (Holz-, Ernteaufzug)"@de ;
+    skos:altLabel "Rad mit Eisenabdeckung (Holz-, Ernteaufzug), Eisenabdeckung (Holzrad mit, Ernteaufzug)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A13384> ;
     skos:editorialNote "S 88, T 44/1,3"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -2939,8 +2819,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Pfluggestell (Karrenpflug)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Gestell (Pflug-, Karrenpflug)"@de,
-        "Pleoggstell (Karrenpflug)"@de ;
+    skos:altLabel "Pleoggstell (Karrenpflug), Gestell (Pflug-, Karrenpflug)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A398AF> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "B9B6D1" ;
@@ -2985,8 +2864,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schachteldeckeleisen" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Deckeleisen (Schachtel-)"@de,
-        "Eisen (Schachteldeckel-)"@de ;
+    skos:altLabel "Deckeleisen (Schachtel-), Eisen (Schachteldeckel-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/F452CB> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "B9CG4C" ;
@@ -3009,8 +2887,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Pflugeisen (Karrenpflug)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Eisen (Pflug-, Karrenpflug)"@de,
-        "Ploeguisen (Karrenpflug)"@de ;
+    skos:altLabel "Ploeguisen (Karrenpflug), Eisen (Pflug-, Karrenpflug)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A398AF> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "B9G637" ;
@@ -3021,8 +2898,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Fittich (Getreidereinigung)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Fitteck"@de,
-        "Gänsefittich (Getreidereinigung)"@de ;
+    skos:altLabel "Fitteck, Gänsefittich (Getreidereinigung)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FG79F7> ;
     skos:editorialNote "H 194/2"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -3034,8 +2910,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Wennegaffel (Dresch-Zusatzgerät)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Gaffel (Wenne-, Dresch-Zusatzgerät)"@de,
-        "Wendegabel (Dresch-Zusatzgerät)"@de ;
+    skos:altLabel "Wendegabel (Dresch-Zusatzgerät), Gaffel (Wenne-, Dresch-Zusatzgerät)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "BA2B36" ;
     skos:prefLabel "Wennegaffel (Dresch-Zusatzgerät)"@de .
@@ -3089,8 +2964,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Säemolle" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Molle (Säe-)"@de,
-        "Säewanne"@de ;
+    skos:altLabel "Säewanne, Molle (Säe-)"@de ;
     skos:editorialNote "H 174, T 16/4-5"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "BA42D1" ;
@@ -3101,9 +2975,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kippkorrn mit Scherdeichsel und Schütt" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kippkarren mit Scherdeichsel und Schütt"@de,
-        "Scherdeichsel und Schütt (Kippkorrn mit)"@de,
-        "Schütt (Kippkorrn mit Scherdeichsel und)"@de ;
+    skos:altLabel "Kippkarren mit Scherdeichsel und Schütt, Scherdeichsel und Schütt (Kippkorrn mit), Schütt (Kippkorrn mit Scherdeichsel und)"@de ;
     skos:editorialNote "H 150, T 66/1-3"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "BA4DD6" ;
@@ -3114,8 +2986,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Stellfalzhobel mit zwei Wänden" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Falzhobel mit zwei Wänden (Stell-)"@de,
-        "Hobel mit zwei Wänden (Stellfalz-)"@de ;
+    skos:altLabel "Falzhobel mit zwei Wänden (Stell-), Hobel mit zwei Wänden (Stellfalz-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/D362A6> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "BA5A8F" ;
@@ -3162,8 +3033,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Rauhobel mit Doppelgriffausführung" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Doppelgriffausführung (Rauhobel mit)"@de,
-        "Hobel mit Doppelgriffausführung (Rau-)"@de ;
+    skos:altLabel "Hobel mit Doppelgriffausführung (Rau-), Doppelgriffausführung (Rauhobel mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C579G1> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "BA637C" ;
@@ -3174,8 +3044,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Federschlitzerhobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Federschlitzer-)"@de,
-        "Schlitzerhobel (Feder-)"@de ;
+    skos:altLabel "Schlitzerhobel (Feder-), Hobel (Federschlitzer-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/D362A6> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "BA93C3" ;
@@ -3208,8 +3077,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Rinderzuggeschirr" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Geschirr (Rinderzug-)"@de,
-        "Zuggeschirr (Rinder-)"@de ;
+    skos:altLabel "Zuggeschirr (Rinder-), Geschirr (Rinderzug-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A6G4BA> ;
     skos:editorialNote "H 134, T 52/7"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -3244,8 +3112,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Sturzkarren mit Tonne" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Karren mit Tonne (Sturz-)"@de,
-        "Tonne (Sturzkarren mit)"@de ;
+    skos:altLabel "Karren mit Tonne (Sturz-), Tonne (Sturzkarren mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/AG9361> ;
     skos:editorialNote "H 168"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -3305,9 +3172,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Stellgrathobel mit Vorschneider" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Grathobel mit Vorschneider (Stell-)"@de,
-        "Hobel mit Vorschneider (Stellgrat-)"@de,
-        "Vorschneider (Stellgrathobel mit)"@de ;
+    skos:altLabel "Grathobel mit Vorschneider (Stell-), Hobel mit Vorschneider (Stellgrat-), Vorschneider (Stellgrathobel mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/D362A6> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "BBF5BA" ;
@@ -3329,8 +3194,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Ackerwalze" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Blocktredde"@de,
-        "Walze (Acker-)"@de ;
+    skos:altLabel "Blocktredde, Walze (Acker-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/D32526> ;
     skos:editorialNote "S 48, T 68/8"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -3342,8 +3206,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Deichselträger für Zugtiere" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Träger für Zugtiere (Deichsel-)"@de,
-        "Zugtiere (Deichselträger für)"@de ;
+    skos:altLabel "Träger für Zugtiere (Deichsel-), Zugtiere (Deichselträger für)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A8C6F6> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "BC2GBF" ;
@@ -3365,8 +3228,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Sluderfaß (Wetzgerät)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Faß (Sluder-, Wetzgerät)"@de,
-        "Wetzsteinbehälter"@de ;
+    skos:altLabel "Wetzsteinbehälter, Faß (Sluder-, Wetzgerät)"@de ;
     skos:editorialNote "S 56/57, T 25"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "BC5C63" ;
@@ -3399,8 +3261,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Wettstein (Wetzgerät)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Stein (Wett-, Wetzgerät)"@de,
-        "Wetzstein (Wetzgerät)"@de ;
+    skos:altLabel "Wetzstein (Wetzgerät), Stein (Wett-, Wetzgerät)"@de ;
     skos:editorialNote "S 56, T 25 &amp; H 180 &amp; H 346, T 158/3"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "BC9DGD" ;
@@ -3500,8 +3361,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Doppelfughobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Fughobel (Doppel-)"@de,
-        "Hobel (Doppelfug-)"@de ;
+    skos:altLabel "Fughobel (Doppel-), Hobel (Doppelfug-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A4CG3F> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "BD9BD5" ;
@@ -3522,9 +3382,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schollengabel (Dresch-Zusatzgerät)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Gabel (Schollen-, Dresch-Zusatzgerät)"@de,
-        "Schüllegaffel aus einer Astgabel (Dresch-Zusatzgerät)"@de,
-        "Twielen (Dresch-Zusatzgerät)"@de ;
+    skos:altLabel "Schüllegaffel aus einer Astgabel (Dresch-Zusatzgerät), Twielen (Dresch-Zusatzgerät), Gabel (Schollen-, Dresch-Zusatzgerät)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/F3FGA1> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "BDFF8B" ;
@@ -3546,8 +3404,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Stellfalzhobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Falzhobel (Stell-)"@de,
-        "Hobel (Stellfalz-)"@de ;
+    skos:altLabel "Falzhobel (Stell-), Hobel (Stellfalz-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/D362A6> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "BF3F1F" ;
@@ -3581,8 +3438,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kuhstirnband als Fliegenschutz" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Fliegenschutz (Kuhstirnband als)"@de,
-        "Stirnband als Fliegenschutz (Kuh-)"@de ;
+    skos:altLabel "Stirnband als Fliegenschutz (Kuh-), Fliegenschutz (Kuhstirnband als)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/D34ADG> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "BFB967" ;
@@ -3626,8 +3482,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Halsriemen für Zugtiere" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Riemen für Zugtiere (Hals-)"@de,
-        "Zugtiere (Halsriemen für)"@de ;
+    skos:altLabel "Riemen für Zugtiere (Hals-), Zugtiere (Halsriemen für)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A8C6F6> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "BG34B9" ;
@@ -3638,8 +3493,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Parkettnuthobel, klein" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Parkettnut-), klein"@de,
-        "Nuthobel (Parkett-), klein"@de ;
+    skos:altLabel "Nuthobel (Parkett-), klein, Hobel (Parkettnut-), klein"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/D362A6> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "BG4BBD" ;
@@ -3673,8 +3527,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Halskoppel für Zugtiere" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Koppel für Zugtiere (Hals-)"@de,
-        "Zugtiere (Halskoppel für)"@de ;
+    skos:altLabel "Koppel für Zugtiere (Hals-), Zugtiere (Halskoppel für)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A8C6F6> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "BG8B64" ;
@@ -3685,8 +3538,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Vorschnier (Karrenpflug)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Schnier (Vor-, Karrenpflug)"@de,
-        "Vorschneidemesser (Karrenpflug)"@de ;
+    skos:altLabel "Vorschneidemesser (Karrenpflug), Schnier (Vor-, Karrenpflug)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "BGD8D9" ;
     skos:prefLabel "Vorschnier (Karrenpflug)"@de .
@@ -3774,9 +3626,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Federnuthobel mit Eisensohle" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Eisensohle (Federnuthobel mit)"@de,
-        "Hobel mit Eisensohle (Federnut-)"@de,
-        "Nuthobel mit Eisensohle (Feder-)"@de ;
+    skos:altLabel "Nuthobel mit Eisensohle (Feder-), Hobel mit Eisensohle (Federnut-), Eisensohle (Federnuthobel mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A189G9> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "C17398" ;
@@ -3864,8 +3714,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Eisenkappe, rund mit Splint (Wagenachse)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kappe (Eisen-), rund mit Splint (Wagenachse)"@de,
-        "Lünsen"@de ;
+    skos:altLabel "Lünsen, Kappe (Eisen-), rund mit Splint (Wagenachse)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/DGB762> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "C23GF6" ;
@@ -3899,8 +3748,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Hintergeschirr für Kummet" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Geschirr für Kummet (Hinter-)"@de,
-        "Kummet (Hintergeschirr für)"@de ;
+    skos:altLabel "Geschirr für Kummet (Hinter-), Kummet (Hintergeschirr für)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A6G4BA> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "C29C2F" ;
@@ -3955,9 +3803,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Doppelrundstabhobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Doppelrundstab-)"@de,
-        "Rundstabhobel (Doppel-)"@de,
-        "Stabhobel (Doppelrund-)"@de ;
+    skos:altLabel "Rundstabhobel (Doppel-), Stabhobel (Doppelrund-), Hobel (Doppelrundstab-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FCGA82> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "C31BBC" ;
@@ -3980,8 +3826,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Gestellsense mit Weidenbügel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Sense mit Weidenbügel (Gestell-)"@de,
-        "Weidenbügel (Gestellsense mit)"@de ;
+    skos:altLabel "Sense mit Weidenbügel (Gestell-), Weidenbügel (Gestellsense mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A8F3G2> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "C35D26" ;
@@ -4071,8 +3916,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Federzahnegge" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Egge (Federzahn-)"@de,
-        "Zahnegge (Feder-)"@de ;
+    skos:altLabel "Zahnegge (Feder-), Egge (Federzahn-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/GFB89C> ;
     skos:editorialNote "DG 64 f"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -4084,8 +3928,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kippdampfpflug" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Dampfpflug (Kipp-)"@de,
-        "Pflug (Kippdampf-)"@de ;
+    skos:altLabel "Dampfpflug (Kipp-), Pflug (Kippdampf-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/B8B9F7> ;
     skos:editorialNote "DG 104"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -4130,8 +3973,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Tellerscheibenegge" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Egge (Tellerscheiben-)"@de,
-        "Scheibenegge (Teller-)"@de ;
+    skos:altLabel "Scheibenegge (Teller-), Egge (Tellerscheiben-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/GFB89C> ;
     skos:editorialNote "DG 64 f"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -4188,8 +4030,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Rübenforke" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Forke (Rüben-)"@de,
-        "Preckel"@de ;
+    skos:altLabel "Preckel, Forke (Rüben-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/G2G33F> ;
     skos:editorialNote "H 192, T 81/12-13"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -4224,8 +4065,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Grathobel mit Vorscheider und einer Wand" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel mit Vorscheider und einer Wand (Grat-)"@de,
-        "Vorscheider und einer Wand (Grathobel mit)"@de ;
+    skos:altLabel "Hobel mit Vorscheider und einer Wand (Grat-), Vorscheider und einer Wand (Grathobel mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/B31759> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "C4G7F3" ;
@@ -4333,8 +4173,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kimmhobel mit Messingsohle" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel mit Messingsohle (Kimm-)"@de,
-        "Messingsohle (Kimmhobel mit)"@de ;
+    skos:altLabel "Hobel mit Messingsohle (Kimm-), Messingsohle (Kimmhobel mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C579G1> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "C63846" ;
@@ -4345,9 +4184,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Hobel mit Lignum-Sanctum-Sohlen" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Lignum-Sanctum-Sohlen (Hobel mit)"@de,
-        "Sanctum-Sohlen (Hobel mit Lignum-)"@de,
-        "Sohlen (Hobel mit Lignum-Sanctum-)"@de ;
+    skos:altLabel "Lignum-Sanctum-Sohlen (Hobel mit), Sanctum-Sohlen (Hobel mit Lignum-), Sohlen (Hobel mit Lignum-Sanctum-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A4CG3F> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "C6877A" ;
@@ -4415,8 +4252,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Worfschaufel (Getreidereinigung)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Schaufel (Worf-, Getreidereinigung)"@de,
-        "Wurfschaufel (Getreidereinigung)"@de ;
+    skos:altLabel "Wurfschaufel (Getreidereinigung), Schaufel (Worf-, Getreidereinigung)"@de ;
     skos:editorialNote "S 80, T 39/10-11"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "C6GG8B" ;
@@ -4472,8 +4308,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kawwernwann" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kornwanne (Getreidereinigung)"@de,
-        "Wann (Kawwern-)"@de ;
+    skos:altLabel "Kornwanne (Getreidereinigung), Wann (Kawwern-)"@de ;
     skos:editorialNote "H 194, T 82 &amp; S 83/84, T 41/1"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "C78AGG" ;
@@ -4484,12 +4319,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kippkarren mit Scherdeichsel und Schütt" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Karren mit Scherdeichsel und Schütt (Kipp-)"@de,
-        "Kippkorrn mit Scherdeichsel und Schütt"@de,
-        "Scherdeichsel und Schütt (Kippkarren mit)"@de,
-        "Schütt (Kippkarren mit Scherdeichsel und)"@de,
-        "Storkkorrn mit Scherdeichsel und Schütt"@de,
-        "Wippkorrn mit Scherdeichsel und Schütt"@de ;
+    skos:altLabel "Kippkorrn mit Scherdeichsel und Schütt, Storkkorrn mit Scherdeichsel und Schütt, Wippkorrn mit Scherdeichsel und Schütt, Karren mit Scherdeichsel und Schütt (Kipp-), Scherdeichsel und Schütt (Kippkarren mit), Schütt (Kippkarren mit Scherdeichsel und)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/DB15B6> ;
     skos:editorialNote "H 150, T 66/1-3"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -4557,8 +4387,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Rübkelhacke" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hacke (Rübkel-)"@de,
-        "Kelhacke (Rüb-)"@de ;
+    skos:altLabel "Kelhacke (Rüb-), Hacke (Rübkel-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/GB11C2> ;
     skos:editorialNote "H 172"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -4570,8 +4399,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kawwennsiewet" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kornsieb"@de,
-        "Siewet (Kawwenn-)"@de ;
+    skos:altLabel "Kornsieb, Siewet (Kawwenn-)"@de ;
     skos:editorialNote "S 82, T 40/2 &amp; H 194/2, T 82/3"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "C8571D" ;
@@ -4603,9 +4431,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schroppdoppelgriffhobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Doppelgriffhobel (Schropp-)"@de,
-        "Griffhobel (Schroppdoppel-)"@de,
-        "Hobel (Schroppdoppelgriff-)"@de ;
+    skos:altLabel "Doppelgriffhobel (Schropp-), Griffhobel (Schroppdoppel-), Hobel (Schroppdoppelgriff-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A189G9> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "C89ACC" ;
@@ -4616,13 +4442,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kurzsense" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hausense"@de,
-        "Kniesense"@de,
-        "Sait"@de,
-        "Sense (Kurz-)"@de,
-        "Sichte"@de,
-        "Sichte mit Mahdhaken"@de,
-        "Sichte ohne Mahdhaken"@de ;
+    skos:altLabel "Hausense, Kniesense, Sait, Sichte, Sichte mit Mahdhaken, Sichte ohne Mahdhaken, Sense (Kurz-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/CC6651> ;
     skos:editorialNote "H 178, T 74/9 &amp; S 58 f. T 26/8"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -4645,8 +4465,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Wiesenhaue" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Haue (Wiesen-)"@de,
-        "Wiesehogge"@de ;
+    skos:altLabel "Wiesehogge, Haue (Wiesen-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/CC6651> ;
     skos:editorialNote "H 178"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -4733,9 +4552,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Halsstange für Zugtiere" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Für Zugtiere (Halsstange)"@de,
-        "Stange für Zugtiere (Hals-)"@de,
-        "Zugtiere (Halsstange für)"@de ;
+    skos:altLabel "Stange für Zugtiere (Hals-), Für Zugtiere (Halsstange), Zugtiere (Halsstange für)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A8C6F6> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "C9AC4A" ;
@@ -4789,11 +4606,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Sensenstreichholz" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Holz (Sensenstreich-)"@de,
-        "Streck"@de,
-        "Streichholz (Sensen-)"@de,
-        "Streiken"@de,
-        "Striek"@de ;
+    skos:altLabel "Streck, Streiken, Striek, Streichholz (Sensen-), Holz (Sensenstreich-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/CG1A28> ;
     skos:editorialNote "H 180, T 75/1"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -4816,8 +4629,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schraubblockschlüssel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Blockschlüssel (Schraub-)"@de,
-        "Schlüssel (Schraubblock-)"@de ;
+    skos:altLabel "Blockschlüssel (Schraub-), Schlüssel (Schraubblock-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/G6DD93> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "CA19B3" ;
@@ -4929,9 +4741,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Bodenaufzug mit Unterbodenseilführung" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Aufzug mit Unterbodenseilführung (Boden-)"@de,
-        "Seilführung (Bodenaufzug mit Unterboden-)"@de,
-        "Unterbodenseilführung (Bodenaufzug mit)"@de ;
+    skos:altLabel "Aufzug mit Unterbodenseilführung (Boden-), Unterbodenseilführung (Bodenaufzug mit), Seilführung (Bodenaufzug mit Unterboden-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A13384> ;
     skos:editorialNote "H 186, T 78/1-5 &amp; S 88, T 44/2,4"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -5011,8 +4821,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Wippkarre" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Karre (Wipp-)"@de,
-        "Wippkorn"@de ;
+    skos:altLabel "Wippkorn, Karre (Wipp-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C214D7> ;
     skos:editorialNote "H 308, T 139/1"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -5024,8 +4833,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Wippkorn" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Korn (Wipp-)"@de,
-        "Wippkarre"@de ;
+    skos:altLabel "Wippkarre, Korn (Wipp-)"@de ;
     skos:editorialNote "H 308, T 139/1"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "CB9699" ;
@@ -5036,8 +4844,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Breitsämaschine" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Maschine (Breitsä-)"@de,
-        "Sämaschine (Breit-)"@de ;
+    skos:altLabel "Sämaschine (Breit-), Maschine (Breitsä-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/B44648> ;
     skos:editorialNote "DG 160 f"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -5127,9 +4934,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Bohnensetzbrett" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Baunenpötter"@de,
-        "Brett (Bohnensetz-)"@de,
-        "Setzbrett (Bohnen-)"@de ;
+    skos:altLabel "Baunenpötter, Setzbrett (Bohnen-), Brett (Bohnensetz-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C3242B> ;
     skos:editorialNote "S 22/23, T 6"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -5188,8 +4993,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Bohnendoppelsetzholz" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Doppelsetzholz (Bohnen-)"@de,
-        "Setzholz (Bohnendoppel-)"@de ;
+    skos:altLabel "Doppelsetzholz (Bohnen-), Setzholz (Bohnendoppel-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C3242B> ;
     skos:editorialNote "S 22/23, T 6"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -5211,8 +5015,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Seussenblatt" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Blatt (Seussen-)"@de,
-        "Sensenblatt"@de ;
+    skos:altLabel "Sensenblatt, Blatt (Seussen-)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "CD43D7" ;
     skos:prefLabel "Seussenblatt"@de .
@@ -5300,8 +5103,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Zahnleistenhobel, verstellbar" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Zahnleisten-), verstellbar"@de,
-        "Leistenhobel (Zahn-), verstellbar"@de ;
+    skos:altLabel "Leistenhobel (Zahn-), verstellbar, Hobel (Zahnleisten-), verstellbar"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/D362A6> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "CF213A" ;
@@ -5335,8 +5137,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Diuwharke" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Harke (Diuw-)"@de,
-        "Tiefhacke"@de ;
+    skos:altLabel "Tiefhacke, Harke (Diuw-)"@de ;
     skos:editorialNote "H 176, T 73/1 &amp; H 180/10"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "CF9A9F" ;
@@ -5426,8 +5227,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schwaen mit Reff" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Gestellsense mit Reff"@de,
-        "Reff (Schwaen mit)"@de ;
+    skos:altLabel "Gestellsense mit Reff, Reff (Schwaen mit)"@de ;
     skos:editorialNote "H 180, T 75/8-9 &amp; S 62, T 28/1"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "CG62BC" ;
@@ -5461,8 +5261,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Lakenwagen" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Planwagen"@de,
-        "Wagen (Laken-)"@de ;
+    skos:altLabel "Planwagen, Wagen (Laken-)"@de ;
     skos:editorialNote "H 142, T 56/3"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "CGF433" ;
@@ -5485,8 +5284,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Flejankappen" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kappen (Flejan-)"@de,
-        "Lederschlaufe (Dreschflegel)"@de ;
+    skos:altLabel "Lederschlaufe (Dreschflegel), Kappen (Flejan-)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "D15A93" ;
     skos:prefLabel "Flejankappen"@de .
@@ -5496,8 +5294,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Überschiebhobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Überschieb-)"@de,
-        "Schiebhobel (Über-)"@de ;
+    skos:altLabel "Schiebhobel (Über-), Hobel (Überschieb-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/D362A6> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "D191A2" ;
@@ -5519,8 +5316,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Gehrungsschneidlade" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Lade (Gehrungsschneid-)"@de,
-        "Schneidlade (Gehrungs-)"@de ;
+    skos:altLabel "Schneidlade (Gehrungs-), Lade (Gehrungsschneid-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/F62234> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "D1C45G" ;
@@ -5531,8 +5327,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Haarstock" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Dengelamboß"@de,
-        "Stock (Haar-)"@de ;
+    skos:altLabel "Dengelamboß, Stock (Haar-)"@de ;
     skos:editorialNote "S 54/55, T 24"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "D1CC66" ;
@@ -5553,8 +5348,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Mistpackbrett" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Brett (Mistpack-)"@de,
-        "Packbrett (Mist-)"@de ;
+    skos:altLabel "Packbrett (Mist-), Brett (Mistpack-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/BFAF14> ;
     skos:editorialNote "H 172, T 71/11"^^rdf:XMLLiteral,
         "S 52, T 22/5"^^rdf:XMLLiteral ;
@@ -5579,8 +5373,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schindelzieheisen" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Eisen (Schindelzieh-)"@de,
-        "Zieheisen (Schindel-)"@de ;
+    skos:altLabel "Zieheisen (Schindel-), Eisen (Schindelzieh-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A189G9> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "D22583" ;
@@ -5647,8 +5440,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Bindergrateisen" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Eisen (Bindergrat-)"@de,
-        "Grateisen (Binder-)"@de ;
+    skos:altLabel "Grateisen (Binder-), Eisen (Bindergrat-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C12497> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "D29FA6" ;
@@ -5682,8 +5474,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Garten-Blatthacke" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Blatthacke (Garten-)"@de,
-        "Hacke (Garten-Blatt-)"@de ;
+    skos:altLabel "Blatthacke (Garten-), Hacke (Garten-Blatt-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/GB11C2> ;
     skos:editorialNote "H 172, T 71/3-6"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -5762,8 +5553,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Jauchetunnen" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Jauchefaß"@de,
-        "Tunnen (Jauche-)"@de ;
+    skos:altLabel "Jauchefaß, Tunnen (Jauche-)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "D3AGDC" ;
     skos:prefLabel "Jauchetunnen"@de .
@@ -5773,8 +5563,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Türnuthobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Türnut-)"@de,
-        "Nuthobel (Tür-)"@de ;
+    skos:altLabel "Nuthobel (Tür-), Hobel (Türnut-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/D362A6> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "D3C156" ;
@@ -5829,8 +5618,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Wetzsteingefäß" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Gefäß (Wetzstein-)"@de,
-        "Wetzsteinbehälter"@de ;
+    skos:altLabel "Wetzsteinbehälter, Gefäß (Wetzstein-)"@de ;
     skos:editorialNote "S 56/57, T 25"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "D3G9BG" ;
@@ -5898,8 +5686,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Flejanstock" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Handstock"@de,
-        "Stock (Flejan-)"@de ;
+    skos:altLabel "Handstock, Stock (Flejan-)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "D4B76G" ;
     skos:prefLabel "Flejanstock"@de .
@@ -5920,8 +5707,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Lattengestellkarren" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Gestellkarren (Latten-)"@de,
-        "Karren (Lattengestell-)"@de ;
+    skos:altLabel "Gestellkarren (Latten-), Karren (Lattengestell-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C214D7> ;
     skos:editorialNote "H 148, T 59/5"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -6012,8 +5798,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Sisalzuggeschirr" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Geschirr (Sisalzug-)"@de,
-        "Zuggeschirr (Sisal-)"@de ;
+    skos:altLabel "Zuggeschirr (Sisal-), Geschirr (Sisalzug-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A6G4BA> ;
     skos:editorialNote "S 120/121, T 62"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -6025,8 +5810,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Blocktredde" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Ackerwalze"@de,
-        "Tredde (Block-)"@de ;
+    skos:altLabel "Ackerwalze, Tredde (Block-)"@de ;
     skos:editorialNote "H 166 &amp; S 48, T 68/8"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "D58A18" ;
@@ -6071,8 +5855,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kornfege ohne Zahnradantrieb" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Fege ohne Zahnradantrieb (Korn-)"@de,
-        "Zahnradantrieb (Kornfege ohne)"@de ;
+    skos:altLabel "Fege ohne Zahnradantrieb (Korn-), Zahnradantrieb (Kornfege ohne)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FG79F7> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "D5FFA9" ;
@@ -6105,8 +5888,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Streifhobel mit Doppelgriffausführung" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Doppelgriffausführung (Streifhobel mit)"@de,
-        "Hobel mit Doppelgriffausführung (Streif-)"@de ;
+    skos:altLabel "Hobel mit Doppelgriffausführung (Streif-), Doppelgriffausführung (Streifhobel mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C579G1> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "D68681" ;
@@ -6128,10 +5910,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Bodenbrahmschnitthobel mit Eisenschiene" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Brahmschnitthobel mit Eisenschiene (Boden-)"@de,
-        "Eisenschiene (Bodenbrahmschnitthobel mit)"@de,
-        "Hobel mit Eisenschiene (Bodenbrahmschnitt-)"@de,
-        "Schnitthobel mit Eisenschiene (Bodenbrahm-)"@de ;
+    skos:altLabel "Brahmschnitthobel mit Eisenschiene (Boden-), Schnitthobel mit Eisenschiene (Bodenbrahm-), Hobel mit Eisenschiene (Bodenbrahmschnitt-), Eisenschiene (Bodenbrahmschnitthobel mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C579G1> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "D69FA5" ;
@@ -6142,8 +5921,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schlagschnitzer mit Heft" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Heft (Schlagschnitzer mit)"@de,
-        "Schnitzer mit Heft (Schlag-)"@de ;
+    skos:altLabel "Schnitzer mit Heft (Schlag-), Heft (Schlagschnitzer mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C579G1> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "D6AGG3" ;
@@ -6165,8 +5943,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Querstreifhobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Querstreif-)"@de,
-        "Streifhobel (Quer-)"@de ;
+    skos:altLabel "Streifhobel (Quer-), Hobel (Querstreif-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C579G1> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "D6D11A" ;
@@ -6198,8 +5975,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Zentrumbohrer mit runden Stiel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bohrer mit runden Stiel (Zentrum-)"@de,
-        "Stiel (Zentrumbohrer mit runden)"@de ;
+    skos:altLabel "Bohrer mit runden Stiel (Zentrum-), Stiel (Zentrumbohrer mit runden)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A3GBA2> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "D73FA6" ;
@@ -6221,8 +5997,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Einspannkloben für Dreher" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Dreher (Einspannkloben für)"@de,
-        "Kloben für Dreher (Einspann-)"@de ;
+    skos:altLabel "Kloben für Dreher (Einspann-), Dreher (Einspannkloben für)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/G6DD93> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "D773BD" ;
@@ -6233,8 +6008,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Handstock" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Flejanstock"@de,
-        "Stock (Hand-)"@de ;
+    skos:altLabel "Flejanstock, Stock (Hand-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C58546> ;
     skos:editorialNote "H 188, T 79/2 &amp; S 71 f., T 34/35"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -6246,8 +6020,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Jauchetonne" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Jauchefaß"@de,
-        "Tonne (Jauche-)"@de ;
+    skos:altLabel "Jauchefaß, Tonne (Jauche-)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "D78792" ;
     skos:prefLabel "Jauchetonne"@de .
@@ -6269,9 +6042,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Halbrundschlichtfeile" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Feile (Halbrundschlicht-)"@de,
-        "Rundschlichtfeile (Halb-)"@de,
-        "Schlichtfeile (Halbrund-)"@de ;
+    skos:altLabel "Rundschlichtfeile (Halb-), Schlichtfeile (Halbrund-), Feile (Halbrundschlicht-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C15733> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "D7BAG6" ;
@@ -6316,8 +6087,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kummetgeschirr" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Geschirr (Kummet-)"@de,
-        "Kumpgeschirr"@de ;
+    skos:altLabel "Kumpgeschirr, Geschirr (Kummet-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A6G4BA> ;
     skos:editorialNote "H 134, T 52/5-6 &amp; S 118, T 62"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -6362,8 +6132,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Große Strohgabel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Gabel (Große Stroh-)"@de,
-        "Strohgabel (Große)"@de ;
+    skos:altLabel "Strohgabel (Große), Gabel (Große Stroh-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/BFBB87> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "D85G68" ;
@@ -6374,8 +6143,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Doppelhobel mit Doppelgriffausführung" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Doppelgriffausführung (Doppelhobel mit)"@de,
-        "Hobel mit Doppelgriffausführung (Doppel-)"@de ;
+    skos:altLabel "Hobel mit Doppelgriffausführung (Doppel-), Doppelgriffausführung (Doppelhobel mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C579G1> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "D88427" ;
@@ -6386,8 +6154,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Sichte ohne Mahdhaken" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kurzsense"@de,
-        "Mahdhaken (Sichte ohne)"@de ;
+    skos:altLabel "Kurzsense, Mahdhaken (Sichte ohne)"@de ;
     skos:editorialNote "H 178, T 74/9 &amp; S 58 f. T 26/8"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "D8888B" ;
@@ -6444,8 +6211,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Mehrscharepflug" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Pflug (Mehrschare-)"@de,
-        "Scharepflug (Mehr-)"@de ;
+    skos:altLabel "Scharepflug (Mehr-), Pflug (Mehrschare-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/B8B9F7> ;
     skos:editorialNote "DG 74/79 f"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -6502,8 +6268,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Baumkorrn mit Pferdebespannung" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Baumkarren mit Pferdebespannung"@de,
-        "Pferdebespannung (Baumkorrn mit)"@de ;
+    skos:altLabel "Baumkarren mit Pferdebespannung, Pferdebespannung (Baumkorrn mit)"@de ;
     skos:editorialNote "H 150, T 66/4"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "D8GG1B" ;
@@ -6525,8 +6290,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Aufsteckgabel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Gabel (Aufsteck-)"@de,
-        "Upstekeforke"@de ;
+    skos:altLabel "Upstekeforke, Gabel (Aufsteck-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/G2G33F> ;
     skos:editorialNote "H 192, T 81/9"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -6549,8 +6313,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Wagnerstockhacke" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hacke (Wagnerstock-)"@de,
-        "Stockhacke (Wagner-)"@de ;
+    skos:altLabel "Stockhacke (Wagner-), Hacke (Wagnerstock-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FB98C8> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "D96B7B" ;
@@ -6573,8 +6336,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Nagelbohrer mit Heft" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bohrer mit Heft (Nagel-)"@de,
-        "Heft (Nagelbohrer mit)"@de ;
+    skos:altLabel "Bohrer mit Heft (Nagel-), Heft (Nagelbohrer mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A3GBA2> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "D993A6" ;
@@ -6596,9 +6358,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Rinderkummet mit Mittelgeschirr" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Geschirr (Rinderkummet mit Mittel-)"@de,
-        "Kummet mit Mittelgeschirr (Rinder-)"@de,
-        "Mittelgeschirr (Rinderkummet mit)"@de ;
+    skos:altLabel "Kummet mit Mittelgeschirr (Rinder-), Mittelgeschirr (Rinderkummet mit), Geschirr (Rinderkummet mit Mittel-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A6G4BA> ;
     skos:editorialNote "S 118, T 62"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -6622,8 +6382,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Rundspitzstahl" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Spitzstahl (Rund-)"@de,
-        "Stahl (Rundspitz-)"@de ;
+    skos:altLabel "Spitzstahl (Rund-), Stahl (Rundspitz-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FAC125> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "DA1D85" ;
@@ -6634,9 +6393,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Jauchewagen mit Jaucheverteiler" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Jaucheverteiler (Jauchewagen mit)"@de,
-        "Verteiler (Jauchewagen mit Jauche-)"@de,
-        "Wagen mit Jaucheverteiler (Jauche-)"@de ;
+    skos:altLabel "Wagen mit Jaucheverteiler (Jauche-), Jaucheverteiler (Jauchewagen mit), Verteiler (Jauchewagen mit Jauche-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/BA2645> ;
     skos:editorialNote "DG 118 f"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -6738,8 +6495,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Bickhook" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hook (Bick-)"@de,
-        "Mahdhaken"@de ;
+    skos:altLabel "Mahdhaken, Hook (Bick-)"@de ;
     skos:editorialNote "S 58, T 26/9"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "DAG584" ;
@@ -6818,8 +6574,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Brettkorrn mit herausnehmbarem Verschlußbrett" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kastenkarren mit herausnehmbarem Verschlußbrett"@de,
-        "Verschlußbrett (Brettkorrn mit herausnehmbarem)"@de ;
+    skos:altLabel "Kastenkarren mit herausnehmbarem Verschlußbrett, Verschlußbrett (Brettkorrn mit herausnehmbarem)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "DB6C7C" ;
     skos:prefLabel "Brettkorrn mit herausnehmbarem Verschlußbrett"@de .
@@ -6840,8 +6595,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Wiesebüil" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Büil (Wiese-)"@de,
-        "Wiesenbeil"@de ;
+    skos:altLabel "Wiesenbeil, Büil (Wiese-)"@de ;
     skos:editorialNote "H 178"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "DB98GD" ;
@@ -6863,8 +6617,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Matthaken" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Haken (Matt-)"@de,
-        "Mahdhaken"@de ;
+    skos:altLabel "Mahdhaken, Haken (Matt-)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "DBB3D3" ;
     skos:prefLabel "Matthaken"@de .
@@ -6984,8 +6737,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Worpschiute (Getreidereinigung)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Schiute (Worp-, Getreidereinigung)"@de,
-        "Wurfschaufel (Getreidereinigung)"@de ;
+    skos:altLabel "Wurfschaufel (Getreidereinigung), Schiute (Worp-, Getreidereinigung)"@de ;
     skos:editorialNote "S 80, T 39/4-7"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "DC3428" ;
@@ -6996,9 +6748,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Zapfenbohrer mit zwei Einsetzen Schraubgewinde" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bohrer mit zwei Einsetzen Schraubgewinde (Zapfen-)"@de,
-        "Einsetzen Schraubgewinde (Zapfenbohrer mit zwei)"@de,
-        "Schraubgewinde (Zapfenbohrer mit zwei Einsetzen)"@de ;
+    skos:altLabel "Bohrer mit zwei Einsetzen Schraubgewinde (Zapfen-), Einsetzen Schraubgewinde (Zapfenbohrer mit zwei), Schraubgewinde (Zapfenbohrer mit zwei Einsetzen)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C579G1> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "DC6184" ;
@@ -7032,8 +6782,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Blatthobel mit Doppelgriffausführung" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Doppelgriffausführung (Blatthobel mit)"@de,
-        "Hobel mit Doppelgriffausführung (Blatt-)"@de ;
+    skos:altLabel "Hobel mit Doppelgriffausführung (Blatt-), Doppelgriffausführung (Blatthobel mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C579G1> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "DCC5C2" ;
@@ -7055,11 +6804,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Jauchefaß" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Ahlkuiben"@de,
-        "Ahltunnen"@de,
-        "Faß (Jauche-)"@de,
-        "Jauchetonne"@de,
-        "Jauchetunnen"@de ;
+    skos:altLabel "Ahlkuiben, Ahltunnen, Jauchetonne, Jauchetunnen, Faß (Jauche-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FB2G6A> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "DD3FC5" ;
@@ -7082,8 +6827,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Dampfpfluglokomobil" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Lokomobil (Dampfpflug-)"@de,
-        "Pfluglokomobil (Dampf-)"@de ;
+    skos:altLabel "Pfluglokomobil (Dampf-), Lokomobil (Dampfpflug-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/B8B9F7> ;
     skos:editorialNote "DG 104"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -7117,11 +6861,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kastenkarren mit herausnehmbarem Verschlußbrett" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Brettkorrn mit Schütt"@de,
-        "Brettkorrn mit herausnehmbarem Verschlußbrett"@de,
-        "Karren mit herausnehmbarem Verschlußbrett (Kasten-)"@de,
-        "Kastenkorrn mit herausnehmbarem Verschlußbrett"@de,
-        "Verschlußbrett (Kastenkarren mit herausnehmbarem)"@de ;
+    skos:altLabel "Brettkorrn mit herausnehmbarem Verschlußbrett, Brettkorrn mit Schütt, Kastenkorrn mit herausnehmbarem Verschlußbrett, Karren mit herausnehmbarem Verschlußbrett (Kasten-), Verschlußbrett (Kastenkarren mit herausnehmbarem)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C214D7> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "DDA5B5" ;
@@ -7165,8 +6905,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Winkelhaken mit Stahlblatt" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Haken mit Stahlblatt (Winkel-)"@de,
-        "Stahlblatt (Winkelhaken mit)"@de ;
+    skos:altLabel "Haken mit Stahlblatt (Winkel-), Stahlblatt (Winkelhaken mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/GC5B89> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "DDFC19" ;
@@ -7177,8 +6916,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Lederschlaufe (Dreschflegel)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Flejankappen"@de,
-        "Schlaufe (Leder-, Dreschflegel)"@de ;
+    skos:altLabel "Flejankappen, Schlaufe (Leder-, Dreschflegel)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C58546> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "DDG24G" ;
@@ -7189,8 +6927,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Grotsohle (Karrenpflug)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Pflugsohle (Karrenpflug)"@de,
-        "Sohle (Grot-, Karrenpflug)"@de ;
+    skos:altLabel "Pflugsohle (Karrenpflug), Sohle (Grot-, Karrenpflug)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "DF1CB6" ;
     skos:prefLabel "Grotsohle (Karrenpflug)"@de .
@@ -7200,10 +6937,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Pferdekarren mit Gabeldeichsel und abkippbaren Wagenkasten" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Deichsel und abkippbaren Wagenkasten (Pferdekarren mit Gabel-)"@de,
-        "Gabeldeichsel und abkippbaren Wagenkasten (Pferdekarren mit)"@de,
-        "Karren mit Gabeldeichsel und abkippbaren Wagenkasten (Pferde-)"@de,
-        "Wagenkasten (Pferdekarren mit Gabeldeichsel und abkippbaren)"@de ;
+    skos:altLabel "Karren mit Gabeldeichsel und abkippbaren Wagenkasten (Pferde-), Gabeldeichsel und abkippbaren Wagenkasten (Pferdekarren mit), Deichsel und abkippbaren Wagenkasten (Pferdekarren mit Gabel-), Wagenkasten (Pferdekarren mit Gabeldeichsel und abkippbaren)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/DB15B6> ;
     skos:editorialNote "DG 184"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -7215,8 +6949,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Rollenhobel mit Doppeleisen" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Doppeleisen (Rollenhobel mit)"@de,
-        "Hobel mit Doppeleisen (Rollen-)"@de ;
+    skos:altLabel "Hobel mit Doppeleisen (Rollen-), Doppeleisen (Rollenhobel mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/G789B4> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "DF3A96" ;
@@ -7227,10 +6960,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Wippkorrn mit Scherdeichsel und Schütt" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kippkarren mit Scherdeichsel und Schütt"@de,
-        "Korrn mit Scherdeichsel und Schütt (Wipp-)"@de,
-        "Scherdeichsel und Schütt (Wippkorrn mit)"@de,
-        "Schütt (Wippkorrn mit Scherdeichsel und)"@de ;
+    skos:altLabel "Kippkarren mit Scherdeichsel und Schütt, Korrn mit Scherdeichsel und Schütt (Wipp-), Scherdeichsel und Schütt (Wippkorrn mit), Schütt (Wippkorrn mit Scherdeichsel und)"@de ;
     skos:editorialNote "H 150, T 66/1-3"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "DF533F" ;
@@ -7264,8 +6994,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Wellerhaken" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Haken (Weller-)"@de,
-        "Striekhook"@de ;
+    skos:altLabel "Striekhook, Haken (Weller-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/CC6651> ;
     skos:editorialNote "S 60, T 27/6"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -7288,8 +7017,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Parkettnuthobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Parkettnut-)"@de,
-        "Nuthobel (Parkett-)"@de ;
+    skos:altLabel "Nuthobel (Parkett-), Hobel (Parkettnut-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/D362A6> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "DG3BA9" ;
@@ -7300,8 +7028,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Dreschklotz" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Dreschbock"@de,
-        "Klotz (Dresch-)"@de ;
+    skos:altLabel "Dreschbock, Klotz (Dresch-)"@de ;
     skos:editorialNote "S 71 f., T 34/4"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "DG4733" ;
@@ -7324,8 +7051,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Sensenhammer" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hammer (Sensen-)"@de,
-        "Seusenhammer"@de ;
+    skos:altLabel "Seusenhammer, Hammer (Sensen-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/CG1A28> ;
     skos:editorialNote "H 180, T 95/3 &amp; H 346, T 158/5-8 &amp; HT 75/2-4 &amp; S 54/55, T 24"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -7337,9 +7063,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Stellgrathobel mit Vorschneider und zwei Wänden" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Grathobel mit Vorschneider und zwei Wänden (Stell-)"@de,
-        "Hobel mit Vorschneider und zwei Wänden (Stellgrat-)"@de,
-        "Vorschneider und zwei Wänden (Stellgrathobel mit)"@de ;
+    skos:altLabel "Grathobel mit Vorschneider und zwei Wänden (Stell-), Hobel mit Vorschneider und zwei Wänden (Stellgrat-), Vorschneider und zwei Wänden (Stellgrathobel mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/D362A6> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "DGA7D2" ;
@@ -7362,8 +7086,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kastenkorrn mit herausnehmbarem Verschlußbrett" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kastenkarren mit herausnehmbarem Verschlußbrett"@de,
-        "Verschlußbrett (Kastenkorrn mit herausnehmbarem)"@de ;
+    skos:altLabel "Kastenkarren mit herausnehmbarem Verschlußbrett, Verschlußbrett (Kastenkorrn mit herausnehmbarem)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "DGDC27" ;
     skos:prefLabel "Kastenkorrn mit herausnehmbarem Verschlußbrett"@de .
@@ -7373,8 +7096,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Lochsäge mit Heft" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Heft (Lochsäge mit)"@de,
-        "Säge mit Heft (Loch-)"@de ;
+    skos:altLabel "Säge mit Heft (Loch-), Heft (Lochsäge mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C7D468> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "DGFAC5" ;
@@ -7429,8 +7151,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Wendepflug" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Pflug (Wende-)"@de,
-        "Ummewender"@de ;
+    skos:altLabel "Ummewender, Pflug (Wende-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/B8B9F7> ;
     skos:editorialNote "S 4/35, T 14"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -7452,8 +7173,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Seusenhammer" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hammer (Seusen-)"@de,
-        "Sensenhammer"@de ;
+    skos:altLabel "Sensenhammer, Hammer (Seusen-)"@de ;
     skos:editorialNote "H 180, T 95/3 &amp; H 346, T 158/5-8 &amp; HT 75/2-4"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "F1A12G" ;
@@ -7476,8 +7196,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Torfkarren" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Karren (Torf-)"@de,
-        "Torfkorrn"@de ;
+    skos:altLabel "Torfkorrn, Karren (Torf-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C214D7> ;
     skos:editorialNote "H 148, T 59/1"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -7603,8 +7322,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Brettkorrn mit Schütt" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kastenkarren mit herausnehmbarem Verschlußbrett"@de,
-        "Schütt (Brettkorrn mit)"@de ;
+    skos:altLabel "Kastenkarren mit herausnehmbarem Verschlußbrett, Schütt (Brettkorrn mit)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "F2C863" ;
     skos:prefLabel "Brettkorrn mit Schütt"@de .
@@ -7648,8 +7366,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Heckensense mit Reff" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Reff (Heckensense mit)"@de,
-        "Sense mit Reff (Hecken-)"@de ;
+    skos:altLabel "Sense mit Reff (Hecken-), Reff (Heckensense mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C5AA6G> ;
     skos:editorialNote "S 62, T 28/2"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -7683,8 +7400,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Parkettfederhobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Federhobel (Parkett-)"@de,
-        "Hobel (Parkettfeder-)"@de ;
+    skos:altLabel "Federhobel (Parkett-), Hobel (Parkettfeder-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/D362A6> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "F36A3A" ;
@@ -7695,8 +7411,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Steinkarren" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Karren (Stein-)"@de,
-        "Steunekorrn"@de ;
+    skos:altLabel "Steunekorrn, Karren (Stein-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C214D7> ;
     skos:editorialNote "H 148, T 59/5"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -7731,8 +7446,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Glasnuthobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Glasnut-)"@de,
-        "Nuthobel (Glas-)"@de ;
+    skos:altLabel "Nuthobel (Glas-), Hobel (Glasnut-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/D362A6> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "F3C2FG" ;
@@ -7754,8 +7468,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Wiesehogge" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hogge (Wiese-)"@de,
-        "Wiesenhaue"@de ;
+    skos:altLabel "Wiesenhaue, Hogge (Wiese-)"@de ;
     skos:editorialNote "H 178"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "F3DGF1" ;
@@ -7798,8 +7511,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schleifharke" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Harke (Schleif-)"@de,
-        "Schleppharke"@de ;
+    skos:altLabel "Schleppharke, Harke (Schleif-)"@de ;
     skos:editorialNote "H 176, T 73/5"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "F42D23" ;
@@ -7831,8 +7543,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schierkorrn" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bockkarren"@de,
-        "Korrn (Schier-)"@de ;
+    skos:altLabel "Bockkarren, Korrn (Schier-)"@de ;
     skos:editorialNote "H 148, T 59/2"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "F49ACD" ;
@@ -7865,9 +7576,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Wurfschaufel (Getreidereinigung)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Schaufel (Wurf-, Getreidereinigung)"@de,
-        "Worfschaufel (Getreidereinigung)"@de,
-        "Worpschiute (Getreidereinigung)"@de ;
+    skos:altLabel "Worfschaufel (Getreidereinigung), Worpschiute (Getreidereinigung), Schaufel (Wurf-, Getreidereinigung)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FG79F7> ;
     skos:editorialNote "S 80, T 39/4-7 &amp; S 80, T 39/10-11"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -7879,8 +7588,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Planwagen" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Lakenwagen"@de,
-        "Wagen (Plan-)"@de ;
+    skos:altLabel "Lakenwagen, Wagen (Plan-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/AG9361> ;
     skos:editorialNote "H 142, T 56/3"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -7892,8 +7600,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Hochgowel mit zwei Eisenzinken" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Eisenzinken (Hochgowel mit zwei)"@de,
-        "Gowel mit zwei Eisenzinken (Hoch-)"@de ;
+    skos:altLabel "Gowel mit zwei Eisenzinken (Hoch-), Eisenzinken (Hochgowel mit zwei)"@de ;
     skos:editorialNote "H 192, T 81/7-8"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "F51BC2" ;
@@ -7904,8 +7611,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Wiesenbeil" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Beil (Wiesen-)"@de,
-        "Wiesebüil"@de ;
+    skos:altLabel "Wiesebüil, Beil (Wiesen-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/CC6651> ;
     skos:editorialNote "H 178"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -7986,8 +7692,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kittfalzhobel mit zwei Eisen" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Falzhobel mit zwei Eisen (Kitt-)"@de,
-        "Hobel mit zwei Eisen (Kittfalz-)"@de ;
+    skos:altLabel "Falzhobel mit zwei Eisen (Kitt-), Hobel mit zwei Eisen (Kittfalz-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/D362A6> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "F5G384" ;
@@ -8009,8 +7714,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Strohforke" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Forke (Stroh-)"@de,
-        "Greipon"@de ;
+    skos:altLabel "Greipon, Forke (Stroh-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/G2G33F> ;
     skos:editorialNote "S 102, T 51/5"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -8032,8 +7736,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Deskellüchten (Dresch-Zusatzgerät)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Dreschlaternen (Dresch-Zusatzgerät)"@de,
-        "Lüchten (Deskel-, Dresch-Zusatzgerät)"@de ;
+    skos:altLabel "Dreschlaternen (Dresch-Zusatzgerät), Lüchten (Deskel-, Dresch-Zusatzgerät)"@de ;
     skos:editorialNote "H 188, T 79/7"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "F62DD5" ;
@@ -8078,8 +7781,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Pflanzenlochstoßer" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Lochstoßer (Pflanzen-)"@de,
-        "Stoßer (Pflanzenloch-)"@de ;
+    skos:altLabel "Lochstoßer (Pflanzen-), Stoßer (Pflanzenloch-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C3242B> ;
     skos:editorialNote "S 20/21, T 5"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -8091,9 +7793,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Sensenstreichholz (Wetzgerät)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Streeck (Wetzgerät)"@de,
-        "Streecken (Wetzgerät)"@de,
-        "Streichholz (Sensen-, Wetzgerät)"@de ;
+    skos:altLabel "Streeck (Wetzgerät), Streecken (Wetzgerät), Streichholz (Sensen-, Wetzgerät)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/BCGAA5> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "F6629D" ;
@@ -8104,8 +7804,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kartoffelpflug mit Rad" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Pflug mit Rad (Kartoffel-)"@de,
-        "Rad (Kartoffelpflug mit)"@de ;
+    skos:altLabel "Pflug mit Rad (Kartoffel-), Rad (Kartoffelpflug mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C1B27B> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "F67BG9" ;
@@ -8116,8 +7815,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Lattenkorrn" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bockkarren"@de,
-        "Korrn (Latten-)"@de ;
+    skos:altLabel "Bockkarren, Korrn (Latten-)"@de ;
     skos:editorialNote "H 148, T 59/2"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "F6818F" ;
@@ -8151,8 +7849,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kornkastenfaß" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Faß (Kornkasten-)"@de,
-        "Kastenfaß (Korn-)"@de ;
+    skos:altLabel "Kastenfaß (Korn-), Faß (Kornkasten-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/B22A41> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "F6F15D" ;
@@ -8208,8 +7905,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Doppelsterzpflug" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Pflug (Doppelsterz-)"@de,
-        "Sterzpflug (Doppel-)"@de ;
+    skos:altLabel "Sterzpflug (Doppel-), Pflug (Doppelsterz-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/B8B9F7> ;
     skos:editorialNote "DG 74/79 f &amp; H 158, T 63/1-3"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -8221,8 +7917,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Metallsäge mit Holzfassung" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Holzfassung (Metallsäge mit)"@de,
-        "Säge mit Holzfassung (Metall-)"@de ;
+    skos:altLabel "Säge mit Holzfassung (Metall-), Holzfassung (Metallsäge mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C7D468> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "F7334B" ;
@@ -8233,8 +7928,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Eisenschraubzwinge" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Schraubzwinge (Eisen-)"@de,
-        "Zwinge (Eisenschraub-)"@de ;
+    skos:altLabel "Schraubzwinge (Eisen-), Zwinge (Eisenschraub-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A14884> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "F73GF1" ;
@@ -8268,8 +7962,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Gesimsrundstahlhobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Gesimsrundstahl-)"@de,
-        "Rundstahlhobel (Gesims-)"@de ;
+    skos:altLabel "Rundstahlhobel (Gesims-), Hobel (Gesimsrundstahl-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FCGA82> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "F79BF2" ;
@@ -8291,9 +7984,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schlagleistendreschmaschine" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Dreschmaschine (Schlagleisten-)"@de,
-        "Leistendreschmaschine (Schlag-)"@de,
-        "Maschine (Schlagleistendresch-)"@de ;
+    skos:altLabel "Leistendreschmaschine (Schlag-), Dreschmaschine (Schlagleisten-), Maschine (Schlagleistendresch-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FC7716> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "F7GB47" ;
@@ -8326,21 +8017,29 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kornsieb" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kawwennsiewet"@de,
-        "Sieb (Korn-)"@de ;
+    skos:altLabel "Kawwennsiewet, Sieb (Korn-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FG79F7> ;
     skos:editorialNote "S 82, T 40/3"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "F85286" ;
     skos:prefLabel "Kornsieb"@de .
 
+<https://www.w3id.org/KulturVok/terms/ackerbau/F85D89> a skos:Concept ;
+    dct:created "1987-06-04" ;
+    dct:creator "Spengler, W. Eckehart" ;
+    dct:identifier "Geißfuß" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FAC125> ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
+    skos:notation "F85D89" ;
+    skos:prefLabel "Geißfuß"@de .
+
 <https://www.w3id.org/KulturVok/terms/ackerbau/F86A25> a skos:Concept ;
     dct:created "1987-06-04" ;
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Heidekrautgabel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Gabel (Heidekraut-)"@de,
-        "Plaggengaffel"@de ;
+    skos:altLabel "Plaggengaffel, Gabel (Heidekraut-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/BFBB87> ;
     skos:editorialNote "H 192, T 81/5"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -8384,8 +8083,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Brustblattgeschirr (für Arbeits-, Ackerwagen)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Blattgeschirr (Brust-, für Arbeits-, Ackerwagen)"@de,
-        "Geschirr (Brustblatt-, für Arbeits-, Ackerwagen)"@de ;
+    skos:altLabel "Blattgeschirr (Brust-, für Arbeits-, Ackerwagen), Geschirr (Brustblatt-, für Arbeits-, Ackerwagen)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A6G4BA> ;
     skos:editorialNote "H 143/8"^^rdf:XMLLiteral,
         "S 120/121, T 63"^^rdf:XMLLiteral ;
@@ -8398,9 +8096,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Doppelraubankhobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bankhobel (Doppelrau-)"@de,
-        "Hobel (Doppelraubank-)"@de,
-        "Raubankhobel (Doppel-)"@de ;
+    skos:altLabel "Raubankhobel (Doppel-), Bankhobel (Doppelrau-), Hobel (Doppelraubank-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A4CG3F> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "F8C3G1" ;
@@ -8411,8 +8107,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Froschbrahmschnitthobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Brahmschnitthobel (Frosch-)"@de,
-        "Hobel (Froschbrahmschnitt-)"@de ;
+    skos:altLabel "Brahmschnitthobel (Frosch-), Hobel (Froschbrahmschnitt-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C579G1> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "F8D2BD" ;
@@ -8423,8 +8118,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Bißführstange für Zugtiere" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Stange für Zugtiere (Bißführ-)"@de,
-        "Zugtiere (Bißführstange für)"@de ;
+    skos:altLabel "Stange für Zugtiere (Bißführ-), Zugtiere (Bißführstange für)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A8C6F6> ;
     skos:editorialNote "S 124/125, T 65"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -8470,8 +8164,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Doppelschiffhobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Doppelschiff-)"@de,
-        "Schiffhobel (Doppel-)"@de ;
+    skos:altLabel "Schiffhobel (Doppel-), Hobel (Doppelschiff-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FCGA82> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "F94554" ;
@@ -8547,8 +8240,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Dengelamboß" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Amboß (Dengel-)"@de,
-        "Haarstock"@de ;
+    skos:altLabel "Haarstock, Amboß (Dengel-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/CG1A28> ;
     skos:editorialNote "4"^^rdf:XMLLiteral,
         "H 180, T 75/2"^^rdf:XMLLiteral,
@@ -8562,9 +8254,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Baumkarren mit Pferdebespannung" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Baumkorrn mit Pferdebespannung"@de,
-        "Karren mit Pferdebespannung (Baum-)"@de,
-        "Pferdebespannung (Baumkarren mit)"@de ;
+    skos:altLabel "Baumkorrn mit Pferdebespannung, Karren mit Pferdebespannung (Baum-), Pferdebespannung (Baumkarren mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/DB15B6> ;
     skos:editorialNote "H 150, T 66/1-3"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -8598,8 +8288,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Säggemolle" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Molle (Sägge-)"@de,
-        "Säewanne"@de ;
+    skos:altLabel "Säewanne, Molle (Sägge-)"@de ;
     skos:editorialNote "H 174, T 16/4-5"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "FA6D54" ;
@@ -8656,8 +8345,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Pflanzholz" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Holz (Pflanz-)"@de,
-        "Plänter"@de ;
+    skos:altLabel "Plänter, Holz (Pflanz-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C3242B> ;
     skos:editorialNote "H 174, T 72/2"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -8680,8 +8368,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Stellgrathobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Grathobel (Stell-)"@de,
-        "Hobel (Stellgrat-)"@de ;
+    skos:altLabel "Grathobel (Stell-), Hobel (Stellgrat-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/D362A6> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "FB6DA5" ;
@@ -8714,8 +8401,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Zahnschiffhobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Zahnschiff-)"@de,
-        "Schiffhobel (Zahn-)"@de ;
+    skos:altLabel "Schiffhobel (Zahn-), Hobel (Zahnschiff-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FCGA82> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "FBDG5F" ;
@@ -8792,8 +8478,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Doppelbohrwinde" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bohrwinde (Doppel-)"@de,
-        "Winde (Doppelbohr-)"@de ;
+    skos:altLabel "Bohrwinde (Doppel-), Winde (Doppelbohr-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C579G1> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "FC444A" ;
@@ -8804,9 +8489,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Säewanne" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Säemolle"@de,
-        "Säggemolle"@de,
-        "Wanne (Säe-)"@de ;
+    skos:altLabel "Säemolle, Säggemolle, Wanne (Säe-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/B44648> ;
     skos:editorialNote "S 40, T 16/4-5"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -8828,8 +8511,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Upstekeforke" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Aufsteckgabel"@de,
-        "Forke (Upsteke-)"@de ;
+    skos:altLabel "Aufsteckgabel, Forke (Upsteke-)"@de ;
     skos:editorialNote "H 192, T 81/9"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "FCB8CA" ;
@@ -8840,8 +8522,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Stemmeisenheft mit Eisenring" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Eisenring (Stemmeisenheft mit)"@de,
-        "Heft mit Eisenring (Stemmeisen-)"@de ;
+    skos:altLabel "Heft mit Eisenring (Stemmeisen-), Eisenring (Stemmeisenheft mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C58A94> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "FCC4A5" ;
@@ -8863,9 +8544,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Drehschleifstein (Wetzgerät)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Schleifstein (Dreh-, Wetzgerät)"@de,
-        "Schliepsteen (Wetzgerät)"@de,
-        "Stein (Drehschleif-, Wetzgerät)"@de ;
+    skos:altLabel "Schliepsteen (Wetzgerät), Schleifstein (Dreh-, Wetzgerät), Stein (Drehschleif-, Wetzgerät)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/BCGAA5> ;
     skos:editorialNote "H 346, T 158/1"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -8899,8 +8578,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Steunekorrn" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Korrn (Steune-)"@de,
-        "Steinkarren"@de ;
+    skos:altLabel "Steinkarren, Korrn (Steune-)"@de ;
     skos:editorialNote "H 148, T 59/5"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "FD9645" ;
@@ -8966,8 +8644,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Holzfeile mit Raspel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Feile mit Raspel (Holz-)"@de,
-        "Raspel (Holzfeile mit)"@de ;
+    skos:altLabel "Feile mit Raspel (Holz-), Raspel (Holzfeile mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C15733> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "FF2AGC" ;
@@ -8978,8 +8655,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Geräteablage für das gemähte Getreide" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Ablage für das gemähte Getreide (Geräte-)"@de,
-        "Getreide (Geräteablage für das gemähte)"@de ;
+    skos:altLabel "Ablage für das gemähte Getreide (Geräte-), Getreide (Geräteablage für das gemähte)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/DG7DFF> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "FF397C" ;
@@ -9023,8 +8699,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Bockkorrn" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bockkarren"@de,
-        "Korrn (Bock-)"@de ;
+    skos:altLabel "Bockkarren, Korrn (Bock-)"@de ;
     skos:editorialNote "H 148, T 59/2"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "FF771G" ;
@@ -9056,8 +8731,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kastenwagen, gefedert" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Feddernwagen"@de,
-        "Wagen (Kasten-), gefedert"@de ;
+    skos:altLabel "Feddernwagen, Wagen (Kasten-), gefedert"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/AG9361> ;
     skos:editorialNote "H 142, T 56/1"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -9092,8 +8766,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Rohrzieheisen" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Eisen (Rohrzieh-)"@de,
-        "Zieheisen (Rohr-)"@de ;
+    skos:altLabel "Zieheisen (Rohr-), Eisen (Rohrzieh-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/F452CB> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "FG1G1B" ;
@@ -9159,8 +8832,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Mist-Grabeforke" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Forke (Mist-Grabe-)"@de,
-        "Grabeforke (Mist-)"@de ;
+    skos:altLabel "Grabeforke (Mist-), Forke (Mist-Grabe-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/G2G33F> ;
     skos:editorialNote "S 69 f. T 33/9/10 &amp; H 192, T 81/11"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -9229,9 +8901,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Wetzstein (Wetzgerät)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Stein (Wetz-, Wetzgerät)"@de,
-        "Wett (Wetzgerät)"@de,
-        "Wettstein (Wetzgerät)"@de ;
+    skos:altLabel "Wett (Wetzgerät), Wettstein (Wetzgerät), Stein (Wetz-, Wetzgerät)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/BCGAA5> ;
     skos:editorialNote "S 56/57, T 25 &amp; H 346, T 158/3 &amp; S 56, T 25/1"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -9243,8 +8913,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Putzdreschmaschine" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Dreschmaschine (Putz-)"@de,
-        "Maschine (Putzdresch-)"@de ;
+    skos:altLabel "Dreschmaschine (Putz-), Maschine (Putzdresch-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FC7716> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "G15BBD" ;
@@ -9278,8 +8947,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Lochsäge mit Griff" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Griff (Lochsäge mit)"@de,
-        "Säge mit Griff (Loch-)"@de ;
+    skos:altLabel "Säge mit Griff (Loch-), Griff (Lochsäge mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C7D468> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "G17D4D" ;
@@ -9290,9 +8958,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Doppelhohlkehlhobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Doppelhohlkehl-)"@de,
-        "Hohlkehlhobel (Doppel-)"@de,
-        "Kehlhobel (Doppelhohl-)"@de ;
+    skos:altLabel "Hohlkehlhobel (Doppel-), Kehlhobel (Doppelhohl-), Hobel (Doppelhohlkehl-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FCGA82> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "G17D56" ;
@@ -9337,8 +9003,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Beschneidhobel mit Zungen" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel mit Zungen (Beschneid-)"@de,
-        "Zungen (Beschneidhobel mit)"@de ;
+    skos:altLabel "Hobel mit Zungen (Beschneid-), Zungen (Beschneidhobel mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/G789B4> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "G1A877" ;
@@ -9360,8 +9025,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schleppharke" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Harke (Schlepp-)"@de,
-        "Schleifharke"@de ;
+    skos:altLabel "Schleifharke, Harke (Schlepp-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/AA661B> ;
     skos:editorialNote "S 66, T 30"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -9373,9 +9037,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Türnutstellhobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Türnutstell-)"@de,
-        "Nutstellhobel (Tür-)"@de,
-        "Stellhobel (Türnut-)"@de ;
+    skos:altLabel "Nutstellhobel (Tür-), Stellhobel (Türnut-), Hobel (Türnutstell-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/D362A6> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "G22GFF" ;
@@ -9386,8 +9048,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Rohrziehhobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Rohrzieh-)"@de,
-        "Ziehhobel (Rohr-)"@de ;
+    skos:altLabel "Ziehhobel (Rohr-), Hobel (Rohrzieh-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/F452CB> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "G23C4F" ;
@@ -9431,8 +9092,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Haarhammer" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Dengelhammer"@de,
-        "Hammer (Haar-)"@de ;
+    skos:altLabel "Dengelhammer, Hammer (Haar-)"@de ;
     skos:editorialNote "S 54/55, T 24"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "G27CBB" ;
@@ -9465,8 +9125,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Gesimshobel mit Doppeleisen" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Doppeleisen (Gesimshobel mit)"@de,
-        "Hobel mit Doppeleisen (Gesims-)"@de ;
+    skos:altLabel "Hobel mit Doppeleisen (Gesims-), Doppeleisen (Gesimshobel mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A4CG3F> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "G28DA5" ;
@@ -9500,8 +9159,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Bohrwinde mit Gewinde" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Gewinde (Bohrwinde mit)"@de,
-        "Winde mit Gewinde (Bohr-)"@de ;
+    skos:altLabel "Winde mit Gewinde (Bohr-), Gewinde (Bohrwinde mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/F34B82> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "G2CDFB" ;
@@ -9555,8 +9213,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schüllegaffel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Gaffel (Schülle-)"@de,
-        "Schollengabel"@de ;
+    skos:altLabel "Schollengabel, Gaffel (Schülle-)"@de ;
     skos:editorialNote "H 192, T 81/1-2 &amp; S 69 f., T 33/17"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "G319A6" ;
@@ -9578,8 +9235,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Heuforke mit zwei Eisenzinken" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Eisenzinken (Heuforke mit zwei)"@de,
-        "Forke mit zwei Eisenzinken (Heu-)"@de ;
+    skos:altLabel "Forke mit zwei Eisenzinken (Heu-), Eisenzinken (Heuforke mit zwei)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/G2G33F> ;
     skos:editorialNote "H 192, T 81/7-8"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -9603,8 +9259,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schlichtschiffhobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Schlichtschiff-)"@de,
-        "Schiffhobel (Schlicht-)"@de ;
+    skos:altLabel "Schiffhobel (Schlicht-), Hobel (Schlichtschiff-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FCGA82> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "G3AFG9" ;
@@ -9615,8 +9270,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Hausense" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kurzsense"@de,
-        "Sense (Hau-)"@de ;
+    skos:altLabel "Kurzsense, Sense (Hau-)"@de ;
     skos:editorialNote "H 178, T 74/9 &amp; S 58 f. T 26/8"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "G3D729" ;
@@ -9671,8 +9325,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schlagleistenhobel mit Holzkehl" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel mit Holzkehl (Schlagleisten-)"@de,
-        "Holzkehl (Schlagleistenhobel mit)"@de ;
+    skos:altLabel "Hobel mit Holzkehl (Schlagleisten-), Holzkehl (Schlagleistenhobel mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/G789B4> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "G47854" ;
@@ -9706,8 +9359,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Sessellochbeitel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Beitel (Sesselloch-)"@de,
-        "Lochbeitel (Sessel-)"@de ;
+    skos:altLabel "Lochbeitel (Sessel-), Beitel (Sesselloch-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FAC125> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "G5264G" ;
@@ -9763,8 +9415,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kornfege mit Zahnradantrieb" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Fege mit Zahnradantrieb (Korn-)"@de,
-        "Zahnradantrieb (Kornfege mit)"@de ;
+    skos:altLabel "Fege mit Zahnradantrieb (Korn-), Zahnradantrieb (Kornfege mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FG79F7> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "G5782B" ;
@@ -9775,8 +9426,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Tiefhacke" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Diuwharke"@de,
-        "Hacke (Tief-)"@de ;
+    skos:altLabel "Diuwharke, Hacke (Tief-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/AA661B> ;
     skos:editorialNote "H 176, T 73/1 &amp; H 180/10"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -9788,9 +9438,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schlichthohlkehlhobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Schlichthohlkehl-)"@de,
-        "Hohlkehlhobel (Schlicht-)"@de,
-        "Kehlhobel (Schlichthohl-)"@de ;
+    skos:altLabel "Hohlkehlhobel (Schlicht-), Kehlhobel (Schlichthohl-), Hobel (Schlichthohlkehl-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FCGA82> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "G5F66G" ;
@@ -9835,8 +9483,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Krümelsohlenpflug" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Pflug (Krümelsohlen-)"@de,
-        "Sohlenpflug (Krümel-)"@de ;
+    skos:altLabel "Sohlenpflug (Krümel-), Pflug (Krümelsohlen-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/B8B9F7> ;
     skos:editorialNote "S 32, T 12/11"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -9881,8 +9528,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Plöggenhaken (Ernteaufzug)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Eisenhaken mit zwei Zinken (Ernteaufzug)"@de,
-        "Haken (Plöggen-, Ernteaufzug)"@de ;
+    skos:altLabel "Eisenhaken mit zwei Zinken (Ernteaufzug), Haken (Plöggen-, Ernteaufzug)"@de ;
     skos:editorialNote "HT 78/6-7"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "G6F41C" ;
@@ -9905,8 +9551,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schlittengeschirrglocke" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Geschirrglocke (Schlitten-)"@de,
-        "Glocke (Schlittengeschirr-)"@de ;
+    skos:altLabel "Geschirrglocke (Schlitten-), Glocke (Schlittengeschirr-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A6263F> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "G7227F" ;
@@ -9917,8 +9562,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Handtaufelbohrer" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bohrer (Handtaufel-)"@de,
-        "Taufelbohrer (Hand-)"@de ;
+    skos:altLabel "Taufelbohrer (Hand-), Bohrer (Handtaufel-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A3GBA2> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "G728B2" ;
@@ -9963,8 +9607,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Grotsole (Karrenpflug)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Pflugsohle (Karrenpflug)"@de,
-        "Sole (Grot-, Karrenpflug)"@de ;
+    skos:altLabel "Pflugsohle (Karrenpflug), Sole (Grot-, Karrenpflug)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "G77AD2" ;
     skos:prefLabel "Grotsole (Karrenpflug)"@de .
@@ -10032,8 +9675,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Sensenring mit Imbusschlüssel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Imbusschlüssel (Sensenring mit)"@de,
-        "Ring mit Imbusschlüssel (Sensen-)"@de ;
+    skos:altLabel "Ring mit Imbusschlüssel (Sensen-), Imbusschlüssel (Sensenring mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/G28ACD> ;
     skos:editorialNote "S 60, T 27 14"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -10097,8 +9739,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Ummewender" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Wendepflug"@de,
-        "Wender (Umme-)"@de ;
+    skos:altLabel "Wendepflug, Wender (Umme-)"@de ;
     skos:editorialNote "S, T 14"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "G8629G" ;
@@ -10154,8 +9795,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kuhnackengeschirr" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Geschirr (Kuhnacken-)"@de,
-        "Nackengeschirr (Kuh-)"@de ;
+    skos:altLabel "Nackengeschirr (Kuh-), Geschirr (Kuhnacken-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A6G4BA> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "G8AAAC" ;
@@ -10166,8 +9806,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Halbrundfeile" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Feile (Halbrund-)"@de,
-        "Rundfeile (Halb-)"@de ;
+    skos:altLabel "Rundfeile (Halb-), Feile (Halbrund-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C15733> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "G8BA2A" ;
@@ -10212,9 +9851,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Zahnhohlkehlhobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Zahnhohlkehl-)"@de,
-        "Hohlkehlhobel (Zahn-)"@de,
-        "Kehlhobel (Zahnhohl-)"@de ;
+    skos:altLabel "Hohlkehlhobel (Zahn-), Kehlhobel (Zahnhohl-), Hobel (Zahnhohlkehl-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FCGA82> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "G92D39" ;
@@ -10225,8 +9862,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Feddernwagen" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kastenwagen, gefedert"@de,
-        "Wagen (Feddern-)"@de ;
+    skos:altLabel "Kastenwagen, gefedert, Wagen (Feddern-)"@de ;
     skos:editorialNote "H 142, T 56/1"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "G9328D" ;
@@ -10295,8 +9931,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Pickhook, zweizinkig" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hook (Pick-), zweizinkig"@de,
-        "Mahdhaken"@de ;
+    skos:altLabel "Mahdhaken, Hook (Pick-), zweizinkig"@de ;
     skos:editorialNote "S 58, T 26/9"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "G9A37C" ;
@@ -10307,8 +9942,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Nuthobel mit Auflauf" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Auflauf (Nuthobel mit)"@de,
-        "Hobel mit Auflauf (Nut-)"@de ;
+    skos:altLabel "Hobel mit Auflauf (Nut-), Auflauf (Nuthobel mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/G789B4> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "G9B9G4" ;
@@ -10353,8 +9987,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Seitenhobel mit zwei Eisen" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Eisen (Seitenhobel mit zwei)"@de,
-        "Hobel mit zwei Eisen (Seiten-)"@de ;
+    skos:altLabel "Hobel mit zwei Eisen (Seiten-), Eisen (Seitenhobel mit zwei)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/F452CB> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "GA1256" ;
@@ -10376,8 +10009,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Dengelamboß mit Querstrebe" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Amboß mit Querstrebe (Dengel-)"@de,
-        "Querstrebe (Dengelamboß mit)"@de ;
+    skos:altLabel "Amboß mit Querstrebe (Dengel-), Querstrebe (Dengelamboß mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/CG1A28> ;
     skos:editorialNote "S 54/55, T 24"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -10436,9 +10068,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Eisenbohrwinde mit Einsatz" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bohrwinde mit Einsatz (Eisen-)"@de,
-        "Einsatz (Eisenbohrwinde mit)"@de,
-        "Winde mit Einsatz (Eisenbohr-)"@de ;
+    skos:altLabel "Bohrwinde mit Einsatz (Eisen-), Winde mit Einsatz (Eisenbohr-), Einsatz (Eisenbohrwinde mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/F34B82> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "GA8CAD" ;
@@ -10471,8 +10101,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schroppschlichthobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Schroppschlicht-)"@de,
-        "Schlichthobel (Schropp-)"@de ;
+    skos:altLabel "Schlichthobel (Schropp-), Hobel (Schroppschlicht-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FCGA82> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "GAD353" ;
@@ -10483,8 +10112,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Ausputzhobelhobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Ausputzhobel-)"@de,
-        "Hobelhobel (Ausputz-)"@de ;
+    skos:altLabel "Hobelhobel (Ausputz-), Hobel (Ausputzhobel-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A4CG3F> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "GB127A" ;
@@ -10548,8 +10176,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Dengelhammer" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Haarhammer"@de,
-        "Hammer (Dengel-)"@de ;
+    skos:altLabel "Haarhammer, Hammer (Dengel-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/CG1A28> ;
     skos:editorialNote "S 54/55, T 24 &amp; H 180, T 95/3"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -10573,8 +10200,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Sichte mit Mahdhaken" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kurzsense"@de,
-        "Mahdhaken (Sichte mit)"@de ;
+    skos:altLabel "Kurzsense, Mahdhaken (Sichte mit)"@de ;
     skos:editorialNote "H 178, T 74/9 &amp; S 58 f. T 26/8"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "GB7D1B" ;
@@ -10597,8 +10223,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kartoffelpflanzbrett" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Brett (Kartoffelpflanz-)"@de,
-        "Pflanzbrett (Kartoffel-)"@de ;
+    skos:altLabel "Pflanzbrett (Kartoffel-), Brett (Kartoffelpflanz-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C3242B> ;
     skos:editorialNote "S 22/23, T 6"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -10610,8 +10235,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Bodenbrahmschnitthobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Brahmschnitthobel (Boden-)"@de,
-        "Hobel (Bodenbrahmschnitt-)"@de ;
+    skos:altLabel "Brahmschnitthobel (Boden-), Hobel (Bodenbrahmschnitt-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C579G1> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "GBCGC9" ;
@@ -10644,8 +10268,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kuh-Hirtenpeitsche" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hirtenpeitsche (Kuh-)"@de,
-        "Peitsche (Kuh-Hirten-)"@de ;
+    skos:altLabel "Hirtenpeitsche (Kuh-), Peitsche (Kuh-Hirten-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A6263F> ;
     skos:editorialNote "S 126, T 67"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -10702,8 +10325,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Kastenwagen" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Flechtenwagen"@de,
-        "Wagen (Kasten-)"@de ;
+    skos:altLabel "Flechtenwagen, Wagen (Kasten-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/AG9361> ;
     skos:editorialNote "H 136, T 53/2"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -10782,9 +10404,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Holzegge mit Holzzinken und Eggenbalken" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Egge mit Holzzinken und Eggenbalken (Holz-)"@de,
-        "Eggenbalken (Holzegge mit Holzzinken und)"@de,
-        "Holzzinken und Eggenbalken (Holzegge mit)"@de ;
+    skos:altLabel "Egge mit Holzzinken und Eggenbalken (Holz-), Holzzinken und Eggenbalken (Holzegge mit), Eggenbalken (Holzegge mit Holzzinken und)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/GFB89C> ;
     skos:editorialNote "H 166/167 &amp; S 44/45, T 68/1-3"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -10796,8 +10416,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schmiertopf" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Schmierpot"@de,
-        "Topf (Schmier-)"@de ;
+    skos:altLabel "Schmierpot, Topf (Schmier-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/BGCG7C> ;
     skos:editorialNote "H 144, T 57,9"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -10809,8 +10428,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Stemhobel mit Doppelgriffausführung" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Doppelgriffausführung (Stemhobel mit)"@de,
-        "Hobel mit Doppelgriffausführung (Stem-)"@de ;
+    skos:altLabel "Hobel mit Doppelgriffausführung (Stem-), Doppelgriffausführung (Stemhobel mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C579G1> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "GF64BG" ;
@@ -10832,8 +10450,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Feilbank (Wetzgerät)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bank (Feil-, Wetzgerät)"@de,
-        "Fuilbank (Wetzgerät)"@de ;
+    skos:altLabel "Fuilbank (Wetzgerät), Bank (Feil-, Wetzgerät)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/BCGAA5> ;
     skos:editorialNote "H 346, T 158/4"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -10902,8 +10519,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Dampfdreschmaschine" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Dreschmaschine (Dampf-)"@de,
-        "Maschine (Dampfdresch-)"@de ;
+    skos:altLabel "Dreschmaschine (Dampf-), Maschine (Dampfdresch-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FC7716> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "GG531C" ;
@@ -10948,8 +10564,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Raubankgriff" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bankgriff (Rau-)"@de,
-        "Griff (Raubank-)"@de ;
+    skos:altLabel "Bankgriff (Rau-), Griff (Raubank-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C58A94> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "GGAG68" ;
@@ -10960,8 +10575,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Binderkrumeisen" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Eisen (Binderkrum-)"@de,
-        "Krumeisen (Binder-)"@de ;
+    skos:altLabel "Krumeisen (Binder-), Eisen (Binderkrum-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C12497> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:notation "GGDAD5" ;
@@ -11017,9 +10631,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Sensen mit Reff oder Draht- bzw. Weidenbügel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Draht- bzw. Weidenbügel (Sensen mit Reff oder)"@de,
-        "Reff oder Draht- bzw. Weidenbügel (Sensen mit)"@de,
-        "Weidenbügel (Sensen mit Reff oder Draht- bzw.)"@de ;
+    skos:altLabel "Reff oder Draht- bzw. Weidenbügel (Sensen mit), Draht- bzw. Weidenbügel (Sensen mit Reff oder), Weidenbügel (Sensen mit Reff oder Draht- bzw.)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C5AA6G> ;
     skos:editorialNote "H 180, T75/8-9"^^rdf:XMLLiteral,
         "S 62, T 28"^^rdf:XMLLiteral ;
@@ -11106,8 +10718,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Wagnerwerkzeug - Binderwerkzeug - Zündholzherstellung" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Binderwerkzeug - Zündholzherstellung - Wagnerwerkzeug"@de,
-        "Zündholzherstellung - Wagnerwerkzeug - Binderwerkzeug"@de ;
+    skos:altLabel "Binderwerkzeug - Zündholzherstellung - Wagnerwerkzeug, Zündholzherstellung - Wagnerwerkzeug - Binderwerkzeug"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/F9B3B4> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:narrower <https://www.w3id.org/KulturVok/terms/ackerbau/F452CB> ;
@@ -11196,9 +10807,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Dengelgerät - Schleifgerät - Wetzgerät" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Gerät (Dengel-) - Schleifgerät - Wetzgerät"@de,
-        "Schleifgerät - Wetzgerät - Dengelgerät"@de,
-        "Wetzgerät - Dengelgerät - Schleifgerät"@de ;
+    skos:altLabel "Gerät (Dengel-) - Schleifgerät - Wetzgerät, Schleifgerät - Wetzgerät - Dengelgerät, Wetzgerät - Dengelgerät - Schleifgerät"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/BBD627> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:narrower <https://www.w3id.org/KulturVok/terms/ackerbau/BCGAA5>,
@@ -11211,8 +10820,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schiebkarren - Schubkarren (Landwirtschaft)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Karren (Schieb-) - Schubkarren (Erntegerät)"@de,
-        "Schubkarren - Schiebkarren (Erntegerät)"@de ;
+    skos:altLabel "Karren (Schieb-) - Schubkarren (Erntegerät), Schubkarren - Schiebkarren (Erntegerät)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/C214D7> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:narrower <https://www.w3id.org/KulturVok/terms/ackerbau/B757C7>,
@@ -11225,8 +10833,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Hunspflug mit Vorwagen" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Pflug mit Vorwagen (Huns-)"@de,
-        "Vorwagen (Hunspflug mit)"@de ;
+    skos:altLabel "Pflug mit Vorwagen (Huns-), Vorwagen (Hunspflug mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/B8B9F7> ;
     skos:editorialNote "S 24, T 7/2"^^rdf:XMLLiteral ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
@@ -11345,8 +10952,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Sensenbaum" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Heckelbaum"@de,
-        "Seussenbaum"@de ;
+    skos:altLabel "Heckelbaum, Seussenbaum"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/G28ACD> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:narrower <https://www.w3id.org/KulturVok/terms/ackerbau/C37818>,
@@ -11419,8 +11025,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Rinderkummet - Pferdekummet" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kummet (Rinder-) - Pferdekummet"@de,
-        "Pferdekummet - Rinderkummet"@de ;
+    skos:altLabel "Kummet (Rinder-) - Pferdekummet, Pferdekummet - Rinderkummet"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FG7B7C> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:narrower <https://www.w3id.org/KulturVok/terms/ackerbau/BCF9F7>,
@@ -11466,8 +11071,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Dreschmaschinenteile für Spitz- und Breitdrescher" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Breitdrescher (Dreschmaschinenteile für Spitz- und)"@de,
-        "Spitz- und Breitdrescher (Dreschmaschinenteile für)"@de ;
+    skos:altLabel "Spitz- und Breitdrescher (Dreschmaschinenteile für), Breitdrescher (Dreschmaschinenteile für Spitz- und)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FC7716> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:narrower <https://www.w3id.org/KulturVok/terms/ackerbau/AD4814>,
@@ -11738,10 +11342,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Dengelgerät" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Dengeltuig"@de,
-        "Dengelzeug"@de,
-        "Haartüg"@de,
-        "Kloppetuig"@de ;
+    skos:altLabel "Dengeltuig, Dengelzeug, Haartüg, Kloppetuig"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/CF1CB2> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:narrower <https://www.w3id.org/KulturVok/terms/ackerbau/AB5B8G>,
@@ -11812,8 +11413,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Wagenzubehör und Zusatzteile" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Und Zusatzteile (Wagenzubehör)"@de,
-        "Zusatzteile (Wagenzubehör und)"@de ;
+    skos:altLabel "Und Zusatzteile (Wagenzubehör), Zusatzteile (Wagenzubehör und)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/D42FD4> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:narrower <https://www.w3id.org/KulturVok/terms/ackerbau/B67169>,
@@ -12153,8 +11753,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Parallelstellhobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Parallelstell-)"@de,
-        "Stellhobel (Parallel-)"@de ;
+    skos:altLabel "Stellhobel (Parallel-), Hobel (Parallelstell-)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/AF17A6> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:narrower <https://www.w3id.org/KulturVok/terms/ackerbau/AAC9FC>,
@@ -12244,8 +11843,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Stellhobel mit Eisengewände" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Eisengewände (Stellhobel mit)"@de,
-        "Hobel mit Eisengewände (Stell-)"@de ;
+    skos:altLabel "Hobel mit Eisengewände (Stell-), Eisengewände (Stellhobel mit)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/G9FA94> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:narrower <https://www.w3id.org/KulturVok/terms/ackerbau/AB8AGF>,
@@ -12363,12 +11961,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Hohleisen - Stecheisen - Einlasseisen - Drehstähle aus Gußstahl" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Aus Gußstahl (Drehstähle) - Hohleisen - Stecheisen - Einlasseisen"@de,
-        "Drehstähle aus Gußstahl - Hohleisen - Stecheisen - Einlasseisen"@de,
-        "Einlasseisen - Drehstähle aus Gußstahl - Hohleisen - Stecheisen"@de,
-        "Eisen (Hohl-) - Stecheisen - Einlasseisen - Drehstähle aus Gußstahl"@de,
-        "Gußstahl (Drehstähle aus) - Hohleisen - Stecheisen - Einlasseisen"@de,
-        "Stecheisen - Einlasseisen - Drehstähle aus Gußstahl - Hohleisen"@de ;
+    skos:altLabel "Eisen (Hohl-) - Stecheisen - Einlasseisen - Drehstähle aus Gußstahl, Stecheisen - Einlasseisen - Drehstähle aus Gußstahl - Hohleisen, Einlasseisen - Drehstähle aus Gußstahl - Hohleisen - Stecheisen, Drehstähle aus Gußstahl - Hohleisen - Stecheisen - Einlasseisen, Aus Gußstahl (Drehstähle) - Hohleisen - Stecheisen - Einlasseisen, Gußstahl (Drehstähle aus) - Hohleisen - Stecheisen - Einlasseisen"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/F46A2A> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:narrower <https://www.w3id.org/KulturVok/terms/ackerbau/A534CA>,
@@ -12377,13 +11970,13 @@
         <https://www.w3id.org/KulturVok/terms/ackerbau/C99F5A>,
         <https://www.w3id.org/KulturVok/terms/ackerbau/CA9B98>,
         <https://www.w3id.org/KulturVok/terms/ackerbau/DA1D85>,
+        <https://www.w3id.org/KulturVok/terms/ackerbau/F85D89>,
         <https://www.w3id.org/KulturVok/terms/ackerbau/F93672>,
         <https://www.w3id.org/KulturVok/terms/ackerbau/FBF71F>,
         <https://www.w3id.org/KulturVok/terms/ackerbau/G2G42B>,
         <https://www.w3id.org/KulturVok/terms/ackerbau/G5264G>,
         <https://www.w3id.org/KulturVok/terms/ackerbau/G732CB>,
-        <https://www.w3id.org/KulturVok/terms/ackerbau/G85822>,
-        <https://www.w3id.org/KulturVok/terms/gefaess/Gei�fu�> ;
+        <https://www.w3id.org/KulturVok/terms/ackerbau/G85822> ;
     skos:notation "FAC125" ;
     skos:prefLabel "Hohleisen - Stecheisen - Einlasseisen - Drehstähle aus Gußstahl"@de .
 
@@ -12392,8 +11985,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schneidzeug - Werkzeuge zum Einspannen" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Einspannen (Werkzeuge zum) - Schneidzeug"@de,
-        "Werkzeuge_zum Einspannen - Schneidzeug"@de ;
+    skos:altLabel "Werkzeuge_zum Einspannen - Schneidzeug, Einspannen (Werkzeuge zum) - Schneidzeug"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/F46A2A> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:narrower <https://www.w3id.org/KulturVok/terms/ackerbau/A593C3>,
@@ -12624,9 +12216,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schiffhobel - Hohlhobel - Rundhobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hobel (Schiff-) - Hohlhobel - Rundhobel"@de,
-        "Hohlhobel - Rundhobel - Schiffhobel"@de,
-        "Rundhobel - Schiffhobel - Hohlhobel"@de ;
+    skos:altLabel "Hobel (Schiff-) - Hohlhobel - Rundhobel, Hohlhobel - Rundhobel - Schiffhobel, Rundhobel - Schiffhobel - Hohlhobel"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/G9FA94> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:narrower <https://www.w3id.org/KulturVok/terms/ackerbau/A2817C>,
@@ -12653,8 +12243,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Zuggeschirr - Zaumzeug (Ackerbaugerät - Feldbestellung)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Geschirr (Zug-) - Zaumzeug (Ackerbaugerät - Feldbestellung)"@de,
-        "Zaumzeug - Zuggeschirr (Ackerbaugerät - Feldbestellung)"@de ;
+    skos:altLabel "Geschirr (Zug-) - Zaumzeug (Ackerbaugerät - Feldbestellung), Zaumzeug - Zuggeschirr (Ackerbaugerät - Feldbestellung)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/FG7B7C> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:narrower <https://www.w3id.org/KulturVok/terms/ackerbau/A3CGFC>,
@@ -12799,9 +12388,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schlichthobel - Schropphobel - Gesimshobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Gesimshobel - Schlichthobel - Schropphobel"@de,
-        "Hobel (Schlicht-) - Schropphobel - Gesimshobel"@de,
-        "Schropphobel - Gesimshobel - Schlichthobel"@de ;
+    skos:altLabel "Hobel (Schlicht-) - Schropphobel - Gesimshobel, Schropphobel - Gesimshobel - Schlichthobel, Gesimshobel - Schlichthobel - Schropphobel"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/G9FA94> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:narrower <https://www.w3id.org/KulturVok/terms/ackerbau/A36935>,
@@ -12936,10 +12523,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Nuthobel - Falzhobel - Grathobel - Platthobel" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Falzhobel - Grathobel - Platthobel - Nuthobel"@de,
-        "Grathobel - Platthobel - Nuthobel - Falzhobel"@de,
-        "Hobel (Nut-) - Falzhobel - Grathobel - Platthobel"@de,
-        "Platthobel - Nuthobel - Falzhobel - Grathobel"@de ;
+    skos:altLabel "Hobel (Nut-) - Falzhobel - Grathobel - Platthobel, Falzhobel - Grathobel - Platthobel - Nuthobel, Grathobel - Platthobel - Nuthobel - Falzhobel, Platthobel - Nuthobel - Falzhobel - Grathobel"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/G9FA94> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:narrower <https://www.w3id.org/KulturVok/terms/ackerbau/AA875F>,
@@ -13032,8 +12616,7 @@
     dct:creator "Spengler, W. Eckehart" ;
     dct:identifier "Schnitzbank und Hobel (Faßbinderwerkzeug)" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bank und Hobel (Schnitz-, Faßbinderwerkzeug)"@de,
-        "Hobel (Schnitzbank und, Faßbinderwerkzeug)"@de ;
+    skos:altLabel "Bank und Hobel (Schnitz-, Faßbinderwerkzeug), Hobel (Schnitzbank und, Faßbinderwerkzeug)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/ackerbau/A14884> ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/ackerbau> ;
     skos:narrower <https://www.w3id.org/KulturVok/terms/ackerbau/A1587B>,
@@ -13088,6 +12671,7 @@
     dct:description "Thesaurus zu Ackerbaugerät, Feldbestellung - Landwirtschaftliche Transport- und Nutzfahrzeuge - Werkzeuge (Holzbearbeitung)"@de ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
     dct:title "Ackerbaugeräte-Systematik"@de ;
+    vann:preferredNamespaceUri "https://www.w3id.org/KulturVok/terms/ackerbau" ;
     ex:conceptCount 1050 ;
     skos:hasTopConcept <https://www.w3id.org/KulturVok/terms/ackerbau/A16787>,
         <https://www.w3id.org/KulturVok/terms/ackerbau/A17156>,

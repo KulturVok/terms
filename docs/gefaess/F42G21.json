@@ -1,0 +1,302 @@
+{
+  "id": "https://www.w3id.org/KulturVok/terms/gefaess/F42G21",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Krug"
+  },
+  "definition": {
+    "de": "Formale Merkmale wie (->) Kanne; generelle Unterscheidung: Im Gegensatz zur Kanne fehlen besondere Ausgießfunktionen ( = glatter Rand)., Regional werden viele Krüge auch als (->) Kannen bezeichnet, gelegentlich auch Topfformen mit zylindrisch abgesetztem Hals. So erscheinen formaltypologisch eindeutig unterschiedliche Formen auch in der Fachliteratur bedauerlicherweise unter identischen Namen. Dies ist bei der Namenssuche sorgfältig zu beachten und erklärt auch die nachfolgend genutzte, bisweilen ungewohnte Schreibweise: z.B. Enghalskanne - Enghalskrug (bzw. Rohrtopf/-kanne etc.), In der rheinischen Steinzeugliteratur (-> Bibliographische Hinweise) werden v.a. die zylindrischen Mineralwasserflaschen durchweg als \"Krüge\" bezeichnet., Proportionen: Ähnlich den Topfformen, jedoch zusätzliche formale bzw. funktionale Merkmale. Die Gefäßhöhe H entspricht dem ca. 2 - 3fachen Mündungsdurchmesser D. Vereinzelt entspricht die Gefäßhöhe H dem bis zu 1,5 - 4fachen Mündungsdurchmesser., Hauptfunktion: Trink- und Transportgefäß"
+  },
+  "notation": [
+    "F42G21"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/B33525",
+      "prefLabel": {
+        "de": "Dreihenkelkrug"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/BBAD7B",
+      "prefLabel": {
+        "de": "Walzenkrug"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/C3C335",
+      "prefLabel": {
+        "de": "Daubenkrug"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/CD97F4",
+      "prefLabel": {
+        "de": "Melonenkrug"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/CF4AC8",
+      "prefLabel": {
+        "de": "Raerener Krug"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/D4G1B3",
+      "prefLabel": {
+        "de": "Ringelkrug"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/D66GCD",
+      "prefLabel": {
+        "de": "Pinte"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/BC218G",
+      "prefLabel": {
+        "de": "Brüderleskrug"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/F4AC71",
+      "prefLabel": {
+        "de": "Kugelbauchkrug"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/F4G6B7",
+      "prefLabel": {
+        "de": "Bartmannskrug"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/F8FAGB",
+      "prefLabel": {
+        "de": "Birnkrug"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/G46A64",
+      "prefLabel": {
+        "de": "Schnelle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/GA6166",
+      "prefLabel": {
+        "de": "Pulle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/GA849B",
+      "prefLabel": {
+        "de": "Würzbierkrug"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess/FFCGB1",
+      "prefLabel": {
+        "de": "Stitze"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://www.w3id.org/KulturVok/terms/gefaess/F764BC",
+    "prefLabel": {
+      "de": "Gefäß"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess",
+      "title": {
+        "de": "Gefäßtypologie"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/gefaess"
+    }
+  ],
+  "creator": [
+    "Landesstelle für die nichtstaatlichen Museen in Bayern"
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

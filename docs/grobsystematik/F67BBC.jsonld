@@ -1,0 +1,669 @@
+{
+  "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F67BBC",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Maschinen - Geräte"
+  },
+  "altLabel": {
+    "de": [
+      "Geräte - Maschinen"
+    ]
+  },
+  "notation": [
+    "F67BBC"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C58853",
+      "prefLabel": {
+        "de": "Maschinen- und Geräteteile"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A29F73",
+      "prefLabel": {
+        "de": "Zupfmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A3262D",
+      "prefLabel": {
+        "de": "Buchungsmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A37424",
+      "prefLabel": {
+        "de": "Klebemaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A49353",
+      "prefLabel": {
+        "de": "Farbenmühle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A51919",
+      "prefLabel": {
+        "de": "Häckselmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A546D4",
+      "prefLabel": {
+        "de": "JUPITER_Universal-Küchenmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A84B1F",
+      "prefLabel": {
+        "de": "Schlagmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AD9869",
+      "prefLabel": {
+        "de": "Wickelmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B1DF53",
+      "prefLabel": {
+        "de": "Handdruckmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B12B8A",
+      "prefLabel": {
+        "de": "Pumpen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B3C28D",
+      "prefLabel": {
+        "de": "Kugelkopfschreibmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B435FC",
+      "prefLabel": {
+        "de": "Presse"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B65AG1",
+      "prefLabel": {
+        "de": "Seilerei-Maschinen und Zubehör"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B7AB7F",
+      "prefLabel": {
+        "de": "Sack-Ausklopfmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B954B6",
+      "prefLabel": {
+        "de": "Hebelpresse"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BAC1AD",
+      "prefLabel": {
+        "de": "Wachspresse"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BC4B61",
+      "prefLabel": {
+        "de": "Hächselmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BD43GC",
+      "prefLabel": {
+        "de": "Patronenmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BD6D1G",
+      "prefLabel": {
+        "de": "Schraubenpresse"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BFGA1D",
+      "prefLabel": {
+        "de": "Haarschneidemaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C34393",
+      "prefLabel": {
+        "de": "Handmühle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C35D3C",
+      "prefLabel": {
+        "de": "Lochmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C47G18",
+      "prefLabel": {
+        "de": "Heftmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C4D5FG",
+      "prefLabel": {
+        "de": "Zapfenpoliermaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CAD137",
+      "prefLabel": {
+        "de": "Zerkleinerungsmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CC4283",
+      "prefLabel": {
+        "de": "Gerät"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CCFD53",
+      "prefLabel": {
+        "de": "Koffernähmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D2A2DD",
+      "prefLabel": {
+        "de": "Apparat zur Herstellung von Brauselimonade"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D61A1G",
+      "prefLabel": {
+        "de": "Ledernähmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D64B36",
+      "prefLabel": {
+        "de": "Strickmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D6DA35",
+      "prefLabel": {
+        "de": "Handbohrmaschine, elektrisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D79F8C",
+      "prefLabel": {
+        "de": "Ornamentpresse"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D87264",
+      "prefLabel": {
+        "de": "Wömmelwerk"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D9641D",
+      "prefLabel": {
+        "de": "Rapspresse"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DACB1B",
+      "prefLabel": {
+        "de": "Nietmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DBFG4C",
+      "prefLabel": {
+        "de": "Dampfhammer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DD31F3",
+      "prefLabel": {
+        "de": "Schneidemaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DD41G3",
+      "prefLabel": {
+        "de": "Polsterzupfmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DDBF74",
+      "prefLabel": {
+        "de": "Ösenmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DG3FFF",
+      "prefLabel": {
+        "de": "Häcksellade"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DG488G",
+      "prefLabel": {
+        "de": "PVC-Spritzgußmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DG9B55",
+      "prefLabel": {
+        "de": "Tischnähmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F1B745",
+      "prefLabel": {
+        "de": "Maschinenschlüssel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F2D46B",
+      "prefLabel": {
+        "de": "Nähmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F73G3A",
+      "prefLabel": {
+        "de": "Holznagelmaschine (Schusterwerkstatt)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F74975",
+      "prefLabel": {
+        "de": "Frankiermaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F82145",
+      "prefLabel": {
+        "de": "Färbemaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FF452B",
+      "prefLabel": {
+        "de": "Fingerrechenmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FG6C4A",
+      "prefLabel": {
+        "de": "Handnähmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G1G778",
+      "prefLabel": {
+        "de": "Patronenfertigungsmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G1G8GC",
+      "prefLabel": {
+        "de": "Tret-Nähmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G22949",
+      "prefLabel": {
+        "de": "Schreibmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G22F8G",
+      "prefLabel": {
+        "de": "Lederspaltmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G69543",
+      "prefLabel": {
+        "de": "Wickelpresse"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GAD5F7",
+      "prefLabel": {
+        "de": "Registrierkasse"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GB934G",
+      "prefLabel": {
+        "de": "Einsteckkerbgerät"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GBFG35",
+      "prefLabel": {
+        "de": "Eisengerät"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GCC71G",
+      "prefLabel": {
+        "de": "Hunde-Laufrad"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GCDF2F",
+      "prefLabel": {
+        "de": "Rechenmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GF6631",
+      "prefLabel": {
+        "de": "Bürohandpresse"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GF85CA",
+      "prefLabel": {
+        "de": "Runkelmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GGB43C",
+      "prefLabel": {
+        "de": "Dampfmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AD2G76",
+      "prefLabel": {
+        "de": "Schusternähmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BA961G",
+      "prefLabel": {
+        "de": "Spaltmaschine (Schusterwerkstatt)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BBFC11",
+      "prefLabel": {
+        "de": "Schustermaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C3B4A9",
+      "prefLabel": {
+        "de": "Grünfutterschneider"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DB1AG8",
+      "prefLabel": {
+        "de": "Spintelpresse (Schusterwerkstatt)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DFF43C",
+      "prefLabel": {
+        "de": "Wäschewringermaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F493D6",
+      "prefLabel": {
+        "de": "Waschmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FGBG23",
+      "prefLabel": {
+        "de": "Wäschespülmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G1B1FD",
+      "prefLabel": {
+        "de": "Handfuttermühle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G34GD6",
+      "prefLabel": {
+        "de": "Haarschneidegerät"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GA4926",
+      "prefLabel": {
+        "de": "Bohnenschneidemaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GD38F7",
+      "prefLabel": {
+        "de": "Honigpresse"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GDA566",
+      "prefLabel": {
+        "de": "Schuhmachernähmaschine"
+      }
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik",
+      "title": {
+        "de": "Grobsystematik"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik",
+      "title": {
+        "de": "Grobsystematik"
+      }
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

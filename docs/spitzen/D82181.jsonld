@@ -1,0 +1,356 @@
+{
+  "id": "https://www.w3id.org/KulturVok/terms/spitzen/D82181",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Klöppelspitze"
+  },
+  "definition": {
+    "de": "KlKlöppelspitze entsteht durch Verflechten, Verkreuzen, Verzwirnen und Verweben einer Vielzahl von Fäden, die zu diesem Zweck auf hölzerne Klöppel, z. T. mit einer Schutzhülse, gewickelt sind. Die Position der entstehenden Verkreuzungen u.s.w. wird durch Stecknadeln provisorisch gehalten. Die Nadeln stecken in dem Klöppelbrief (Patrone), der auf dem Klöppelkissen befestigt ist., Technisch unterscheidet man Klöppelspitzen mit fortlaufendem Faden, mit geschnittenem Faden und in Teilen gearbeitete und zusammengesetzte Spitzen. Klöppelspitzen bestehen aus folgenden Elementen:, 1. Grundlegende Schläge (Drehung und Kreuzung): Halbschlag und Ganzschlag. Durch sie werden Bindungsarten erzeugt., 2. Bindungsarten: Flechtschlag, Formenschlag, Leinenschlag, Netzschlag und Löcherschlag. Aus deren Varianten können alle Effekte der Klöppelspitze hergestellt werden., 3. Effekte: Füllungen, auch plastische Effekte und Netze, wobei der Übergang von Grundnetz und Ziernetz oft fließend ist., Diese technischen Verfahren kann man einer stark vereinfachten Einteilung zugrunde legen, die in etwa auch der Chronologie entspricht. Danach teilt man die Spitzen in Flechtspitzen, Formenschlagspitzen, Leinenschlagspitzen, Leinenschlagspitzen mit Netzgrund und Ziernetzspitzen ein., Flechtspitze ist eine drahtartig dünne Spitze, gearbeitet aus fortlaufenden Fäden in einfacher, vierteiliger Flechte, gemustert in geometrischen Zacken. Sie wurde aus weißem Leinen, bunten Seidenfäden und Metallfäden gearbeitet. Im 16. und frühen 17. Jh. wurde sie in Italien, Spanien, den Niederlanden und Deutschland als Besatzspitze hergestellt., Formenschlagspitze besteht aus dicht geklöppelten Verzierungen (Formenschläge) in Form von Vierecken, langen Rechtecken, Ovalen (Gerstenkorn) und Dreiecken. Die Spitzen zeigen kräftig betonte Einzelformen, oft Sterne, Rosetten u.s.w. Die wechselnden Formen bedingen abgeschnittene Fäden., Leinenschlagspitze zeigt Muster in Leinenschlag, oft bandartig, ähnlich der Leinwandbindung beim Gewebe. Technisch können hier Spitzen mit durchlaufenden Fäden (Leinenrißspitzen) und geschnittenen Fäden hergestellt werden., Leinenschlagspitze mit Netzgrund besteht aus einem Muster aus Leinenschlag zwischen Netzgrund., Ziernetzspitze ist der Sammelbegriff für Spitzen, bei denen verschiedene Ziernetze verwendet sind."
+  },
+  "notation": [
+    "D82181"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/A21863",
+      "prefLabel": {
+        "de": "Paraguay"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/A6673B",
+      "prefLabel": {
+        "de": "Trollkante"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/A94CG8",
+      "prefLabel": {
+        "de": "Melangées, Dentelles"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/ABAG26",
+      "prefLabel": {
+        "de": "Valenciennes"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/AGGD15",
+      "prefLabel": {
+        "de": "Idrianer Spitze"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/B5D48B",
+      "prefLabel": {
+        "de": "Milano, Punto di"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/B81CA6",
+      "prefLabel": {
+        "de": "Bretonne"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/B87C52",
+      "prefLabel": {
+        "de": "Binche-Spitze"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/BCF532",
+      "prefLabel": {
+        "de": "Cluny"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/C3C47B",
+      "prefLabel": {
+        "de": "Schneeberger Spitze"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/C3G351",
+      "prefLabel": {
+        "de": "Lille-Spitze"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/C46G58",
+      "prefLabel": {
+        "de": "Pottenkant"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/CA61AD",
+      "prefLabel": {
+        "de": "Bruges, Dentelle de"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/D1B2DA",
+      "prefLabel": {
+        "de": "Mirecourtspitze"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/D1D8A8",
+      "prefLabel": {
+        "de": "Bandspitze"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/D32F1G",
+      "prefLabel": {
+        "de": "Chantilly, Dentelle de"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/D44F5B",
+      "prefLabel": {
+        "de": "Blonde"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/D9BFC7",
+      "prefLabel": {
+        "de": "Torchon-Spitze"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/DA5814",
+      "prefLabel": {
+        "de": "Baby lace"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/DD99DF",
+      "prefLabel": {
+        "de": "Malines"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/G13884",
+      "prefLabel": {
+        "de": "Malteser Spitze"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/G1DG6C",
+      "prefLabel": {
+        "de": "Honiton"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/GC8BD7",
+      "prefLabel": {
+        "de": "Angleterre, Point d'"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/GG2BFC",
+      "prefLabel": {
+        "de": "Ragusaner Spitze"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://www.w3id.org/KulturVok/terms/spitzen/A83GGD",
+    "prefLabel": {
+      "de": "Handgearbeitete Spitze"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen",
+      "title": {
+        "de": "Spitzensystematik"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen"
+    }
+  ],
+  "creator": [
+    "Sächsische Landesstelle für Museumswesen"
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

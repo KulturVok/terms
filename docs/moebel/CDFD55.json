@@ -1,0 +1,390 @@
+{
+  "id": "https://www.w3id.org/KulturVok/terms/moebel/CDFD55",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Stuhl"
+  },
+  "definition": {
+    "de": "Der Stuhl besteht aus einer Sitzfläche und einer oder mehreren Stütze(n) bzw. einem oder mehreren Stützbrett(ern), das/die diese(s) trägt/tragen. Der Stuhl hat immer eine Rückenlehne und kann auch Armlehnen haben. Die Konstruktion von Stühlen aus Kunststoffen, Glas, Geflecht, Metallen, Papier/Pappe und/oder Textil differiert zuweilen; diese Stühle orientieren sich jedoch in der Regel an der tradierten Stuhl-Form."
+  },
+  "notation": [
+    "CDFD55"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/A26C9G",
+      "prefLabel": {
+        "de": "Kinderstuhl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/A2GA5G",
+      "prefLabel": {
+        "de": "Treppenstuhl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/A4BC34",
+      "prefLabel": {
+        "de": "Kinderhochstuhl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/A5AD9B",
+      "prefLabel": {
+        "de": "Drehstuhl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/ABD11D",
+      "prefLabel": {
+        "de": "Stapelstuhl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/AC9873",
+      "prefLabel": {
+        "de": "Armlehnstuhl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/B69634",
+      "prefLabel": {
+        "de": "Rückenlehnstuhl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/B6A7G4",
+      "prefLabel": {
+        "de": "Schaukelstuhl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/BGBC58",
+      "prefLabel": {
+        "de": "Speisezimmerstuhl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/C1FCGA",
+      "prefLabel": {
+        "de": "Tischstuhl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/GB9729",
+      "prefLabel": {
+        "de": "Klappstuhl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/C4678A",
+      "prefLabel": {
+        "de": "Schreibtischstuhl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/G637B7",
+      "prefLabel": {
+        "de": "Pfostenstuhl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/FFA459",
+      "prefLabel": {
+        "de": "Freischwinger"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/D24759",
+      "prefLabel": {
+        "de": "Polsterstuhl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/D2G3B7",
+      "prefLabel": {
+        "de": "Kunststoffstuhl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/D62F23",
+      "prefLabel": {
+        "de": "Lehnstuhl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/D6319A",
+      "prefLabel": {
+        "de": "Wohnzimmerstuhl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/D6A44A",
+      "prefLabel": {
+        "de": "Zargenstuhl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/D7AGF4",
+      "prefLabel": {
+        "de": "Küchenstuhl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/DCF371",
+      "prefLabel": {
+        "de": "Prunkstuhl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/F4DG3D",
+      "prefLabel": {
+        "de": "Bidetstuhl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/AFC842",
+      "prefLabel": {
+        "de": "Faltstuhl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/A2G587",
+      "prefLabel": {
+        "de": "Brettstuhl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/FD4176",
+      "prefLabel": {
+        "de": "Salonstuhl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/GA8G91",
+      "prefLabel": {
+        "de": "Eckstuhl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/GB3DA2",
+      "prefLabel": {
+        "de": "Bugholzstuhl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/GDG98F",
+      "prefLabel": {
+        "de": "Leibstuhl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/GGA9DA",
+      "prefLabel": {
+        "de": "Stahlrohrstuhl"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://www.w3id.org/KulturVok/terms/moebel/D545D6",
+    "prefLabel": {
+      "de": "Sitzmöbel"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel",
+      "title": {
+        "de": "Möbeltypologie"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel"
+    }
+  ],
+  "creator": [
+    "Böth, Gitta",
+    "Hartmann, Manfred",
+    "Kleebaum, Bernd",
+    "Nickel, Susanne",
+    "Pröstler, Viktor"
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

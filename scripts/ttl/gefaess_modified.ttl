@@ -2,6 +2,7 @@
 @prefix ex: <http://www.example.com/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://www.w3id.org/KulturVok/terms/gefaess/A132DA> a skos:Concept ;
@@ -146,18 +147,6 @@
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
     skos:notation "A42A3G" ;
     skos:prefLabel "Gartenkugel"@de .
-
-<https://www.w3id.org/KulturVok/terms/gefaess/A42G65> a skos:Concept ;
-    dct:created "2002-02-28" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000170" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F5894A> ;
-    skos:definition "S. Abschnitt \"Platte\": (->) Buckelplatte - Buckelschale - Buckelteller"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "A42G65" ;
-    skos:prefLabel "Buckelschale"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000155> .
 
 <https://www.w3id.org/KulturVok/terms/gefaess/A463FF> a skos:Concept ;
     dct:created "2002-02-27" ;
@@ -304,8 +293,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000313" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kohlenkasten"@de,
-        "Kohlenschütte"@de ;
+    skos:altLabel "Kohlenkasten, Kohlenschütte"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/BF8427> ;
     skos:definition "Meist kantige, konische Metallausführungen (verzinktes Eisenblech); teilweise nur Rahmenkonstruktionen zum Einlegen (Einschichten) von Normbriketts"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -369,25 +357,12 @@
     skos:notation "A84DD7" ;
     skos:prefLabel "Bonbonniere"@de .
 
-<https://www.w3id.org/KulturVok/terms/gefaess/A88A53> a skos:Concept ;
-    dct:created "2002-03-01" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000305" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/D1G9G6> ;
-    skos:definition "S. Abschnitt \"Schale\": (->) Seifenschale"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "A88A53" ;
-    skos:prefLabel "Seifendose"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000190> .
-
 <https://www.w3id.org/KulturVok/terms/gefaess/A913D2> a skos:Concept ;
     dct:created "2002-02-28" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000186" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Godenschale"@de,
-        "Wöchnerinnenschüssel"@de ;
+    skos:altLabel "Godenschale, Wöchnerinnenschüssel"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F5894A> ;
     skos:definition "Flache bis kalottenförmige Schale mit gegenständigen, randständigen Grifflappen oder Horizontalhenkeln (keramische Materialien, Zinn, Silber; s.a. Dexel I/II, 1981, S. 178)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -505,8 +480,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000114" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Handwaschbecken"@de,
-        "Wasserblase"@de ;
+    skos:altLabel "Handwaschbecken, Wasserblase"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/D7928A> ;
     skos:definition "a) Kugelförmiges Gefäß mit zwei oder mehr schulterständigen Ausgußrohren (Irdenware, Steinzeug; s.a. Dexel, Typenkatalog 1986, S. 110; Reineking v. Bock, S. 266), Syn.: Gelegentlich: Wasserblase, b) Beckenartiges Gefäß mit seitständigen Griffbügeln, häufig reich verziert (Fayence, Irdenware; z.B. im Germanischen Nationalmuseum in Nürnberg, im Stadtmuseum in Vilsbiburg; im Stadtmuseum Kelheim etc.; Bodenfunde in Straubing)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -590,9 +564,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000250" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Gießbüchse"@de,
-        "Malbüchse"@de,
-        "Malhörnchen"@de ;
+    skos:altLabel "Gießbüchse, Malbüchse, Malhörnchen"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F95B71> ;
     skos:definition "Kleines topfartiges bis büchsenförmiges Gefäß mit zwei Öffnungen zur Herstellung des Malhorndekors (Irdenware)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -645,23 +617,6 @@
     skos:notation "AFFG8F" ;
     skos:prefLabel "Sanduhr"@de .
 
-<https://www.w3id.org/KulturVok/terms/gefaess/AG6788> a skos:Concept ;
-    dct:created "2002-03-01" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000327" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Einmachglas"@de,
-        "Einmachtopf"@de,
-        "Einweckglas"@de,
-        "Weck-Glas"@de ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F858DD> ;
-    skos:definition "Zylindrische Formen mit (oft patentiertem) Randfalz für einen entsprechenden Flachdeckel; meist Glas, aber auch emailliertes Eisenblech"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "AG6788" ;
-    skos:prefLabel "Einkochglas"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000329> ;
-    foaf:depiction "gefaess_00000327" .
-
 <https://www.w3id.org/KulturVok/terms/gefaess/AG6B3A> a skos:Concept ;
     dct:created "2002-02-27" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
@@ -674,18 +629,6 @@
     skos:notation "AG6B3A" ;
     skos:prefLabel "Limonadenflasche"@de ;
     foaf:depiction "gefaess_00000070" .
-
-<https://www.w3id.org/KulturVok/terms/gefaess/AG7161> a skos:Concept ;
-    dct:created "2002-03-01" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000329" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F858DD> ;
-    skos:definition "Keramische oder emaillierte Eisenblech-Variante des (->) Einkochglases; meist mit Binderand (Steingut, Steinzeug, Braungeschirr)"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "AG7161" ;
-    skos:prefLabel "Einmachtopf"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000327> .
 
 <https://www.w3id.org/KulturVok/terms/gefaess/AG98C8> a skos:Concept ;
     dct:created "2002-03-01" ;
@@ -744,18 +687,6 @@
     skos:notation "B14F54" ;
     skos:prefLabel "Sauciere"@de ;
     foaf:depiction "gefaess_00000261" .
-
-<https://www.w3id.org/KulturVok/terms/gefaess/B15G8C> a skos:Concept ;
-    dct:created "2002-02-28" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000272" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F95B71> ;
-    skos:definition "(->) Kaffeemaschine; konstruktiv weitgehend identisch mit den \"Kaffeemaschinen\": Rohrkanne mit Rechauduntersatz (verzinktes und emailliertes Eisenblech)"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "B15G8C" ;
-    skos:prefLabel "Teemaschine"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000223> .
 
 <https://www.w3id.org/KulturVok/terms/gefaess/B19B67> a skos:Concept ;
     dct:created "2002-03-28" ;
@@ -902,9 +833,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000202" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bowle"@de,
-        "Suppenschüssel"@de,
-        "Suppenterrine"@de ;
+    skos:altLabel "Bowle, Suppenschüssel, Suppenterrine"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/AGGB68> ;
     skos:definition "Meist runde bis ovale Schüssel mit Deckel; häufig mit Ausschnitt für einen Schöpflöffel; meist hat sie einen abgesetzten Fuß oder eine Fußzone. Oft existieren gegenständige horizontale Henkel (auch Griffe, Mulden etc.). Zahlreiche Beispiele bei Bröhan III (keramische Werkstoffe, verschiedene Metalle bzw. Metallegierungen)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -917,9 +846,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000132" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Enghalskanne"@de,
-        "Enghalskrug"@de,
-        "Zylinderhalskrug"@de ;
+    skos:altLabel "Enghalskanne, Enghalskrug, Zylinderhalskrug"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/D7928A> ;
     skos:definition "Bauchige bis kugelbauchige, aber auch zylinderförmige Kannen- oder Krugform mit niedrigem bis mittelhohem, durchweg scharf abgesetztem Hals (s.a. Dexel I/II, 1980, S. 64; Dexel, Typenkatalog 1986, S. 88), Syn.: Enghalskanne - Enghalskrug; s.a. Abschnitt \"Krug\": (->) Raerener Krug/-Kanne"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -931,9 +858,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000354" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Käseform"@de,
-        "Käsekorb"@de,
-        "Topfdurchschlag"@de ;
+    skos:altLabel "Käseform, Käsekorb, Topfdurchschlag"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F858DD> ;
     skos:definition "Konischer Henkel- oder Doppelhenkeltopf mit gelochten Wänden und Boden zum Abtropfen der Molke, meist mit drei kleinen Füßen oder Standknubben (Irdenware, Steinzeug, emailliertes Eisenblech; Fries, S. 271); wird in manchen Gegenden auch als Käsekorb bezeichnet."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -1003,8 +928,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000193" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Obstschale"@de,
-        "Spargelschale"@de ;
+    skos:altLabel "Obstschale, Spargelschale"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F5894A> ;
     skos:definition "Meist gefußte, ovale bis längsrechteckige Schale/Fußschale mit perforiertem Boden für Obst, Salate, Spargel; zum Abtropfen ist meist eine zusätzliche Auffangschale vorhanden. Für Salate werden meist runde Formen verwendet."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -1035,18 +959,6 @@
     skos:prefLabel "Wärmflasche"@de ;
     foaf:depiction "gefaess_00000092" .
 
-<https://www.w3id.org/KulturVok/terms/gefaess/B7DCA7> a skos:Concept ;
-    dct:created "2002-02-28" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000183" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F5894A> ;
-    skos:definition "Formaltypologisch eine kleine Schale oder auch flache Becherform; der Begriff wurde/wird hauptsächlich in der Keramik der Vor- und Frühgeschichte gebraucht (Irdenware); vgl. (->) Kumme"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "B7DCA7" ;
-    skos:prefLabel "Napf"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000182> .
-
 <https://www.w3id.org/KulturVok/terms/gefaess/B7DCC6> a skos:Concept ;
     dct:created "2002-02-27" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
@@ -1065,9 +977,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000324" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Dreifuaß"@de,
-        "Dreifußdegl"@de,
-        "Dreifußreindl"@de ;
+    skos:altLabel "Dreifuaß, Dreifußdegl, Dreifußreindl"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F858DD> ;
     skos:definition "Flache Topf- bzw. Pfannenformen mit symmetrisch angesetzten Füßen oder Standformen (-knubben etc.); variantenreiche Formen und Namensgebungen (Irdenware, Messing/Bronze, Eisen; s.a. Dexel I/II, 1981, S. 39)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -1120,20 +1030,6 @@
     skos:notation "B8G52F" ;
     skos:prefLabel "Einkochtopf"@de .
 
-<https://www.w3id.org/KulturVok/terms/gefaess/B91GDB> a skos:Concept ;
-    dct:created "2002-02-27" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000047" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Tum(m)ler"@de ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/GG8736> ;
-    skos:definition "(->) Sturzbechervariante, funktionsgleiches, schalenartiges Pendant (s.a. Dexel, Typenkatalog 1986, S. 60)"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "B91GDB" ;
-    skos:prefLabel "Taumler"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000046> ;
-    foaf:depiction "gefaess_00000047" .
-
 <https://www.w3id.org/KulturVok/terms/gefaess/B99198> a skos:Concept ;
     dct:created "2002-02-28" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
@@ -1151,11 +1047,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000035" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Fingerbecher"@de,
-        "Leckhäferl"@de,
-        "Netzbecher"@de,
-        "Netzhaferl"@de,
-        "Netzhäfele"@de ;
+    skos:altLabel "Fingerbecher, Leckhäferl, Netzbecher, Netzhäfele, Netzhaferl"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/GG8736> ;
     skos:definition "Zum Benetzen der Finger beim Flachsspinnen; häufig (sekundär) kleine (Salben-) Töpfe"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -1168,8 +1060,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000352" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kruke"@de,
-        "Schraubflasche"@de ;
+    skos:altLabel "Kruke, Schraubflasche"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F858DD> ;
     skos:definition "Runde bis mehrfach abgeplattete einfache Topfform mit relativ engem Hals (kleiner als Gefäßdurchmesser); gleitende Übergänge zwischen Schraubflasche und Schraubtopf. Die Bezeichnungen in der Literatur sind oft nicht genau definiert."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -1212,19 +1103,6 @@
     skos:notation "BBD182" ;
     skos:prefLabel "Humpen"@de ;
     foaf:depiction "gefaess_00000019" .
-
-<https://www.w3id.org/KulturVok/terms/gefaess/BC2D7C> a skos:Concept ;
-    dct:created "2002-03-01" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000336" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F858DD> ;
-    skos:definition "Querrechteckige hohe Topfform zum Abkühlen frisch gegossener oder gezogener Kerzen (s. Abschnitt \"Sonderformen\": (->) Kerzen(gieß/zieh)form; Irdenware)"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "BC2D7C" ;
-    skos:prefLabel "Kerzenkühler"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000227> ;
-    foaf:depiction "gefaess_00000336" .
 
 <https://www.w3id.org/KulturVok/terms/gefaess/BC3A9F> a skos:Concept ;
     dct:created "2002-02-28" ;
@@ -1353,32 +1231,6 @@
     skos:notation "BFA2D7" ;
     skos:prefLabel "Mehrpaßkanne"@de .
 
-<https://www.w3id.org/KulturVok/terms/gefaess/BFFG99> a skos:Concept ;
-    dct:created "2002-03-04" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000379" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/AG9CA6> ;
-    skos:definition "Form und Material identisch (->) Hasenbräter - Hasenpfanne"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "BFFG99" ;
-    skos:prefLabel "Gansbräter"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000380> .
-
-<https://www.w3id.org/KulturVok/terms/gefaess/BG8C87> a skos:Concept ;
-    dct:created "2002-03-01" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000349" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Salbendose"@de,
-        "Salbenkruke"@de ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F858DD> ;
-    skos:definition "Kleineres topfartiges, zylindrisches bis bauchiges oder auch (bi-) konkaves Gefäß zum Einfüllen von salbenartigen Zubereitungen (Salben, Pomaden etc.; bei älteren Formen mit Binderand; bei jüngeren für Steck- und Stülpdeckel vorgesehen."@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "BG8C87" ;
-    skos:prefLabel "Salbentopf"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000316> .
-
 <https://www.w3id.org/KulturVok/terms/gefaess/BG9A69> a skos:Concept ;
     dct:created "2002-02-27" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
@@ -1395,8 +1247,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000050" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Keulenbecher"@de,
-        "Keulenglas"@de ;
+    skos:altLabel "Keulenbecher, Keulenglas"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/GG8736> ;
     skos:definition "Verwandt mit den \"Nuppenbechern\", jedoch werden die \"Warzen\" mit Hilfe einer Form hergestellt und nicht mit heißer Glasmasse tropfenförmig aufgesetzt wie die Nuppen; Form konisch/zylindrisch bis keulenförmig (->) Keulenglas; (s.a. Dexel, Typenkatalog 1986, S. 162)."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -1471,19 +1322,6 @@
     skos:prefLabel "Augenbadewanne"@de ;
     foaf:depiction "gefaess_00000166" .
 
-<https://www.w3id.org/KulturVok/terms/gefaess/C26G9G> a skos:Concept ;
-    dct:created "2002-03-01" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000316" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F858DD> ;
-    skos:definition "Hohe zylindrische, bauchige oder bikonkave Topfformen für die Aufbewahrung nichtflüssiger Arzneigrundstoffe oder -zubereitungen; meist aus Holz, Fayence oder Porzellan, selten aus anderen Materialien; variable Verschlußarten von Pergament, Holz bis zur Materialgleichheit; zur genaueren Einordnung ist Spezialliteratur erforderlich."@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "C26G9G" ;
-    skos:prefLabel "Albarello"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000349> ;
-    foaf:depiction "gefaess_00000316" .
-
 <https://www.w3id.org/KulturVok/terms/gefaess/C271G6> a skos:Concept ;
     dct:created "2002-04-25" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
@@ -1495,28 +1333,12 @@
     skos:notation "C271G6" ;
     skos:prefLabel "Ranftbecher"@de .
 
-<https://www.w3id.org/KulturVok/terms/gefaess/C2C7DD> a skos:Concept ;
-    dct:created "2002-02-28" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000184" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F5894A> ;
-    skos:definition "Flache Schale, auch: flacher Becher (s. Abschnitt \"Becher\") mit leicht bauchiger, bis am Rand einziehender Wandung, oft längs oder diagonal gerippt (Glas; optisch geblasen; s.a. Abschnitt \"Becher\": (->) Rippenbecher)"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "C2C7DD" ;
-    skos:prefLabel "Maigelein"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000033> ;
-    foaf:depiction "gefaess_00000184" .
-
 <https://www.w3id.org/KulturVok/terms/gefaess/C328C1> a skos:Concept ;
     dct:created "2002-02-28" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000178" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Gitterkorb"@de,
-        "Gitterkörbchen"@de,
-        "Korbschale"@de,
-        "Nadlkörbl (Niederbayern)"@de ;
+    skos:altLabel "Gitterkorb, Gitterkörbchen, Korbschale, Nadlkörbl (Niederbayern)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F5894A> ;
     skos:definition "Schalen-/Schüsselform mit durchbrochener Wandung, oft mit Bügel (keramische Werkstoffe, Glas; Fröschner, S. 273; Raritäten Vilsbiburg, Taf. I-III; Reinartz, Abb. 1582)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -1540,8 +1362,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000341" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Milchhafen"@de,
-        "Milchkanne"@de ;
+    skos:altLabel "Milchhafen, Milchkanne"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F858DD> ;
     skos:definition "Fast immer zylindrischer oder leicht bauchiger Schnauzentopf, oder: s. Abschnitt \"Kanne\": (->) Milchkanne: zylindrisches Gefäß mit abgesetztem Hals, Deckel und Bügel (keramische Werkstoffe, emailliertes Eisenblech)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -1553,8 +1374,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000060" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Schmaiglasl"@de,
-        "Tabakflasche"@de ;
+    skos:altLabel "Schmaiglasl, Tabakflasche"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/BD5416> ;
     skos:definition "Meist faustgroße Flach-/Plattflasche (zahlreiche Materialien, vor allem Glas); vereinzelte Übergrößen (Stammtisch); (Schaefer, zahlr. Abb.), Syn.: \"Schmaiglasl\"; Tabakflasche; gelegentlich handelt es sich jedoch typologisch um eine Schnupftabakdose."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -1572,18 +1392,6 @@
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
     skos:notation "C3FA78" ;
     skos:prefLabel "Surtout"@de .
-
-<https://www.w3id.org/KulturVok/terms/gefaess/C46C3A> a skos:Concept ;
-    dct:created "2002-02-27" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000022" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/GG8736> ;
-    skos:definition "Schalenförmige Becher bzw. kleine Schalen aus Porzellan; s.a. Abschnitt \"Schale\": (->) Koppchen"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "C46C3A" ;
-    skos:prefLabel "Koppchen"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000182> .
 
 <https://www.w3id.org/KulturVok/terms/gefaess/C476AA> a skos:Concept ;
     dct:created "2002-02-28" ;
@@ -1632,45 +1440,18 @@
     skos:prefLabel "Dampfkochtopf"@de ;
     foaf:depiction "gefaess_00000322" .
 
-<https://www.w3id.org/KulturVok/terms/gefaess/C593B8> a skos:Concept ;
-    dct:created "2002-02-28" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000182" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F5894A> ;
-    skos:definition "Kleine Schale, meist Fayence oder Porzellan; (->) Napf; ein Beispiel, bei dem vorwiegend fachspezifische Traditionen die Namensgebung beeinflussen."@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "C593B8" ;
-    skos:prefLabel "Kumme"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000022>,
-        <https://www.w3id.org/KulturVok/terms/gefaess/00000181>,
-        <https://www.w3id.org/KulturVok/terms/gefaess/00000183> .
-
 <https://www.w3id.org/KulturVok/terms/gefaess/C5F9C6> a skos:Concept ;
     dct:created "2002-03-01" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000320" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Brennkorb"@de,
-        "Schüsselhafen"@de ;
+    skos:altLabel "Brennkorb, Schüsselhafen"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F858DD> ;
     skos:definition "Meist topfartige Brennhilfe beim keramischen Brand (hochgebrannte Irdenware, Schamotte)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
     skos:notation "C5F9C6" ;
     skos:prefLabel "Brennkapsel"@de ;
     foaf:depiction "gefaess_00000320" .
-
-<https://www.w3id.org/KulturVok/terms/gefaess/C5G36D> a skos:Concept ;
-    dct:created "2002-03-01" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000339" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F858DD> ;
-    skos:definition "Starkwandiger Topf mit niedrigem zylinderförmigen Hals (Irdenware); Verwendung in der älteren Zuckerindustrie; s.a. Abschnitt \"Sonderformen\": (->) Zuckerhutform"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "C5G36D" ;
-    skos:prefLabel "Melassetopf"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000284> .
 
 <https://www.w3id.org/KulturVok/terms/gefaess/C619D5> a skos:Concept ;
     dct:created "2002-02-27" ;
@@ -1713,25 +1494,13 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000268" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Saugheber"@de,
-        "Weinheber"@de ;
+    skos:altLabel "Saugheber, Weinheber"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F95B71> ;
     skos:definition "Sauggefäß mit Vorratsbehälter (kugel- bis tonnenförmig) im oberen Bereich und langem Saugrohr (Glas, emailliertes Eisenblech; Reinartz, Abb. 1533)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
     skos:notation "C644FD" ;
     skos:prefLabel "Stechheber"@de ;
     foaf:depiction "gefaess_00000268" .
-
-<https://www.w3id.org/KulturVok/terms/gefaess/C66FA8> a skos:Concept ;
-    dct:created "2002-02-28" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000199" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/AGGB68> ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "C66FA8" ;
-    skos:prefLabel "Fächerschüssel"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000156> .
 
 <https://www.w3id.org/KulturVok/terms/gefaess/C6F549> a skos:Concept ;
     dct:created "2002-02-27" ;
@@ -1784,9 +1553,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000378" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Eiertiegel"@de,
-        "Rohrpfanne"@de,
-        "Stielpfanne"@de ;
+    skos:altLabel "Eiertiegel, Rohrpfanne, Stielpfanne"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F33126> ;
     skos:definition "Runde Pfannenform mit Stiel- oder Rohrgriff"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -1799,8 +1566,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000391" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Tulpenglas"@de,
-        "Tulpenvase"@de ;
+    skos:altLabel "Tulpenglas, Tulpenvase"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F8A6D2> ;
     skos:definition "Hohes flaschenförmiges, konisch zulaufendes, glattes oder längsoptisch geblasenes Gefäß mit schalenartiger Erweiterung der Mündungszone"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -1843,18 +1609,6 @@
     skos:prefLabel "Wasserkessel"@de ;
     foaf:depiction "gefaess_00000128",
         "gefaess_00000128_1" .
-
-<https://www.w3id.org/KulturVok/terms/gefaess/C9FAF9> a skos:Concept ;
-    dct:created "2002-03-04" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000373" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/B1GA85> ;
-    skos:definition "Meist länglich schmale Faßform mit Ösen für einen Tragriemen oder -band; formal oft ähnlich dem (->) Lagel, ist das Tragfaß jedoch mehr zum Transport von Flüssigkeiten bzw. Alkoholika gedacht (Daubentechnik; s.a. Dexel I/II, 1980, S. 156,"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "C9FAF9" ;
-    skos:prefLabel "Tragfaß"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000372> .
 
 <https://www.w3id.org/KulturVok/terms/gefaess/CA5F23> a skos:Concept ;
     dct:created "2002-03-01" ;
@@ -1933,8 +1687,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000363" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Doppeltopf"@de,
-        "Paartopf"@de ;
+    skos:altLabel "Doppeltopf, Paartopf"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F858DD> ;
     skos:definition "Zwei mit einem stegartigen Band miteinander verbundene, oft leicht bauchige Töpfe, meist mit einem zentralen Bügel versehen (Irdenware, Zinn, verzinktes Eisenblech; s.a. Dexel I/II, 1981, S. 271; Istvan, S. 76, 78; Weinhold, Töpferwerk, Abb. 103)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -2017,25 +1770,12 @@
     skos:prefLabel "Raerener Krug"@de ;
     foaf:depiction "gefaess_00000146" .
 
-<https://www.w3id.org/KulturVok/terms/gefaess/CF5FA9> a skos:Concept ;
-    dct:created "2002-02-28" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000181" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F5894A> ;
-    skos:definition "Kleine Schale, meist Porzellan; vgl. (->) Kumme, als größere Formvariante"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "CF5FA9" ;
-    skos:prefLabel "Koppchen"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000182> .
-
 <https://www.w3id.org/KulturVok/terms/gefaess/CF9D7B> a skos:Concept ;
     dct:created "2002-02-27" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000052" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Ballon"@de,
-        "Ballonflasche"@de ;
+    skos:altLabel "Ballon, Ballonflasche"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/A5B96F> ;
     skos:definition "Großvolumige Enghalsflasche (vor allem Glas, Steinzeug; Reinartz, Abb. 1506)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -2048,11 +1788,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000347" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kaffeekanne"@de,
-        "Rohrkanne"@de,
-        "Teekanne"@de,
-        "Tüllenkanne"@de,
-        "Tüllentopf"@de ;
+    skos:altLabel "Kaffeekanne, Rohrkanne, Teekanne, Tüllenkanne, Tüllentopf"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F858DD> ;
     skos:definition "Meist bauchige bis zylindrische Topfform mit schulterständigem Ausgußrohr"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -2084,26 +1820,12 @@
     skos:prefLabel "Marmeladendose"@de ;
     foaf:depiction "gefaess_00000304" .
 
-<https://www.w3id.org/KulturVok/terms/gefaess/CG45CF> a skos:Concept ;
-    dct:created "2002-02-27" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000118" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/D7928A> ;
-    skos:definition "a) Zum Gebrauch als Schmiermittelbehälter; ovale, zylindrische bis leicht konische Flaschenformen mit dünnem, oft gebogenem Ausgußrohr auf der Schulter und Einfüllöffnung auf der Oberseite oder an der Spitze, meist mit Schraubverschluß (Eisenblech); wiederholt verkleinerte Form einer (->) Petroleumkanne, b) (->) Meßkännchen (Teil einer \"Versehgarnitur\")"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "CG45CF" ;
-    skos:prefLabel "Ölkännchen"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000119> ;
-    foaf:depiction "gefaess_00000118" .
-
 <https://www.w3id.org/KulturVok/terms/gefaess/CG8711> a skos:Concept ;
     dct:created "2002-02-27" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000053" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Ente"@de,
-        "Soachflasche"@de ;
+    skos:altLabel "Ente, Soachflasche"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/A5B96F> ;
     skos:definition "Urinale, männlich (vorwiegend Glas, Porzellan, emailliertes Eisenblech; Reinartz, Abb. 1827, 1893); s.a. Abschnitt \"Sonderformen\": (->) Bettpfanne (= Leibschüssel)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -2146,20 +1868,6 @@
     skos:prefLabel "Enghals-Kugelbauchkanne"@de ;
     foaf:depiction "gefaess_00000101" .
 
-<https://www.w3id.org/KulturVok/terms/gefaess/D1768A> a skos:Concept ;
-    dct:created "2002-02-28" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000155" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/G24644> ;
-    skos:definition "Gebuckelte Teilflächen der Fahne und Wandung (vor allem Fayence)"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "D1768A" ;
-    skos:prefLabel "Buckelplatte"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000170>,
-        <https://www.w3id.org/KulturVok/terms/gefaess/00000290> ;
-    foaf:depiction "gefaess_00000155" .
-
 <https://www.w3id.org/KulturVok/terms/gefaess/D1878G> a skos:Concept ;
     dct:created "2002-02-28" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
@@ -2176,9 +1884,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000364" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bohnentopf"@de,
-        "Krautständer"@de,
-        "Krauttopf"@de ;
+    skos:altLabel "Bohnentopf, Krautständer, Krauttopf"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F858DD> ;
     skos:definition "Zylindrischer Topf mit gegenständigen Griffmulden (vowiegend Steinzeug; Fries, S. 267), Syn.: Krauttopf, Krautständer, Bohnentopf; vgl. Abschnitt \"Sonderformen\": Laboratoriumsgefäße: (->) Überlaufgefäß (ohne Ablaufrohre)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -2272,8 +1978,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000259" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Salzkasten"@de,
-        "Salzmetze"@de ;
+    skos:altLabel "Salzkasten, Salzmetze"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F95B71> ;
     skos:definition "Meist Form eines wandständigen halbrunden oder runden Fasses (auch: rechteckiger Kasten) aus verschiedenen Materialien (besonders Holz, Steingut, Email) und einschlägiger Inschrift"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -2299,10 +2004,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000209" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bettschüssel"@de,
-        "Leibschüssel"@de,
-        "Stechbecken"@de,
-        "Urinale (weiblich)"@de ;
+    skos:altLabel "Bettschüssel, Leibschüssel, Stechbecken, Urinale (weiblich)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F95B71> ;
     skos:definition "Ringförmige Schalenform mit ringförmiger Teil-Abdeckung"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -2315,10 +2017,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000321" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bettelhafen"@de,
-        "Bügelkrug"@de,
-        "Henkelbraut"@de,
-        "Verena-Krug (Nordschweiz)"@de ;
+    skos:altLabel "Bettelhafen, Bügelkrug, Henkelbraut, Verena-Krug (Nordschweiz)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F858DD> ;
     skos:definition "Topf mit starrem oder beweglichem Bügel (Handhabe über Mündung); keramische Werkstoffe, gelegentlich Zinn"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -2353,9 +2052,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000147" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Dreihausener Kanne"@de,
-        "Dreihausener Krug"@de,
-        "Ringelkanne"@de ;
+    skos:altLabel "Dreihausener Kanne, Dreihausener Krug, Ringelkanne"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F42G21> ;
     skos:definition "Meist bauchige Krugform mit hohem Hals und teilweise vor dem Brand, teilweise nach dem Brand eingehängten kleinen Ringen; wahrscheinlich typisch für Hessen (braunviolett engobiertes Steinzeug: \"Dreihausen\")"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -2409,19 +2106,6 @@
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
     skos:notation "D5D486" ;
     skos:prefLabel "Käseglocke"@de .
-
-<https://www.w3id.org/KulturVok/terms/gefaess/D5G6C5> a skos:Concept ;
-    dct:created "2002-02-28" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000255" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F95B71> ;
-    skos:definition "Formal wie (->) Backform, doch ist die Temperaturfestigkeit der Werkstoffe nicht im gleichen Umfang erforderlich."@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "D5G6C5" ;
-    skos:prefLabel "Pastetenform"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000208>,
-        <https://www.w3id.org/KulturVok/terms/gefaess/00000258> .
 
 <https://www.w3id.org/KulturVok/terms/gefaess/D62663> a skos:Concept ;
     dct:created "2002-02-27" ;
@@ -2515,25 +2199,12 @@
     skos:prefLabel "Pulle"@de ;
     foaf:depiction "gefaess_00000076" .
 
-<https://www.w3id.org/KulturVok/terms/gefaess/D74227> a skos:Concept ;
-    dct:created "2002-02-27" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000082" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/A5B96F> ;
-    skos:definition "Jeweils vorweg ist zu klären, ob es sich um eine (->) Kindersaugflasche (\"Ludl\") handelt oder um ein Laboratoriumsgerät (-> chemiehistorische Fachliteratur); (König, S. 68; Reinartz, Abb. 1576, 158; s.a. Dexel I/II, 1980, S. 181)."@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "D74227" ;
-    skos:prefLabel "Saugflasche"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000066> .
-
 <https://www.w3id.org/KulturVok/terms/gefaess/D7CAB7> a skos:Concept ;
     dct:created "2002-03-01" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000362" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Rahmhafen"@de,
-        "Rahmtopf"@de ;
+    skos:altLabel "Rahmhafen, Rahmtopf"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F858DD> ;
     skos:definition "Topf- oder Faßform, häufig als bauchiger bis zylindrischer (->) Doppelhenkeltopf, mit bodennaher Zapflochöffnung, gegebenenfalls mit Zapfhahn (= Kran(en); keramische Werkstoffe); s.a. Abschnitt \"Kanne\": (->) Kran(en)kanne"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -2546,10 +2217,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000307" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Apothekenbüchse"@de,
-        "Standgefäß"@de,
-        "Vorratsdose"@de,
-        "Vorratstopf"@de ;
+    skos:altLabel "Apothekenbüchse, Standgefäß, Vorratsdose, Vorratstopf"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/D1G9G6> ;
     skos:definition "Meist runde oder konkave Dosen oder Büchsen häufig mit Aufschriften wie Zucker, Mehl, Salz, Reis, aber auch Chemikalien- und andere Bezeichnungen etc. bzw. bei kleinen Formaten die verschiedenen Gewürzarten; zahlreiche, nicht beschriftete Beispiele aus Apotheken, Drogerien und auch aus dem Haushalt; vorwiegend aus Steingut, Steinzeug, Irdenware, Holz, Glas, Pappe, einfaches Weißblech, emailliertes Eisenblech, Aluminium bzw. anderen Materialien hergestellt (Bröhan, S. 73; Haushaltsliteratur); ältere Ausführungen aus Fayence s. Abschnitt \"Einfache Topfformen\": (->) Albarello."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -2566,45 +2234,6 @@
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
     skos:notation "D7F515" ;
     skos:prefLabel "Kumme"@de .
-
-<https://www.w3id.org/KulturVok/terms/gefaess/D84676> a skos:Concept ;
-    dct:created "2002-03-04" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000380" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Hasenbräter"@de ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/AG9CA6> ;
-    skos:definition "Pfannenform mit hoher Zarge, einem schmal zulaufenden und einem breiten, tief ausgebuchteten Ende mit Querbügel, (Irdenware, emailliertes Eisenblech; Bauer, Ingolf: Treuchtlinger Geschirr, S. 133)"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "D84676" ;
-    skos:prefLabel "Hasenpfanne"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000379> ;
-    foaf:depiction "gefaess_00000380" .
-
-<https://www.w3id.org/KulturVok/terms/gefaess/D867C4> a skos:Concept ;
-    dct:created "2002-02-28" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000284" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F95B71> ;
-    skos:definition "Hohe, konisch zulaufende Hohlform mit Öffnung an der Spitze (Irdenware; Steinzeug); Verwendung nur in der Kombination mit (->) Melassetopf, s. Abschnitt: \"Einfache Topfformen\""@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "D867C4" ;
-    skos:prefLabel "Zuckerhutform"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000339> ;
-    foaf:depiction "gefaess_00000284" .
-
-<https://www.w3id.org/KulturVok/terms/gefaess/D87G33> a skos:Concept ;
-    dct:created "2002-02-27" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000010" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/GG8736> ;
-    skos:definition "Konische Becherform, aus Dauben gefertigt, stabilisiert mit Hilfe zweier quer verlaufender Bünde aus pflanzlichem oder metallenem Material (s.a. Dexel, Typenkatalog 1986, S. 66); zur vielgestaltigen Daubentechnik s. Abschnitt \"Bibliographische Hinweise\": \"Holz\", v.a. Gebhard, Paulsen und Schniek)"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "D87G33" ;
-    skos:prefLabel "Daubenbecher"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000137> .
 
 <https://www.w3id.org/KulturVok/terms/gefaess/D8CC88> a skos:Concept ;
     dct:created "2002-02-27" ;
@@ -2666,21 +2295,6 @@
     skos:notation "D95C17" ;
     skos:prefLabel "Stangenvase"@de .
 
-<https://www.w3id.org/KulturVok/terms/gefaess/D99CB8> a skos:Concept ;
-    dct:created "2002-02-28" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000156" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/G24644> ;
-    skos:definition "Platten- bis Schalenform mit breitem Rand mit radialen wulstigen Rippen (vor allem Fayence; s.a. Dexel I/II, 1981, S. 144, 145)"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "D99CB8" ;
-    skos:prefLabel "Fächerplatte"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000173>,
-        <https://www.w3id.org/KulturVok/terms/gefaess/00000199>,
-        <https://www.w3id.org/KulturVok/terms/gefaess/00000291> ;
-    foaf:depiction "gefaess_00000156" .
-
 <https://www.w3id.org/KulturVok/terms/gefaess/D9A312> a skos:Concept ;
     dct:created "2002-03-01" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
@@ -2729,31 +2343,6 @@
     skos:notation "D9G463" ;
     skos:prefLabel "Vogeltränke"@de .
 
-<https://www.w3id.org/KulturVok/terms/gefaess/DA5BGB> a skos:Concept ;
-    dct:created "2002-02-27" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000036" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/GG8736> ;
-    skos:definition "Becherform der Merowingerzeit und der Renaissance mit rüsselartigen, hohlen Applikationen an der Glaswandung; Typus des Sturzbechers; Form, die im Historismus wieder auflebt."@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "DA5BGB" ;
-    skos:prefLabel "Rüsselbecher"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000046> .
-
-<https://www.w3id.org/KulturVok/terms/gefaess/DAD2D7> a skos:Concept ;
-    dct:created "2002-02-27" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000045" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/GG8736> ;
-    skos:definition "Becher mit unterschiedlicher Kuppaform auf hohem, meist glattem Stiel (s.a. Dexel, Typenkatalog 1986, S. 142); s.a. (->) Sektflöte, (->) Sektkelch"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "DAD2D7" ;
-    skos:prefLabel "Stielbecher"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000041>,
-        <https://www.w3id.org/KulturVok/terms/gefaess/00000042> .
-
 <https://www.w3id.org/KulturVok/terms/gefaess/DAF5BB> a skos:Concept ;
     dct:created "2002-02-28" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
@@ -2765,18 +2354,6 @@
     skos:notation "DAF5BB" ;
     skos:prefLabel "Weihwasserkessel"@de ;
     foaf:depiction "gefaess_00000283" .
-
-<https://www.w3id.org/KulturVok/terms/gefaess/DB1596> a skos:Concept ;
-    dct:created "2002-03-01" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000291" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/FA3DF9> ;
-    skos:definition "Fächerförmige Gestaltung hauptsächlich der Fahne, gelegentlich zusätzlich auch der flachen Wandungen (Fröschner, S. 144); s. a. Abschnitt \"Platte\": (->) Fächerplatte"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "DB1596" ;
-    skos:prefLabel "Fächerteller"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000156> .
 
 <https://www.w3id.org/KulturVok/terms/gefaess/DB55AF> a skos:Concept ;
     dct:created "2002-02-28" ;
@@ -2897,20 +2474,6 @@
     skos:notation "DDGBB8" ;
     skos:prefLabel "Ölglas"@de ;
     foaf:depiction "gefaess_00000028" .
-
-<https://www.w3id.org/KulturVok/terms/gefaess/DF2BC1> a skos:Concept ;
-    dct:created "2002-02-27" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000046" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/GG8736> ;
-    skos:definition "Becher- bzw. Kelchform ohne Stand, die in der Hand gehalten wird oder leer umgestürzt gelagert werden kann; vorwiegend aus Glas (s.a. Dexel, Typenkatalog 1986, S. 58; Kämpfer, Abb. 46, 49; Lipp, Abb. 190), aus Steinzeug (Reineking, Steinzeug); in Keramik häufig in anthropomorpher Ausführung; s.a. (->) Rüsselbecher und (->) Taumler"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "DF2BC1" ;
-    skos:prefLabel "Sturzbecher"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000036>,
-        <https://www.w3id.org/KulturVok/terms/gefaess/00000047> ;
-    foaf:depiction "gefaess_00000046" .
 
 <https://www.w3id.org/KulturVok/terms/gefaess/DF2DGC> a skos:Concept ;
     dct:created "2002-03-04" ;
@@ -3056,9 +2619,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000210" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Beifuaderer (altbayrisch)"@de,
-        "Bienenscherbe"@de,
-        "Imp'nfuaderer (altbayrisch)"@de ;
+    skos:altLabel "Beifuaderer (altbayrisch), Bienenscherbe, Imp'nfuaderer (altbayrisch)"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F95B71> ;
     skos:definition "Meist flache Schalen- oder Topfform (Irdenware) mit unterschiedlichen Einsätzen oder Oberflächenstrukturen, die eine flache Wasserverteilung sichern (Rillen, abfallende, poröse Flächen etc.)."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -3071,8 +2632,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000055" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Doppelflasche"@de,
-        "Menage"@de ;
+    skos:altLabel "Doppelflasche, Menage"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/A5B96F> ;
     skos:definition "Meist als Doppelflasche oder zumindest durch eine Fassung miteinander verbundene Flaschenkombination aus Glas ausgeführt; teilweise gekreuzt oder gebogen ausgeführte Flaschenhälse, üblicherweise mit Stöpsel (s.a. Dexel, Typenkatalog 1986, S. 134; Reinartz, A. 1791, 1832); auch als Sonderform ansprechbar"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -3090,20 +2650,6 @@
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
     skos:notation "F26CD1" ;
     skos:prefLabel "Bratenplatte"@de .
-
-<https://www.w3id.org/KulturVok/terms/gefaess/F28BB7> a skos:Concept ;
-    dct:created "2002-02-27" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000041" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Flöte"@de ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/GG8736> ;
-    skos:definition "Stielglas mit hoher, meist spitzkegelförmiger Kuppa (s.a. Dexel, Typenkatalog 1986, S. 136)"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "F28BB7" ;
-    skos:prefLabel "Sektflöte"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000045> ;
-    foaf:depiction "gefaess_00000041" .
 
 <https://www.w3id.org/KulturVok/terms/gefaess/F2C84B> a skos:Concept ;
     dct:created "2002-03-04" ;
@@ -3150,18 +2696,6 @@
     skos:notation "F39B1B" ;
     skos:prefLabel "Andenkenbecher"@de ;
     foaf:depiction "gefaess_00000006" .
-
-<https://www.w3id.org/KulturVok/terms/gefaess/F41A88> a skos:Concept ;
-    dct:created "2002-02-28" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000173" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F5894A> ;
-    skos:definition "S. Abschnitt \"Platte\": (->) Fächerplatte - Fächerschale - Fächerschüssel"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "F41A88" ;
-    skos:prefLabel "Fächerschale"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000156> .
 
 <https://www.w3id.org/KulturVok/terms/gefaess/F4589F> a skos:Concept ;
     dct:created "2002-02-27" ;
@@ -3233,18 +2767,6 @@
     skos:notation "F67A42" ;
     skos:prefLabel "Flügelglas"@de .
 
-<https://www.w3id.org/KulturVok/terms/gefaess/F67BG2> a skos:Concept ;
-    dct:created "2002-02-27" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000042" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/GG8736> ;
-    skos:definition "Stielbecher mit kegelförmiger Kuppa"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "F67BG2" ;
-    skos:prefLabel "Sektkelch"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000045> .
-
 <https://www.w3id.org/KulturVok/terms/gefaess/F68C9D> a skos:Concept ;
     dct:created "2002-02-28" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
@@ -3273,10 +2795,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000205" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Milchkarr'n (schwäbisch)"@de,
-        "Milchsatte"@de,
-        "Milchschüssel"@de,
-        "Satte"@de ;
+    skos:altLabel "Milchkarr'n (schwäbisch), Milchsatte, Milchschüssel, Satte"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/AGGB68> ;
     skos:definition "Im Niederbayerischen konische Schüssel, (ehemals) zum Abrahmen und \"Stöckeln\" in der Milchwirtschaft (Verhältnis Gefäßhöhe zu Mündungsdurchmesser ca. 1:2). - Die Funktion \"Abrahmen\" wurde in anderen Regionen teilweise von deutlich abweichenden Formen übernommen: in Teilen Ostbayerns von konischen Henkeltöpfen (s. Abschnitt \"Einfache Topfformen\": (->) \"Spitzhaferl\"), in fränkischen Regionen von hohen, leicht gebauchten Henkeltöpfen, in der Eifel von flachen Steinzeugschalen (\"Plein-Wagner\"). Verwendung der regional verbreiteten Werkstoffe (Holz, Irdenware, emailliertes Eisenblech, Braunzeug, Steinzeug etc.)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -3320,25 +2839,12 @@
     skos:prefLabel "Sparbüchse"@de ;
     foaf:depiction "gefaess_00000267" .
 
-<https://www.w3id.org/KulturVok/terms/gefaess/F75G34> a skos:Concept ;
-    dct:created "2002-02-28" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000275" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F95B71> ;
-    skos:definition "Aus Ton gebranntes Votiv, meist in Form menschlicher Organe oder in Tierform; s.a. (->) Tonkopfurne"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "F75G34" ;
-    skos:prefLabel "Tonvotiv"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000274> .
-
 <https://www.w3id.org/KulturVok/terms/gefaess/F78469> a skos:Concept ;
     dct:created "2002-03-28" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000404" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Friedhofsvase"@de,
-        "Grabvase"@de ;
+    skos:altLabel "Friedhofsvase, Grabvase"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F8A6D2> ;
     skos:definition "Typisch ein spitz zulaufendes Teil (z.B. Dorn, Nagel) am unteren Ende (Reinartz, Abb. 1555)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -3362,9 +2868,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000007" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Andenkenbecher"@de,
-        "Andenkenglas"@de,
-        "Karlsbader (Bade-)Becher"@de ;
+    skos:altLabel "Andenkenbecher, Andenkenglas, Karlsbader (Bade-)Becher"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/GG8736> ;
     skos:definition "Meist hohe, zylindrische bis konische, zum Teil auch in der Aufsicht querovale Becherformen, häufig mit Ansichten des Badeortes, einer Kurquelle, einer beliebigen Sehenswürdigkeit sowie hinweisenden Inschriften, Syn.: Andenkenbecher, Andenkenglas, Karlsbader (Bade-) Becher (in der Aufsicht querovale Form mit tief ansetzendem Saugrohr)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -3377,8 +2881,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000023" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Beutelbecher"@de,
-        "Kreuse"@de ;
+    skos:altLabel "Beutelbecher, Kreuse"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/GG8736> ;
     skos:definition "Meist kugelförmiger Gefäßkörper mit Linsenboden und sich trichterartig öffnender Gefäßmündung; verbreitete spätmittelalterliche Form aus Keramik (s.a. Dexel I/II, 1980, S. 182)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -3446,19 +2949,6 @@
     skos:notation "F85C15" ;
     skos:prefLabel "Bodenvase"@de .
 
-<https://www.w3id.org/KulturVok/terms/gefaess/F878DF> a skos:Concept ;
-    dct:created "2002-02-28" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000274" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F95B71> ;
-    skos:definition "Häufig kopfähnliche, meist hohle Votivgabe mit oft abstrahierten Gesichtsformen (Irdenware)"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "F878DF" ;
-    skos:prefLabel "Tonkopfurne"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000275> ;
-    foaf:depiction "gefaess_00000274" .
-
 <https://www.w3id.org/KulturVok/terms/gefaess/F897D1> a skos:Concept ;
     dct:created "2002-03-28" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
@@ -3481,20 +2971,6 @@
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
     skos:notation "F8FAGB" ;
     skos:prefLabel "Birnkrug"@de .
-
-<https://www.w3id.org/KulturVok/terms/gefaess/F8FG2F> a skos:Concept ;
-    dct:created "2002-02-27" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000017" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Ranftbecher"@de ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/GG8736> ;
-    skos:definition "Bei üblicher Becherform (zylindrisch, konisch oder bauchig) ist der Funktionsteil mehr oder minder deutlich von einem Fußteil abgesetzt. Materialgleiche oder unterschiedliche Fußteile, aus einem Stück oder zusammengesetzte Varianten (s.a. Dexel, Typenkatalog 1986, S. 138) sind zu beachten"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "F8FG2F" ;
-    skos:prefLabel "Fußbecher"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000020> ;
-    foaf:depiction "gefaess_00000017" .
 
 <https://www.w3id.org/KulturVok/terms/gefaess/F92ABA> a skos:Concept ;
     dct:created "2002-03-01" ;
@@ -3532,25 +3008,12 @@
     skos:prefLabel "Schaff"@de ;
     foaf:depiction "gefaess_00000403" .
 
-<https://www.w3id.org/KulturVok/terms/gefaess/F9BF5A> a skos:Concept ;
-    dct:created "2002-02-28" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000223" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F95B71> ;
-    skos:definition "Kombination aus am Gefäßrand modifiziertem, meist bauchigem Untergestell (= Topfform) und aufgesetztem, zylinderförmigem Filterteil in Topfform (Porzellan, emailliertes Eisenblech, verzinktes Eisenblech, Steingut)"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "F9BF5A" ;
-    skos:prefLabel "Kaffeemaschine"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000272> .
-
 <https://www.w3id.org/KulturVok/terms/gefaess/FA2BF3> a skos:Concept ;
     dct:created "2002-03-01" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000318" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Cachepot"@de,
-        "Übertopf"@de ;
+    skos:altLabel "Cachepot, Übertopf"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F858DD> ;
     skos:definition "Meist großvolumige, oft glockenförmige Formen ohne Bodenloch; oft mit Dekor (vielfältige Werkstoffe; Bauer, Hafnergeschirr, Abb. 171, 172; zahlr. Beispiele bei Bröhan III; Grasmann, Kröninger Hafnerei, S. 135)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -3726,9 +3189,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000303" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Gebäckdose"@de,
-        "Gebäckkasten"@de,
-        "Keksbüchse"@de ;
+    skos:altLabel "Gebäckdose, Gebäckkasten, Keksbüchse"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/D1G9G6> ;
     skos:definition "Rechteckige bis ovale bis runde Dose/Büchse, häufig mit Dekor (bemalte Weißblecharten, Steingut, Porzellan; Bröhan III, S. 73)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -3753,10 +3214,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000099" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bügelkrug"@de,
-        "Rohrkanne"@de,
-        "Tüllenkanne"@de,
-        "Verenakrug"@de ;
+    skos:altLabel "Bügelkrug, Rohrkanne, Tüllenkanne, Verenakrug"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/D7928A> ;
     skos:definition "Bauchige Bügelkanne mit auf der Schulter auf- oder eingesetztem Rohr; in Ostbayern/Oberösterreich auch in \"geschlossener\" Form mit einem Ausgußrohr und einem Einfüllstutzen"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -3774,30 +3232,6 @@
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
     skos:notation "FFA8GC" ;
     skos:prefLabel "Napfkuchenform"@de .
-
-<https://www.w3id.org/KulturVok/terms/gefaess/FFCGB1> a skos:Concept ;
-    dct:created "2002-02-28" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000149" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F42G21> ;
-    skos:definition "Konischer hoher Krug bzw. Kanne mit leicht ausbiegendem Fuß und Rand; manchmal synonym zu (->) Bitsche (s. Abschnitt \"Kanne\") gebraucht (Daubentechnik, Zinn; s.a. Dexel I/II, 1981, S. 64, 95; Dexel, Typenkatalog 1986, S. 126)"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "FFCGB1" ;
-    skos:prefLabel "Stitze"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000098> .
-
-<https://www.w3id.org/KulturVok/terms/gefaess/FG1656> a skos:Concept ;
-    dct:created "2002-03-01" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000325" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F858DD> ;
-    skos:definition "Meist topfartige, glattwandige Gefäße mit (regionaler) Eichmarke; vor allem Metalle und emailliertes Eisenblech, aber auch Daubentechnik (->) Getreidemaß; s.a. Dexel I/II, 1980, S. 169)"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "FG1656" ;
-    skos:prefLabel "Eichmaß"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000238> .
 
 <https://www.w3id.org/KulturVok/terms/gefaess/FGA1DF> a skos:Concept ;
     dct:created "2002-03-28" ;
@@ -3822,19 +3256,6 @@
     skos:notation "G17589" ;
     skos:prefLabel "Barttasse"@de ;
     foaf:depiction "gefaess_00000286" .
-
-<https://www.w3id.org/KulturVok/terms/gefaess/G21GA9> a skos:Concept ;
-    dct:created "2002-03-04" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000372" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/B1GA85> ;
-    skos:definition "Querformatige längliche Faßform (Holz, Eisenblech) mit Öffnung auf der Längsseite, z.T. speziell auch für den Lebendfischtransport (Benker, S. 134, Abb. 247; Gebhard, S. 145)"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "G21GA9" ;
-    skos:prefLabel "Lagel"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000373> ;
-    foaf:depiction "gefaess_00000372" .
 
 <https://www.w3id.org/KulturVok/terms/gefaess/G22G3F> a skos:Concept ;
     dct:created "2002-02-27" ;
@@ -3870,19 +3291,6 @@
     skos:notation "G2B1GF" ;
     skos:prefLabel "Wärmeteller"@de .
 
-<https://www.w3id.org/KulturVok/terms/gefaess/G2DB66> a skos:Concept ;
-    dct:created "2002-02-28" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000227" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kerzenglas"@de ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F95B71> ;
-    skos:definition "Gestreckte Glas-Rohrform mit Kugelboden; die Form entspricht weitgehend der Form (->) Reagenzglas, verfügt jedoch über ein Dochtloch am geschlossenen Ende. (Haller, Abb. 51; Schneider, Abb. 59)."@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "G2DB66" ;
-    skos:prefLabel "Kerzen(gieß/zieh)form"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000336> .
-
 <https://www.w3id.org/KulturVok/terms/gefaess/G33369> a skos:Concept ;
     dct:created "2002-02-28" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
@@ -3899,10 +3307,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000127" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Rohrkanne"@de,
-        "Rohrtopf"@de,
-        "Tüllengefäß"@de,
-        "Tüllentopf"@de ;
+    skos:altLabel "Rohrkanne, Rohrtopf, Tüllengefäß, Tüllentopf"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/D7928A> ;
     skos:definition "Auf der Wandung eingesetztes Rohr; im Sprachgebrauch (norddeutsch: Tülle; süddeutsch: Rohr) sind Rohr und Tülle meist synonym (Steinzeug, Irdenware; s.a. Dexel, Typenkatalog 1986, S. 60). Bei den Tüllengefäßen liegt ein sehr breites Spektrum regional stark unterschiedlicher Namensgebung vor."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -4010,8 +3415,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000073" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Mineralwasserkrug"@de,
-        "Seltersflasche"@de ;
+    skos:altLabel "Mineralwasserkrug, Seltersflasche"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/A5B96F> ;
     skos:definition "Meist zylindrische Enghalsflasche (Steinzeug, Glas) mit Henkel und Brunnenstempel; ältere Objekte (18. Jh.) oft leicht gebaucht"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -4029,18 +3433,6 @@
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
     skos:notation "G5F9D8" ;
     skos:prefLabel "Kopf"@de .
-
-<https://www.w3id.org/KulturVok/terms/gefaess/G6299C> a skos:Concept ;
-    dct:created "2002-03-01" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000290" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/FA3DF9> ;
-    skos:definition "S. Abschnitt \"Platte\": (->) Buckelplatte"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "G6299C" ;
-    skos:prefLabel "Buckelteller"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000155> .
 
 <https://www.w3id.org/KulturVok/terms/gefaess/G62D52> a skos:Concept ;
     dct:created "2002-02-27" ;
@@ -4094,8 +3486,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000326" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Ringcasserolle"@de,
-        "Ringtopf"@de ;
+    skos:altLabel "Ringcasserolle, Ringtopf"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F858DD> ;
     skos:definition "Konische oder bauchige Topfvariante mit zwei vertikalen Henkeln und umlaufendem Einhängering (Irdenware, emailliertes Eisenblech, Gußeisen)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -4131,9 +3522,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000198" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Henkelmann"@de,
-        "Speisenträger"@de,
-        "Stapelträger"@de ;
+    skos:altLabel "Henkelmann, Speisenträger, Stapelträger"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/AGGB68> ;
     skos:definition "3-4fach übereinander gestapelte, zylindrische Schalen-bzw. Schüsselformen mit gegenständigen flachen Ösen zur Verbindung mit einem Band zum Tragen (Steingut, Porzellan, Zinn, Aluminium, emailliertes Eisenblech; s.a. Dexel I/II, 1981, S. 168)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -4189,20 +3578,6 @@
     skos:prefLabel "Grecque-Kanne"@de ;
     foaf:depiction "gefaess_00000107" .
 
-<https://www.w3id.org/KulturVok/terms/gefaess/G9361C> a skos:Concept ;
-    dct:created "2002-02-28" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000238" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Eichmaß"@de,
-        "Meßzylinder"@de ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F93G69> ;
-    skos:definition "Zylindrische Topf- bzw. Rohrform (mit/ohne Graduierung)"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "G9361C" ;
-    skos:prefLabel "Mensur"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000325> .
-
 <https://www.w3id.org/KulturVok/terms/gefaess/G951AC> a skos:Concept ;
     dct:created "2002-03-04" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
@@ -4227,20 +3602,6 @@
     skos:notation "G992D2" ;
     skos:prefLabel "Perückenständer"@de ;
     foaf:depiction "gefaess_00000256" .
-
-<https://www.w3id.org/KulturVok/terms/gefaess/G9D395> a skos:Concept ;
-    dct:created "2002-02-27" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000066" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Ludl"@de ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/A5B96F> ;
-    skos:definition "Konische bis zylindrische Flasche (Glas, oft verziert; seltener emailliertes Blech) mit enger, etwas abgesetzter Mündung, die eine, oft fehlende Saugvorrichtung (\"Sauger\") fixiert."@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "G9D395" ;
-    skos:prefLabel "Kindersaugflasche"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000082> ;
-    foaf:depiction "gefaess_00000066" .
 
 <https://www.w3id.org/KulturVok/terms/gefaess/G9F645> a skos:Concept ;
     dct:created "2002-03-01" ;
@@ -4299,21 +3660,6 @@
     skos:prefLabel "Meßkännchen"@de ;
     foaf:depiction "gefaess_00000116" .
 
-<https://www.w3id.org/KulturVok/terms/gefaess/GB874A> a skos:Concept ;
-    dct:created "2002-02-27" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000020" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Freundschaftsbecher"@de,
-        "Patenbecher"@de ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/GG8736> ;
-    skos:definition "Gefußte Becher (-> Fußbecher) mit vorwiegend glockenförmiger Kuppa und glatter bis gerippter Oberfläche; meist aus Steingut oder Porzellan; häufig mit einfachen Inschriften (z.B. \"Wohl bekomms\", \"Sei glücklich\" etc.)"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "GB874A" ;
-    skos:prefLabel "Kakaobecher"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000017> ;
-    foaf:depiction "gefaess_00000020" .
-
 <https://www.w3id.org/KulturVok/terms/gefaess/GBB23C> a skos:Concept ;
     dct:created "2002-02-27" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
@@ -4354,8 +3700,7 @@
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
     dct:identifier "00000262" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Feuersaugtopf"@de,
-        "Saugkopf"@de ;
+    skos:altLabel "Feuersaugtopf, Saugkopf"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F95B71> ;
     skos:definition "Dickwandige, stark gelochte Topfform mit deutlichem Halsansatz. - Diese Gefäßform, aus Steinzeug, Kupfer, Messing/Bronze etc. bekannt, diente zum Abtrennen grober Bestandteile beim Saugen des Löschwassers mit Schläuchen aus Teichen usw."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
@@ -4373,19 +3718,6 @@
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
     skos:notation "GCDB71" ;
     skos:prefLabel "Suppenteller"@de .
-
-<https://www.w3id.org/KulturVok/terms/gefaess/GDGCC4> a skos:Concept ;
-    dct:created "2002-02-28" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000258" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F95B71> ;
-    skos:definition "Formal wie (->) Backform, doch ist die Temperaturfestigkeit der Werkstoffe nicht im gleichen Umfang erforderlich. Vgl. (->) Pastetenform"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "GDGCC4" ;
-    skos:prefLabel "Puddingform"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000208>,
-        <https://www.w3id.org/KulturVok/terms/gefaess/00000255> .
 
 <https://www.w3id.org/KulturVok/terms/gefaess/GF79AD> a skos:Concept ;
     dct:created "2002-02-28" ;
@@ -4423,19 +3755,6 @@
     skos:prefLabel "Gießkanne"@de ;
     foaf:depiction "gefaess_00000105" .
 
-<https://www.w3id.org/KulturVok/terms/gefaess/GF9BA8> a skos:Concept ;
-    dct:created "2002-02-27" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000119" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/D7928A> ;
-    skos:definition "Geschlossene, meist zylindrische Flaschenform mit schmaler Einfüllöffnung mit Schraubverschluß und schmalem Rohrausguß; durchweg Eisenblech oder emailliertes Eisenblech; fast immer mit Aufschrift: Petroleum"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:notation "GF9BA8" ;
-    skos:prefLabel "Petroleumkanne"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000118> ;
-    foaf:depiction "gefaess_00000119" .
-
 <https://www.w3id.org/KulturVok/terms/gefaess/GFBFB8> a skos:Concept ;
     dct:created "2002-03-01" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
@@ -4471,6 +3790,30 @@
     skos:notation "GGF941" ;
     skos:prefLabel "Kabarett"@de .
 
+<https://www.w3id.org/KulturVok/terms/gefaess/A42G65> a skos:Concept ;
+    dct:created "2002-02-28" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000170" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F5894A> ;
+    skos:definition "S. Abschnitt \"Platte\": (->) Buckelplatte - Buckelschale - Buckelteller"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "A42G65" ;
+    skos:prefLabel "Buckelschale"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/D1768A> .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/A88A53> a skos:Concept ;
+    dct:created "2002-03-01" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000305" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/D1G9G6> ;
+    skos:definition "S. Abschnitt \"Schale\": (->) Seifenschale"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "A88A53" ;
+    skos:prefLabel "Seifendose"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/CFDAC6> .
+
 <https://www.w3id.org/KulturVok/terms/gefaess/ABGF19> a skos:Concept ;
     dct:created "2002-02-27" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
@@ -4498,6 +3841,44 @@
     skos:prefLabel "Waschschüssel"@de ;
     foaf:depiction "gefaess_00000203" .
 
+<https://www.w3id.org/KulturVok/terms/gefaess/AG6788> a skos:Concept ;
+    dct:created "2002-03-01" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000327" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:altLabel "Einmachglas, Einmachtopf, Einweckglas, Weck-Glas"@de ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F858DD> ;
+    skos:definition "Zylindrische Formen mit (oft patentiertem) Randfalz für einen entsprechenden Flachdeckel; meist Glas, aber auch emailliertes Eisenblech"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "AG6788" ;
+    skos:prefLabel "Einkochglas"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/AG7161> ;
+    foaf:depiction "gefaess_00000327" .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/AG7161> a skos:Concept ;
+    dct:created "2002-03-01" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000329" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F858DD> ;
+    skos:definition "Keramische oder emaillierte Eisenblech-Variante des (->) Einkochglases; meist mit Binderand (Steingut, Steinzeug, Braungeschirr)"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "AG7161" ;
+    skos:prefLabel "Einmachtopf"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/AG6788> .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/B15G8C> a skos:Concept ;
+    dct:created "2002-02-28" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000272" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F95B71> ;
+    skos:definition "(->) Kaffeemaschine; konstruktiv weitgehend identisch mit den \"Kaffeemaschinen\": Rohrkanne mit Rechauduntersatz (verzinktes und emailliertes Eisenblech)"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "B15G8C" ;
+    skos:prefLabel "Teemaschine"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/F9BF5A> .
+
 <https://www.w3id.org/KulturVok/terms/gefaess/B25587> a skos:Concept ;
     dct:created "2002-02-28" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
@@ -4510,6 +3891,32 @@
     skos:notation "B25587" ;
     skos:prefLabel "Scherzgefäß"@de ;
     foaf:depiction "gefaess_00000263" .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/B7DCA7> a skos:Concept ;
+    dct:created "2002-02-28" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000183" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F5894A> ;
+    skos:definition "Formaltypologisch eine kleine Schale oder auch flache Becherform; der Begriff wurde/wird hauptsächlich in der Keramik der Vor- und Frühgeschichte gebraucht (Irdenware); vgl. (->) Kumme"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "B7DCA7" ;
+    skos:prefLabel "Napf"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/C593B8> .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/B91GDB> a skos:Concept ;
+    dct:created "2002-02-27" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000047" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:altLabel "Tum(m)ler"@de ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/GG8736> ;
+    skos:definition "(->) Sturzbechervariante, funktionsgleiches, schalenartiges Pendant (s.a. Dexel, Typenkatalog 1986, S. 60)"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "B91GDB" ;
+    skos:prefLabel "Taumler"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/DF2BC1> ;
+    foaf:depiction "gefaess_00000047" .
 
 <https://www.w3id.org/KulturVok/terms/gefaess/BC218G> a skos:Concept ;
     dct:created "2002-02-28" ;
@@ -4524,61 +3931,141 @@
     skos:prefLabel "Brüderleskrug"@de ;
     foaf:depiction "gefaess_00000136" .
 
-<https://www.w3id.org/KulturVok/terms/gefaess/BG72A4> a skos:Concept ;
-    dct:created "2002-02-27" ;
+<https://www.w3id.org/KulturVok/terms/gefaess/BC2D7C> a skos:Concept ;
+    dct:created "2002-03-01" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000033" ;
+    dct:identifier "00000336" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/GG8736> ;
-    skos:definition "(Glas-) Becherform mit in die Form geblasenen, teilweise auch aufgelegten Glasfäden, vorwiegend vertikalen bis diagonalen Rippen (s.a. Dexel, Typenkatalog 1986, S. 164)"@de ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F858DD> ;
+    skos:definition "Querrechteckige hohe Topfform zum Abkühlen frisch gegossener oder gezogener Kerzen (s. Abschnitt \"Sonderformen\": (->) Kerzen(gieß/zieh)form; Irdenware)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:narrower <https://www.w3id.org/KulturVok/terms/gefaess/F72FF3> ;
-    skos:notation "BG72A4" ;
-    skos:prefLabel "Rippenbecher"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000184> ;
-    foaf:depiction "gefaess_00000033" .
+    skos:notation "BC2D7C" ;
+    skos:prefLabel "Kerzenkühler"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/G2DB66> ;
+    foaf:depiction "gefaess_00000336" .
 
-<https://www.w3id.org/KulturVok/terms/gefaess/C3C335> a skos:Concept ;
+<https://www.w3id.org/KulturVok/terms/gefaess/BFFG99> a skos:Concept ;
+    dct:created "2002-03-04" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000379" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/AG9CA6> ;
+    skos:definition "Form und Material identisch (->) Hasenbräter - Hasenpfanne"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "BFFG99" ;
+    skos:prefLabel "Gansbräter"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/D84676> .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/BG8C87> a skos:Concept ;
+    dct:created "2002-03-01" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000349" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:altLabel "Salbendose, Salbenkruke"@de ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F858DD> ;
+    skos:definition "Kleineres topfartiges, zylindrisches bis bauchiges oder auch (bi-) konkaves Gefäß zum Einfüllen von salbenartigen Zubereitungen (Salben, Pomaden etc.; bei älteren Formen mit Binderand; bei jüngeren für Steck- und Stülpdeckel vorgesehen."@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "BG8C87" ;
+    skos:prefLabel "Salbentopf"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/C26G9G> .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/C26G9G> a skos:Concept ;
+    dct:created "2002-03-01" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000316" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F858DD> ;
+    skos:definition "Hohe zylindrische, bauchige oder bikonkave Topfformen für die Aufbewahrung nichtflüssiger Arzneigrundstoffe oder -zubereitungen; meist aus Holz, Fayence oder Porzellan, selten aus anderen Materialien; variable Verschlußarten von Pergament, Holz bis zur Materialgleichheit; zur genaueren Einordnung ist Spezialliteratur erforderlich."@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "C26G9G" ;
+    skos:prefLabel "Albarello"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/BG8C87> ;
+    foaf:depiction "gefaess_00000316" .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/C2C7DD> a skos:Concept ;
     dct:created "2002-02-28" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000137" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F42G21> ;
-    skos:definition "Konische bis bauchige Holzform, aus Dauben gefertigt. Allgemein: Daubengefäße - Daubenbecher - Daubeneimer - Daubenkrug - Daubenkanne: Zahlreiche Abb. bei Gebhard und: Paulsen, Peter: Die Holzfunde aus dem Gräberfeld bei Oberflacht. - Stuttgart : Theiss; Landesdenkmalamt Baden-Württemberg, 1992. S. 121-129 : Ill.; s. a. Abschnitt \"Becher\": (->) Daubenbecher"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:narrower <https://www.w3id.org/KulturVok/terms/gefaess/C1G6A6> ;
-    skos:notation "C3C335" ;
-    skos:prefLabel "Daubenkrug"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000010> ;
-    foaf:depiction "gefaess_00000137" .
-
-<https://www.w3id.org/KulturVok/terms/gefaess/CDA461> a skos:Concept ;
-    dct:created "2002-02-27" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000098" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Stitze"@de ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/D7928A> ;
-    skos:definition "Kanne bzw. Krug mit meist konisch-zylindrischer Form; vorwiegend Daubentechnik"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:narrower <https://www.w3id.org/KulturVok/terms/gefaess/BG9A69> ;
-    skos:notation "CDA461" ;
-    skos:prefLabel "Bitsche"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000149> ;
-    foaf:depiction "gefaess_00000098" .
-
-<https://www.w3id.org/KulturVok/terms/gefaess/CFDAC6> a skos:Concept ;
-    dct:created "2002-02-28" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000190" ;
+    dct:identifier "00000184" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
     skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F5894A> ;
-    skos:definition "Flache, rechteckige bis ovale Form; im Boden häufig mit Abtropfrippen oder flachem gelochtem Einsatz"@de ;
+    skos:definition "Flache Schale, auch: flacher Becher (s. Abschnitt \"Becher\") mit leicht bauchiger, bis am Rand einziehender Wandung, oft längs oder diagonal gerippt (Glas; optisch geblasen; s.a. Abschnitt \"Becher\": (->) Rippenbecher)"@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:narrower <https://www.w3id.org/KulturVok/terms/gefaess/FC6F32> ;
-    skos:notation "CFDAC6" ;
-    skos:prefLabel "Seifenschale"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000305> .
+    skos:notation "C2C7DD" ;
+    skos:prefLabel "Maigelein"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/BG72A4> ;
+    foaf:depiction "gefaess_00000184" .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/C46C3A> a skos:Concept ;
+    dct:created "2002-02-27" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000022" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/GG8736> ;
+    skos:definition "Schalenförmige Becher bzw. kleine Schalen aus Porzellan; s.a. Abschnitt \"Schale\": (->) Koppchen"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "C46C3A" ;
+    skos:prefLabel "Koppchen"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/C593B8> .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/C5G36D> a skos:Concept ;
+    dct:created "2002-03-01" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000339" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F858DD> ;
+    skos:definition "Starkwandiger Topf mit niedrigem zylinderförmigen Hals (Irdenware); Verwendung in der älteren Zuckerindustrie; s.a. Abschnitt \"Sonderformen\": (->) Zuckerhutform"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "C5G36D" ;
+    skos:prefLabel "Melassetopf"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/D867C4> .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/C66FA8> a skos:Concept ;
+    dct:created "2002-02-28" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000199" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/AGGB68> ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "C66FA8" ;
+    skos:prefLabel "Fächerschüssel"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/D99CB8> .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/C9FAF9> a skos:Concept ;
+    dct:created "2002-03-04" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000373" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/B1GA85> ;
+    skos:definition "Meist länglich schmale Faßform mit Ösen für einen Tragriemen oder -band; formal oft ähnlich dem (->) Lagel, ist das Tragfaß jedoch mehr zum Transport von Flüssigkeiten bzw. Alkoholika gedacht (Daubentechnik; s.a. Dexel I/II, 1980, S. 156,"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "C9FAF9" ;
+    skos:prefLabel "Tragfaß"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/G21GA9> .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/CF5FA9> a skos:Concept ;
+    dct:created "2002-02-28" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000181" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F5894A> ;
+    skos:definition "Kleine Schale, meist Porzellan; vgl. (->) Kumme, als größere Formvariante"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "CF5FA9" ;
+    skos:prefLabel "Koppchen"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/C593B8> .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/CG45CF> a skos:Concept ;
+    dct:created "2002-02-27" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000118" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/D7928A> ;
+    skos:definition "a) Zum Gebrauch als Schmiermittelbehälter; ovale, zylindrische bis leicht konische Flaschenformen mit dünnem, oft gebogenem Ausgußrohr auf der Schulter und Einfüllöffnung auf der Oberseite oder an der Spitze, meist mit Schraubverschluß (Eisenblech); wiederholt verkleinerte Form einer (->) Petroleumkanne, b) (->) Meßkännchen (Teil einer \"Versehgarnitur\")"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "CG45CF" ;
+    skos:prefLabel "Ölkännchen"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/GF9BA8> ;
+    foaf:depiction "gefaess_00000118" .
 
 <https://www.w3id.org/KulturVok/terms/gefaess/D5938B> a skos:Concept ;
     dct:created "2002-02-28" ;
@@ -4593,6 +4080,232 @@
     skos:prefLabel "Fußschale"@de ;
     foaf:depiction "gefaess_00000175" .
 
+<https://www.w3id.org/KulturVok/terms/gefaess/D74227> a skos:Concept ;
+    dct:created "2002-02-27" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000082" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/A5B96F> ;
+    skos:definition "Jeweils vorweg ist zu klären, ob es sich um eine (->) Kindersaugflasche (\"Ludl\") handelt oder um ein Laboratoriumsgerät (-> chemiehistorische Fachliteratur); (König, S. 68; Reinartz, Abb. 1576, 158; s.a. Dexel I/II, 1980, S. 181)."@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "D74227" ;
+    skos:prefLabel "Saugflasche"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/G9D395> .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/D84676> a skos:Concept ;
+    dct:created "2002-03-04" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000380" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:altLabel "Hasenbräter"@de ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/AG9CA6> ;
+    skos:definition "Pfannenform mit hoher Zarge, einem schmal zulaufenden und einem breiten, tief ausgebuchteten Ende mit Querbügel, (Irdenware, emailliertes Eisenblech; Bauer, Ingolf: Treuchtlinger Geschirr, S. 133)"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "D84676" ;
+    skos:prefLabel "Hasenpfanne"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/BFFG99> ;
+    foaf:depiction "gefaess_00000380" .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/D867C4> a skos:Concept ;
+    dct:created "2002-02-28" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000284" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F95B71> ;
+    skos:definition "Hohe, konisch zulaufende Hohlform mit Öffnung an der Spitze (Irdenware; Steinzeug); Verwendung nur in der Kombination mit (->) Melassetopf, s. Abschnitt: \"Einfache Topfformen\""@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "D867C4" ;
+    skos:prefLabel "Zuckerhutform"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/C5G36D> ;
+    foaf:depiction "gefaess_00000284" .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/D87G33> a skos:Concept ;
+    dct:created "2002-02-27" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000010" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/GG8736> ;
+    skos:definition "Konische Becherform, aus Dauben gefertigt, stabilisiert mit Hilfe zweier quer verlaufender Bünde aus pflanzlichem oder metallenem Material (s.a. Dexel, Typenkatalog 1986, S. 66); zur vielgestaltigen Daubentechnik s. Abschnitt \"Bibliographische Hinweise\": \"Holz\", v.a. Gebhard, Paulsen und Schniek)"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "D87G33" ;
+    skos:prefLabel "Daubenbecher"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/C3C335> .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/DA5BGB> a skos:Concept ;
+    dct:created "2002-02-27" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000036" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/GG8736> ;
+    skos:definition "Becherform der Merowingerzeit und der Renaissance mit rüsselartigen, hohlen Applikationen an der Glaswandung; Typus des Sturzbechers; Form, die im Historismus wieder auflebt."@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "DA5BGB" ;
+    skos:prefLabel "Rüsselbecher"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/DF2BC1> .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/DB1596> a skos:Concept ;
+    dct:created "2002-03-01" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000291" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/FA3DF9> ;
+    skos:definition "Fächerförmige Gestaltung hauptsächlich der Fahne, gelegentlich zusätzlich auch der flachen Wandungen (Fröschner, S. 144); s. a. Abschnitt \"Platte\": (->) Fächerplatte"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "DB1596" ;
+    skos:prefLabel "Fächerteller"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/D99CB8> .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/F28BB7> a skos:Concept ;
+    dct:created "2002-02-27" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000041" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:altLabel "Flöte"@de ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/GG8736> ;
+    skos:definition "Stielglas mit hoher, meist spitzkegelförmiger Kuppa (s.a. Dexel, Typenkatalog 1986, S. 136)"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "F28BB7" ;
+    skos:prefLabel "Sektflöte"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/DAD2D7> ;
+    foaf:depiction "gefaess_00000041" .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/F41A88> a skos:Concept ;
+    dct:created "2002-02-28" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000173" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F5894A> ;
+    skos:definition "S. Abschnitt \"Platte\": (->) Fächerplatte - Fächerschale - Fächerschüssel"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "F41A88" ;
+    skos:prefLabel "Fächerschale"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/D99CB8> .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/F67BG2> a skos:Concept ;
+    dct:created "2002-02-27" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000042" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/GG8736> ;
+    skos:definition "Stielbecher mit kegelförmiger Kuppa"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "F67BG2" ;
+    skos:prefLabel "Sektkelch"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/DAD2D7> .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/F75G34> a skos:Concept ;
+    dct:created "2002-02-28" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000275" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F95B71> ;
+    skos:definition "Aus Ton gebranntes Votiv, meist in Form menschlicher Organe oder in Tierform; s.a. (->) Tonkopfurne"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "F75G34" ;
+    skos:prefLabel "Tonvotiv"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/F878DF> .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/F878DF> a skos:Concept ;
+    dct:created "2002-02-28" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000274" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F95B71> ;
+    skos:definition "Häufig kopfähnliche, meist hohle Votivgabe mit oft abstrahierten Gesichtsformen (Irdenware)"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "F878DF" ;
+    skos:prefLabel "Tonkopfurne"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/F75G34> ;
+    foaf:depiction "gefaess_00000274" .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/F8FG2F> a skos:Concept ;
+    dct:created "2002-02-27" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000017" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:altLabel "Ranftbecher"@de ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/GG8736> ;
+    skos:definition "Bei üblicher Becherform (zylindrisch, konisch oder bauchig) ist der Funktionsteil mehr oder minder deutlich von einem Fußteil abgesetzt. Materialgleiche oder unterschiedliche Fußteile, aus einem Stück oder zusammengesetzte Varianten (s.a. Dexel, Typenkatalog 1986, S. 138) sind zu beachten"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "F8FG2F" ;
+    skos:prefLabel "Fußbecher"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/GB874A> ;
+    foaf:depiction "gefaess_00000017" .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/F9BF5A> a skos:Concept ;
+    dct:created "2002-02-28" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000223" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F95B71> ;
+    skos:definition "Kombination aus am Gefäßrand modifiziertem, meist bauchigem Untergestell (= Topfform) und aufgesetztem, zylinderförmigem Filterteil in Topfform (Porzellan, emailliertes Eisenblech, verzinktes Eisenblech, Steingut)"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "F9BF5A" ;
+    skos:prefLabel "Kaffeemaschine"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/B15G8C> .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/FFCGB1> a skos:Concept ;
+    dct:created "2002-02-28" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000149" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F42G21> ;
+    skos:definition "Konischer hoher Krug bzw. Kanne mit leicht ausbiegendem Fuß und Rand; manchmal synonym zu (->) Bitsche (s. Abschnitt \"Kanne\") gebraucht (Daubentechnik, Zinn; s.a. Dexel I/II, 1981, S. 64, 95; Dexel, Typenkatalog 1986, S. 126)"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "FFCGB1" ;
+    skos:prefLabel "Stitze"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/CDA461> .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/FG1656> a skos:Concept ;
+    dct:created "2002-03-01" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000325" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F858DD> ;
+    skos:definition "Meist topfartige, glattwandige Gefäße mit (regionaler) Eichmarke; vor allem Metalle und emailliertes Eisenblech, aber auch Daubentechnik (->) Getreidemaß; s.a. Dexel I/II, 1980, S. 169)"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "FG1656" ;
+    skos:prefLabel "Eichmaß"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/G9361C> .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/G21GA9> a skos:Concept ;
+    dct:created "2002-03-04" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000372" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/B1GA85> ;
+    skos:definition "Querformatige längliche Faßform (Holz, Eisenblech) mit Öffnung auf der Längsseite, z.T. speziell auch für den Lebendfischtransport (Benker, S. 134, Abb. 247; Gebhard, S. 145)"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "G21GA9" ;
+    skos:prefLabel "Lagel"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/C9FAF9> ;
+    foaf:depiction "gefaess_00000372" .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/G2DB66> a skos:Concept ;
+    dct:created "2002-02-28" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000227" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:altLabel "Kerzenglas"@de ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F95B71> ;
+    skos:definition "Gestreckte Glas-Rohrform mit Kugelboden; die Form entspricht weitgehend der Form (->) Reagenzglas, verfügt jedoch über ein Dochtloch am geschlossenen Ende. (Haller, Abb. 51; Schneider, Abb. 59)."@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "G2DB66" ;
+    skos:prefLabel "Kerzen(gieß/zieh)form"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/BC2D7C> .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/G6299C> a skos:Concept ;
+    dct:created "2002-03-01" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000290" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/FA3DF9> ;
+    skos:definition "S. Abschnitt \"Platte\": (->) Buckelplatte"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "G6299C" ;
+    skos:prefLabel "Buckelteller"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/D1768A> .
+
 <https://www.w3id.org/KulturVok/terms/gefaess/G79237> a skos:Concept ;
     dct:created "2002-02-28" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
@@ -4606,6 +4319,60 @@
     skos:prefLabel "Scheuer"@de ;
     foaf:depiction "gefaess_00000171" .
 
+<https://www.w3id.org/KulturVok/terms/gefaess/G9361C> a skos:Concept ;
+    dct:created "2002-02-28" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000238" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:altLabel "Eichmaß, Meßzylinder"@de ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F93G69> ;
+    skos:definition "Zylindrische Topf- bzw. Rohrform (mit/ohne Graduierung)"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "G9361C" ;
+    skos:prefLabel "Mensur"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/FG1656> .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/G9D395> a skos:Concept ;
+    dct:created "2002-02-27" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000066" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:altLabel "Ludl"@de ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/A5B96F> ;
+    skos:definition "Konische bis zylindrische Flasche (Glas, oft verziert; seltener emailliertes Blech) mit enger, etwas abgesetzter Mündung, die eine, oft fehlende Saugvorrichtung (\"Sauger\") fixiert."@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "G9D395" ;
+    skos:prefLabel "Kindersaugflasche"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/D74227> ;
+    foaf:depiction "gefaess_00000066" .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/GB874A> a skos:Concept ;
+    dct:created "2002-02-27" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000020" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:altLabel "Freundschaftsbecher, Patenbecher"@de ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/GG8736> ;
+    skos:definition "Gefußte Becher (-> Fußbecher) mit vorwiegend glockenförmiger Kuppa und glatter bis gerippter Oberfläche; meist aus Steingut oder Porzellan; häufig mit einfachen Inschriften (z.B. \"Wohl bekomms\", \"Sei glücklich\" etc.)"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "GB874A" ;
+    skos:prefLabel "Kakaobecher"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/F8FG2F> ;
+    foaf:depiction "gefaess_00000020" .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/GF9BA8> a skos:Concept ;
+    dct:created "2002-02-27" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000119" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/D7928A> ;
+    skos:definition "Geschlossene, meist zylindrische Flaschenform mit schmaler Einfüllöffnung mit Schraubverschluß und schmalem Rohrausguß; durchweg Eisenblech oder emailliertes Eisenblech; fast immer mit Aufschrift: Petroleum"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "GF9BA8" ;
+    skos:prefLabel "Petroleumkanne"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/CG45CF> ;
+    foaf:depiction "gefaess_00000119" .
+
 <https://www.w3id.org/KulturVok/terms/gefaess/AG9CA6> a skos:Concept ;
     dct:created "2002-03-04" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
@@ -4618,6 +4385,102 @@
         <https://www.w3id.org/KulturVok/terms/gefaess/D84676> ;
     skos:notation "AG9CA6" ;
     skos:prefLabel "Bräter"@de .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/BG72A4> a skos:Concept ;
+    dct:created "2002-02-27" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000033" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/GG8736> ;
+    skos:definition "(Glas-) Becherform mit in die Form geblasenen, teilweise auch aufgelegten Glasfäden, vorwiegend vertikalen bis diagonalen Rippen (s.a. Dexel, Typenkatalog 1986, S. 164)"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:narrower <https://www.w3id.org/KulturVok/terms/gefaess/F72FF3> ;
+    skos:notation "BG72A4" ;
+    skos:prefLabel "Rippenbecher"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/C2C7DD> ;
+    foaf:depiction "gefaess_00000033" .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/C3C335> a skos:Concept ;
+    dct:created "2002-02-28" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000137" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F42G21> ;
+    skos:definition "Konische bis bauchige Holzform, aus Dauben gefertigt. Allgemein: Daubengefäße - Daubenbecher - Daubeneimer - Daubenkrug - Daubenkanne: Zahlreiche Abb. bei Gebhard und: Paulsen, Peter: Die Holzfunde aus dem Gräberfeld bei Oberflacht. - Stuttgart : Theiss; Landesdenkmalamt Baden-Württemberg, 1992. S. 121-129 : Ill.; s. a. Abschnitt \"Becher\": (->) Daubenbecher"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:narrower <https://www.w3id.org/KulturVok/terms/gefaess/C1G6A6> ;
+    skos:notation "C3C335" ;
+    skos:prefLabel "Daubenkrug"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/D87G33> ;
+    foaf:depiction "gefaess_00000137" .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/CDA461> a skos:Concept ;
+    dct:created "2002-02-27" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000098" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:altLabel "Stitze"@de ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/D7928A> ;
+    skos:definition "Kanne bzw. Krug mit meist konisch-zylindrischer Form; vorwiegend Daubentechnik"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:narrower <https://www.w3id.org/KulturVok/terms/gefaess/BG9A69> ;
+    skos:notation "CDA461" ;
+    skos:prefLabel "Bitsche"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/FFCGB1> ;
+    foaf:depiction "gefaess_00000098" .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/CFDAC6> a skos:Concept ;
+    dct:created "2002-02-28" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000190" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F5894A> ;
+    skos:definition "Flache, rechteckige bis ovale Form; im Boden häufig mit Abtropfrippen oder flachem gelochtem Einsatz"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:narrower <https://www.w3id.org/KulturVok/terms/gefaess/FC6F32> ;
+    skos:notation "CFDAC6" ;
+    skos:prefLabel "Seifenschale"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/A88A53> .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/D1768A> a skos:Concept ;
+    dct:created "2002-02-28" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000155" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/G24644> ;
+    skos:definition "Gebuckelte Teilflächen der Fahne und Wandung (vor allem Fayence)"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "D1768A" ;
+    skos:prefLabel "Buckelplatte"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/A42G65>,
+        <https://www.w3id.org/KulturVok/terms/gefaess/G6299C> ;
+    foaf:depiction "gefaess_00000155" .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/D5G6C5> a skos:Concept ;
+    dct:created "2002-02-28" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000255" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F95B71> ;
+    skos:definition "Formal wie (->) Backform, doch ist die Temperaturfestigkeit der Werkstoffe nicht im gleichen Umfang erforderlich."@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "D5G6C5" ;
+    skos:prefLabel "Pastetenform"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/FF34F8>,
+        <https://www.w3id.org/KulturVok/terms/gefaess/GDGCC4> .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/DAD2D7> a skos:Concept ;
+    dct:created "2002-02-27" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000045" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/GG8736> ;
+    skos:definition "Becher mit unterschiedlicher Kuppaform auf hohem, meist glattem Stiel (s.a. Dexel, Typenkatalog 1986, S. 142); s.a. (->) Sektflöte, (->) Sektkelch"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "DAD2D7" ;
+    skos:prefLabel "Stielbecher"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/F28BB7>,
+        <https://www.w3id.org/KulturVok/terms/gefaess/F67BG2> .
 
 <https://www.w3id.org/KulturVok/terms/gefaess/DB1G96> a skos:Concept ;
     dct:created "2002-03-01" ;
@@ -4633,6 +4496,33 @@
     skos:prefLabel "Getreidemaß"@de ;
     foaf:depiction "gefaess_00000333" .
 
+<https://www.w3id.org/KulturVok/terms/gefaess/DF2BC1> a skos:Concept ;
+    dct:created "2002-02-27" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000046" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/GG8736> ;
+    skos:definition "Becher- bzw. Kelchform ohne Stand, die in der Hand gehalten wird oder leer umgestürzt gelagert werden kann; vorwiegend aus Glas (s.a. Dexel, Typenkatalog 1986, S. 58; Kämpfer, Abb. 46, 49; Lipp, Abb. 190), aus Steinzeug (Reineking, Steinzeug); in Keramik häufig in anthropomorpher Ausführung; s.a. (->) Rüsselbecher und (->) Taumler"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "DF2BC1" ;
+    skos:prefLabel "Sturzbecher"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/B91GDB>,
+        <https://www.w3id.org/KulturVok/terms/gefaess/DA5BGB> ;
+    foaf:depiction "gefaess_00000046" .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/GDGCC4> a skos:Concept ;
+    dct:created "2002-02-28" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000258" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F95B71> ;
+    skos:definition "Formal wie (->) Backform, doch ist die Temperaturfestigkeit der Werkstoffe nicht im gleichen Umfang erforderlich. Vgl. (->) Pastetenform"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "GDGCC4" ;
+    skos:prefLabel "Puddingform"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/D5G6C5>,
+        <https://www.w3id.org/KulturVok/terms/gefaess/FF34F8> .
+
 <https://www.w3id.org/KulturVok/terms/gefaess/BC8565> a skos:Concept ;
     dct:created "2002-03-04" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
@@ -4647,6 +4537,20 @@
     skos:notation "BC8565" ;
     skos:prefLabel "Wanne"@de .
 
+<https://www.w3id.org/KulturVok/terms/gefaess/C593B8> a skos:Concept ;
+    dct:created "2002-02-28" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000182" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F5894A> ;
+    skos:definition "Kleine Schale, meist Fayence oder Porzellan; (->) Napf; ein Beispiel, bei dem vorwiegend fachspezifische Traditionen die Namensgebung beeinflussen."@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "C593B8" ;
+    skos:prefLabel "Kumme"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/B7DCA7>,
+        <https://www.w3id.org/KulturVok/terms/gefaess/C46C3A>,
+        <https://www.w3id.org/KulturVok/terms/gefaess/CF5FA9> .
+
 <https://www.w3id.org/KulturVok/terms/gefaess/C99499> a skos:Concept ;
     dct:created "2002-03-04" ;
     dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
@@ -4660,6 +4564,21 @@
         <https://www.w3id.org/KulturVok/terms/gefaess/FAG544> ;
     skos:notation "C99499" ;
     skos:prefLabel "Kessel"@de .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/D99CB8> a skos:Concept ;
+    dct:created "2002-02-28" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000156" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/G24644> ;
+    skos:definition "Platten- bis Schalenform mit breitem Rand mit radialen wulstigen Rippen (vor allem Fayence; s.a. Dexel I/II, 1981, S. 144, 145)"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:notation "D99CB8" ;
+    skos:prefLabel "Fächerplatte"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/C66FA8>,
+        <https://www.w3id.org/KulturVok/terms/gefaess/DB1596>,
+        <https://www.w3id.org/KulturVok/terms/gefaess/F41A88> ;
+    foaf:depiction "gefaess_00000156" .
 
 <https://www.w3id.org/KulturVok/terms/gefaess/FD2FG4> a skos:Concept ;
     dct:created "2002-03-04" ;
@@ -4722,26 +4641,6 @@
         <https://www.w3id.org/KulturVok/terms/gefaess/G66CDB> ;
     skos:notation "BF8427" ;
     skos:prefLabel "Eimer"@de .
-
-<https://www.w3id.org/KulturVok/terms/gefaess/FF34F8> a skos:Concept ;
-    dct:created "2002-02-28" ;
-    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
-    dct:identifier "00000208" ;
-    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kuchenform"@de ;
-    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F95B71> ;
-    skos:definition "Vielfältige geometrische, aber auch tiergestaltige Hohlformen aus erhitzungsfähigem Material mit spezieller Backeignung; häufig durch Rippen und Wülste strukturierte steile Wandung (Irdenware, Steingut, Braungeschirr, Eisenblech, emailliertes Eisenblech, Gußeisen, Aluminium; Bauer, Hafnergeschirr, Abb. 180-182; Bauer, Treuchtlinger Geschirr, Abb. 88; Grasmann, Kröninger Hafnerei, S. 133; Istvan, S. 43-45; Scholten-Neess, Abb. 416-418; Weinhold, Töpferwerk, Abb. 90), Syn.: (->)\"Gug(e)lhupf\", Aschkuchenform, Auflaufform, Backform mit Rohr, Bundform (mit/ohne Rohr), Fischform, Königskuchenform (Pastetenform, Puddingform), Napfkuchenform (mit/ohne Rohr)"@de ;
-    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
-    skos:narrower <https://www.w3id.org/KulturVok/terms/gefaess/B2D986>,
-        <https://www.w3id.org/KulturVok/terms/gefaess/C96BDB>,
-        <https://www.w3id.org/KulturVok/terms/gefaess/F6GB5D>,
-        <https://www.w3id.org/KulturVok/terms/gefaess/FA6AD8>,
-        <https://www.w3id.org/KulturVok/terms/gefaess/FFA8GC> ;
-    skos:notation "FF34F8" ;
-    skos:prefLabel "Backform"@de ;
-    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/00000255>,
-        <https://www.w3id.org/KulturVok/terms/gefaess/00000258> ;
-    foaf:depiction "gefaess_00000208" .
 
 <https://www.w3id.org/KulturVok/terms/gefaess/B1GA85> a skos:Concept ;
     dct:created "2002-03-04" ;
@@ -4814,6 +4713,26 @@
         <https://www.w3id.org/KulturVok/terms/gefaess/DBF84F> ;
     skos:notation "F33126" ;
     skos:prefLabel "Pfanne"@de .
+
+<https://www.w3id.org/KulturVok/terms/gefaess/FF34F8> a skos:Concept ;
+    dct:created "2002-02-28" ;
+    dct:creator "Landesstelle für die nichtstaatlichen Museen in Bayern" ;
+    dct:identifier "00000208" ;
+    dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
+    skos:altLabel "Kuchenform"@de ;
+    skos:broader <https://www.w3id.org/KulturVok/terms/gefaess/F95B71> ;
+    skos:definition "Vielfältige geometrische, aber auch tiergestaltige Hohlformen aus erhitzungsfähigem Material mit spezieller Backeignung; häufig durch Rippen und Wülste strukturierte steile Wandung (Irdenware, Steingut, Braungeschirr, Eisenblech, emailliertes Eisenblech, Gußeisen, Aluminium; Bauer, Hafnergeschirr, Abb. 180-182; Bauer, Treuchtlinger Geschirr, Abb. 88; Grasmann, Kröninger Hafnerei, S. 133; Istvan, S. 43-45; Scholten-Neess, Abb. 416-418; Weinhold, Töpferwerk, Abb. 90), Syn.: (->)\"Gug(e)lhupf\", Aschkuchenform, Auflaufform, Backform mit Rohr, Bundform (mit/ohne Rohr), Fischform, Königskuchenform (Pastetenform, Puddingform), Napfkuchenform (mit/ohne Rohr)"@de ;
+    skos:inScheme <https://www.w3id.org/KulturVok/terms/gefaess> ;
+    skos:narrower <https://www.w3id.org/KulturVok/terms/gefaess/B2D986>,
+        <https://www.w3id.org/KulturVok/terms/gefaess/C96BDB>,
+        <https://www.w3id.org/KulturVok/terms/gefaess/F6GB5D>,
+        <https://www.w3id.org/KulturVok/terms/gefaess/FA6AD8>,
+        <https://www.w3id.org/KulturVok/terms/gefaess/FFA8GC> ;
+    skos:notation "FF34F8" ;
+    skos:prefLabel "Backform"@de ;
+    skos:related <https://www.w3id.org/KulturVok/terms/gefaess/D5G6C5>,
+        <https://www.w3id.org/KulturVok/terms/gefaess/GDGCC4> ;
+    foaf:depiction "gefaess_00000208" .
 
 <https://www.w3id.org/KulturVok/terms/gefaess/AGGB68> a skos:Concept ;
     dct:created "2002-02-28" ;
@@ -5307,6 +5226,7 @@
     dct:description "Gefäße und Formen. Eine Typologie für Museen und Sammlungen"@de ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
     dct:title "Gefäßtypologie"@de ;
+    vann:preferredNamespaceUri "https://www.w3id.org/KulturVok/terms/gefaess" ;
     ex:conceptCount 402 ;
     skos:hasTopConcept <https://www.w3id.org/KulturVok/terms/gefaess/F764BC> .
 

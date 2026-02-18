@@ -1,0 +1,806 @@
+{
+  "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BD952F",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Küchengerät"
+  },
+  "notation": [
+    "BD952F"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A127B5",
+      "prefLabel": {
+        "de": "Sahneschlaggerät"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B8165C",
+      "prefLabel": {
+        "de": "Pfannen - Töpfe"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A3AD73",
+      "prefLabel": {
+        "de": "Mixgerät"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A546D4",
+      "prefLabel": {
+        "de": "JUPITER_Universal-Küchenmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A68FGG",
+      "prefLabel": {
+        "de": "Ölpreßtrog"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A79D7B",
+      "prefLabel": {
+        "de": "Nußmühle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A84A4C",
+      "prefLabel": {
+        "de": "Einmachtopf"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A986BB",
+      "prefLabel": {
+        "de": "Küchenfüllmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AAB7F5",
+      "prefLabel": {
+        "de": "Tiegel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AB58CC",
+      "prefLabel": {
+        "de": "Pfeffermühle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/ACB763",
+      "prefLabel": {
+        "de": "Küchenbeil"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/ACB95G",
+      "prefLabel": {
+        "de": "Schöpfer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/ACC5G5",
+      "prefLabel": {
+        "de": "Trichter"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AG4233",
+      "prefLabel": {
+        "de": "Fischform"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AG4576",
+      "prefLabel": {
+        "de": "Löffelsieb"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G5979A",
+      "prefLabel": {
+        "de": "Pfanne: Zubehör"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AGD7A9",
+      "prefLabel": {
+        "de": "Korkenzieher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B23977",
+      "prefLabel": {
+        "de": "Metall-Filiergerät"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B2DAAB",
+      "prefLabel": {
+        "de": "Holz-Küchengerät"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B35211",
+      "prefLabel": {
+        "de": "Kaffeemaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B361D7",
+      "prefLabel": {
+        "de": "Kelle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B3853D",
+      "prefLabel": {
+        "de": "Blanchiereisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B6G332",
+      "prefLabel": {
+        "de": "Glaszitronenpresse"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B78C28",
+      "prefLabel": {
+        "de": "Kaffeesieb"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B79132",
+      "prefLabel": {
+        "de": "Hausmühle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B859A5",
+      "prefLabel": {
+        "de": "Steinmörser"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B8B48B",
+      "prefLabel": {
+        "de": "Eisform"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B91B1A",
+      "prefLabel": {
+        "de": "Steinzeug-Senftopf"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B998G8",
+      "prefLabel": {
+        "de": "Tischmahlwerk"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BA6CC1",
+      "prefLabel": {
+        "de": "Wandmühle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BAD231",
+      "prefLabel": {
+        "de": "Messingkelle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BC5275",
+      "prefLabel": {
+        "de": "Schäumer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BD352G",
+      "prefLabel": {
+        "de": "Schöpfkelle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C223C7",
+      "prefLabel": {
+        "de": "Schöpflöffel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C264GB",
+      "prefLabel": {
+        "de": "Reibe"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C2715G",
+      "prefLabel": {
+        "de": "Zuckerbrecher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C3F2AG",
+      "prefLabel": {
+        "de": "Kaffeemühle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C4F797",
+      "prefLabel": {
+        "de": "Obstpresse"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C5ABFG",
+      "prefLabel": {
+        "de": "Wasserkelle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C6B5A1",
+      "prefLabel": {
+        "de": "Puddingform"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C6FFD9",
+      "prefLabel": {
+        "de": "Pannschüppe"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C8CG48",
+      "prefLabel": {
+        "de": "Kaffeebrenner"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C9C9BG",
+      "prefLabel": {
+        "de": "Glasreibe"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CA5B7C",
+      "prefLabel": {
+        "de": "Kaffeetrommel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CF8B3F",
+      "prefLabel": {
+        "de": "Mühle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CG5951",
+      "prefLabel": {
+        "de": "Messerbänkchen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D1994A",
+      "prefLabel": {
+        "de": "Messing-Schaumlöffel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D47C46",
+      "prefLabel": {
+        "de": "Gemüseschneider"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D57786",
+      "prefLabel": {
+        "de": "Musmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D66C5G",
+      "prefLabel": {
+        "de": "Senfmühle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D73D16",
+      "prefLabel": {
+        "de": "Holz-Schöpflöffel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D78BA1",
+      "prefLabel": {
+        "de": "Puddingförmchen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D87946",
+      "prefLabel": {
+        "de": "Frittenschnitzer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D88663",
+      "prefLabel": {
+        "de": "Kochbesteck"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DA62DF",
+      "prefLabel": {
+        "de": "Durchschlag"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DA961A",
+      "prefLabel": {
+        "de": "Schnitzelwerk"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DB144B",
+      "prefLabel": {
+        "de": "Zitronenpresse"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DDFG19",
+      "prefLabel": {
+        "de": "Fischbackform"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DF7DA1",
+      "prefLabel": {
+        "de": "Kaffeelot"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DG76F9",
+      "prefLabel": {
+        "de": "Gewürzmühle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F11A9D",
+      "prefLabel": {
+        "de": "Schüsselsieb"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F138C2",
+      "prefLabel": {
+        "de": "Quirl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F26FF2",
+      "prefLabel": {
+        "de": "Nußknacker"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F3BF24",
+      "prefLabel": {
+        "de": "Messing-Gießnapf"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F3F23F",
+      "prefLabel": {
+        "de": "Wandkaffeemühle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F8A4B4",
+      "prefLabel": {
+        "de": "Fisch-Puddingform"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F8CB61",
+      "prefLabel": {
+        "de": "Salzmörser"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F8D1G7",
+      "prefLabel": {
+        "de": "Kaffeebereiter"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FADG39",
+      "prefLabel": {
+        "de": "Kohlmesser"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FBAB8G",
+      "prefLabel": {
+        "de": "Wasserschöpfkelle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FC26CC",
+      "prefLabel": {
+        "de": "Schrotmühle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FDA26G",
+      "prefLabel": {
+        "de": "Steinzeug-Salzschale"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FFDG72",
+      "prefLabel": {
+        "de": "Dörrobstbrett"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FG4A7C",
+      "prefLabel": {
+        "de": "Kaffeevinne"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FG4D89",
+      "prefLabel": {
+        "de": "Steinzeug-Tiegel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FG95A7",
+      "prefLabel": {
+        "de": "Pappschottel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FGAA47",
+      "prefLabel": {
+        "de": "Messer für Küchenmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G1BGC7",
+      "prefLabel": {
+        "de": "Zuckerschneider"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G1CC26",
+      "prefLabel": {
+        "de": "Kupfertrichter"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G1D4BD",
+      "prefLabel": {
+        "de": "Mehllöffel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G24C7G",
+      "prefLabel": {
+        "de": "Ölmühle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G2CB53",
+      "prefLabel": {
+        "de": "Schnibbelbohnenmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G4147C",
+      "prefLabel": {
+        "de": "Kartoffelstampfer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G57556",
+      "prefLabel": {
+        "de": "Ton-Kaffeefilter"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G69G41",
+      "prefLabel": {
+        "de": "Einkochtopf"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G6DC83",
+      "prefLabel": {
+        "de": "Aufschnittmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G71G74",
+      "prefLabel": {
+        "de": "Bohnenschneider"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G72C87",
+      "prefLabel": {
+        "de": "Seier"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G81A57",
+      "prefLabel": {
+        "de": "Kapsschabe"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G8CG45",
+      "prefLabel": {
+        "de": "Heißwassertopf"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G8D892",
+      "prefLabel": {
+        "de": "Topfsieb"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G9C5CG",
+      "prefLabel": {
+        "de": "Küchenbrettchen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GC6565",
+      "prefLabel": {
+        "de": "Messing-Schöpflöffel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GG3475",
+      "prefLabel": {
+        "de": "Brettchen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/ADG632",
+      "prefLabel": {
+        "de": "Steinzeug-Salznapf"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B9G47D",
+      "prefLabel": {
+        "de": "Messingmörser"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BC5974",
+      "prefLabel": {
+        "de": "Mörser"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FA85D3",
+      "prefLabel": {
+        "de": "Wiegemesser"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G7DF66",
+      "prefLabel": {
+        "de": "Schüsselkorb"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GA5GG4",
+      "prefLabel": {
+        "de": "T-Stößel"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FB3D1A",
+    "prefLabel": {
+      "de": "Hausrat"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik",
+      "title": {
+        "de": "Grobsystematik"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

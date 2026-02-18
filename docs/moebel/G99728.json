@@ -1,0 +1,269 @@
+{
+  "id": "https://www.w3id.org/KulturVok/terms/moebel/G99728",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Regal"
+  },
+  "altLabel": {
+    "de": [
+      "Desserte, Servante"
+    ]
+  },
+  "definition": {
+    "de": "Das Regal ist ein vorn offenes Gestell mit mehreren Böden. Es kann stehen oder hängen und ist nach mindestens einer Seite offen., Konstruktiv sind folgende Haupttypen zu unterscheiden:, 1) Pfostenregal, 2) Seitenteil- bzw. Steckregal, 3) Kragarmregal, Regale, die - besonders im Klassizismus und im Biedermeier - für reine Repräsentationszwecke gebaut wurden, sind unter den Bezeichnungen \"Servante\" oder \"Desserte\" bekannt."
+  },
+  "notation": [
+    "G99728"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/B7BFAA",
+      "prefLabel": {
+        "de": "Raumteiler"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/C5912A",
+      "prefLabel": {
+        "de": "Setzkasten"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/C8GFFC",
+      "prefLabel": {
+        "de": "Drehregal"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/D9D6F6",
+      "prefLabel": {
+        "de": "Servierwagen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/F17A16",
+      "prefLabel": {
+        "de": "Flaschenregal"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/F81995",
+      "prefLabel": {
+        "de": "Tellerbord"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/F8C9F1",
+      "prefLabel": {
+        "de": "Eckregal"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/FCC5G9",
+      "prefLabel": {
+        "de": "Etagère"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://www.w3id.org/KulturVok/terms/moebel/B4ABFF",
+    "prefLabel": {
+      "de": "Gestell"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel",
+      "title": {
+        "de": "Möbeltypologie"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel"
+    }
+  ],
+  "creator": [
+    "Böth, Gitta",
+    "Hartmann, Manfred",
+    "Kleebaum, Bernd",
+    "Nickel, Susanne",
+    "Pröstler, Viktor"
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

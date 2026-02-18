@@ -1,0 +1,1214 @@
+{
+  "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C26AD2",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Geologie"
+  },
+  "notation": [
+    "C26AD2"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A1G39A",
+      "prefLabel": {
+        "de": "Kalk"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A211G4",
+      "prefLabel": {
+        "de": "Lava"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A21G9C",
+      "prefLabel": {
+        "de": "Gestein-Kalk"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A23358",
+      "prefLabel": {
+        "de": "Anthracosia"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A37CC5",
+      "prefLabel": {
+        "de": "Kalkmasse"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A5558C",
+      "prefLabel": {
+        "de": "Quarzgesteinbrocken"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A64BFA",
+      "prefLabel": {
+        "de": "Druse"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A66CGG",
+      "prefLabel": {
+        "de": "Schieferton"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A66FFB",
+      "prefLabel": {
+        "de": "Marienglas"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A71CF9",
+      "prefLabel": {
+        "de": "Schachtelhalm"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A76179",
+      "prefLabel": {
+        "de": "Inoceramus brancoiformis"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A79C61",
+      "prefLabel": {
+        "de": "Steinstück"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A8714B",
+      "prefLabel": {
+        "de": "Magnet-Eisenkristall"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A9F53A",
+      "prefLabel": {
+        "de": "Kieselsandstein"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AAFF85",
+      "prefLabel": {
+        "de": "Tuff (basaltisch)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AB51F5",
+      "prefLabel": {
+        "de": "Spatangus"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AB9C68",
+      "prefLabel": {
+        "de": "Sardinius"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/ADC598",
+      "prefLabel": {
+        "de": "Schuppenbaum-Wurzelstock"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/ADGBD5",
+      "prefLabel": {
+        "de": "Ostrea semiplana"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AG1A96",
+      "prefLabel": {
+        "de": "Farnsamer-Wedelteil"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AG6148",
+      "prefLabel": {
+        "de": "Steinfragment"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B188A3",
+      "prefLabel": {
+        "de": "Sigillaria sp."
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B1949D",
+      "prefLabel": {
+        "de": "Muschelschale"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B1A2F7",
+      "prefLabel": {
+        "de": "Geröllstein"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B24542",
+      "prefLabel": {
+        "de": "Kalkspat (Kalzit)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B24C5A",
+      "prefLabel": {
+        "de": "Meeresschnecke"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B25B29",
+      "prefLabel": {
+        "de": "Breccie"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B297CD",
+      "prefLabel": {
+        "de": "Schnecke"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B2D2DA",
+      "prefLabel": {
+        "de": "Armkiemer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B35CCC",
+      "prefLabel": {
+        "de": "Stigmaria"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B3DB2D",
+      "prefLabel": {
+        "de": "Rhomben-Porphyr"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B525A5",
+      "prefLabel": {
+        "de": "Seekuh-Wirbel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B57DG4",
+      "prefLabel": {
+        "de": "Tuffstein"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B6696B",
+      "prefLabel": {
+        "de": "Gipsspat"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B7959B",
+      "prefLabel": {
+        "de": "Inoceramus cycloides"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B815F8",
+      "prefLabel": {
+        "de": "Gips"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B87F19",
+      "prefLabel": {
+        "de": "Kalksandstein"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B98F1D",
+      "prefLabel": {
+        "de": "Geröllstein-Konglomerat"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BA57D6",
+      "prefLabel": {
+        "de": "Ostrea sp."
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BB2CD7",
+      "prefLabel": {
+        "de": "Rotschiefer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BC5F22",
+      "prefLabel": {
+        "de": "Schiefer (kristallin)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BC6434",
+      "prefLabel": {
+        "de": "Bostrychoceras"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BC746C",
+      "prefLabel": {
+        "de": "Gabbro"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BC8832",
+      "prefLabel": {
+        "de": "Grünstein"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BD1C4D",
+      "prefLabel": {
+        "de": "Schneckengehäuse"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BD2AG2",
+      "prefLabel": {
+        "de": "Ostsee-Quarzporphyr"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BD2C17",
+      "prefLabel": {
+        "de": "Stalagmit"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BF23F4",
+      "prefLabel": {
+        "de": "Milchquarzknollen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BF4AAC",
+      "prefLabel": {
+        "de": "Brandschiefer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BF8178",
+      "prefLabel": {
+        "de": "Eisenschlacke"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BFC8D7",
+      "prefLabel": {
+        "de": "Seelilien-Abdruck"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BG9F23",
+      "prefLabel": {
+        "de": "Pflanzenrest"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BGF48A",
+      "prefLabel": {
+        "de": "Sandsteingeröll"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C174C6",
+      "prefLabel": {
+        "de": "Seeigel-Schale"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C2B49A",
+      "prefLabel": {
+        "de": "Fischabdruck"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C2D283",
+      "prefLabel": {
+        "de": "Braunkohle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C2D66G",
+      "prefLabel": {
+        "de": "Maiadites sp."
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C38FC2",
+      "prefLabel": {
+        "de": "Eisensandsteinschwarte"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C3CD53",
+      "prefLabel": {
+        "de": "Flintstein"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C47B12",
+      "prefLabel": {
+        "de": "Geröll-Stück"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C4A7G3",
+      "prefLabel": {
+        "de": "Lavagestein"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C53276",
+      "prefLabel": {
+        "de": "Kalkstück"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C71B6A",
+      "prefLabel": {
+        "de": "Farn-Abdruck"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C71F35",
+      "prefLabel": {
+        "de": "Marmorinkrustation"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C764BG",
+      "prefLabel": {
+        "de": "Maasei"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C78728",
+      "prefLabel": {
+        "de": "Cythophyllum"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C7A1FB",
+      "prefLabel": {
+        "de": "Acanthoceras"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C9GF85",
+      "prefLabel": {
+        "de": "Sandstein"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CC6G74",
+      "prefLabel": {
+        "de": "Schiefer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CCBG14",
+      "prefLabel": {
+        "de": "Abellum"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CF558C",
+      "prefLabel": {
+        "de": "Toneisenstein-Geschiebe"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CF9AB7",
+      "prefLabel": {
+        "de": "Muschelschalen-Abdruck"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CFCAA4",
+      "prefLabel": {
+        "de": "Trachyt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CG3AGG",
+      "prefLabel": {
+        "de": "Pelikansfuß"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D11BF3",
+      "prefLabel": {
+        "de": "Meeresmuschel-Steinkerne"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D17DA2",
+      "prefLabel": {
+        "de": "Kamm-Muschel-Abdruck"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D1BA92",
+      "prefLabel": {
+        "de": "Granit"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D1F6BG",
+      "prefLabel": {
+        "de": "Kalkstein"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D1G8D4",
+      "prefLabel": {
+        "de": "Alethopteris"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D23GBB",
+      "prefLabel": {
+        "de": "Pyxit"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D2GCC6",
+      "prefLabel": {
+        "de": "Windkanter"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D32662",
+      "prefLabel": {
+        "de": "Stigmarie"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D32F24",
+      "prefLabel": {
+        "de": "Terebratula vulgaris"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D33919",
+      "prefLabel": {
+        "de": "Zinnerz"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D443F9",
+      "prefLabel": {
+        "de": "Milchquarz"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D4FGDB",
+      "prefLabel": {
+        "de": "Geschiebe"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D59D36",
+      "prefLabel": {
+        "de": "Fächerkorallen-Kelch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D699GG",
+      "prefLabel": {
+        "de": "Eisenjaspis"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D6C471",
+      "prefLabel": {
+        "de": "Hornblendegaben-Schiefer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D728DD",
+      "prefLabel": {
+        "de": "Plattenkalk"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D76A63",
+      "prefLabel": {
+        "de": "Rapakivi-Granit"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D7A64C",
+      "prefLabel": {
+        "de": "Röhrenkoralle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D7D64D",
+      "prefLabel": {
+        "de": "Marmor"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D84B4D",
+      "prefLabel": {
+        "de": "Meeresmuschel-Abdruck"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D982CA",
+      "prefLabel": {
+        "de": "Tonschiefer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D9B11A",
+      "prefLabel": {
+        "de": "Meeresmuschel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DAF7F3",
+      "prefLabel": {
+        "de": "Anthracosia sp."
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DB7643",
+      "prefLabel": {
+        "de": "Calamites"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DBA183",
+      "prefLabel": {
+        "de": "Holz-Stück, versteinert"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DC4AF3",
+      "prefLabel": {
+        "de": "Mühlenberg-Sandstein"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DDBB4F",
+      "prefLabel": {
+        "de": "Salinenversteinerung"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DG31C3",
+      "prefLabel": {
+        "de": "Trachittuff"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DG89G3",
+      "prefLabel": {
+        "de": "Pecopteris"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DGD37C",
+      "prefLabel": {
+        "de": "Korallenneolith"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F189A8",
+      "prefLabel": {
+        "de": "Aporhais pas pelecanae"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F1B4F8",
+      "prefLabel": {
+        "de": "Buntschiefer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F1B959",
+      "prefLabel": {
+        "de": "Inoceramus"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F21B4C",
+      "prefLabel": {
+        "de": "Ostrea callifera"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F31F74",
+      "prefLabel": {
+        "de": "Schichtgestein"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F3GD56",
+      "prefLabel": {
+        "de": "Inoceramus haenleini"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F42922",
+      "prefLabel": {
+        "de": "Glimmerschiefer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F47D71",
+      "prefLabel": {
+        "de": "Kalkmergel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F4951D",
+      "prefLabel": {
+        "de": "Glycimeris obovatus"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F4CBD8",
+      "prefLabel": {
+        "de": "Feuersteinknolle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F52483",
+      "prefLabel": {
+        "de": "Gastrioceras"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F54698",
+      "prefLabel": {
+        "de": "Quarzporphyr"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F54756",
+      "prefLabel": {
+        "de": "Alethapteris decurrens"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F5892A",
+      "prefLabel": {
+        "de": "Kalkspat"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F5AGD1",
+      "prefLabel": {
+        "de": "Sphenopteris"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F62635",
+      "prefLabel": {
+        "de": "Holzstamm"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F63641",
+      "prefLabel": {
+        "de": "Kamm-Muschel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F67626",
+      "prefLabel": {
+        "de": "Eisenkiesel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F6AC52",
+      "prefLabel": {
+        "de": "Grauwacken-Sandstein"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F6D74D",
+      "prefLabel": {
+        "de": "Kieselschiefer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F6G3DA",
+      "prefLabel": {
+        "de": "Raseneisenerz"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F76745",
+      "prefLabel": {
+        "de": "Granit-Porphyr"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F83FC8",
+      "prefLabel": {
+        "de": "Siegelbaum"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F89C83",
+      "prefLabel": {
+        "de": "Kalkschiefer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F92GFD",
+      "prefLabel": {
+        "de": "Stringocephalus"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F95BF2",
+      "prefLabel": {
+        "de": "Nummuliten-Sandstein"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F9A39G",
+      "prefLabel": {
+        "de": "Seeigel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FB64DC",
+      "prefLabel": {
+        "de": "Farn"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FB7438",
+      "prefLabel": {
+        "de": "Schuppenbaum"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FD33BG",
+      "prefLabel": {
+        "de": "Brachiopode"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FD8F9C",
+      "prefLabel": {
+        "de": "Sandsteinplatte"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FDBB85",
+      "prefLabel": {
+        "de": "Kammfarn"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FF445C",
+      "prefLabel": {
+        "de": "Cardium"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FG2F87",
+      "prefLabel": {
+        "de": "Kalkknolle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FG4852",
+      "prefLabel": {
+        "de": "Schiefer-Gestein"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FGBD63",
+      "prefLabel": {
+        "de": "Cabonicola"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G11D67",
+      "prefLabel": {
+        "de": "Sigillarit"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G14G2D",
+      "prefLabel": {
+        "de": "Sandsteinschiefer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G26CD9",
+      "prefLabel": {
+        "de": "Konglomerat"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G342A3",
+      "prefLabel": {
+        "de": "Steinsalz"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G35C4D",
+      "prefLabel": {
+        "de": "Echinolampas"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G37C81",
+      "prefLabel": {
+        "de": "Perlboot"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G444BF",
+      "prefLabel": {
+        "de": "Calamites-Abdruck"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G5331G",
+      "prefLabel": {
+        "de": "Stammstück"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G59A7D",
+      "prefLabel": {
+        "de": "Bohrkern"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G6AC85",
+      "prefLabel": {
+        "de": "Konglomerat (quarzitisch)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G78AFC",
+      "prefLabel": {
+        "de": "Kalkspat-Knolle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G82B9B",
+      "prefLabel": {
+        "de": "Salinenstück"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G93BFF",
+      "prefLabel": {
+        "de": "Mandelstein"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G9G14D",
+      "prefLabel": {
+        "de": "Quarzstück"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GA45D5",
+      "prefLabel": {
+        "de": "Feuersteinbrocken"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GA4C3A",
+      "prefLabel": {
+        "de": "Melaphyrtuff"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GB5D89",
+      "prefLabel": {
+        "de": "Scolythus"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GB5F63",
+      "prefLabel": {
+        "de": "Süßwasserschnecke"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GB6938",
+      "prefLabel": {
+        "de": "Süßwassermuschel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GBD7A3",
+      "prefLabel": {
+        "de": "Kupferschiefer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GBFB92",
+      "prefLabel": {
+        "de": "Donnerkeil"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GCB7CD",
+      "prefLabel": {
+        "de": "Gervillia"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GCB8B7",
+      "prefLabel": {
+        "de": "Inoceramus Labiatus"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GD7BC3",
+      "prefLabel": {
+        "de": "Grauwacke"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GF22CF",
+      "prefLabel": {
+        "de": "Karneoldolomit"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GF3461",
+      "prefLabel": {
+        "de": "Tuff (vulkanisch)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GFFC2G",
+      "prefLabel": {
+        "de": "Schieferton-Bohrkern"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GG3A77",
+      "prefLabel": {
+        "de": "Seelilienstengel"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C22D19",
+    "prefLabel": {
+      "de": "Naturgeschichte"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik",
+      "title": {
+        "de": "Grobsystematik"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

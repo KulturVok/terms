@@ -1,0 +1,769 @@
+{
+  "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B16C2G",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Backgerät - Backformen (Küche)"
+  },
+  "altLabel": {
+    "de": [
+      "Backformen - Backgerät (Küche)"
+    ]
+  },
+  "notation": [
+    "B16C2G"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A38BGD",
+      "prefLabel": {
+        "de": "Kuchenform"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A495DA",
+      "prefLabel": {
+        "de": "Kastenbackform"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A516C5",
+      "prefLabel": {
+        "de": "Mehlsieb"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A559GC",
+      "prefLabel": {
+        "de": "Bäkske"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A5FD5F",
+      "prefLabel": {
+        "de": "Ausstechförmchen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A635B1",
+      "prefLabel": {
+        "de": "Ostergebäckmodel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A6A1A3",
+      "prefLabel": {
+        "de": "Spekulatiusmodel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A9395A",
+      "prefLabel": {
+        "de": "Ausstechform"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A971A1",
+      "prefLabel": {
+        "de": "Brotteigschneider"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AA41F7",
+      "prefLabel": {
+        "de": "Kuchenblech"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AB439A",
+      "prefLabel": {
+        "de": "Lebkuchenbäckerei"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AC6A95",
+      "prefLabel": {
+        "de": "Lohkuchen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AD438A",
+      "prefLabel": {
+        "de": "Brotschneider"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AFF2GC",
+      "prefLabel": {
+        "de": "Brotschaufel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AGDF12",
+      "prefLabel": {
+        "de": "Brotschneidemaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B12969",
+      "prefLabel": {
+        "de": "Rodonkuchenform"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B43GBG",
+      "prefLabel": {
+        "de": "Printenmodel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B564GG",
+      "prefLabel": {
+        "de": "Kuchen-Backform"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B5B743",
+      "prefLabel": {
+        "de": "Brotbürste"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B6899A",
+      "prefLabel": {
+        "de": "Pfannkuchenschüssel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/B781A8",
+      "prefLabel": {
+        "de": "Backtrog"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BA4226",
+      "prefLabel": {
+        "de": "Backschüssel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BC8G2D",
+      "prefLabel": {
+        "de": "Teigform"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/BCA524",
+      "prefLabel": {
+        "de": "Teigrädchen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C2543F",
+      "prefLabel": {
+        "de": "Kastenbackmodel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C322B7",
+      "prefLabel": {
+        "de": "Oblaten-Eisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C45A4G",
+      "prefLabel": {
+        "de": "Teigrolle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C57AB5",
+      "prefLabel": {
+        "de": "Mehlschaufel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C63BCC",
+      "prefLabel": {
+        "de": "Gebäckmodelabdruck"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C72A27",
+      "prefLabel": {
+        "de": "Peeperkoek"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CBB122",
+      "prefLabel": {
+        "de": "Brotschieber"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CC6433",
+      "prefLabel": {
+        "de": "Kastenmodel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CC649F",
+      "prefLabel": {
+        "de": "Waffeleisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CC96DA",
+      "prefLabel": {
+        "de": "Gebäckmodel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CCA674",
+      "prefLabel": {
+        "de": "Mehlfaß"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CCBG33",
+      "prefLabel": {
+        "de": "Pfannkuchenwender"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CCD1F2",
+      "prefLabel": {
+        "de": "Gebäckform"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CCD7AD",
+      "prefLabel": {
+        "de": "Steingut-Teigrolle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CFD5FA",
+      "prefLabel": {
+        "de": "Schiesser"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CG1A97",
+      "prefLabel": {
+        "de": "Spekulatiusform"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D285GF",
+      "prefLabel": {
+        "de": "Marzipanform"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D43A6A",
+      "prefLabel": {
+        "de": "Lohkuchenform"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D68CGC",
+      "prefLabel": {
+        "de": "Brotmaschine"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D88755",
+      "prefLabel": {
+        "de": "Stabwaffeleisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DA8CDF",
+      "prefLabel": {
+        "de": "Plätzchenausstechform"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DAGA28",
+      "prefLabel": {
+        "de": "Ostersemmel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/DF713A",
+      "prefLabel": {
+        "de": "Spekulatiusbrett"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F286FF",
+      "prefLabel": {
+        "de": "Teigspaten"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F31B64",
+      "prefLabel": {
+        "de": "Topfkuchenform"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F4335A",
+      "prefLabel": {
+        "de": "Backmodelleiste"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F4B184",
+      "prefLabel": {
+        "de": "Brottrommel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F63D3C",
+      "prefLabel": {
+        "de": "Kuchenheber"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F6FB27",
+      "prefLabel": {
+        "de": "Kuchenform zum Teigausstechen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F7F46C",
+      "prefLabel": {
+        "de": "Teigschüssel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F9FCFG",
+      "prefLabel": {
+        "de": "Napfkuchenform"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FA853C",
+      "prefLabel": {
+        "de": "Backmodel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FA9691",
+      "prefLabel": {
+        "de": "Backrolle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FBF4A2",
+      "prefLabel": {
+        "de": "Kasten-Kuchenbackform"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FC99D1",
+      "prefLabel": {
+        "de": "Rodonkuchenbackform"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G1434B",
+      "prefLabel": {
+        "de": "Kucheneisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G16942",
+      "prefLabel": {
+        "de": "Hostienpresse"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G282A6",
+      "prefLabel": {
+        "de": "Kuchenplatte"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G48526",
+      "prefLabel": {
+        "de": "Backform"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G4G339",
+      "prefLabel": {
+        "de": "Hostien-Eisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G4G9GA",
+      "prefLabel": {
+        "de": "Ausstechform (Lebkuchenbäckerei)"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G51G59",
+      "prefLabel": {
+        "de": "Teigstecher"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G5GF2F",
+      "prefLabel": {
+        "de": "Mehlsieb, mechanisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G688A8",
+      "prefLabel": {
+        "de": "Doppelmodel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G6A43A",
+      "prefLabel": {
+        "de": "Backwerk"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G76B3F",
+      "prefLabel": {
+        "de": "Ton-Backform"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G7CC42",
+      "prefLabel": {
+        "de": "Rolle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G84771",
+      "prefLabel": {
+        "de": "Kranzkuchenform"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G9BF41",
+      "prefLabel": {
+        "de": "Kastenkuchenform"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/G9CG92",
+      "prefLabel": {
+        "de": "Teigrührer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GACG23",
+      "prefLabel": {
+        "de": "Wandbehälter für Mehl"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GCB4GD",
+      "prefLabel": {
+        "de": "Hostienstanzeisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/GG3BC5",
+      "prefLabel": {
+        "de": "Teigform für Brot"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A24DC4",
+      "prefLabel": {
+        "de": "Brotschrank"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A924G5",
+      "prefLabel": {
+        "de": "Molle"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A9A1A2",
+      "prefLabel": {
+        "de": "Fülltrog"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/A9B224",
+      "prefLabel": {
+        "de": "Pfannkuchenstülpe"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/AC2AA7",
+      "prefLabel": {
+        "de": "Rührer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C17A8A",
+      "prefLabel": {
+        "de": "Kratzer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C49991",
+      "prefLabel": {
+        "de": "Brotstempel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/CGG2DD",
+      "prefLabel": {
+        "de": "Waffeleisen für Herdfeuer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D1A9B4",
+      "prefLabel": {
+        "de": "Pfannkuchenteller"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D81FC3",
+      "prefLabel": {
+        "de": "Rührlöffel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F8G6AF",
+      "prefLabel": {
+        "de": "Brotkasten"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FD8127",
+      "prefLabel": {
+        "de": "Kuchenpfanne"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/C167FF",
+      "prefLabel": {
+        "de": "Brotkorb"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/D264FG",
+      "prefLabel": {
+        "de": "Holztrog"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/F977F9",
+      "prefLabel": {
+        "de": "Beckenbord mit Brotschrank"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FF9C2B",
+      "prefLabel": {
+        "de": "Brotteller"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://www.w3id.org/KulturVok/terms/grobsystematik/FB3D1A",
+    "prefLabel": {
+      "de": "Hausrat"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik",
+      "title": {
+        "de": "Grobsystematik"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/grobsystematik"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

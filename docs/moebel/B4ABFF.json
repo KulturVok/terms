@@ -1,0 +1,366 @@
+{
+  "id": "https://www.w3id.org/KulturVok/terms/moebel/B4ABFF",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Gestell"
+  },
+  "definition": {
+    "de": "Gestelle sind Ablagen in unterschiedlichen Konstruktionen und Formen, die sich nach dem jeweiligen Verwendungszweck richten., Geschichte:, Die Grundformen der Gestelle, so das Bord oder der Kleiderrechen, wurden im Spätmittelalter für den Bereich der häuslichen Wirtschaft entwickelt, bevor sie in die eigentlichen Wohnbereiche übernommen wurden. Die ausgeprägte Differenzierung in unterschiedliche Formen fand erst im 19. und 20. Jahrhundert statt."
+  },
+  "notation": [
+    "B4ABFF"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/A18AG9",
+      "prefLabel": {
+        "de": "CD-Ständer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/CCF1DC",
+      "prefLabel": {
+        "de": "Garderobe"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/A3C775",
+      "prefLabel": {
+        "de": "Lesepult"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/A921CA",
+      "prefLabel": {
+        "de": "Staffelei"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/A9ACDF",
+      "prefLabel": {
+        "de": "Stummer Diener"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/ADF8FA",
+      "prefLabel": {
+        "de": "Waschgestell"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/AGFAB3",
+      "prefLabel": {
+        "de": "Zeitungsständer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/B24163",
+      "prefLabel": {
+        "de": "Blumenbank"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/G99728",
+      "prefLabel": {
+        "de": "Regal"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/B8G76F",
+      "prefLabel": {
+        "de": "Notenständer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/BGCB2B",
+      "prefLabel": {
+        "de": "TV-Bank"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/BGD8CG",
+      "prefLabel": {
+        "de": "Handtuchhalter"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/C2D5D3",
+      "prefLabel": {
+        "de": "Musikkassetten-Ständer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/CA2G95",
+      "prefLabel": {
+        "de": "Sockel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/D7GDA8",
+      "prefLabel": {
+        "de": "Globusständer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/F324BC",
+      "prefLabel": {
+        "de": "Zeitschriftenwandablage"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/F37DBC",
+      "prefLabel": {
+        "de": "Blumenständer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/F533BA",
+      "prefLabel": {
+        "de": "Serviertisch"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/F76969",
+      "prefLabel": {
+        "de": "Büchergestell"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/F847B4",
+      "prefLabel": {
+        "de": "Fußschaukel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/CD2BB6",
+      "prefLabel": {
+        "de": "Bord"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/G1DF45",
+      "prefLabel": {
+        "de": "Kerzenständer"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/G3835C",
+      "prefLabel": {
+        "de": "Gestell für Holzteller"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/G58C7A",
+      "prefLabel": {
+        "de": "Ablaufbank"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel/G76362",
+      "prefLabel": {
+        "de": "Pfannenhalter"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://www.w3id.org/KulturVok/terms/moebel/F5A2F4",
+    "prefLabel": {
+      "de": "Ablage"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel",
+      "title": {
+        "de": "Möbeltypologie"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/moebel"
+    }
+  ],
+  "creator": [
+    "Böth, Gitta",
+    "Hartmann, Manfred",
+    "Kleebaum, Bernd",
+    "Nickel, Susanne",
+    "Pröstler, Viktor"
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "id": "https://www.w3id.org/KulturVok/terms/ackerbau/GC5B89",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Maße"
+  },
+  "notation": [
+    "GC5B89"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/A1176F",
+      "prefLabel": {
+        "de": "Streichmaß"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/A5G95D",
+      "prefLabel": {
+        "de": "Schneidmaß"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/ADFB84",
+      "prefLabel": {
+        "de": "Streichmaß mit Eisenschiene"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/ADGAC2",
+      "prefLabel": {
+        "de": "Stellmaß"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/AG913A",
+      "prefLabel": {
+        "de": "Schneidmaß mit Eisenschiene"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/B34D69",
+      "prefLabel": {
+        "de": "Streichmaß mit Messing montiert"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/B384GA",
+      "prefLabel": {
+        "de": "Gehrungsmaß, lang"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/C7GD3D",
+      "prefLabel": {
+        "de": "Zollstab"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/CB316B",
+      "prefLabel": {
+        "de": "Winkelmaß"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/CB7F6C",
+      "prefLabel": {
+        "de": "Schrägmaß"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/CFG93F",
+      "prefLabel": {
+        "de": "Schublehre"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/D8G62G",
+      "prefLabel": {
+        "de": "Gehrungswinkel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/DC8823",
+      "prefLabel": {
+        "de": "Schrottwaage"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/DDFC19",
+      "prefLabel": {
+        "de": "Winkelhaken mit Stahlblatt"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/DGFBD4",
+      "prefLabel": {
+        "de": "Bankmaßstab"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/F4275F",
+      "prefLabel": {
+        "de": "Zollstock"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/FD3663",
+      "prefLabel": {
+        "de": "Eisenwinkel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/G2DF78",
+      "prefLabel": {
+        "de": "Ovalzirkel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/G976D5",
+      "prefLabel": {
+        "de": "Teilungsmaß"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/GA3666",
+      "prefLabel": {
+        "de": "Gehrungsmaß"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://www.w3id.org/KulturVok/terms/ackerbau/F62234",
+    "prefLabel": {
+      "de": "Tischlerwerkzeug"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau",
+      "title": {
+        "de": "Ackerbaugeräte-Systematik"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau"
+    }
+  ],
+  "creator": [
+    "Spengler, W. Eckehart"
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

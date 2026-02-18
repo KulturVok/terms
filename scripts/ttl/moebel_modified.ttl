@@ -1,6 +1,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix ex: <http://www.example.com/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://www.w3id.org/KulturVok/terms/moebel/A12A1D> a skos:Concept ;
@@ -84,8 +85,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00000880" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Frisierkommode"@de,
-        "Waschkommode"@de ;
+    skos:altLabel "Frisierkommode, Waschkommode"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/A676B7> ;
     skos:definition "Die Spiegelkommode besitzt einen aufgesetzten Spiegel, der entweder drehbar oder triptichonartig geteilt sein kann. Den oberen Kommodenabschluss bildet oft eine Marmorplatte."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -216,8 +216,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001146" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Treppenleiter"@de,
-        "Trittleiterstuhl"@de ;
+    skos:altLabel "Treppenleiter, Trittleiterstuhl"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/CDFD55> ;
     skos:definition "Der Treppenstuhl ist durch Klappmechanismen in eine Leiter zu verwandeln."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -324,9 +323,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00000944" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Lüneburger Schrank"@de,
-        "Schenkschieve"@de,
-        "Schenkschiwe"@de ;
+    skos:altLabel "Lüneburger Schrank, Schenkschieve, Schenkschiwe"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/G83BB9> ;
     skos:definition "Die Schenkschive ist ein mindestens dreigeschossiger Schrank, dessen Mittelteil als Klapptür zu öffnen ist. Die namengebende Platte (Schive = Scheibe) diente zum Anrichten (Schenken) der Speisen und Getränke."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -416,9 +413,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00000980" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Frontalstollentruhe"@de,
-        "Frontstollentruhe"@de,
-        "Pfostentruhe"@de ;
+    skos:altLabel "Frontalstollentruhe, Frontstollentruhe, Pfostentruhe"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/F91B12> ;
     skos:definition "Die Stollentruhe besteht aus einem aus Stollen und Brettern zusammengefügten Korpus, bei der die nach unten verlängerten Stollen - entweder Bretter oder aber Pfosten aus Kanthölzern - gleichzeitig als Füße dienen."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -597,8 +592,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00000841" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Handarbeitstisch"@de,
-        "Nähkästchen"@de ;
+    skos:altLabel "Handarbeitstisch, Nähkästchen"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/B557F5> ;
     skos:definition "Der Nähtisch ist ausgestattet mit Kasten und/oder Schublade, in der Regel feinfächerig und der Aufbewahrung von Handarbeitsutensilien dienend."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -659,8 +653,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00002466" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Salonschrank"@de,
-        "Vertikow"@de ;
+    skos:altLabel "Salonschrank, Vertikow"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/G83BB9> ;
     skos:definition "Das Vertiko ist ein hochrechteckiger, häufig zweitüriger Schrank, meist mit einer oberen Schublade und einem zurückgesetzten Aufsatz, auf dem ein Ziergiebel stecken kann."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -749,9 +742,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00000918" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Schaukasten"@de,
-        "Schauschrank"@de,
-        "Vitrinenschrank"@de ;
+    skos:altLabel "Schaukasten, Schauschrank, Vitrinenschrank"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/F8G3F7> ;
     skos:definition "Charakteristisch für die Vitrine sind durchsichtige Glasflächen."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -1019,9 +1010,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00000796" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Blumenkrippe"@de,
-        "Blumentisch"@de,
-        "Jardinière"@de ;
+    skos:altLabel "Blumenkrippe, Blumentisch, Jardinière"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/B4ABFF> ;
     skos:definition "Die Blumenbank ist ein Gestell mit waagerechter Fläche. Die Stellfläche kann eckig bis rund sein; sie ist oft mit einer Wandung versehen."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -1082,10 +1071,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00000871" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Cellaret"@de,
-        "Flaschenschrank"@de,
-        "Weinkühler"@de,
-        "Wine Cooler"@de ;
+    skos:altLabel "Cellaret, Flaschenschrank, Weinkühler, Wine Cooler"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/B8A1GA> ;
     skos:definition "Hauptsächliches Merkmal des Flaschenkühlers ist sein mit Blech ausgeschlagener Kasten, in dem Flaschen temperiert werden. Der Kasten kann in Fächer eingeteilt sein."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -1474,9 +1460,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001057" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bureau à la Kaunitz"@de,
-        "Bureau à la cylindre"@de,
-        "Zylinderbüro"@de ;
+    skos:altLabel "Bureau à la Kaunitz, Bureau à la cylindre, Zylinderbüro"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/CD8B27> ;
     skos:definition "Wesentliches Erkennungsmerkmal des Zylinderbureaus ist der Viertelzylinder, der die Schreibfläche in geschlossenem Zustand überwölbt. Bei den meisten Zylinderbureaus kann die Schreibfläche herausgezogen werden, oftmals sind Schreibfläche und Zylinder mechanisch verbunden. Zylinderbureaus gibt es in unterschiedlichen Ausführungen, z. B. mit kommodenartigem Unterbau und/oder unterschiedlich gestaltetem Aufsatz."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -1536,9 +1520,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001015" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Faltbett"@de,
-        "Reisebett"@de,
-        "Spannbett"@de ;
+    skos:altLabel "Faltbett, Reisebett, Spannbett"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/FBAC2A> ;
     skos:definition "Das Feldbett ist eine zusammenlegbare und damit leicht transportable Liege."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -1733,8 +1715,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00002288" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Handtuchgestell"@de,
-        "Handtuchständer"@de ;
+    skos:altLabel "Handtuchgestell, Handtuchständer"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/B4ABFF> ;
     skos:definition "Handtuchhalter gibt es in zwei Typen. Der eine, stets hängende, besteht aus Rückwandbrett oder -leiste und darüber angebrachtem Ablagebrett. In die Rückwand sind Haken eingelassen; unter das Ablagebrett ist eine Leiste für das die Gebrauchshandtücher verdeckende Überhandtuch montiert. Der andere Typ - auch Handtuchständer genannt - ist ein stehendes oder hängendes Gestell mit waagerechten Standen, die in unterschiedlicher Höhe angebracht sein können."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -1779,8 +1760,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001145" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Stuhltisch"@de,
-        "Tischsessel"@de ;
+    skos:altLabel "Stuhltisch, Tischsessel"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/CDFD55> ;
     skos:definition "Der Tischstuhl kann vom Stuhl in einen Tisch verwandelt werden, indem die brettartige Rückenlehne auf die Armlehnen geklappt wird."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -1840,12 +1820,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001127" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Dantesca-Stuhl"@de,
-        "Dantesessel"@de,
-        "Luthersessel"@de,
-        "Lutherstuhl"@de,
-        "Rippenstuhl"@de,
-        "Savonerola-Stuhl"@de ;
+    skos:altLabel "Dantesca-Stuhl, Dantesessel, Luthersessel, Lutherstuhl, Rippenstuhl, Savonerola-Stuhl"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/GB9729> ;
     skos:definition "Der Scherenstuhl ist klappbar. Seine Standkonstruktion besteht aus sich scherenartig kreuzenden, gitterartig angeordneten Leisten."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -1962,8 +1937,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001020" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Faust-Wiege"@de,
-        "Perpendikulärwiege"@de ;
+    skos:altLabel "Faust-Wiege, Perpendikulärwiege"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/F8DB8G> ;
     skos:definition "Die Fahrstuhlwiege ist eine Kombination aus Gestellhänge- und Federwiege. Der Wiegenkorpus bewegt sich ausschließlich vertikal; horizontales Schwingen wird durch Führungsblöcke am Wiegenkorpus, die die Pfosten umfassen, verhindert."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -2129,8 +2103,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001071" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Lit de jour"@de,
-        "Veilleuse"@de ;
+    skos:altLabel "Lit de jour, Veilleuse"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/D545D6> ;
     skos:definition "Die Chaiselongue ist ein aus dem Sessel entwickeltes Möbel, das durch die Verlängerung der Sitzfläche eine halb sitzende, halb liegende Körperhaltung ermöglicht. Der Begriff ersetzte im späten 18. Jahrhundert den älteren Lit de jour."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -2405,8 +2378,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00002379" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Seitstollentruhe"@de,
-        "Seitwandstollentruhe"@de ;
+    skos:altLabel "Seitstollentruhe, Seitwandstollentruhe"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/F91B12> ;
     skos:definition "Die Seiten der Wangentruhe werden aus bhis zum Boden reichenden Brettern (Wangen) gebildet."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -2464,8 +2436,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001005" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Betttruhe"@de,
-        "Sittel"@de ;
+    skos:altLabel "Betttruhe, Sittel"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/BA9271> ;
     skos:definition "Der Bettkasten des Truhenbettes besitzt einen aufklappbaren Deckel; im geschlossenen Zustand gleicht das Bett einer Truhe."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -2526,9 +2497,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00002396" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Alkovenbett"@de,
-        "Bettschrank"@de,
-        "Durk"@de ;
+    skos:altLabel "Alkovenbett, Bettschrank, Durk"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/FD51FC> ;
     skos:definition "Der in sich standfeste Bettkasten ist ein Bett mit einem hölzernen Himmel und vier geschlossenen oder zumindest verschließbaren Seiten. Nicht gemeint ist hier der kasten zur Aufbewahrung des Bettzeugs."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -2665,9 +2634,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001081" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kissenhocker"@de,
-        "Puff"@de,
-        "Wäschepuff"@de ;
+    skos:altLabel "Kissenhocker, Puff, Wäschepuff"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/ACG718> ;
     skos:definition "Der Pouf ist ein großes zylindrisches Tabouret, dessen Stützkonstruktion durch die langen und dicken Fransen der Polsterung verborgen wird. Mit integriertem Behälter wird er \"Wäschepuff\" genannt."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -2755,11 +2722,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001163" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bettschirm"@de,
-        "Paravent"@de,
-        "Spanische Wand"@de,
-        "Stellwand"@de,
-        "Windschirm"@de ;
+    skos:altLabel "Bettschirm, Paravent, Spanische Wand, Stellwand, Windschirm"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/F34B9C> ;
     skos:definition "Der Wandschirm ist mehrteilig und zusammenfaltbar. Er besteht aus Holzrahmen und Füllelementen, die aus unterschiedlichen Materialien bestehen (Gobelins, Leder, Seide, Holz etc.)."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -2847,11 +2810,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00000878" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Chiffonière"@de,
-        "Herrenkommode"@de,
-        "Pfeilerschrank"@de,
-        "Schubladenschrank"@de,
-        "Semainiere"@de ;
+    skos:altLabel "Chiffonière, Herrenkommode, Pfeilerschrank, Schubladenschrank, Semainiere"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/A676B7> ;
     skos:definition "Die Pfeilerkommode ist eine schlanke Kommode mit mehr als zwei Schüben; ihre Höhe beträgt ein Mehrfaches der Breite. Die Bezeichnung Semainier (von französisch semaine = Woche) meint ursprünglich eine Pfeilerkommode mit sieben Schüben - für jeden Wochentag ein Wäschefach."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -2943,9 +2902,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00000926" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kunstkammerschrank"@de,
-        "Kunstschrank"@de,
-        "Sammlungsschrank"@de ;
+    skos:altLabel "Kunstkammerschrank, Kunstschrank, Sammlungsschrank"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/G83BB9> ;
     skos:definition "Das Kabinett besteht in der Regel aus einem tisch- oder kommondenähnlichen Unterteil und einem Aufsatz, dessen Inneneinrichtung sehr kleinteilig ist. Die Frontseite kann durch Türen oder eine Klappe verschlossen werden. Es gibt durch spezielle Einsätze ausgewiesene Sonderformen für festgelegte Nutzung, zum Beispiel Münz- oder Medaillenschränke. Frühe Typen des späten 16. und Stücke des 17. Jahrhunderts hatten keine Untergestelle und waren zum Aufstellen auf Tisch oder Truhe gedacht. Die Übergänge zum Schreibmöbel sind teilweise fließend."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -3023,8 +2980,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00002323" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kredenz"@de,
-        "Sideboard"@de ;
+    skos:altLabel "Kredenz, Sideboard"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/G83BB9> ;
     skos:definition "Die Anrichte ist ein mehrtüriger, bisweilen mit Schubladen ausgestatteter halbhoher Schrank mit einer Anrichtefläche und oft mit einem Auszug oder mehreren Auszügen."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -3241,8 +3197,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00000822" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Dinette"@de,
-        "Teewagen"@de ;
+    skos:altLabel "Dinette, Teewagen"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/G99728> ;
     skos:definition "Der Servierwagen, ein fahrbares, maximal tischhohes, allseitig offenes Regal mit mindestens zwei Böden, von denen der obere oft als Tablett abnehmbar ist. Zur platzsparenden Aufbewahrung kann der Servierwagen klappbar sein. Moderne Exemplare werden häufig nach einer Produktbezeichnung \"Dinette\" genannt."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -3288,11 +3243,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001162" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kaminschirm"@de,
-        "Lichtschirm"@de,
-        "Ofenschirm"@de,
-        "Parafeu"@de,
-        "Tischlichtschirm"@de ;
+    skos:altLabel "Kaminschirm, Lichtschirm, Ofenschirm, Parafeu, Tischlichtschirm"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/F34B9C> ;
     skos:definition "Der Stellschirm ist einteilig. Licht- und Ofenschirme, die in der Regel aus einem Rahmengestell auf gespreizten Füßen und einer häufig textilen Schutzfläche bestehen, sind zierlicher als Kaminschirme."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -3693,8 +3644,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00002435" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Causeuse"@de,
-        "Love seat"@de ;
+    skos:altLabel "Causeuse, Love seat"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/D545D6> ;
     skos:definition "Die Marquise stellt die Übergangsform von einem breiten Sessel zu einem kleinen zweisitzigen Sofa dar."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -4066,9 +4016,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001153" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Figur-Standspiegel"@de,
-        "Toilette-Spiegel"@de,
-        "Vollspiegel"@de ;
+    skos:altLabel "Figur-Standspiegel, Toilette-Spiegel, Vollspiegel"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/FDFAD1> ;
     skos:definition "Im hochformatigen Ankleidespiegel lässt sich der ganze Körper widerspiegeln. Der Spiegel kann starr oder schwenkbar ausgeführt sein."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -4099,8 +4047,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00000825" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Schüsselbank"@de,
-        "Schüsselrähm"@de ;
+    skos:altLabel "Schüsselbank, Schüsselrähm"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/G99728> ;
     skos:definition "Das Tellerbord ist ein Regal zur stehenden Aufbewahrung von Tellern oder Schüsseln. Die Fachböden haben geringe Tiefe, die frontalen Halteleisten stützen das Geschirr. Bisweilen finden sich im unteren Bereich des Tellerbords Schubladen oder Haken."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -4203,8 +4150,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001155" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Konsolspiegel"@de,
-        "Toilette-Spiegel"@de ;
+    skos:altLabel "Konsolspiegel, Toilette-Spiegel"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/FDFAD1> ;
     skos:definition "Der Spiegeltisch besteht aus einem großflächigen Spiegelelement und einem darunter gebauten Tisch mit zumeist geringer Tiefe."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -4248,8 +4194,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001095" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Faulenzer"@de,
-        "Fernsehsessel"@de ;
+    skos:altLabel "Faulenzer, Fernsehsessel"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/F5B55C> ;
     skos:definition "Der Klappsessel ist ein Sessel mit verstellbarer Rückenlehne; er kann auch eine herausklappbare Auflage für die Beine haben."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -4354,8 +4299,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00000816" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Aufwärter"@de,
-        "Whatnot"@de ;
+    skos:altLabel "Aufwärter, Whatnot"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/G99728> ;
     skos:definition "Die Etagère ist ein allseitig offenes Regal mit mindestens drei übereinander liegenden Stellflächen, die entweder von einer Mittelsäule oder von meist zierlich ausgestalteten Eckpfosten getragen werden. Unter dem unteren Regal kann eine Schublade angebracht sein., Nicht zu verwechseln ist sie mit der Etagère, die als Serviergeschirr oder Tafelaufsatz dient."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -4442,12 +4386,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00000934" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Nachtkasten"@de,
-        "Nachtkommode"@de,
-        "Nachtschrank"@de,
-        "Nachtschränkchen"@de,
-        "Nachtspind"@de,
-        "Nachttisch"@de ;
+    skos:altLabel "Nachtkasten, Nachtkommode, Nachtschrank, Nachtschränkchen, Nachtspind, Nachttisch"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/G83BB9> ;
     skos:definition "Das Nachtkästchen kann verschiedene Konstruktionsformen haben. Es definiert sich (eher) über seine Aufstellung neben dem Bett, mit dem es in der Regel ein Ensemble bildet."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -4463,8 +4402,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001038" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Rollladensekretär"@de,
-        "Schreibtisch mit Rollverschluss"@de ;
+    skos:altLabel "Rollladensekretär, Schreibtisch mit Rollverschluss"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/CD8B27> ;
     skos:definition "Wesentliches Erkennungszeichen des Rollsekretärs ist der aus Lamellen hergestellte Rolladenverschluss, der die Schreibfläche in geschlossenem Zustand überwölbt. Bei den meisten Rollsekretären kann die Schreibfläche herausgezogen werden. Es gibt unterschiedliche Ausführungen, z. B. Rollsekretäre mit kommoden- oder schrankartigem Unterbau oder mit unterschiedlich gestaltetem Aufsatz."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -4539,8 +4477,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001160" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kaminspiegel"@de,
-        "Trumeau"@de ;
+    skos:altLabel "Kaminspiegel, Trumeau"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/D386G9> ;
     skos:definition "Der Pfeilerspiegel ist ein schmaler hoher, an Wandpfeilern angebrachter Spiegel."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -4585,8 +4522,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00000810" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kandelaber"@de,
-        "Lichtständer"@de ;
+    skos:altLabel "Kandelaber, Lichtständer"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/B4ABFF> ;
     skos:definition "Der Kerzenständer ist ein schmales hohes Gestell mit einem Teller, auf dem große Kerzen aufgestellt werden."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -4645,8 +4581,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00000808" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Reck für Holzteller"@de,
-        "Schinkentellerhalter"@de ;
+    skos:altLabel "Reck für Holzteller, Schinkentellerhalter"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/B4ABFF> ;
     skos:definition "Das Gestell für Holzteller besteht aus Leiste oder Brett, in welche(s) paarweise Holzstäbe übereinander eingelassen sind, auf denen Holzteller abgelegt werden können. Zuweilen ist ein Löffelbrett integriert."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -4775,10 +4710,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00002284" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Ablaufbrett"@de,
-        "Abtropfbank"@de,
-        "Geschirrbank"@de,
-        "Spülbank"@de ;
+    skos:altLabel "Ablaufbrett, Abtropfbank, Geschirrbank, Spülbank"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/B4ABFF> ;
     skos:definition "Die Ablaufbank ist eine tischähnliche Ablage mit leicht schräg gestellter Platte. Die Platte enthält mehrere Rillen, in denen das vom gespülten Geschirr abtropfende Wasser ablaufen kann."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -4912,10 +4844,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00000855" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Ankleidetisch"@de,
-        "Frisiertisch"@de,
-        "Poudreuse"@de,
-        "Rasiertisch"@de ;
+    skos:altLabel "Ankleidetisch, Frisiertisch, Poudreuse, Rasiertisch"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/B557F5> ;
     skos:definition "Der Toilettentisch ist ein tischartiges Möbel mit integriertem Spiegel und zumeist mit Schubladen. Der Spiegel ist entweder fest montiert oder er kann im Tisch versenkt werden."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -4960,8 +4889,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00002428" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Divan"@de,
-        "Diwan"@de ;
+    skos:altLabel "Divan, Diwan"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/B74GD9> ;
     skos:definition "Die Ottomane ist eine breite, lehnenlose Polsterbank mit seitlich angebrachten Kissen. Sie ist auch zum Liegen geeignet."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -5008,8 +4936,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001114" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "S-Stuhl"@de,
-        "Zig Zag"@de ;
+    skos:altLabel "S-Stuhl, Zig Zag"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/A2G587> ;
     skos:definition "Der Zickzackstuhl hat keine Beine, sondern er besteht aus Brettern, die durch Schwalbenschwanzverbindungen spitz- bzw. rechtwinklig miteinander verzahnt sind."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -5098,10 +5025,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001003" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Baldachinbett"@de,
-        "Gardinenbett"@de,
-        "Vorhangbett"@de,
-        "Zeltbett"@de ;
+    skos:altLabel "Baldachinbett, Gardinenbett, Vorhangbett, Zeltbett"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/FD51FC> ;
     skos:definition "Es gibt zwei Grundformen des Himmelbettes:, 1. Der Betthimmel (Baldachin) bildet eine geschlossene Fläche und wird am Kopfende vom hochgezogenen Kopfteil und am Fußende von zwei Säulen getragen, die eine aufgesetzte Verlängerung der beiden Beine des Fußteils bilden., 2. Der Betthimmel (Baldachin) wird in der Regel von vier Säulen getragen, zwischen denen sich keine ausgefüllte Fläche befindet. Auch der Himmel muss keine geschlossene Fläche bilden: er besteht entweder aus Textil oder aus Holz."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -5146,9 +5070,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001115" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bistrostuhl"@de,
-        "Kaffeehausstuhl"@de,
-        "Thonet-Stuhl"@de ;
+    skos:altLabel "Bistrostuhl, Kaffeehausstuhl, Thonet-Stuhl"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/CDFD55> ;
     skos:definition "Der Bugholzstuhl besteht aus massiven Rundhölzern, die über Wasserdampf elastisch gemacht und in Stahlformen gebogen wurden. Die konstruktiven Einzelteile sind zumeist verschraubt. Der klassische Bugholzstuhl ist der sogenannte Thonet-Stuhl."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -5293,9 +5215,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001132" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kackstuhl"@de,
-        "Klostuhl"@de,
-        "Toilettenstuhl"@de ;
+    skos:altLabel "Kackstuhl, Klostuhl, Toilettenstuhl"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/CDFD55> ;
     skos:definition "Beim Leibstuhl ist ein Nachtgeschirr integriert. Entsprechend ist die Sitzfläche mit Loch und Deckel versehen."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -5343,8 +5263,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001088" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kniesitzstuhl"@de,
-        "Kniestuhl"@de ;
+    skos:altLabel "Kniesitzstuhl, Kniestuhl"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/D545D6> ;
     skos:definition "Der Kniesitz ist ein gepolsterter Hocker oder Stuhl, bei dem der Sitzende zur Entlastung der Wirbelsäule auf Polstern knieen kann."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -5405,9 +5324,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001054" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Aufsatzschreibschrank"@de,
-        "Sekretär à trois corps"@de,
-        "Trisur"@de ;
+    skos:altLabel "Aufsatzschreibschrank, Sekretär à trois corps, Trisur"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/D96BF7> ;
     skos:definition "Der Aufsatzsekretär besteht optisch aus drei Teilen: dem Unterbau, dem Mittelteil mit schräggestellter Schreibplatte und dem Aufsatz."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -5424,8 +5341,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001080" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Taburet"@de,
-        "Taburett"@de ;
+    skos:altLabel "Taburet, Taburett"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/AC14FD> ;
     skos:definition "Das Tabouret ist ein gepolsterter Hocker."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -5442,10 +5358,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001119" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Campingstuhl"@de,
-        "Feldstuhl"@de,
-        "Perroquet"@de,
-        "Regiestuhl"@de ;
+    skos:altLabel "Campingstuhl, Feldstuhl, Perroquet, Regiestuhl"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/CDFD55> ;
     skos:definition "Sitz- und Lehnenfläche sind beim Faltstuhl im Gegensatz zum Klappstuhl faltbar."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -5462,8 +5375,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00000874" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Aufsatzkommode"@de,
-        "Tallboy"@de ;
+    skos:altLabel "Aufsatzkommode, Tallboy"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/A676B7> ;
     skos:definition "Die Doppelkommode ist zweiteilig gegliedert. Der obere Aufsatz, der zumeist zurückspringt, ist wie auch der untere Teil mit Schubladen versehen."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -5545,11 +5457,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001086" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Chaire"@de,
-        "Kastenbank"@de,
-        "Kastenhocker"@de,
-        "Kastenstuhl"@de,
-        "Truhensitz"@de ;
+    skos:altLabel "Chaire, Kastenbank, Kastenhocker, Kastenstuhl, Truhensitz"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/D545D6> ;
     skos:definition "Hauptkonstruktionsmerkmal des Kastensitzes ist der Kasten unter der Sitzfläche. Wenn er mit einem Klappdeckel versehen ist, kann der Kasten als Behältnis benutzt werden. Er kann mit Rückenlehne und/oder Armlehnen versehen sein."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -5583,9 +5491,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00000838" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Gateleg-table"@de,
-        "Torbeintisch"@de,
-        "Tripod-table"@de ;
+    skos:altLabel "Gateleg-table, Torbeintisch, Tripod-table"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/B557F5> ;
     skos:definition "Das grundlegende Konstruktionsmerkmal des Klapptisches ist der Klappmechanismus, mit dessen Hilfe die Gestalt des Tisches verändert wird. Das heißt, dass entweder die Tischfläche vergrößert bzw. verkleinert oder der ganze Tisch zur besseren Aufbewahrung zusammengeklappt wird."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -5602,8 +5508,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00000905" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Anrichteschrank"@de,
-        "Dressur"@de ;
+    skos:altLabel "Anrichteschrank, Dressur"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/G83BB9> ;
     skos:definition "Der Dressoir ist ein hochrechteckiger zweigegliederter Schrank. Der untere Teil ist stets offen."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -5620,12 +5525,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00000798" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bücherbord"@de,
-        "Konsolbrett"@de,
-        "Konsole"@de,
-        "Wandboard"@de,
-        "Wandbord"@de,
-        "Wandbrett"@de ;
+    skos:altLabel "Bücherbord, Konsolbrett, Konsole, Wandboard, Wandbord, Wandbrett"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/B4ABFF> ;
     skos:definition "Das Bord ist ein an der Wand zu befestigendes Brett zur Ablage von Gegenständen, das mit einer Stützkonstruktion versehen ist."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -5658,8 +5558,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00000836" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Rhöntisch"@de,
-        "Trogtisch"@de ;
+    skos:altLabel "Rhöntisch, Trogtisch"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/B557F5> ;
     skos:definition "Der Kastentisch besteht aus Gestell, Kasten und Tischplatte. Meistens ist der Kasten fest mit dem Untergestell verbunden. Die Tischplatte ist beweglich: Sie kann verschoben oder aufgeklappt werden. Bisweilen sind unter dem Kasten noch zusätzliche Schubladen angebracht."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -5676,9 +5575,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00000848" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Balustertisch"@de,
-        "Guéridon"@de,
-        "Guéridonette"@de ;
+    skos:altLabel "Balustertisch, Guéridon, Guéridonette"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/B557F5> ;
     skos:definition "Der Säulentisch besteht aus der Platte und der/den sie tragenden Säule(n). Viele Säulentische haben aus Stabilitätsgründen einen Zargenkranz. Kleine Säulentische werden als \"Guéridon\" oder \"Guéridonette\" bezeichnet."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -5712,11 +5609,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001051" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bureau Mazarin"@de,
-        "Diplomat"@de,
-        "Knieloch-Schreibtisch"@de,
-        "Schreibmaschinentisch"@de,
-        "kneehole desk"@de ;
+    skos:altLabel "Bureau Mazarin, Diplomat, Knieloch-Schreibtisch, Schreibmaschinentisch, kneehole desk"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/G8D843> ;
     skos:definition "Der Piedestalschreibtisch ist ein freistehender Schreibtisch. Die Schreibplatte liegt auf zwei, meist mit Schubladen versehenen Kästen, den sogenannten Piedestalen. Dazwischen befindet sich oft eine unter der Schreibplatte hängende Schublade., Bei einer Sonderform sind in den unter der Schreibplatte befindlichen Zargenkranz Schubladen integriert."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -5766,8 +5659,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001133" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Drechselstuhl"@de,
-        "Sprossenstuhl"@de ;
+    skos:altLabel "Drechselstuhl, Sprossenstuhl"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/CDFD55> ;
     skos:definition "Beim Pfostenstuhl stehen die Beine (Pfosten) stets senkrecht, wobei die hinteren in die Rückenlehne übergehen. Die Verbindung der Beine untereinander durch Sprossen ist für die Stabilität unerlässlich."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -5784,8 +5676,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001068" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Banktruhe"@de,
-        "Cassabanca"@de ;
+    skos:altLabel "Banktruhe, Cassabanca"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/B1FGBA> ;
     skos:definition "Hauptkonstruktionsmerkmal der Truhenbank ist der querrechteckige Kasten, dessen Klappdeckel die Sitzfläche bildet. Die Truhenbank ist mit Rücken- und/oder Armlehne(n) versehen."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -5818,9 +5709,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001112" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Gratstuhl"@de,
-        "Kneipstuhl"@de,
-        "Schabellen-Stuhl"@de ;
+    skos:altLabel "Gratstuhl, Kneipstuhl, Schabellen-Stuhl"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/CDFD55> ;
     skos:definition "Beim Brettstuhl ist die Rückenlehne ein eigenständiges Element. Sie wird mit einem oder zwei Zapfen in den Sitz aus Vollholz gesteckt und verkeilt."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -6098,8 +5987,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001053" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Schreibkasten"@de,
-        "Schreibschrank"@de ;
+    skos:altLabel "Schreibkasten, Schreibschrank"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/CD8B27> ;
     skos:definition "Der Sekretär ist ein Schreibmöbel mit einer klapp- oder herausziehbaren Schreibfläche versehenes Schreibmöbel. Im geschlossenen Zustand ist die Schreibklappe entweder senkrecht oder schräg gestellt. Der Unterbau kann tisch-, schrank- oder kommodenartig sein., Unter den Sekretären finden sich durch ihre Form ausgewiesene Typen wie das Schreibkabinett, der Lyrasekretär oder der Pyramidensekretär."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -6275,11 +6163,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001104" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Canapé"@de,
-        "Couch"@de,
-        "Divan"@de,
-        "Diwan"@de,
-        "Kanapee"@de ;
+    skos:altLabel "Canapé, Couch, Divan, Diwan, Kanapee"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/D545D6> ;
     skos:definition "Das Sofa ist im Gegensatz zum Sessel mehrsitzig und hat sowohl eine gepolsterte Sitzfläche als auch eine gepolsterte Rückenlehne. Das Sofa kann auch Armlehnen haben, die ebenfalls gepolstert sein können. Die Übergänge zur Polsterbank sind fließend."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -6350,8 +6234,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00000813" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Desserte"@de,
-        "Servante"@de ;
+    skos:altLabel "Desserte, Servante"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/B4ABFF> ;
     skos:definition "Das Regal ist ein vorn offenes Gestell mit mehreren Böden. Es kann stehen oder hängen und ist nach mindestens einer Seite offen., Konstruktiv sind folgende Haupttypen zu unterscheiden:, 1) Pfostenregal, 2) Seitenteil- bzw. Steckregal, 3) Kragarmregal, Regale, die - besonders im Klassizismus und im Biedermeier - für reine Repräsentationszwecke gebaut wurden, sind unter den Bezeichnungen \"Servante\" oder \"Desserte\" bekannt."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -6427,8 +6310,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00001072" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Schemel"@de,
-        "Stabelle"@de ;
+    skos:altLabel "Schemel, Stabelle"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/D545D6> ;
     skos:definition "Der Hocker besteht aus einer Platte und einer oder mehreren Stütze(n) bzw. einem oder mehreren Stützbrett(ern), die diese tragen. Der Hocker hat keine Rückenlehne. Die Konstruktion von Hockern aus Kunststoffen, Glas, Geflecht, Metallen, Papier/Pappe und/Oder Textil differiert zuweilen; diese Hocker orientieren sich jedoch in der Regel an der tradierten Hocker-Form."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -6514,9 +6396,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00000964" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Kasten"@de,
-        "Kiste"@de,
-        "Lade"@de ;
+    skos:altLabel "Kasten, Kiste, Lade"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/B8A1GA> ;
     skos:definition "Die Truhe ist ein mit einem Klappdeckel versehener, in der Regel querrechteckiger Kasten. Der Deckel ist entweder flach oder gewölbt gestaltet., Der hoch gezogene Klappdeckel ähnelt Dachformenh, z. B. der gewölbte dem Tonnendach, der ungebrochene dem Satteldach und der gebrochene dem Mansardgiebeldach. Bei der \"Dach-\" oder \"Giebeltruhe\" sind die Giebel entweder Teile des Deckels und werden mit hochgeklappt oder sie sind feststehende Teile der Seitenwände. Bei einer Sonderform der \"Dachtruhe\" ist nur die zur Schauseite geneigte \"Dachfläche\" nach oben zu öffnen., Geschichte:, Der Blick ins \"Deutsche Wörterbuch\" zeigt, dass das im Oberdeutschen heimische Wort \"Truhe\" erst seit dem 10. Jahrhundert belegt ist. In Norddeutschland gelangt es Jahrhunderte später in die Schriftsprache; hier gilt das Wort noch Ende des 18. Jahrhunderts als \"Provinzialismus\" . In Gebrauch an seiner Stelle sind die Wörter \"Kasten\" oder auch \"Kiste\"., Die Geschichte der Truhe als Gebrauchsmöbel verläuft regional unterschiedlich, sie war zudem von der Schichtzugehörigkeit ihrer Nutzerinnen und Nutzer bestimmt., Bis zum Mittelalter war die Truhe überall das gebräuchlichste Behältnismöbel; sie dient zur Aufbewahrung von Textilien, Kleidern, Lebensmitteln und Vorräten aller Art, hatte zuweilen ein Geheimfach zur Aufbewahrung der Wertsachen. Dann übernahm der Schrank vielfach diese Funktion., Als Dienstboten- oder Gesindetruhe behielt sie in einigen Gegenden jedoch noch bis ins 20. Jahrhundert hinein ihre Aufgabe als Verwahrmöbel., Alte Truhen werden umgenutzt, fanden als Kohlenkasten, Futterkiste oder ähnliches Verwendung. Gegen Ende des 19. Jahrhunderts erfuhr die Truhe als Prunkmöbel des Historismus in bürgerlichen Kreisen eine Wiederbelebung. Die heutigen Truhen haben als Dielenmöbel eher Repräsentations- als Behältnisfunktion."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -6579,10 +6459,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00000993" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Bettlade"@de,
-        "Bettsponde"@de,
-        "Bettstatt"@de,
-        "Bettstelle"@de ;
+    skos:altLabel "Bettlade, Bettsponde, Bettstatt, Bettstelle"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/C76584> ;
     skos:definition "Das Bett ist ein Gestell zur Aufnahme einer Liegeunterlage (Strohsack, Matratze usw.). Die Mehrzahl der Betten besteht aus Kopf- und Fußteil, an die die Seitenteile eingebracht werden. Anstelle der Seitenteile kann ein Rahmen Kopf- und Fußteil verbinden. Die Konstruktion von Betten aus Kunststoffen, Geflecht, Metallen, Papier/Pappe und/oder Textil differiert zuweilen; diese Betten orientieren sich jedoch in der Regel an der tradierten Bett-Form., Geschichte: Schon in den alten Hochkulturen wie Ägypten oder Babylonien war die auf ein Gestell mit Füßen gelagerte Bettstelle bekannt. Die Griechen und Römer übernahmen die Gewohnheit, zum Schlafen eine Liege zu benutzen. Im Grunde steht dieses antike Bett - mit lediglich leichten Abwandlungen - noch heute als Ruhelager in den Schlafzimmern., In Nord-, Ost- und Mitteleuropa wurden bis ins Mittelalter jedoch noch der Fußboden oder die wandfeste umlaufende Bank als Liegestatt benutzt, ehe dann der auf niedrigen Füßen stehende Holzkasten als Bettstatt aufkam. Vom 12. Jahrhundert an erhielt das Bett die uns vertraute Gestalt: Es wurde höher, das Gestell rundum verschalt., Im späten Mittelalter und in der Gotik überdachte man die Betten mit Baldachin oder Himmel. Sie hatten an den drei nicht wandständigen Seiten Vorhänge, die man tagsüber hoch band, so dass die Holzkonstruktion sichtbar wurde. Seit dem 12. Jahrhundert waren diese Betttypen in allen Ständen in Gebrauch. Im 15. Jahrhundert wurden die textilen Baldachine und Himmel vielfach durch hölzerne abgelöst; auch fanden nun Betten mit Halbbaldachinen bzw. -himmeln weite Verbreitung. Im 17. Jahrhundert entstanden auf dem lande die Bettkasten, sie gehörten bis ins 19. Jahrhundert in vielen Regionen zum üblichen Möbelrepertoire. Im Klasizismus errang die Récamiere - auch als Lit bateau bekannt - kurzzeitig allergrößte Beliebtheit. Mit der Industrialisierung kamen im 19. Jahrhundert die Metallbetten auf und auch im 20. Jahrhundert entstanden neue Betttypen, so das Stapelbett., Zu beobachten ist stets ein Nebeneinander verschiedener Liegemöbel. Der Bettengebrauch entwickelte sich schichten- wie auch regionalspezifisch unterschiedlich: Während die meisten Menschen das Bett lediglich als nächtliche Liegestatt nutzten, wurde es in höfischen und großbürgerlichen Kreisen zum repräsentativen Prunkmöbel: Im \"Paradebett\" - vernehmlich Betten mit (Halb-)Himmel oder (Halb)Baldachin - empfing man auch Gäste. Im 18. Jahrhundert hatte diese Nutzung ihren absoluten Höhepunkt, verschwand im 19. Jahrhundert mit der Initmisierung des privaten Lebens., Regionale Vorlieben zeigten sich vornehmlich in der Ausgestaltung der Betten: So waren Aufsatzbetten mit ihren hohen, zum Teil üppig dekorierten Kopfteilen besonders in Bayern und Österreich beliebt."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -6797,9 +6674,7 @@
         "Pröstler, Viktor" ;
     dct:identifier "00000883" ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
-    skos:altLabel "Behalter"@de,
-        "Behälter"@de,
-        "Kasten"@de ;
+    skos:altLabel "Behälter, Behalter, Kasten"@de ;
     skos:broader <https://www.w3id.org/KulturVok/terms/moebel/B8A1GA> ;
     skos:definition "Der Schrank ist ein verschließbares Kastenmöbel mit einer oder mehreren Tür(en). Er besteht aus einem oder mehreren Elementen, in die Schubladen integriert sein können. Der Schrank kann hängen oder stehen. Der oberen Abschluss kann ein Kranz oder ein Aufsatz bilden. Eine Ausnahme bildet der Faltschrank., Geschichte:, Erhaltene bildliche Darstellungen belegen, dass der Schrank in verschiedenen Formen bereits in den antiken Kulturen bekannt war. Im frühen und hohen europäischen Mittelalter fand er dann jedoch im häuslichen Bereich keine Verwendung mehr, hier war die Truhe das übliche Verwahrmöbel., Einzig die romanischen Giebelschränke und vereinzelte große Sakristeischränke sind als mittelalterliche Schrankformen überliefert. Sie gehören jedoch sämtlich zum kirchlichen Mobilar und führten nicht zu einer größeren Verbreitung dieses Möbeltyps., Im 15. Jahrhundert begann die eigentliche Entwicklung des Schrankes als Bestandteil der privaten Inneneinrichtung. Sie führte - bedingt durch die unterschiedlichen Nutzungen - zu einer großen Zahl immer neuer Formen und Typen in immer mehr Varianten. Die Ablösung der Truhe als am häufigsten gebräuchliche Form des Verwahrmöbels war kein linearer Prozess., Funktionale Gründe dürften beispielsweise bei der Entwicklung von Vorratsschränken wie dem in einigen begrenzten Gebieten im Bäuerlich-Ländlichen benutzten \"Almer\" eine Rolle gespielt haben, da in ihnen eine übersichtliche Aufbewahrung möglich war. Die frühesten Beispiele dieser Wirtschaftsschränke erinnern formal noch an die Schränke zur Aufbewahrung von liturgischem Gerät, Reliquien oder des Allerheiligsten in den Kirchen, von denen sie auch den Namen erhielten: Der Begriff \"Almer\" ist vom im Mittelalter gebräuchlichen Wort \"Almaria\" (Synonym: \"Armarium\"; lateinisch für Bücherschrank, Bibliothek, Archiv einer Kirche) abgeleitet., Neben dem funktionalen Aspekt als Aufbewahrungsort für Gegenstände des häuslichen Bedarfs - die zugedachte Funktion lässt sich häufig erst aus der Inneneinteilung erschließen - kam Schränken auch die Rolle als großes Repräsentationsmöbel zu. Durch das konstruktive Anheben des Truhenkorpus oder das Aufeinandersetzen von zwei oder mehr Truhen, die nun mit Türen nach vorn geöffnet werden mussten, entwickelte sich ein hohes repräsentatives Möbel mit großen, für eine aufwändige Dekoration geeigneten Frontflächen. An frühen Stollenschränken, die durch ihre verlängerten Eckstollen die \"Truhe\" anheben, und an Fassadenschränken der Renaissance, die die \"Truhen\" mit architektonischen Gliederungselementen zu verbinden suchen, ist dieser Ursprung noch deutlich abzulesen., Der Repräsentationscharakter dieser Schränke führte zu einer von der Funktion unabhängigen Entwicklung der Form und des Dekors, die sich an den jeweils zeitgenössischen künstlerischen Tendenzen orientierte und in der Folge zu einer kaum zu überschauenden Fülle an Formen und Bezeichnungen führte, seien es geografische (zum Beispiel Braunschweiger Schrank), funktionale (zum Beispiel Bücherschrank), formale (zum Beispiel Wellenschrank) oder stilistische (zum Beispiel Biedermeierschrank)."@de ;
     skos:inScheme <https://www.w3id.org/KulturVok/terms/moebel> ;
@@ -6872,6 +6747,7 @@
     dct:description "Möbel. Eine Typologie für Museen und Sammlungen"@de ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
     dct:title "Möbeltypologie"@de ;
+    vann:preferredNamespaceUri "https://www.w3id.org/KulturVok/terms/moebel" ;
     ex:conceptCount 422 ;
     skos:hasTopConcept <https://www.w3id.org/KulturVok/terms/moebel/DC63CD> .
 

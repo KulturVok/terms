@@ -3,12 +3,12 @@ import glob
 import json
 from rdflib import Graph, URIRef, Literal, Namespace
 from rdflib.namespace import SKOS, RDF, DCTERMS, XSD, VANN
+from Levenshtein import distance
 
 # Legacy namespaces present in source XML — needed only to strip them from the graph
 DC  = Namespace("http://purl.org/dc/elements/1.1/")
 DCQ = Namespace("http://purl.org/dc/qualifier/1.0/")
 CC  = Namespace("http://web.resource.org/cc/")
-from Levenshtein import distance
 
 # ---------------------------------------------------------------------------
 # Namespaces
@@ -62,17 +62,31 @@ with open("schemeUUIDDict.json", "r", encoding="utf-8") as f:
     schemeUUIDDict = json.load(f)
 
 # ---------------------------------------------------------------------------
-# Helper
+# Helpers
 # ---------------------------------------------------------------------------
-RDF_ABOUT   = "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about"
+RDF_ABOUT    = "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about"
 RDF_RESOURCE = "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource"
-SKOS_CONCEPT  = "{http://www.w3.org/2004/02/skos/core#}Concept"
-SKOS_NARROWER = "{http://www.w3.org/2004/02/skos/core#}narrower"
-SKOS_BROADER  = "{http://www.w3.org/2004/02/skos/core#}broader"
-SKOS_INSCHEME = "{http://www.w3.org/2004/02/skos/core#}inScheme"
-SKOS_EXAMPLE  = "{http://www.w3.org/2004/02/skos/core#}example"
+SKOS_CONCEPT    = "{http://www.w3.org/2004/02/skos/core#}Concept"
+SKOS_NARROWER   = "{http://www.w3.org/2004/02/skos/core#}narrower"
+SKOS_BROADER    = "{http://www.w3.org/2004/02/skos/core#}broader"
+SKOS_RELATED    = "{http://www.w3.org/2004/02/skos/core#}related"
+SKOS_INSCHEME   = "{http://www.w3.org/2004/02/skos/core#}inScheme"
+SKOS_EXAMPLE    = "{http://www.w3.org/2004/02/skos/core#}example"
 SKOS_DEFINITION = "{http://www.w3.org/2004/02/skos/core#}definition"
-skosList = [SKOS_NARROWER, SKOS_BROADER]
+
+# All SKOS properties that carry concept references
+SKOS_REF_PROPS = {SKOS_NARROWER, SKOS_BROADER, SKOS_RELATED}
+
+# All text-content SKOS properties that need xml:lang
+SKOS_LANG_TAGS = [
+    "{http://www.w3.org/2004/02/skos/core#}prefLabel",
+    "{http://www.w3.org/2004/02/skos/core#}altLabel",
+    "{http://www.w3.org/2004/02/skos/core#}hiddenLabel",
+    "{http://www.w3.org/2004/02/skos/core#}scopeNote",
+    "{http://www.w3.org/2004/02/skos/core#}note",
+    SKOS_DEFINITION,
+    SKOS_EXAMPLE,
+]
 
 XML_LANG = "{http://www.w3.org/XML/1998/namespace}lang"
 
@@ -82,11 +96,11 @@ def set_lang(element, lang=LANG):
     element.set(XML_LANG, lang)
 
 
-def merge_text_elements(parent, elements, lang=LANG):
+def merge_and_tag(parent, elements, lang=LANG):
     """
-    Merge multiple sibling elements of the same predicate into a single one
-    with comma-joined text and xml:lang set properly.
-    Removes all but the first element.
+    Merge multiple sibling elements of the same predicate into one,
+    joining their text with ', ', then set xml:lang on the result.
+    Single elements just get xml:lang set directly.
     """
     if not elements:
         return
@@ -120,22 +134,20 @@ for rdfFile in allRdfFiles:
     schemeURI = URIRef(generalURI + scheme)
     print(f"Processing: {schemeURI}")
 
-    # UUID iterator for this scheme
     uuidPool = iter(schemeUUIDDict[scheme])
 
     # ------------------------------------------------------------------
     # Pass 1: Build localID → new UUID URI mapping.
     #
     # Source rdf:about values are always "scheme/localID" relative fragments.
-    # rdf:resource references on narrower/broader are also always "someScheme/localID"
-    # (often with the wrong scheme prefix). Keying by localID alone is sufficient.
+    # rdf:resource references are also always "someScheme/localID" (often with
+    # the wrong scheme prefix). Keying by localID alone is sufficient.
     # ------------------------------------------------------------------
     localToNew: dict[str, str] = {}  # localID → new full UUID URI
 
     for element in root.iter():
         if element.tag != SKOS_CONCEPT:
             continue
-        # rdf:about is always "scheme/localID" — we only need the local part
         localID = element.get(RDF_ABOUT).split("/", 1)[-1].replace(" ", "_")
         newUUID = next(uuidPool)
         newURI = generalURI + scheme + "/" + newUUID
@@ -146,26 +158,23 @@ for rdfFile in allRdfFiles:
         )
         notationEl.text = newUUID
 
-    cleanLocalIDs = list(localToNew.keys())  # for fuzzy matching
+    cleanLocalIDs = list(localToNew.keys())
 
     # ------------------------------------------------------------------
-    # Pass 2: Fix references (narrower/broader) and language literals.
-    #
-    # rdf:resource is always "someScheme/localID" — discard the scheme
-    # prefix and look up localID in localToNew.
+    # Pass 2: Fix concept references, merge multi-value text properties,
+    #         and ensure xml:lang on all literal-valued SKOS properties.
     # ------------------------------------------------------------------
     for element in root.iter():
         if element.tag != SKOS_CONCEPT:
             continue
 
         for subElement in list(element):
-            # ---- Fix skos:narrower / skos:broader references ----------
-            if subElement.tag in skosList:
+            # ---- Remap concept references (narrower/broader/related) --
+            if subElement.tag in SKOS_REF_PROPS:
                 ref = subElement.get(RDF_RESOURCE, "").replace(" ", "_")
-                localID = ref.split("/", 1)[-1]  # strip whatever scheme prefix is there
+                localID = ref.split("/", 1)[-1]
 
                 if "\ufffd" in localID or "ï¿½" in localID:
-                    # Corrupted local ID — fuzzy match against known clean local IDs
                     distances = [distance(localID, k) for k in cleanLocalIDs]
                     minDist = min(distances)
                     matches = [i for i, d in enumerate(distances) if d == minDist]
@@ -184,29 +193,13 @@ for rdfFile in allRdfFiles:
                 else:
                     print(f"Warning: no mapping found for reference: {ref}")
 
-            # ---- Remove inScheme (will be re-added via rdflib) --------
+            # ---- Remove inScheme (re-added cleanly via rdflib) --------
             elif subElement.tag == SKOS_INSCHEME:
                 element.remove(subElement)
 
-        # ---- Merge & tag skos:example elements with xml:lang ----------
-        examples = element.findall(SKOS_EXAMPLE)
-        merge_text_elements(element, examples)
-
-        # ---- Merge & tag skos:definition elements with xml:lang -------
-        definitions = element.findall(SKOS_DEFINITION)
-        merge_text_elements(element, definitions)
-
-        # ---- Tag prefLabel / altLabel / hiddenLabel if present --------
-        for tag in [
-            "{http://www.w3.org/2004/02/skos/core#}prefLabel",
-            "{http://www.w3.org/2004/02/skos/core#}altLabel",
-            "{http://www.w3.org/2004/02/skos/core#}hiddenLabel",
-            "{http://www.w3.org/2004/02/skos/core#}scopeNote",
-            "{http://www.w3.org/2004/02/skos/core#}note",
-        ]:
-            for el in element.findall(tag):
-                if not el.get(XML_LANG):
-                    set_lang(el)
+        # ---- Merge multi-value properties and tag all with xml:lang ---
+        for tag in SKOS_LANG_TAGS:
+            merge_and_tag(element, element.findall(tag))
 
     # ------------------------------------------------------------------
     # Build RDF graph
@@ -214,13 +207,24 @@ for rdfFile in allRdfFiles:
     g = Graph()
     g.bind("skos", SKOS)
     g.bind("dct", DCTERMS)
+    g.bind("vann", VANN)
     g.bind("ex", EX)
 
     modifiedText = lxml.etree.tostring(root, encoding="utf-8").decode("utf-8")
     g.parse(data=modifiedText, format="xml")
 
+    # ---- Rewrite typed literals on text properties as lang-tagged ----
+    # Some source values carry rdf:XMLLiteral (or other datatypes) instead of
+    # xml:lang. Since datatype and language tag are mutually exclusive in RDF,
+    # we strip the datatype and re-add the value as a plain language literal.
+    TEXT_PROPS = {SKOS.example, SKOS.definition, SKOS.scopeNote, SKOS.note}
+    for prop in TEXT_PROPS:
+        for s, _, o in list(g.triples((None, prop, None))):
+            if isinstance(o, Literal) and o.language is None:
+                g.remove((s, prop, o))
+                g.add((s, prop, Literal(str(o), lang=LANG)))
+
     # ---- Strip cc:Work / cc:License nodes entirely --------------------
-    # These are source-file metadata, not part of our concept scheme output.
     for s, p, o in list(g.triples((None, RDF.type, CC.Work))):
         for triple in list(g.triples((s, None, None))):
             g.remove(triple)
@@ -228,14 +232,14 @@ for rdfFile in allRdfFiles:
         for triple in list(g.triples((s, None, None))):
             g.remove(triple)
 
-    # ---- Migrate dc: and dcq: properties to dct: on all concepts -----
+    # ---- Migrate dc: and dcq: properties to dct: ---------------------
     DC_TO_DCT = {
-        DC.identifier: DCTERMS.identifier,
-        DC.creator:    DCTERMS.creator,
-        DC.title:      DCTERMS.title,
+        DC.identifier:  DCTERMS.identifier,
+        DC.creator:     DCTERMS.creator,
+        DC.title:       DCTERMS.title,
         DC.description: DCTERMS.description,
-        DC.type:       DCTERMS.type,
-        DCQ.created:   DCTERMS.created,
+        DC.type:        DCTERMS.type,
+        DCQ.created:    DCTERMS.created,
     }
     for old_p, new_p in DC_TO_DCT.items():
         for s, _, o in list(g.triples((None, old_p, None))):
@@ -246,9 +250,8 @@ for rdfFile in allRdfFiles:
     g.add((schemeURI, RDF.type, SKOS.ConceptScheme))
     g.add((schemeURI, DCTERMS.title,       Literal(descriptionDict[scheme]["title"],       lang=LANG)))
     g.add((schemeURI, DCTERMS.description, Literal(descriptionDict[scheme]["description"], lang=LANG)))
-    g.add((schemeURI, DCTERMS.license, CC_LICENSE))
+    g.add((schemeURI, DCTERMS.license,     CC_LICENSE))
     g.add((schemeURI, VANN.preferredNamespaceUri, Literal(schemeURI)))
-    
 
     author = descriptionDict[scheme]["author"]
     if isinstance(author, list):

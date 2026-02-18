@@ -1,0 +1,412 @@
+{
+  "id": "https://www.w3id.org/KulturVok/terms/ackerbau/D362A6",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Nuthobel - Falzhobel - Grathobel - Platthobel"
+  },
+  "altLabel": {
+    "de": [
+      "Hobel (Nut-) - Falzhobel - Grathobel - Platthobel, Falzhobel - Grathobel - Platthobel - Nuthobel, Grathobel - Platthobel - Nuthobel - Falzhobel, Platthobel - Nuthobel - Falzhobel - Grathobel"
+    ]
+  },
+  "notation": [
+    "D362A6"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/AA875F",
+      "prefLabel": {
+        "de": "Auszugtischhobel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/AA8GF4",
+      "prefLabel": {
+        "de": "Glasnutstellhobel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/AC2AGB",
+      "prefLabel": {
+        "de": "Prismenhobel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/B78DD7",
+      "prefLabel": {
+        "de": "Kittfalzhobel, verstellbar"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/B7C1B6",
+      "prefLabel": {
+        "de": "Zahnleistenhobel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/B878GG",
+      "prefLabel": {
+        "de": "Kittfalzhobel mit einem Eisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/BA5A8F",
+      "prefLabel": {
+        "de": "Stellfalzhobel mit zwei Wänden"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/BA93C3",
+      "prefLabel": {
+        "de": "Federschlitzerhobel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/BBF5BA",
+      "prefLabel": {
+        "de": "Stellgrathobel mit Vorschneider"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/BC57BF",
+      "prefLabel": {
+        "de": "Platthobel, gerader"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/BF3F1F",
+      "prefLabel": {
+        "de": "Stellfalzhobel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/BG4BBD",
+      "prefLabel": {
+        "de": "Parkettnuthobel, klein"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/C12CA7",
+      "prefLabel": {
+        "de": "Nuthobel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/CDFDC7",
+      "prefLabel": {
+        "de": "Ausgrundhobel, verstellbar"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/CF213A",
+      "prefLabel": {
+        "de": "Zahnleistenhobel, verstellbar"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/CG3747",
+      "prefLabel": {
+        "de": "Plattbankhobel, verstellbar"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/D191A2",
+      "prefLabel": {
+        "de": "Überschiebhobel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/D24231",
+      "prefLabel": {
+        "de": "Stellfalzhobel, schräg mit Vorschneider"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/D32531",
+      "prefLabel": {
+        "de": "Grathobel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/D3C156",
+      "prefLabel": {
+        "de": "Türnuthobel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/DBF69B",
+      "prefLabel": {
+        "de": "Federhobel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/DG3BA9",
+      "prefLabel": {
+        "de": "Parkettnuthobel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/DGA7D2",
+      "prefLabel": {
+        "de": "Stellgrathobel mit Vorschneider und zwei Wänden"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/F36A3A",
+      "prefLabel": {
+        "de": "Parkettfederhobel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/F3C2FG",
+      "prefLabel": {
+        "de": "Glasnuthobel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/F5G384",
+      "prefLabel": {
+        "de": "Kittfalzhobel mit zwei Eisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/F9BDBC",
+      "prefLabel": {
+        "de": "Falzhobel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/FB6DA5",
+      "prefLabel": {
+        "de": "Stellgrathobel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/FF71CA",
+      "prefLabel": {
+        "de": "Grundhobel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/G22GFF",
+      "prefLabel": {
+        "de": "Türnutstellhobel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/G35FGF",
+      "prefLabel": {
+        "de": "Plattbankhobel, verstellbar mit Doppeleisen"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/GBG421",
+      "prefLabel": {
+        "de": "Rückwandhobel"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau/GD6151",
+      "prefLabel": {
+        "de": "Platthobel, schräger"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://www.w3id.org/KulturVok/terms/ackerbau/G9FA94",
+    "prefLabel": {
+      "de": "Hobel (Tischlerwerkzeug)"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau",
+      "title": {
+        "de": "Ackerbaugeräte-Systematik"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/ackerbau"
+    }
+  ],
+  "creator": [
+    "Spengler, W. Eckehart"
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

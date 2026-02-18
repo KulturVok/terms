@@ -1,0 +1,338 @@
+{
+  "id": "https://www.w3id.org/KulturVok/terms/spitzen/A6411F",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Nadelspitze"
+  },
+  "definition": {
+    "de": "Nadelspitzen werden mittels Nadel und unter Verwendung nur eines Arbeitsfadens erzeugt. Die Technik bedient sich vorrangig des Schlingstichs. Zur Spitzengestaltung wird er in vielfältiger Weise variiert, so daß sich Zierstiche f+r die Mustergestaltung, für Stege und Maschengründe ergeben. Große Spitzen können in Teilen gearbeitet und zusammengesetzt werden. Die Nadelspitzen gehören neben den Klöppelspitzen zu den klassischen Vertretern der Spitzenkunst."
+  },
+  "notation": [
+    "A6411F"
+  ],
+  "narrower": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/A81CAA",
+      "prefLabel": {
+        "de": "France, Point de"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/A852F1",
+      "prefLabel": {
+        "de": "Spanische Spitze"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/A8A9G9",
+      "prefLabel": {
+        "de": "Coralina"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/ABB12B",
+      "prefLabel": {
+        "de": "Sedan, Point de"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/AC2GFA",
+      "prefLabel": {
+        "de": "Halasi-Spitze"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/BA9B26",
+      "prefLabel": {
+        "de": "Rosalina"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/BB2GC2",
+      "prefLabel": {
+        "de": "Argentan, Point d'"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/CA7246",
+      "prefLabel": {
+        "de": "Orientalische Spitze"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/CB7714",
+      "prefLabel": {
+        "de": "Venise, Reseau point de"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/D475A5",
+      "prefLabel": {
+        "de": "Burano"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/D883D7",
+      "prefLabel": {
+        "de": "Venise, Gros point de"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/DF2A4F",
+      "prefLabel": {
+        "de": "Aiguille, Point à l'"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/DF877C",
+      "prefLabel": {
+        "de": "Wiener Nadelspitze"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/F12479",
+      "prefLabel": {
+        "de": "Alencon, Point d'"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/F3C43C",
+      "prefLabel": {
+        "de": "Palästinaspitze"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/F4B3D1",
+      "prefLabel": {
+        "de": "Armenische Spitze"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/F9C7G5",
+      "prefLabel": {
+        "de": "Argentella"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/FAF94C",
+      "prefLabel": {
+        "de": "Venise, Plat point de"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/G6183B",
+      "prefLabel": {
+        "de": "Youghal"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/G765A8",
+      "prefLabel": {
+        "de": "Gaze, Point de"
+      }
+    },
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen/GF8A8B",
+      "prefLabel": {
+        "de": "Reticella"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://www.w3id.org/KulturVok/terms/spitzen/A83GGD",
+    "prefLabel": {
+      "de": "Handgearbeitete Spitze"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen",
+      "title": {
+        "de": "Spitzensystematik"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://www.w3id.org/KulturVok/terms/spitzen"
+    }
+  ],
+  "creator": [
+    "Sächsische Landesstelle für Museumswesen"
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": {
+      "@id": "dct:creator",
+      "@container": "@set"
+    },
+    "contributor": {
+      "@id": "dct:contributor",
+      "@container": "@set"
+    },
+    "subject": {
+      "@id": "dct:subject",
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": {
+      "@id": "dct:source",
+      "@container": "@set"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@container": "@set"
+    }
+  }
+}

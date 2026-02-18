@@ -1,6 +1,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix ex: <http://www.example.com/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://www.w3id.org/KulturVok/terms/technik_spitzen/A5D361> a skos:Concept ;
@@ -378,6 +379,7 @@
     dct:description "Systematik für die Technik zur Herstellung von Spitzen und Stickereien"@de ;
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
     dct:title "Spitzentechnik-Systematik"@de ;
+    vann:preferredNamespaceUri "https://www.w3id.org/KulturVok/terms/technik_spitzen" ;
     ex:conceptCount 31 ;
     skos:hasTopConcept <https://www.w3id.org/KulturVok/terms/technik_spitzen/F896G4> .
 
