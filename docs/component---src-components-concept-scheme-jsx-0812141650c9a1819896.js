@@ -1,2 +1,140 @@
-"use strict";(self.webpackChunkskohub_vocabs=self.webpackChunkskohub_vocabs||[]).push([[349],{2178:function(l,e,n){n.r(e);var u=n(6841),i=n(2579),t=n(3071),d=n(4641),s=n(2814),o=n(5409),c=n(6540),a=n(8025),Y=n(8852);e.default=l=>{let{pageContext:{node:e,embed:n,customDomain:r}}=l;const{data:h}=(0,o.t)(),{0:b,1:v}=(0,c.useState)("");(0,c.useEffect)(()=>{v(h.selectedLanguage)},[null==h?void 0:h.selectedLanguage]);const p=(0,a.useLocation)(),g=(null==e?void 0:e.description)||(null==e?void 0:e.dc_description),f=(null==e?void 0:e.title)||(null==e?void 0:e.dc_title)||(null==e?void 0:e.prefLabel);if(p.hash){const l=n.find(l=>l.json.id.endsWith(p.hash));return(0,Y.Y)("div",{id:(0,t.getDomId)(e.id)},(0,Y.Y)(i.default,{pageContext:{node:l.json,language:b}}))}return(0,Y.Y)("div",{id:(0,t.getDomId)(e.id)},(0,Y.Y)("div",null,(0,Y.Y)("h1",null,f&&(0,t.i18n)(b)(f)),(0,Y.Y)(s.A,{id:e.id}),(0,Y.Y)(d.A,{to:(0,t.getFilePath)(e.id,"json",r)}),g&&(0,Y.Y)("div",{className:"markdown"},(0,Y.Y)(u.Ay,null,(0,t.i18n)(b)(g))),e.publisher&&(0,Y.Y)("div",null,(0,Y.Y)("h3",null,"Publisher"),(0,Y.Y)("p",null,e.publisher)),e.creator&&e.creator.length>0&&(0,Y.Y)("div",null,(0,Y.Y)("h3",null,"Creator"),(0,Y.Y)("ul",null,e.creator.map((l,e)=>(0,Y.Y)("li",{key:e},l)))),e.contributor&&e.contributor.length>0&&(0,Y.Y)("div",null,(0,Y.Y)("h3",null,"Contributor"),(0,Y.Y)("ul",null,e.contributor.map((l,e)=>(0,Y.Y)("li",{key:e},l)))),e.issued&&(0,Y.Y)("div",null,(0,Y.Y)("h3",null,"Issued"),(0,Y.Y)("p",null,e.issued)),e.license&&(0,Y.Y)("div",null,(0,Y.Y)("h3",null,"License"),(0,Y.Y)("a",{href:e.license.id},e.license.id)),e.rights&&e.rights.length>0&&(0,Y.Y)("div",null,(0,Y.Y)("h3",null,"Rights"),(0,Y.Y)("ul",null,e.rights.map((l,e)=>(0,Y.Y)("li",{key:e},l)))),e.subject&&""!==(0,t.i18n)(b)(e.subject)&&(0,Y.Y)("div",null,(0,Y.Y)("h3",{id:"subject"},"Subject"),(0,Y.Y)("ul",{"aria-labelledby":"subject"},(0,t.i18n)(b)(e.subject).map((l,e)=>(0,Y.Y)("li",{key:e},l)))),e.conceptCount&&(0,Y.Y)("div",null,(0,Y.Y)("h3",null,"Concept Count"),(0,Y.Y)("p",null,e.conceptCount))))}}}]);
+"use strict"
+;(self.webpackChunkskohub_vocabs = self.webpackChunkskohub_vocabs || []).push([
+  [349],
+  {
+    2178: function (l, e, n) {
+      n.r(e)
+      var u = n(6841),
+        i = n(2579),
+        t = n(3071),
+        d = n(4641),
+        s = n(2814),
+        o = n(5409),
+        c = n(6540),
+        a = n(8025),
+        Y = n(8852)
+      e.default = (l) => {
+        let {
+          pageContext: { node: e, embed: n, customDomain: r },
+        } = l
+        const { data: h } = (0, o.t)(),
+          { 0: b, 1: v } = (0, c.useState)("")
+        ;(0, c.useEffect)(() => {
+          v(h.selectedLanguage)
+        }, [null == h ? void 0 : h.selectedLanguage])
+        const p = (0, a.useLocation)(),
+          g =
+            (null == e ? void 0 : e.description) ||
+            (null == e ? void 0 : e.dc_description),
+          f =
+            (null == e ? void 0 : e.title) ||
+            (null == e ? void 0 : e.dc_title) ||
+            (null == e ? void 0 : e.prefLabel)
+        if (p.hash) {
+          const l = n.find((l) => l.json.id.endsWith(p.hash))
+          return (0, Y.Y)(
+            "div",
+            { id: (0, t.getDomId)(e.id) },
+            (0, Y.Y)(i.default, { pageContext: { node: l.json, language: b } })
+          )
+        }
+        return (0, Y.Y)(
+          "div",
+          { id: (0, t.getDomId)(e.id) },
+          (0, Y.Y)(
+            "div",
+            null,
+            (0, Y.Y)("h1", null, f && (0, t.i18n)(b)(f)),
+            (0, Y.Y)(s.A, { id: e.id }),
+            (0, Y.Y)(d.A, { to: (0, t.getFilePath)(e.id, "json", r) }),
+            g &&
+              (0, Y.Y)(
+                "div",
+                { className: "markdown" },
+                (0, Y.Y)(u.Ay, null, (0, t.i18n)(b)(g))
+              ),
+            e.publisher &&
+              (0, Y.Y)(
+                "div",
+                null,
+                (0, Y.Y)("h3", null, "Publisher"),
+                (0, Y.Y)("p", null, e.publisher)
+              ),
+            e.creator &&
+              e.creator.length > 0 &&
+              (0, Y.Y)(
+                "div",
+                null,
+                (0, Y.Y)("h3", null, "Creator"),
+                (0, Y.Y)(
+                  "ul",
+                  null,
+                  e.creator.map((l, e) => (0, Y.Y)("li", { key: e }, l))
+                )
+              ),
+            e.contributor &&
+              e.contributor.length > 0 &&
+              (0, Y.Y)(
+                "div",
+                null,
+                (0, Y.Y)("h3", null, "Contributor"),
+                (0, Y.Y)(
+                  "ul",
+                  null,
+                  e.contributor.map((l, e) => (0, Y.Y)("li", { key: e }, l))
+                )
+              ),
+            e.issued &&
+              (0, Y.Y)(
+                "div",
+                null,
+                (0, Y.Y)("h3", null, "Issued"),
+                (0, Y.Y)("p", null, e.issued)
+              ),
+            e.license &&
+              (0, Y.Y)(
+                "div",
+                null,
+                (0, Y.Y)("h3", null, "License"),
+                (0, Y.Y)("a", { href: e.license.id }, e.license.id)
+              ),
+            e.rights &&
+              e.rights.length > 0 &&
+              (0, Y.Y)(
+                "div",
+                null,
+                (0, Y.Y)("h3", null, "Rights"),
+                (0, Y.Y)(
+                  "ul",
+                  null,
+                  e.rights.map((l, e) => (0, Y.Y)("li", { key: e }, l))
+                )
+              ),
+            e.subject &&
+              "" !== (0, t.i18n)(b)(e.subject) &&
+              (0, Y.Y)(
+                "div",
+                null,
+                (0, Y.Y)("h3", { id: "subject" }, "Subject"),
+                (0, Y.Y)(
+                  "ul",
+                  { "aria-labelledby": "subject" },
+                  (0, t.i18n)(b)(e.subject).map((l, e) =>
+                    (0, Y.Y)("li", { key: e }, l)
+                  )
+                )
+              ),
+            e.conceptCount &&
+              (0, Y.Y)(
+                "div",
+                null,
+                (0, Y.Y)("h3", null, "Concept Count"),
+                (0, Y.Y)("p", null, e.conceptCount)
+              )
+          )
+        )
+      }
+    },
+  },
+])
 //# sourceMappingURL=component---src-components-concept-scheme-jsx-0812141650c9a1819896.js.map
