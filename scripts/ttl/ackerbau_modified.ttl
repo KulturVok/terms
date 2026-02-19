@@ -1,9 +1,8 @@
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix ex: <http://www.example.com/> .
+@prefix ex: <http://www.example.org/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://www.w3id.org/KulturVok/terms/ackerbau/A1176F> a skos:Concept ;
     dct:created "1987-06-04" ;
@@ -12672,7 +12671,7 @@
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
     dct:title "Ackerbaugeräte-Systematik"@de ;
     vann:preferredNamespaceUri "https://www.w3id.org/KulturVok/terms/ackerbau" ;
-    ex:conceptCount 1050 ;
+    ex:conceptCount "1050" ;
     skos:hasTopConcept <https://www.w3id.org/KulturVok/terms/ackerbau/A16787>,
         <https://www.w3id.org/KulturVok/terms/ackerbau/A17156>,
         <https://www.w3id.org/KulturVok/terms/ackerbau/A2GFAA>,

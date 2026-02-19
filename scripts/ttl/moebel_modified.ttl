@@ -1,8 +1,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix ex: <http://www.example.com/> .
+@prefix ex: <http://www.example.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://www.w3id.org/KulturVok/terms/moebel/A12A1D> a skos:Concept ;
     dct:created "2005-08-26" ;
@@ -6748,6 +6747,6 @@
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
     dct:title "Möbeltypologie"@de ;
     vann:preferredNamespaceUri "https://www.w3id.org/KulturVok/terms/moebel" ;
-    ex:conceptCount 422 ;
+    ex:conceptCount "422" ;
     skos:hasTopConcept <https://www.w3id.org/KulturVok/terms/moebel/DC63CD> .
 

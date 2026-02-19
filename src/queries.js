@@ -174,9 +174,9 @@ module.exports.allConceptScheme = (languages) => `
           subject {
             ${[...languages].join(" ")}
           }
+          conceptCount
           preferredNamespaceUri
           preferredNamespacePrefix
-          conceptCount
           hasTopConcept {
             ...ConceptFields
             narrower {

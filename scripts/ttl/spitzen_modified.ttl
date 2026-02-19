@@ -1,8 +1,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix ex: <http://www.example.com/> .
+@prefix ex: <http://www.example.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://www.w3id.org/KulturVok/terms/spitzen/A153G1> a skos:Concept ;
     dct:created "Wed Jan 10, 2001" ;
@@ -1612,6 +1611,6 @@
     dct:license <http://creativecommons.org/licenses/by-nc-sa/2.0/de/> ;
     dct:title "Spitzensystematik"@de ;
     vann:preferredNamespaceUri "https://www.w3id.org/KulturVok/terms/spitzen" ;
-    ex:conceptCount 131 ;
+    ex:conceptCount "131" ;
     skos:hasTopConcept <https://www.w3id.org/KulturVok/terms/spitzen/GF1318> .
 

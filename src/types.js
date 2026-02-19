@@ -23,7 +23,7 @@ module.exports = (languages) => `
     contributor: [String],
     subject: LanguageMapArray,
     rights: [String],
-    conceptCount: Int,
+    conceptCount: String,
   }
 
   type Concept implements Node {

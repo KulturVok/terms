@@ -13,7 +13,7 @@ CC  = Namespace("http://web.resource.org/cc/")
 # ---------------------------------------------------------------------------
 # Namespaces
 # ---------------------------------------------------------------------------
-EX = Namespace("http://www.example.com/")
+EX = Namespace("http://www.example.org/")
 CC_LICENSE = URIRef("http://creativecommons.org/licenses/by-nc-sa/2.0/de/")
 
 # ---------------------------------------------------------------------------
@@ -272,8 +272,8 @@ for rdfFile in allRdfFiles:
         g.add((schemeURI, SKOS.hasTopConcept, topConcept))
 
     # ---- Concept count -----------------------------------------------
-    conceptCount = sum(1 for _ in g.triples((None, RDF.type, SKOS.Concept)))
-    g.add((schemeURI, EX.conceptCount, Literal(conceptCount, datatype=XSD.integer)))
+    conceptCount = str(sum(1 for _ in g.triples((None, RDF.type, SKOS.Concept))))
+    g.add((schemeURI, EX.conceptCount, Literal(conceptCount)))
 
     # ---- Serialize ----------------------------------------------------
     outPath = f"ttl/{scheme}_modified.ttl"
